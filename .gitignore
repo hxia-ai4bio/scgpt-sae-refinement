@@ -1,0 +1,35 @@
+# Local and generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data, weights, caches, and training outputs
+data/raw/
+checkpoints/
+weights/
+cache/
+wandb/
+lightning_logs/
+*.h5ad
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
