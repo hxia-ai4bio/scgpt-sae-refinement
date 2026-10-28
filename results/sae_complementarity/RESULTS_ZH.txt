@@ -1,0 +1,39 @@
+SAE 固定分解与条件增量读出实验
+
+                     method  TEST_macro_F1_percent  TEST_delta_pp  TEST_positive_donors  nonidentity_selected_runs  PBMC_macro_F1_percent  PBMC_delta_pp
+                 Original h                82.7540         0.0000                     0                          0                76.2179         0.0000
+                 SAE z only                83.1049         0.3509                     4                         18                72.3927        -3.8252
+             Reconstruction                82.2654        -0.4885                     2                         18                73.6144        -2.6035
+     Reconstruction error r                28.2969       -54.4570                     0                         18                21.1000       -55.1179
+         Fixed h + alpha Dz                82.3759        -0.3781                     2                         13                75.1696        -1.0483
+  Reconstruction + lambda r                82.4205        -0.3335                     3                         13                75.2487        -0.9692
+                 [h, SAE z]                82.3185        -0.4354                     2                         11                75.3292        -0.8887
+           [h, random TopK]                82.4344        -0.3195                     1                         10                75.7829        -0.4350
+       [h, linear pre-TopK]                82.2909        -0.4630                     1                         11                76.3716         0.1537
+   Crossfit correction: SAE                82.4177        -0.3362                     4                         12                75.5119        -0.7060
+Crossfit correction: random                82.2984        -0.4556                     2                         11                76.2022        -0.0157
+Crossfit correction: linear                82.9038         0.1499                     2                          9                75.1879        -1.0300
+
+预设对照：
+                    A                        B  TEST_mean_delta_pp  TEST_bootstrap_low_pp  TEST_bootstrap_high_pp  positive_donors  negative_donors  PBMC_delta_pp
+           concat_SAE               original_h             -0.4354                -1.0290                  0.1184                2                3        -0.8887
+           concat_SAE            concat_random             -0.1159                -0.6111                  0.2401                3                3        -0.4536
+           concat_SAE            concat_linear              0.0276                -0.5521                  0.6095                2                3        -1.0424
+crossfit_residual_SAE               original_h             -0.3362                -0.8771                  0.1100                4                2        -0.7060
+crossfit_residual_SAE crossfit_residual_random              0.1194                -0.0822                  0.3895                3                2        -0.6903
+crossfit_residual_SAE crossfit_residual_linear             -0.4861                -1.6458                  0.4423                3                3         0.3241
+
+方法与结论边界：
+1. 沿用历史六轮四TRAIN/一VALID/一TEST供体划分，三个SAE种子。上游SAE未重训：只用四TRAIN供体拟合，VALID重构MSE选checkpoint。全部分类超参数用VALID选定并统一锁定后才新算TEST和PBMC。
+2. Kang/PBMC在此前已探索，结果是新方法在历史数据上的探索性外推评价，不是新盲测。PBMC仅一个外部数据文件，18个模型不是18份独立外部重复；源数据审计未确认其独立研究来源、供体及预训练重叠情况。
+3. 原始h、重构、重构误差、稀疏z均只用TRAIN拟合通道均值/标准差和带截距的类别平衡Ridge；8类固定Macro-F1。缺失类别在主指标中记0，supported-class指标另存。单个供体极少类别支持会使F1离散。
+4. 两组固定混合网格多数互为仿射缩放，在当前StandardScaler+截距下等价，不能作为独立证据。alpha=-1给出误差r（差常量），lambda=0给出重构。
+5. 拼接先分别TRAIN标准化h、z，再缩放z分支，不做第二次标准化。每种分支有相同3 eta ×11 alpha预算及identity候选。random只匹配名义维度/TopK数/搜索预算，未匹配激活频率或相关性。
+6. linear对照直接使用相同SAE encoder的TopK之前仿射激活，数学上仍是h的线性读出；其收益体现有效正则化/优化的变化，不能叫新增非线性结构。
+7. 分类残差用TRAIN四供体LODO预测生成，每个被留出的TRAIN供体的基模型alpha在其余三供体内部再做LODO选取，因此目标细胞标签不进入其基预测拟合/选型。上游SAE是固定变换，未在内层重新拟合；仅声称标签/读出交叉拟合。
+8. 残差回归目标为±1 one-hot减去Ridge分类分数；分数不是概率，MSE/Q2是平方损失代理。最终分类修正强度和正则化仍只用VALID选择，TEST残差Q2对最终h基模型误差计算。
+9. TEST先按每个供体平均三个种子，再对六供体配对差异做描述性bootstrap区间。训练集彼此重叠，六供体较少；区间不能替代新供体/新研究验证。
+10. z是h的确定性函数。相对h Ridge增益最多说明当前读出/正则化下存在可利用结构；只有胜过random与linear控制才更支持TopK学到的结构特异性，不证明信息论新增信息或生物因果机制。
+
+
+读出正则化补充：旧SAE稀疏分类读出alpha只搜索[0.01, 0.1, 1.0, 10.0, 100.0]；本轮对所有表示统一扩展到10^-4至10^6。18组中17组稀疏z选择了高于旧上限100的alpha。重叠alpha上的VALID F1逐项一致（最大误差0）。旧网格的历史TEST/PBMC均值为77.0931%/63.9318%；本轮新网格的锁定结果见主表。该补充只读取已存网格及历史结果，没有追加TEST拟合或选参。较强正则化明显改变了稀疏z的可读出成绩，因此不能笼统说SAE稀疏表示在所有设置下均较弱；但本轮PBMC仍低于原h。

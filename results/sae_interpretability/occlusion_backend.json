@@ -1,0 +1,6 @@
+{
+  "threads": 8,
+  "batch_size": 16,
+  "fastpath": true,
+  "real_prototype_score_max_diff": 5.960464477539062e-07
+}

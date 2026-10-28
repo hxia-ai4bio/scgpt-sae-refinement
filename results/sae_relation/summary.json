@@ -1,0 +1,232 @@
+[
+  {
+    "method": "continue_mse",
+    "variant": "fixed_half",
+    "macro_f1_percent": 83.03414446048222,
+    "delta_pp": 0.28018442781762576,
+    "positive_donors": 4,
+    "negative_donors": 2,
+    "descriptive_ci95_pp": [
+      -0.49880622523412005,
+      1.199567666591054
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 1.0734518384342382
+      },
+      {
+        "seed": "43",
+        "delta_pp": 0.5764224221828744
+      },
+      {
+        "seed": "44",
+        "delta_pp": -0.8093209771642332
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "continue_mse",
+    "variant": "reconstruction",
+    "macro_f1_percent": 82.70771884034325,
+    "delta_pp": -0.0462411923213335,
+    "positive_donors": 3,
+    "negative_donors": 3,
+    "descriptive_ci95_pp": [
+      -1.2444738567439606,
+      0.9337934047859412
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 0.25309138419848576
+      },
+      {
+        "seed": "43",
+        "delta_pp": -0.255061663751068
+      },
+      {
+        "seed": "44",
+        "delta_pp": -0.13675329741142755
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "existing_raw20",
+    "variant": "fixed_half",
+    "macro_f1_percent": 82.75716732951369,
+    "delta_pp": 0.0032072968491003717,
+    "positive_donors": 2,
+    "negative_donors": 4,
+    "descriptive_ci95_pp": [
+      -0.9998162026607268,
+      1.1227464929580155
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 0.1665648817300654
+      },
+      {
+        "seed": "43",
+        "delta_pp": 0.02009198577170116
+      },
+      {
+        "seed": "44",
+        "delta_pp": -0.17703497695446546
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "existing_raw20",
+    "variant": "reconstruction",
+    "macro_f1_percent": 82.26544439130096,
+    "delta_pp": -0.4885156413636312,
+    "positive_donors": 2,
+    "negative_donors": 4,
+    "descriptive_ci95_pp": [
+      -1.773972625733139,
+      0.8633928908655034
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 0.5270709474840023
+      },
+      {
+        "seed": "43",
+        "delta_pp": -1.3917840124403744
+      },
+      {
+        "seed": "44",
+        "delta_pp": -0.6008338591345159
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "original_h",
+    "variant": "original",
+    "macro_f1_percent": 82.7539600326646,
+    "delta_pp": 0.0,
+    "positive_donors": 0,
+    "negative_donors": 0,
+    "descriptive_ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "seed_deltas": [],
+    "fits": 6
+  },
+  {
+    "method": "relation_strong",
+    "variant": "fixed_half",
+    "macro_f1_percent": 83.21374468234802,
+    "delta_pp": 0.45978464968342014,
+    "positive_donors": 4,
+    "negative_donors": 2,
+    "descriptive_ci95_pp": [
+      -1.3044664931585939,
+      2.4843647650864997
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 0.7017280556588845
+      },
+      {
+        "seed": "43",
+        "delta_pp": 0.6389048483728788
+      },
+      {
+        "seed": "44",
+        "delta_pp": 0.038721045018499003
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "relation_strong",
+    "variant": "reconstruction",
+    "macro_f1_percent": 83.4752156262989,
+    "delta_pp": 0.7212555936343068,
+    "positive_donors": 3,
+    "negative_donors": 3,
+    "descriptive_ci95_pp": [
+      -0.748574431490312,
+      2.508944283624581
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 1.4241004310558172
+      },
+      {
+        "seed": "43",
+        "delta_pp": 0.1382591326745934
+      },
+      {
+        "seed": "44",
+        "delta_pp": 0.6014072171725189
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "relation_weak",
+    "variant": "fixed_half",
+    "macro_f1_percent": 82.41417978136924,
+    "delta_pp": -0.33978025129534817,
+    "positive_donors": 4,
+    "negative_donors": 2,
+    "descriptive_ci95_pp": [
+      -1.1724595969827112,
+      0.44165926613746187
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": 0.3047202637126841
+      },
+      {
+        "seed": "43",
+        "delta_pp": -0.6721210359677525
+      },
+      {
+        "seed": "44",
+        "delta_pp": -0.6519399816309779
+      }
+    ],
+    "fits": 18
+  },
+  {
+    "method": "relation_weak",
+    "variant": "reconstruction",
+    "macro_f1_percent": 82.58051208672738,
+    "delta_pp": -0.17344794593721996,
+    "positive_donors": 3,
+    "negative_donors": 3,
+    "descriptive_ci95_pp": [
+      -1.0198395850486688,
+      0.6846060785306474
+    ],
+    "seed_deltas": [
+      {
+        "seed": "42",
+        "delta_pp": -0.5365634915246091
+      },
+      {
+        "seed": "43",
+        "delta_pp": 0.3843808293386356
+      },
+      {
+        "seed": "44",
+        "delta_pp": -0.36816117562569384
+      }
+    ],
+    "fits": 18
+  }
+]

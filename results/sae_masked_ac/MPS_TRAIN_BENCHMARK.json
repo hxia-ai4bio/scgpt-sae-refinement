@@ -1,0 +1,23 @@
+[
+  {
+    "device": "mps",
+    "arm": "A_sae",
+    "steps": 100,
+    "seconds": 1.9857378005981445,
+    "final_loss": 0.02114849165081978
+  },
+  {
+    "device": "mps",
+    "arm": "C_sae",
+    "steps": 100,
+    "seconds": 3.185504913330078,
+    "final_loss": 0.004894728306680918
+  },
+  {
+    "device": "mps",
+    "arm": "A_dense",
+    "steps": 100,
+    "seconds": 0.7668800354003906,
+    "final_loss": 0.022166147828102112
+  }
+]

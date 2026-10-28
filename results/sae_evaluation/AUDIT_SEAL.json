@@ -1,0 +1,11 @@
+{
+  "status": "SEALED",
+  "audited_inputs_reverified": 1021,
+  "audit_sha": "6ad7ba27140c63bd7ed1903eeab66740b3fc1c87352e75f99be1a7490f9c91a8",
+  "claims_sha": "868daa224d7ef4faa8f07d4fe565e84b821c50197221abc20872fc837abddf8d",
+  "verification_sha": "596aef03a09a8610d46a5f523cd4f46bea16cabee6585744ff605beab77b9728",
+  "tracker_sha": "3d5faeae3a2939f2a22de09acb183132924899b214b95fff3e005200d760a2f1",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "no_unresolved_integrity_defect": true
+}

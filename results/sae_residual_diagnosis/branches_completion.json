@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "binding": {
+    "protocol_sha": "80a721ccbc163cc0e874104cc58aed96baa2b818314715729093cbe587d7e504",
+    "source_sha": "235df094b5a6ef3ee55221e3c996e17220e9e80c9764c34a37d8c3014fee17f2",
+    "old_sources_sha": "c6e0a84ee20d1f089f53b2ec4f5591bd16251a9f835604779e348548e62aa94e"
+  },
+  "scored_roles": [
+    "train",
+    "valid"
+  ],
+  "never_scored": [
+    "test",
+    "pbmc"
+  ]
+}

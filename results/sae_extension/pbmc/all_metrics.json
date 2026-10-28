@@ -1,0 +1,5546 @@
+[
+  {
+    "macro_f1": 0.8509467244490271,
+    "supported_macro_f1": 0.8509467244490271,
+    "accuracy": 0.931,
+    "per_class_f1": [
+      0.9618320610687023,
+      0.8875,
+      0.9606625258799172,
+      0.8620236530880421,
+      0.7777777777777778,
+      0.9777777777777777,
+      0.5,
+      0.88
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        126,
+        2,
+        1,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        71,
+        6,
+        0,
+        5,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1160,
+        72,
+        0,
+        0,
+        3,
+        3
+      ],
+      [
+        0,
+        0,
+        7,
+        328,
+        0,
+        0,
+        1,
+        13
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": "shared",
+    "method": "original_h",
+    "lambda_KL": null,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_shared/original_h/original",
+    "selection": {
+      "ridge_alpha": 1.0,
+      "VALID_F1": 0.9155463898336726,
+      "normal_equation_error": 1.0140592263865902e-14,
+      "fold": 0,
+      "seed": "shared",
+      "method": "original_h",
+      "variant": "original",
+      "mix_alpha": 0.0
+    },
+    "relative_embedding_change": 0.0
+  },
+  {
+    "macro_f1": 0.8521789565498892,
+    "supported_macro_f1": 0.8521789565498892,
+    "accuracy": 0.9315,
+    "per_class_f1": [
+      0.9578544061302682,
+      0.9012345679012346,
+      0.9629324546952224,
+      0.8533333333333334,
+      0.7924528301886793,
+      0.967032967032967,
+      0.5,
+      0.8825910931174089
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        1,
+        2,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        73,
+        3,
+        0,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1169,
+        66,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        14,
+        320,
+        0,
+        0,
+        1,
+        14
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        109
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0",
+    "lambda_KL": 0.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_0/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.8618845912754709,
+      "normal_equation_error": 3.2547223056863908e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05618476492349089
+  },
+  {
+    "macro_f1": 0.8431655277395471,
+    "supported_macro_f1": 0.8431655277395471,
+    "accuracy": 0.921,
+    "per_class_f1": [
+      0.9615384615384616,
+      0.8780487804878049,
+      0.9590834697217676,
+      0.8292682926829268,
+      0.7450980392156863,
+      0.9655172413793104,
+      0.5714285714285714,
+      0.8353413654618473
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        1,
+        2,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        72,
+        7,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1172,
+        61,
+        0,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        0,
+        23,
+        306,
+        0,
+        0,
+        1,
+        19
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        19,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        18,
+        0,
+        0,
+        0,
+        104
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p01",
+    "lambda_KL": 0.01,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_0p01/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.8666480380048625,
+      "normal_equation_error": 5.304854576086713e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.056225954444897065
+  },
+  {
+    "macro_f1": 0.8462315454359117,
+    "supported_macro_f1": 0.8462315454359117,
+    "accuracy": 0.931,
+    "per_class_f1": [
+      0.9578544061302682,
+      0.8805031446540881,
+      0.9639344262295082,
+      0.8532608695652174,
+      0.7777777777777778,
+      0.9565217391304348,
+      0.5,
+      0.88
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        2,
+        1,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        70,
+        3,
+        1,
+        5,
+        3,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1176,
+        59,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        18,
+        314,
+        0,
+        0,
+        1,
+        16
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p03",
+    "lambda_KL": 0.03,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_0p03/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.8633395770157657,
+      "normal_equation_error": 1.9291530706909085e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.056166405560556
+  },
+  {
+    "macro_f1": 0.842890530149834,
+    "supported_macro_f1": 0.842890530149834,
+    "accuracy": 0.9195,
+    "per_class_f1": [
+      0.9615384615384616,
+      0.8888888888888888,
+      0.957560774618871,
+      0.8249336870026526,
+      0.76,
+      0.9285714285714286,
+      0.5714285714285714,
+      0.8502024291497976
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        0,
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        76,
+        3,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1162,
+        72,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        20,
+        311,
+        0,
+        0,
+        1,
+        17
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        19,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        16,
+        0,
+        0,
+        0,
+        105
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p1",
+    "lambda_KL": 0.1,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_0p1/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.8643605636074392,
+      "normal_equation_error": 3.7417373627184506e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.056355797638922664
+  },
+  {
+    "macro_f1": 0.8172070014261765,
+    "supported_macro_f1": 0.8172070014261765,
+    "accuracy": 0.9095,
+    "per_class_f1": [
+      0.9612403100775194,
+      0.8452380952380952,
+      0.9516329061595701,
+      0.8031704095112285,
+      0.68,
+      0.9302325581395349,
+      0.5,
+      0.8661417322834646
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        124,
+        3,
+        0,
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        71,
+        5,
+        0,
+        5,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1151,
+        84,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        22,
+        304,
+        1,
+        0,
+        1,
+        20
+      ],
+      [
+        0,
+        2,
+        1,
+        4,
+        17,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        0,
+        40,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p3",
+    "lambda_KL": 0.3,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_0p3/reconstruction",
+    "selection": {
+      "ridge_alpha": 1.0,
+      "VALID_F1": 0.8641573855744642,
+      "normal_equation_error": 5.596380778643204e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05678858842246542
+  },
+  {
+    "macro_f1": 0.8588369598944823,
+    "supported_macro_f1": 0.8588369598944823,
+    "accuracy": 0.9355,
+    "per_class_f1": [
+      0.9575289575289575,
+      0.9202453987730062,
+      0.9631469979296067,
+      0.8642297650130548,
+      0.7924528301886793,
+      0.967741935483871,
+      0.5,
+      0.9053497942386831
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        124,
+        2,
+        1,
+        2,
+        4,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        75,
+        1,
+        0,
+        4,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1163,
+        71,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        9,
+        331,
+        0,
+        0,
+        1,
+        8
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_1",
+    "lambda_KL": 1.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_1/reconstruction",
+    "selection": {
+      "ridge_alpha": 1000.0,
+      "VALID_F1": 0.8568548226551382,
+      "normal_equation_error": 2.0111061979813144e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05846872219040765
+  },
+  {
+    "macro_f1": 0.8542307917845195,
+    "supported_macro_f1": 0.8542307917845195,
+    "accuracy": 0.9265,
+    "per_class_f1": [
+      0.9575289575289575,
+      0.9,
+      0.9626590069757899,
+      0.8356164383561644,
+      0.7777777777777778,
+      0.9782608695652174,
+      0.5714285714285714,
+      0.8505747126436781
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        124,
+        2,
+        1,
+        3,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        72,
+        3,
+        0,
+        5,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1173,
+        62,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        18,
+        305,
+        0,
+        0,
+        1,
+        25
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        10,
+        0,
+        0,
+        0,
+        111
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_3",
+    "lambda_KL": 3.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_42/lambda_3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9080585608795253,
+      "normal_equation_error": 2.2459078414756754e-15,
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.061975091345067984
+  },
+  {
+    "macro_f1": 0.8641153151707963,
+    "supported_macro_f1": 0.8641153151707963,
+    "accuracy": 0.9355,
+    "per_class_f1": [
+      0.9618320610687023,
+      0.9156626506024096,
+      0.9654605263157895,
+      0.8617449664429531,
+      0.7924528301886793,
+      0.9662921348314607,
+      0.5714285714285714,
+      0.8780487804878049
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        126,
+        2,
+        1,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        76,
+        2,
+        0,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1174,
+        61,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        14,
+        321,
+        0,
+        0,
+        1,
+        13
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0",
+    "lambda_KL": 0.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_0/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9021842968142711,
+      "normal_equation_error": 2.2715214250299014e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05586765195479019
+  },
+  {
+    "macro_f1": 0.8597913375369624,
+    "supported_macro_f1": 0.8597913375369624,
+    "accuracy": 0.938,
+    "per_class_f1": [
+      0.9618320610687023,
+      0.9090909090909091,
+      0.9663105998356615,
+      0.8694481830417228,
+      0.8076923076923077,
+      0.9777777777777777,
+      0.5,
+      0.8861788617886179
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        126,
+        3,
+        1,
+        0,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        75,
+        3,
+        0,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1176,
+        58,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        13,
+        323,
+        0,
+        0,
+        1,
+        12
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        109
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p01",
+    "lambda_KL": 0.01,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_0p01/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9052840256091946,
+      "normal_equation_error": 2.9568423431588457e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.055826887428460356
+  },
+  {
+    "macro_f1": 0.8666619063054375,
+    "supported_macro_f1": 0.8666619063054375,
+    "accuracy": 0.939,
+    "per_class_f1": [
+      0.9618320610687023,
+      0.9101796407185628,
+      0.9681372549019608,
+      0.869684499314129,
+      0.8076923076923077,
+      0.9662921348314607,
+      0.5714285714285714,
+      0.8780487804878049
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        126,
+        3,
+        1,
+        0,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        76,
+        2,
+        0,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1185,
+        49,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        19,
+        317,
+        0,
+        0,
+        1,
+        12
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p03",
+    "lambda_KL": 0.03,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_0p03/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.8682315241013819,
+      "normal_equation_error": 1.3381000499489264e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05591120627428199
+  },
+  {
+    "macro_f1": 0.8582635692009914,
+    "supported_macro_f1": 0.8582635692009914,
+    "accuracy": 0.9305,
+    "per_class_f1": [
+      0.9618320610687023,
+      0.9349112426035503,
+      0.9627831715210357,
+      0.833810888252149,
+      0.8333333333333334,
+      0.9777777777777777,
+      0.5,
+      0.8616600790513834
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        126,
+        2,
+        1,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        79,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1190,
+        43,
+        0,
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        38,
+        291,
+        0,
+        1,
+        1,
+        18
+      ],
+      [
+        2,
+        1,
+        1,
+        0,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        109
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p1",
+    "lambda_KL": 0.1,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_0p1/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.8974132701574926,
+      "normal_equation_error": 2.757109633895089e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.056010358237169794
+  },
+  {
+    "macro_f1": 0.8636017568423173,
+    "supported_macro_f1": 0.8636017568423173,
+    "accuracy": 0.935,
+    "per_class_f1": [
+      0.9657794676806084,
+      0.9212121212121213,
+      0.9659417316372589,
+      0.8567493112947658,
+      0.7924528301886793,
+      0.967032967032967,
+      0.5714285714285714,
+      0.8682170542635659
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        127,
+        2,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        76,
+        1,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1177,
+        57,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        16,
+        311,
+        0,
+        0,
+        1,
+        21
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        9,
+        0,
+        0,
+        0,
+        112
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p3",
+    "lambda_KL": 0.3,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_0p3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9070959663922284,
+      "normal_equation_error": 1.8943184605733542e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05648344877036303
+  },
+  {
+    "macro_f1": 0.8581295657583425,
+    "supported_macro_f1": 0.8581295657583425,
+    "accuracy": 0.934,
+    "per_class_f1": [
+      0.9657794676806084,
+      0.906832298136646,
+      0.9671592775041051,
+      0.8579234972677595,
+      0.7777777777777778,
+      0.967741935483871,
+      0.5714285714285714,
+      0.8503937007874016
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        127,
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        73,
+        2,
+        0,
+        5,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1178,
+        57,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        13,
+        314,
+        0,
+        0,
+        1,
+        21
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        12,
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_1",
+    "lambda_KL": 1.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_1/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9060377098978558,
+      "normal_equation_error": 2.014423347679276e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05842125877499638
+  },
+  {
+    "macro_f1": 0.8655495045345204,
+    "supported_macro_f1": 0.8655495045345204,
+    "accuracy": 0.939,
+    "per_class_f1": [
+      0.9618320610687023,
+      0.9202453987730062,
+      0.9688269073010665,
+      0.8688524590163934,
+      0.7924528301886793,
+      0.967741935483871,
+      0.5714285714285714,
+      0.873015873015873
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        126,
+        2,
+        1,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        75,
+        1,
+        0,
+        4,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1181,
+        54,
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        13,
+        318,
+        0,
+        0,
+        1,
+        17
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        11,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_3",
+    "lambda_KL": 3.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_43/lambda_3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9021782199087727,
+      "normal_equation_error": 2.1983142812413752e-15,
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.0620340873411131
+  },
+  {
+    "macro_f1": 0.8328906962609449,
+    "supported_macro_f1": 0.8328906962609449,
+    "accuracy": 0.91,
+    "per_class_f1": [
+      0.9538461538461539,
+      0.8658536585365854,
+      0.9554192229038855,
+      0.7966101694915254,
+      0.7777777777777778,
+      0.9347826086956522,
+      0.5714285714285714,
+      0.8074074074074075
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        124,
+        2,
+        4,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        71,
+        1,
+        2,
+        5,
+        4,
+        0,
+        1
+      ],
+      [
+        0,
+        3,
+        1168,
+        65,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        29,
+        282,
+        0,
+        0,
+        1,
+        36
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        9,
+        0,
+        0,
+        0,
+        109
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0",
+    "lambda_KL": 0.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_0/reconstruction",
+    "selection": {
+      "ridge_alpha": 0.0001,
+      "VALID_F1": 0.8516007208011098,
+      "normal_equation_error": 5.644058330554878e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05608752125026691
+  },
+  {
+    "macro_f1": 0.8585240185810865,
+    "supported_macro_f1": 0.8585240185810865,
+    "accuracy": 0.924,
+    "per_class_f1": [
+      0.9652509652509652,
+      0.8834355828220859,
+      0.9606625258799172,
+      0.8397350993377484,
+      0.7636363636363637,
+      0.945054945054945,
+      0.6666666666666666,
+      0.84375
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        3,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        72,
+        2,
+        0,
+        6,
+        3,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1160,
+        75,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        8,
+        317,
+        0,
+        0,
+        1,
+        23
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        43,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        13,
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p01",
+    "lambda_KL": 0.01,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_0p01/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.8607732519952319,
+      "normal_equation_error": 2.734746936982712e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.0560221581480536
+  },
+  {
+    "macro_f1": 0.8743063575209229,
+    "supported_macro_f1": 0.8743063575209229,
+    "accuracy": 0.936,
+    "per_class_f1": [
+      0.9578544061302682,
+      0.9012345679012346,
+      0.9642122583299054,
+      0.8689839572192514,
+      0.7777777777777778,
+      0.967032967032967,
+      0.6666666666666666,
+      0.8906882591093117
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        3,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        73,
+        3,
+        0,
+        5,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1172,
+        62,
+        0,
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        12,
+        325,
+        0,
+        0,
+        1,
+        11
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        110
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p03",
+    "lambda_KL": 0.03,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_0p03/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.8612936044623354,
+      "normal_equation_error": 2.1373181506718773e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.056198289718244844
+  },
+  {
+    "macro_f1": 0.874810915267786,
+    "supported_macro_f1": 0.874810915267786,
+    "accuracy": 0.937,
+    "per_class_f1": [
+      0.9538461538461539,
+      0.9079754601226994,
+      0.9654605263157895,
+      0.8708388814913449,
+      0.7777777777777778,
+      0.967032967032967,
+      0.6666666666666666,
+      0.8888888888888888
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        124,
+        2,
+        3,
+        1,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        74,
+        2,
+        0,
+        5,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1174,
+        60,
+        0,
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        12,
+        327,
+        0,
+        0,
+        1,
+        9
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p1",
+    "lambda_KL": 0.1,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_0p1/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.8624018882651217,
+      "normal_equation_error": 2.1888482289672513e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05606464495295682
+  },
+  {
+    "macro_f1": 0.8396729812600678,
+    "supported_macro_f1": 0.8396729812600678,
+    "accuracy": 0.919,
+    "per_class_f1": [
+      0.9538461538461539,
+      0.8795180722891566,
+      0.9588138385502472,
+      0.8279569892473119,
+      0.75,
+      0.9438202247191011,
+      0.5714285714285714,
+      0.832
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        124,
+        2,
+        2,
+        0,
+        5,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        73,
+        2,
+        0,
+        6,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1164,
+        69,
+        0,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        20,
+        308,
+        0,
+        0,
+        1,
+        19
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        17,
+        0,
+        0,
+        0,
+        104
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p3",
+    "lambda_KL": 0.3,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_0p3/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.8548132895732188,
+      "normal_equation_error": 3.243529903818519e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.05654451288029241
+  },
+  {
+    "macro_f1": 0.8671346007274066,
+    "supported_macro_f1": 0.8671346007274066,
+    "accuracy": 0.9325,
+    "per_class_f1": [
+      0.9578544061302682,
+      0.9036144578313253,
+      0.9651210504718917,
+      0.8571428571428571,
+      0.7777777777777778,
+      0.9438202247191011,
+      0.6666666666666666,
+      0.8650793650793651
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        3,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        75,
+        1,
+        0,
+        5,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1176,
+        58,
+        0,
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        16,
+        315,
+        0,
+        0,
+        1,
+        17
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        42,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        12,
+        0,
+        0,
+        0,
+        109
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_1",
+    "lambda_KL": 1.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_1/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.8674364366055383,
+      "normal_equation_error": 1.9661115414221967e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.058229504984441294
+  },
+  {
+    "macro_f1": 0.8748454355249505,
+    "supported_macro_f1": 0.8748454355249505,
+    "accuracy": 0.9375,
+    "per_class_f1": [
+      0.9578544061302682,
+      0.9079754601226994,
+      0.9673202614379085,
+      0.8684931506849315,
+      0.7924528301886793,
+      0.967032967032967,
+      0.6666666666666666,
+      0.8709677419354839
+    ],
+    "support": [
+      134,
+      84,
+      1240,
+      349,
+      24,
+      45,
+      2,
+      122
+    ],
+    "confusion_matrix": [
+      [
+        125,
+        2,
+        3,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        74,
+        3,
+        0,
+        4,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1184,
+        51,
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        16,
+        317,
+        0,
+        0,
+        1,
+        15
+      ],
+      [
+        2,
+        0,
+        1,
+        0,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        44,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        13,
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 0,
+    "test_group": "Batch2_68k_r",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_3",
+    "lambda_KL": 3.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_0/seed_44/lambda_3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.859040865388617,
+      "normal_equation_error": 2.874759701578563e-15,
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.06191557214808747
+  },
+  {
+    "macro_f1": 0.802574687579596,
+    "supported_macro_f1": 0.802574687579596,
+    "accuracy": 0.8961334344200151,
+    "per_class_f1": [
+      0.9751098096632503,
+      0.8742921857304643,
+      0.9473684210526315,
+      0.7716049382716049,
+      0.5660377358490566,
+      0.8166666666666667,
+      0.5714285714285714,
+      0.8980891719745223
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        333,
+        2,
+        0,
+        2,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        386,
+        0,
+        7,
+        27,
+        59,
+        0,
+        0
+      ],
+      [
+        7,
+        5,
+        1071,
+        55,
+        3,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        45,
+        250,
+        2,
+        0,
+        0,
+        18
+      ],
+      [
+        0,
+        6,
+        0,
+        1,
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        147,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        5,
+        1,
+        0,
+        6,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        11,
+        1,
+        0,
+        0,
+        141
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": "shared",
+    "method": "original_h",
+    "lambda_KL": null,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_shared/original_h/original",
+    "selection": {
+      "ridge_alpha": 1.0,
+      "VALID_F1": 0.9407295099242892,
+      "normal_equation_error": 9.032411242134683e-15,
+      "fold": 1,
+      "seed": "shared",
+      "method": "original_h",
+      "variant": "original",
+      "mix_alpha": 0.0
+    },
+    "relative_embedding_change": 0.0
+  },
+  {
+    "macro_f1": 0.7166755223600301,
+    "supported_macro_f1": 0.7166755223600301,
+    "accuracy": 0.8062926459438969,
+    "per_class_f1": [
+      0.9484536082474226,
+      0.7263556116015133,
+      0.875275451740855,
+      0.6350974930362117,
+      0.390625,
+      0.7988668555240793,
+      0.5714285714285714,
+      0.7873015873015873
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        322,
+        6,
+        2,
+        3,
+        8,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        288,
+        61,
+        25,
+        36,
+        61,
+        0,
+        7
+      ],
+      [
+        8,
+        8,
+        993,
+        113,
+        12,
+        1,
+        0,
+        9
+      ],
+      [
+        1,
+        1,
+        64,
+        228,
+        3,
+        0,
+        0,
+        19
+      ],
+      [
+        0,
+        6,
+        2,
+        4,
+        25,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        6,
+        141,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        8,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        4,
+        2,
+        3,
+        20,
+        1,
+        0,
+        0,
+        124
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0",
+    "lambda_KL": 0.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_0/reconstruction",
+    "selection": {
+      "ridge_alpha": 1.0,
+      "VALID_F1": 0.9251663128452768,
+      "normal_equation_error": 6.496301202404363e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07301967631413733
+  },
+  {
+    "macro_f1": 0.7809699259011289,
+    "supported_macro_f1": 0.7809699259011289,
+    "accuracy": 0.8479909021986354,
+    "per_class_f1": [
+      0.9748892171344166,
+      0.6891891891891891,
+      0.9342442356959864,
+      0.7529812606473595,
+      0.45751633986928103,
+      0.6772009029345373,
+      0.8461538461538461,
+      0.9155844155844156
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        330,
+        0,
+        0,
+        2,
+        9,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        255,
+        23,
+        0,
+        64,
+        137,
+        0,
+        1
+      ],
+      [
+        4,
+        3,
+        1094,
+        36,
+        2,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        79,
+        221,
+        4,
+        0,
+        0,
+        11
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        35,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        11,
+        1,
+        0,
+        0,
+        141
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p01",
+    "lambda_KL": 0.01,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_0p01/reconstruction",
+    "selection": {
+      "ridge_alpha": 10000.0,
+      "VALID_F1": 0.9299794069172372,
+      "normal_equation_error": 1.871253186097393e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07299599301467738
+  },
+  {
+    "macro_f1": 0.7729072841737311,
+    "supported_macro_f1": 0.7729072841737311,
+    "accuracy": 0.846095526914329,
+    "per_class_f1": [
+      0.9622093023255814,
+      0.7557251908396947,
+      0.9167755991285403,
+      0.7104477611940299,
+      0.4339622641509434,
+      0.7525252525252525,
+      0.8,
+      0.8516129032258064
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        331,
+        1,
+        3,
+        2,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        297,
+        31,
+        18,
+        33,
+        93,
+        0,
+        6
+      ],
+      [
+        7,
+        4,
+        1052,
+        70,
+        5,
+        3,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        59,
+        238,
+        3,
+        0,
+        0,
+        15
+      ],
+      [
+        4,
+        3,
+        1,
+        6,
+        23,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        149,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        3,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        4,
+        17,
+        0,
+        0,
+        0,
+        132
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p03",
+    "lambda_KL": 0.03,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_0p03/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.9205853373501369,
+      "normal_equation_error": 4.366875170058752e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07318840239775459
+  },
+  {
+    "macro_f1": 0.7795126496855287,
+    "supported_macro_f1": 0.7795126496855287,
+    "accuracy": 0.844579226686884,
+    "per_class_f1": [
+      0.9704142011834319,
+      0.6936572199730094,
+      0.928388746803069,
+      0.7359454855195912,
+      0.45751633986928103,
+      0.684931506849315,
+      0.8461538461538461,
+      0.919093851132686
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        328,
+        0,
+        2,
+        1,
+        10,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        257,
+        27,
+        2,
+        62,
+        132,
+        0,
+        0
+      ],
+      [
+        5,
+        2,
+        1089,
+        40,
+        3,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        82,
+        216,
+        5,
+        0,
+        0,
+        12
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        35,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        11,
+        0,
+        0,
+        0,
+        142
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p1",
+    "lambda_KL": 0.1,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_0p1/reconstruction",
+    "selection": {
+      "ridge_alpha": 10000.0,
+      "VALID_F1": 0.9201960239507194,
+      "normal_equation_error": 2.3615592238761728e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07335615178424727
+  },
+  {
+    "macro_f1": 0.7823879588158351,
+    "supported_macro_f1": 0.7823879588158351,
+    "accuracy": 0.8464746019711903,
+    "per_class_f1": [
+      0.9751824817518249,
+      0.6855600539811066,
+      0.9245364381198793,
+      0.7563291139240507,
+      0.44594594594594594,
+      0.7215496368038741,
+      0.8461538461538461,
+      0.9038461538461539
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        334,
+        0,
+        1,
+        1,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        254,
+        40,
+        6,
+        69,
+        108,
+        0,
+        2
+      ],
+      [
+        7,
+        3,
+        1072,
+        55,
+        2,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        61,
+        239,
+        2,
+        0,
+        0,
+        13
+      ],
+      [
+        0,
+        3,
+        1,
+        0,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        149,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        141
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_0p3",
+    "lambda_KL": 0.3,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_0p3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.917889156589365,
+      "normal_equation_error": 1.8307467805435546e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07335377046604014
+  },
+  {
+    "macro_f1": 0.7794533245508067,
+    "supported_macro_f1": 0.7794533245508067,
+    "accuracy": 0.8506444275966641,
+    "per_class_f1": [
+      0.9708454810495627,
+      0.6900269541778976,
+      0.9388286334056399,
+      0.7568438003220612,
+      0.4125,
+      0.7198067632850241,
+      0.8461538461538461,
+      0.9006211180124224
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        333,
+        0,
+        1,
+        1,
+        5,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        256,
+        18,
+        12,
+        78,
+        110,
+        0,
+        4
+      ],
+      [
+        8,
+        2,
+        1082,
+        45,
+        3,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        59,
+        235,
+        3,
+        0,
+        0,
+        18
+      ],
+      [
+        0,
+        3,
+        0,
+        1,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        149,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        145
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_1",
+    "lambda_KL": 1.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_1/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.916525350075977,
+      "normal_equation_error": 2.1557074435851805e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07446389152097606
+  },
+  {
+    "macro_f1": 0.7670824617928066,
+    "supported_macro_f1": 0.7670824617928066,
+    "accuracy": 0.8366186504927976,
+    "per_class_f1": [
+      0.9704142011834319,
+      0.6414565826330533,
+      0.9340232858990944,
+      0.7454844006568144,
+      0.4093567251461988,
+      0.6696428571428571,
+      0.8461538461538461,
+      0.9201277955271565
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        328,
+        0,
+        1,
+        2,
+        10,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        229,
+        18,
+        9,
+        82,
+        141,
+        0,
+        1
+      ],
+      [
+        5,
+        3,
+        1083,
+        45,
+        3,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        72,
+        227,
+        3,
+        0,
+        0,
+        13
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        35,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        9,
+        0,
+        0,
+        0,
+        144
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 42,
+    "method": "lambda_3",
+    "lambda_KL": 3.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_42/lambda_3/reconstruction",
+    "selection": {
+      "ridge_alpha": 10000.0,
+      "VALID_F1": 0.9175462663693674,
+      "normal_equation_error": 1.8638425985596956e-15,
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07797986502497176
+  },
+  {
+    "macro_f1": 0.7716447324281165,
+    "supported_macro_f1": 0.7716447324281165,
+    "accuracy": 0.8385140257771039,
+    "per_class_f1": [
+      0.9780380673499268,
+      0.6527777777777778,
+      0.9348659003831418,
+      0.7253521126760564,
+      0.4927536231884058,
+      0.6289308176100629,
+      0.8461538461538461,
+      0.9142857142857143
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        334,
+        0,
+        1,
+        1,
+        5,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        235,
+        15,
+        4,
+        55,
+        170,
+        0,
+        0
+      ],
+      [
+        5,
+        2,
+        1098,
+        32,
+        2,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        89,
+        206,
+        4,
+        0,
+        0,
+        16
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        34,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        8,
+        0,
+        0,
+        0,
+        144
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0",
+    "lambda_KL": 0.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_0/reconstruction",
+    "selection": {
+      "ridge_alpha": 10000.0,
+      "VALID_F1": 0.923792452594792,
+      "normal_equation_error": 2.1673804486117062e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07247147799132939
+  },
+  {
+    "macro_f1": 0.773870902548432,
+    "supported_macro_f1": 0.773870902548432,
+    "accuracy": 0.8377558756633814,
+    "per_class_f1": [
+      0.9781021897810219,
+      0.6330532212885154,
+      0.9353448275862069,
+      0.6951219512195121,
+      0.49635036496350365,
+      0.7058823529411765,
+      0.8461538461538461,
+      0.9009584664536742
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        335,
+        0,
+        1,
+        1,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        226,
+        14,
+        57,
+        61,
+        120,
+        0,
+        2
+      ],
+      [
+        7,
+        4,
+        1085,
+        41,
+        1,
+        4,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        73,
+        228,
+        0,
+        0,
+        0,
+        14
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        12,
+        0,
+        0,
+        0,
+        141
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p01",
+    "lambda_KL": 0.01,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_0p01/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9211943490471025,
+      "normal_equation_error": 1.7274787325755098e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07249362017705743
+  },
+  {
+    "macro_f1": 0.8002315113389492,
+    "supported_macro_f1": 0.8002315113389492,
+    "accuracy": 0.8555724033358605,
+    "per_class_f1": [
+      0.97953216374269,
+      0.7144754316069057,
+      0.932420872540633,
+      0.740495867768595,
+      0.591304347826087,
+      0.6802721088435374,
+      0.8461538461538461,
+      0.9171974522292994
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        335,
+        0,
+        1,
+        1,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        269,
+        28,
+        13,
+        35,
+        135,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        1090,
+        40,
+        3,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        74,
+        224,
+        2,
+        0,
+        0,
+        15
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        144
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p03",
+    "lambda_KL": 0.03,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_0p03/reconstruction",
+    "selection": {
+      "ridge_alpha": 1000.0,
+      "VALID_F1": 0.918791360119064,
+      "normal_equation_error": 2.463532926106857e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07257036277942798
+  },
+  {
+    "macro_f1": 0.7825269548840599,
+    "supported_macro_f1": 0.7825269548840599,
+    "accuracy": 0.8457164518574678,
+    "per_class_f1": [
+      0.9779735682819384,
+      0.6639118457300276,
+      0.935429056924384,
+      0.7539267015706806,
+      0.5190839694656488,
+      0.6342494714587738,
+      0.8461538461538461,
+      0.9294871794871795
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        333,
+        0,
+        2,
+        1,
+        5,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        241,
+        23,
+        4,
+        46,
+        166,
+        0,
+        0
+      ],
+      [
+        5,
+        2,
+        1101,
+        28,
+        3,
+        4,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        83,
+        216,
+        4,
+        0,
+        0,
+        12
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        34,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        7,
+        1,
+        0,
+        0,
+        145
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p1",
+    "lambda_KL": 0.1,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_0p1/reconstruction",
+    "selection": {
+      "ridge_alpha": 10000.0,
+      "VALID_F1": 0.9203647966176531,
+      "normal_equation_error": 1.441518321240172e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07241507935236943
+  },
+  {
+    "macro_f1": 0.7686407585385204,
+    "supported_macro_f1": 0.7686407585385204,
+    "accuracy": 0.8358605003790751,
+    "per_class_f1": [
+      0.975254730713246,
+      0.6221590909090909,
+      0.9293361884368309,
+      0.7378640776699029,
+      0.42105263157894735,
+      0.7011764705882353,
+      0.8461538461538461,
+      0.9161290322580645
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        335,
+        0,
+        1,
+        1,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        219,
+        29,
+        18,
+        90,
+        121,
+        0,
+        2
+      ],
+      [
+        8,
+        2,
+        1085,
+        43,
+        2,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        74,
+        228,
+        1,
+        0,
+        0,
+        12
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        36,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        149,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        11,
+        0,
+        0,
+        0,
+        142
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_0p3",
+    "lambda_KL": 0.3,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_0p3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9193068240365898,
+      "normal_equation_error": 2.985572606536294e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07241011369417824
+  },
+  {
+    "macro_f1": 0.75328049928957,
+    "supported_macro_f1": 0.75328049928957,
+    "accuracy": 0.83131159969674,
+    "per_class_f1": [
+      0.9666182873730044,
+      0.6766304347826086,
+      0.9341991341991343,
+      0.6553323029366306,
+      0.4268292682926829,
+      0.7563451776649747,
+      0.8,
+      0.8102893890675241
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        333,
+        1,
+        1,
+        1,
+        5,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        249,
+        2,
+        48,
+        79,
+        90,
+        0,
+        10
+      ],
+      [
+        9,
+        1,
+        1079,
+        48,
+        2,
+        4,
+        0,
+        1
+      ],
+      [
+        2,
+        2,
+        79,
+        212,
+        2,
+        0,
+        0,
+        19
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        149,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        10,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        21,
+        3,
+        0,
+        0,
+        126
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_1",
+    "lambda_KL": 1.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_1/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.919301555871948,
+      "normal_equation_error": 4.9279222745709916e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07374497407048243
+  },
+  {
+    "macro_f1": 0.7863467771383789,
+    "supported_macro_f1": 0.7863467771383789,
+    "accuracy": 0.8589840788476119,
+    "per_class_f1": [
+      0.97953216374269,
+      0.7477360931435963,
+      0.9343629343629344,
+      0.7290969899665551,
+      0.4605263157894737,
+      0.7582697201017812,
+      0.8,
+      0.88125
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        335,
+        0,
+        1,
+        1,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        289,
+        17,
+        8,
+        73,
+        89,
+        0,
+        2
+      ],
+      [
+        4,
+        1,
+        1089,
+        43,
+        2,
+        4,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        78,
+        218,
+        0,
+        0,
+        0,
+        20
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        149,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        10,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        11,
+        0,
+        0,
+        0,
+        141
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 43,
+    "method": "lambda_3",
+    "lambda_KL": 3.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_43/lambda_3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9122247086985913,
+      "normal_equation_error": 2.2294144441060416e-15,
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07808016081594922
+  },
+  {
+    "macro_f1": 0.7634618607936818,
+    "supported_macro_f1": 0.7634618607936818,
+    "accuracy": 0.8328278999241849,
+    "per_class_f1": [
+      0.9736842105263158,
+      0.6395511921458625,
+      0.9244791666666666,
+      0.7449768160741885,
+      0.34196891191709844,
+      0.7313432835820896,
+      0.8461538461538461,
+      0.9055374592833876
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        333,
+        0,
+        2,
+        1,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        228,
+        33,
+        6,
+        114,
+        99,
+        0,
+        0
+      ],
+      [
+        8,
+        1,
+        1065,
+        65,
+        1,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        59,
+        241,
+        2,
+        0,
+        0,
+        13
+      ],
+      [
+        0,
+        3,
+        1,
+        0,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        2,
+        147,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        139
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0",
+    "lambda_KL": 0.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_0/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9197498819455605,
+      "normal_equation_error": 2.3673398629338285e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.0723110191958039
+  },
+  {
+    "macro_f1": 0.7638669657558934,
+    "supported_macro_f1": 0.7638669657558934,
+    "accuracy": 0.8335860500379075,
+    "per_class_f1": [
+      0.9720998531571219,
+      0.649025069637883,
+      0.9267654751525719,
+      0.7496206373292867,
+      0.35051546391752575,
+      0.7241379310344828,
+      0.8461538461538461,
+      0.8926174496644296
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        331,
+        0,
+        3,
+        1,
+        6,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        233,
+        27,
+        5,
+        108,
+        103,
+        0,
+        2
+      ],
+      [
+        6,
+        1,
+        1063,
+        67,
+        3,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        57,
+        247,
+        3,
+        0,
+        0,
+        9
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        147,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        133
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p01",
+    "lambda_KL": 0.01,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_0p01/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9177302287180535,
+      "normal_equation_error": 2.3620620807529535e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07240197161286321
+  },
+  {
+    "macro_f1": 0.7444975131761994,
+    "supported_macro_f1": 0.7444975131761994,
+    "accuracy": 0.8074298711144806,
+    "per_class_f1": [
+      0.9591836734693877,
+      0.630098452883263,
+      0.9,
+      0.6740331491712708,
+      0.35502958579881655,
+      0.7295285359801489,
+      0.8461538461538461,
+      0.8619528619528619
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        329,
+        0,
+        3,
+        4,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        6,
+        224,
+        29,
+        24,
+        94,
+        101,
+        0,
+        2
+      ],
+      [
+        7,
+        1,
+        1017,
+        113,
+        2,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        244,
+        1,
+        0,
+        0,
+        11
+      ],
+      [
+        1,
+        4,
+        1,
+        0,
+        30,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        147,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        1,
+        1,
+        4,
+        20,
+        0,
+        0,
+        0,
+        128
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p03",
+    "lambda_KL": 0.03,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_0p03/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.9290521862735939,
+      "normal_equation_error": 4.3989272173010224e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.0725507599310059
+  },
+  {
+    "macro_f1": 0.7471985219276419,
+    "supported_macro_f1": 0.7471985219276419,
+    "accuracy": 0.8153904473085671,
+    "per_class_f1": [
+      0.9591836734693877,
+      0.6028571428571429,
+      0.9129287598944591,
+      0.7246376811594203,
+      0.31683168316831684,
+      0.7596899224806202,
+      0.8461538461538461,
+      0.8553054662379421
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        329,
+        0,
+        4,
+        2,
+        6,
+        1,
+        0,
+        0
+      ],
+      [
+        6,
+        211,
+        36,
+        11,
+        120,
+        85,
+        0,
+        11
+      ],
+      [
+        8,
+        1,
+        1038,
+        92,
+        1,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        48,
+        250,
+        4,
+        0,
+        0,
+        13
+      ],
+      [
+        0,
+        4,
+        0,
+        1,
+        32,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        147,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        16,
+        1,
+        0,
+        0,
+        133
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p1",
+    "lambda_KL": 0.1,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_0p1/reconstruction",
+    "selection": {
+      "ridge_alpha": 10.0,
+      "VALID_F1": 0.9194815550098244,
+      "normal_equation_error": 3.3444394284905723e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07240259344507557
+  },
+  {
+    "macro_f1": 0.7529810629395058,
+    "supported_macro_f1": 0.7529810629395058,
+    "accuracy": 0.8263836239575436,
+    "per_class_f1": [
+      0.9737609329446064,
+      0.5872093023255814,
+      0.9347921225382932,
+      0.7577639751552795,
+      0.30493273542600896,
+      0.7047619047619048,
+      0.8461538461538461,
+      0.9144736842105263
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        334,
+        0,
+        2,
+        2,
+        3,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        202,
+        12,
+        8,
+        139,
+        116,
+        0,
+        1
+      ],
+      [
+        7,
+        1,
+        1068,
+        59,
+        5,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        58,
+        244,
+        4,
+        0,
+        0,
+        10
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        148,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        14,
+        0,
+        0,
+        0,
+        139
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_0p3",
+    "lambda_KL": 0.3,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_0p3/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9228905734737872,
+      "normal_equation_error": 1.5443934653249221e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.0727845925079802
+  },
+  {
+    "macro_f1": 0.7848616114982407,
+    "supported_macro_f1": 0.7848616114982407,
+    "accuracy": 0.8532979529946929,
+    "per_class_f1": [
+      0.9765395894428153,
+      0.7334200260078023,
+      0.932396839332748,
+      0.7460815047021944,
+      0.39751552795031053,
+      0.729064039408867,
+      0.8461538461538461,
+      0.9177215189873418
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        333,
+        0,
+        3,
+        2,
+        3,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        282,
+        11,
+        2,
+        81,
+        103,
+        0,
+        1
+      ],
+      [
+        7,
+        1,
+        1062,
+        68,
+        2,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        58,
+        238,
+        5,
+        0,
+        0,
+        15
+      ],
+      [
+        0,
+        5,
+        0,
+        0,
+        32,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        148,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        11,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        145
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_1",
+    "lambda_KL": 1.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_1/reconstruction",
+    "selection": {
+      "ridge_alpha": 100.0,
+      "VALID_F1": 0.9186465863777112,
+      "normal_equation_error": 3.786305949275501e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_1",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.0734863534230085
+  },
+  {
+    "macro_f1": 0.778572550201605,
+    "supported_macro_f1": 0.778572550201605,
+    "accuracy": 0.8457164518574678,
+    "per_class_f1": [
+      0.972181551976574,
+      0.6989247311827957,
+      0.9318081830180378,
+      0.7561728395061729,
+      0.39325842696629215,
+      0.7125890736342043,
+      0.8461538461538461,
+      0.9174917491749175
+    ],
+    "support": [
+      342,
+      480,
+      1144,
+      316,
+      37,
+      150,
+      15,
+      154
+    ],
+    "confusion_matrix": [
+      [
+        332,
+        0,
+        3,
+        1,
+        5,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        260,
+        10,
+        1,
+        94,
+        115,
+        0,
+        0
+      ],
+      [
+        7,
+        1,
+        1059,
+        70,
+        3,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        57,
+        245,
+        4,
+        0,
+        0,
+        10
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        150,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        14,
+        0,
+        0,
+        0,
+        139
+      ]
+    ],
+    "dataset": "pbmc",
+    "fold": 1,
+    "test_group": "Batch1_3k",
+    "group_unit": "batch",
+    "seed": 44,
+    "method": "lambda_3",
+    "lambda_KL": 3.0,
+    "probe_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/pbmc/probes/fold_1/seed_44/lambda_3/reconstruction",
+    "selection": {
+      "ridge_alpha": 1000.0,
+      "VALID_F1": 0.9090532811096635,
+      "normal_equation_error": 1.5761136084354496e-15,
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_3",
+      "variant": "reconstruction",
+      "mix_alpha": 1.0
+    },
+    "relative_embedding_change": 0.07759336290422453
+  }
+]

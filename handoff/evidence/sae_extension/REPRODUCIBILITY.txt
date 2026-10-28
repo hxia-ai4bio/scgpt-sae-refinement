@@ -1,0 +1,17 @@
+使用 /opt/anaconda3/envs/scgpt/bin/python，torch2.3.1，CPU4。
+先 python work/sae_extension/prepare.py （stim分块可恢复；PBMC来自原缓存经冻结重算核对）。
+已采用的流水线：
+python work/sae_extension/run.py preflight --dataset pbmc
+python work/sae_extension/run.py develop --dataset pbmc
+等待prepare.py完成
+python work/sae_extension/run.py preflight --dataset stim
+python work/sae_extension/run.py develop --dataset stim
+python work/sae_extension/run.py lock
+python work/sae_extension/run.py evaluate
+python work/sae_extension/verify.py
+python work/sae_extension/report.py
+数据与24个独立warmup、168个继续训练网络、固定batch索引均保存在work/sae_extension/{data,pbmc,stim}。
+来源和来源哈希在sources.json、各ds/sources.json、DATA_MANIFEST和SELECTION_LOCK。
+结果每个embedding文件仅为该折留出组，未把TEST用于SAE、读出或lambda选择。
+训练时间复杂度warmup O(20*N*d*m)，继续训练 O(1000*(B*d*m+B^2*d))；内存O(N*d+B*m+B^2+d*m)，d512,m2048,B256。
+PBMC两个批次不等于两个已验证独立供体。没有用Kang ctrl训练的SAE做PBMC迁移。

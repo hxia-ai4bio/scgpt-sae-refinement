@@ -1,0 +1,21 @@
+SAE残差优化实验
+
+                arm  TEST_Ridge_macro_F1  TEST_donor_SD  TEST_delta_pp  delta_bootstrap_low  delta_bootstrap_high  positive_donors  positive_seed_means  PBMC_Ridge_macro_F1  PBMC_delta_pp  TEST_kNN_delta_pp  identity_selected_runs  selected_nonidentity_runs  TEST_mean_relative_residual
+           identity            82.753960       6.626635       0.000000             0.000000              0.000000                0                    0            76.217898       0.000000           0.000000                      18                          0                     0.000000
+               gate            82.751977       6.629175      -0.001983            -0.005949              0.000000                0                    0            76.218567       0.000669          -0.000812                      16                          2                     0.000121
+       rotated_gate            82.753960       6.626635       0.000000             0.000000              0.000000                0                    0            76.217898       0.000000           0.000000                      17                          1                     0.000042
+            lowrank            82.757845       6.590093       0.003885            -0.054871              0.077296                1                    1            76.181833      -0.036065           0.038478                      14                          4                     0.000744
+                mlp            82.605814       6.553961      -0.148146            -0.585468              0.109784                2                    2            75.970224      -0.247674           0.369398                      13                          5                     0.002158
+        gate_supcon            82.752659       6.622946      -0.001301            -0.010381              0.006479                1                    0            76.237375       0.019478           0.020943                      15                          3                     0.000325
+rotated_gate_supcon            82.753960       6.626635       0.000000             0.000000              0.000000                0                    0            76.219722       0.001824           0.000000                      17                          1                     0.000145
+         mlp_supcon            82.769789       6.584710       0.015829            -0.018969              0.069917                1                    1            76.289103       0.071205           1.196807                      15                          3                     0.008761
+
+预定主要门槛：{"mean_gain_at_least_1pp": false, "at_least_4_positive_donors": false, "at_least_2_positive_seed_means": false, "PBMC_loss_no_more_than_0_5pp": true, "better_than_rotated_control": false}
+
+方法与边界：
+固定历史scGPT masked-mean 512维表征及每轮TRAIN拟合的K32、2048字典SAE；6轮4TRAIN/1VALID/1TEST供体，3个SAE/训练耦合种子42/43/44。原始h完整保留，raw signed TopK，不额外ReLU或标准化z。CPU float32稀疏训练，float64新Ridge。每组使用相同类别均匀、供体平衡的有放回批次；稀有类别重复采样，不能增加生物学样本量。基线CE头按VALID选weight decay；其后残差和头联合训练，从同一CE头和零残差开始。checkpoint/早停按训练头VALID Macro-F1；beta与新Ridge alpha再按VALID新Ridge选择，identity优先平局。每臂3个beta，包含identity；不是穷尽优化，也不能用阴性结果排除其他训练目标。所有126臂的选择锁定后才计算TEST。SupCon臂独立从零残差开始，不是继续训练已选CE适配器。SupCon只把同类型不同TRAIN供体作为正样本，忽略同类型同供体及重复行的分母配对，无正样本anchor不参与该损失。
+gate/rotated_gate各2048参数；lowrank/MLP各40960参数。gate与MLP不是精确参数匹配。旋转保持字典列范数和Gram，但不匹配原h各坐标的方差、归一化后的修正分布；实际残差范数单列，不把控制解释为完美匹配。低秩方案借鉴表征修改思路，不是原版LoReFT。
+主要评价为冻结h-prime后重新拟合TRAIN标准化、类别平衡Ridge，由VALID选11个alpha，另报固定k=15的标准化余弦kNN和训练时分类头。固定八类Macro-F1中缺失类别记0，另报实际存在类型的Macro-F1与所有支持数。评价单位为供体，先平均三个种子，再比较六供体；同一供体种子不是独立重复，SAE种子与适配器种子耦合。各轮训练供体重叠，bootstrap区间仅为六个观测供体差值的描述区间，不作独立折或总体显著性保证。PBMC是同一4638细胞文件的多模型迁移结果，不是18个独立数据集。
+Kang和PBMC均已历史探索，本轮是开发性验证，不是新的盲测。既有B细胞候选和TEST归因未用于特征选择；所有特征保留。没有重训scGPT/SAE，没有证明新的信息或生物机制。权重按checkpoint独立记录，未做跨种子特征编号对齐，不能直接比较不同SAE的同编号权重。门控大小不等于功能重要性或因果作用。K64仅为后续可选敏感性，本轮未执行。378个开发候选+18个基线头；早期无完整hash绑定的部分运行已中断保留于recovery，不复用，未产生TEST分数。
+
+数值核验PASS；独立科研审查WARN（same-family/provisional）。

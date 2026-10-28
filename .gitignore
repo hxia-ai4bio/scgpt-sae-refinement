@@ -33,3 +33,11 @@ lightning_logs/
 *.log
 *.out
 *.synctex.gz
+
+# Portable experiment runs / editable installation
+runs/
+*.egg-info/
+build/
+dist/
+*.npz
+*.npy

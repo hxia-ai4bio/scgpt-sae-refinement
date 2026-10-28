@@ -1,0 +1,16 @@
+{
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/c5.go.bp.v2025.1.Hs.symbols.gmt": "7fb5d2513caf56cc35b810f4ae39b6e075e5140e6cc14bf89de3bceae79b34e2",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/c2.cp.reactome.v2025.1.Hs.symbols.gmt": "53b9b506bf3be87700cbb3cbbbb7a6faa847fbe62e65421541b14a2b763bab6b",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/h.all.v2025.1.Hs.symbols.gmt": "f22066af72e215ccb7b89d88e492c07e1eef17534c2ca7b0f9902cfecbbdd8e9",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/c5.go.bp.v2025.1.Hs.json": "212de32b2528bbfaf44992a854334015cfd6789b0b29faf94b5932de60eb7c53",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_B_remaining/pathways.py": "4282e749154cc0fe96b4928dcf1a3b82d5c4c2e39c646c92a4d93454a907b0f9",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/data_manifest.json": "1eeb5d86e66ef463c5b8e765e66ee3da45e6fb6a6a0678449ec3acf30edbf9cd",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d",
+  "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad": "e6a5adac64dcdeb36eaba27db49b63e0c64bb0ed4a64c6705971506b41c39830",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_B_remaining/F137/gene_rankings_train.csv": "ceb4d12b77e28ec01cf4e7c6fad7676474c9714ced1187877b42862cb90eb1d2",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_B_remaining/F370/gene_rankings_train.csv": "55fa4c9ad322fac9c23405d5e7357b47556fc52bf58e113c640664235948de61",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_B_remaining/F146/gene_rankings_train.csv": "f3b5146df67ec9941e23d21673cb4dff24c69f1362a66e49716da9807d0a65ce",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_B_remaining/F1373/gene_rankings_train.csv": "73418e20b90d4d8f7ecfb86d3813cb174fc57672060245f9f59156b94891864b",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_B_remaining/F1125/gene_rankings_train.csv": "6f47e5cc468028ab42060d7b713669b689b7c32ad6e02108c22a5e475df513e2",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_B_remaining/F1409/gene_rankings_train.csv": "33b4326cb260e7362f96507e7d5d5e7c9305ffd285f6378d5704e33fe11d4544"
+}

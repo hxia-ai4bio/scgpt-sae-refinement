@@ -1,0 +1,41 @@
+{
+  "status": "SEALED",
+  "sealed_at_utc": "2026-10-19T04:59:07.176304+00:00",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "agent_id": "/root/sae_relation_audit",
+  "opaque_agent_id": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "stable_input_hashes_rechecked": 1496,
+  "audit_verdict": "WARN",
+  "primary_claim_supported": "no",
+  "presentation_checks": {
+    "exact_suggested_claim_revision_in_REPORT": true,
+    "primary_gate_failure_in_REPORT": true,
+    "tracker_COMPLETE": true,
+    "EXECUTION_LINK_COMPLETE": true
+  },
+  "hashes": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/REPORT.html": "sha256:7acccf43186618c301d97a8c0f8ebbc98f2788f8100a61ae99f81f232b428e92",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/EXPERIMENT_TRACKER.json": "sha256:66c528ee077f02af196ea10e93d6f33f597695f65f297976ce7913ce05cd1a39",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/EXPERIMENT_AUDIT.json": "sha256:733fba5d62d031cf8e916ac35a2431f2a3655b2a9033ed75d520bf3e22142d17",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/EXPERIMENT_AUDIT.md": "sha256:1d012a39775824835e78ab0dee0809f135a256451fb97065dd8ab8e967aaf512",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/CLAIMS_FROM_RESULTS.json": "sha256:4cde31c13e1c28477998729cbd65193690611c7745e5247a00ae2009f20b1cef",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/CLAIMS_FROM_RESULTS.md": "sha256:669359228f9020240f2018948aa75a2b795a69651575e6b32ea82017c2641d2e",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/findings.md": "sha256:2c4050a5e339d38484b07182f32488b5b5a5acf1930d1cfd393b7e3f202c6963",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/EVIDENCE_PRECHECK.json": "sha256:08a4f07a0e91bf415e16a948ee77a117b818ca79dbbb6a107f71de74b81b9ca9",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/REPRODUCIBILITY.txt": "sha256:b1cd5d38bbef1d624c4b7c7211187b41ce7ec2abc804592d513ca717a6035036",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/verification.json": "sha256:396c2ae6868e55a5e3bb7b95790a35e3ef7cc5fe4946268ca5021550a810cf17",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/summary.json": "sha256:67b0fdc72082c7f13e7cd35b78b5448e3cc75fbb82004751e6a9a04368b2b275",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/planned_contrasts.json": "sha256:a8bba94c901af24dc17860c191dad8cdb1b1ffae8b1ecde2f4b4f05537d8c96e",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/advance_gate.json": "sha256:4b38629f486e010e001a44b08861146bbf7d0ef96f4e1796e5e5e719f263b0c1",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/embedding_manifest.json": "sha256:08c905a1a52ffaf9fb35c549b31a27892bd2d46e0f4b6d6d33f26915d939fa80",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation_preflight/EXECUTION_LINK.json": "sha256:ea243e537fd62e6ba827bc5b37ccf3ebb8a2d9340126e497fd14f97007634f25"
+  },
+  "excluded_from_self_hash": [
+    "AUDIT_SEAL.json",
+    "FINAL_MANIFEST.json (not yet created)"
+  ],
+  "meaning": "Final presentation content binding; semantic assurance remains same-family/provisional. No model selection or new training."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "new_body_trajectories": 18,
+  "new_fresh_probes": 18,
+  "expression_results": 54,
+  "knn_results": 108,
+  "integrity_status": "warn",
+  "claim_supported": "yes",
+  "review_acceptance": "provisional",
+  "completed_at": "2026-10-19T16:44:05.230199+00:00",
+  "note": "Audited tracker retained byte-for-byte; this is final completion status."
+}

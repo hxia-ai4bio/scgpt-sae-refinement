@@ -1,0 +1,107 @@
+{
+  "status": "PROPOSED_NOT_TRAINED",
+  "purpose": "Test whether centered cross-donor relational reconstruction adds held-out classification value beyond equal-budget MSE continuation; frozen scGPT and output512D",
+  "evidence": "CHECKS.json: TRAIN-only seed42 geometry/gradient diagnostics over6 folds; no optimizer or new TEST scores",
+  "architecture": {
+    "width": 2048,
+    "topk": 32,
+    "operator": "largest raw values, retain signed values; unchanged baseline architecture"
+  },
+  "initialization": "same existing fold/seed raw SAE checkpoint; reset Adam state equally in all continuation arms",
+  "new_arms": [
+    {
+      "name": "continue_mse",
+      "lambda_KL": 0,
+      "role": "matched additional-training control"
+    },
+    {
+      "name": "continue_mse_relation_weak",
+      "lambda_KL": 0.03,
+      "role": "predeclared primary candidate"
+    },
+    {
+      "name": "continue_mse_relation_strong",
+      "lambda_KL": 0.3,
+      "role": "secondary fixed candidate, no TEST winner selection"
+    }
+  ],
+  "reference_arms": [
+    "original_h",
+    "existing_raw20_checkpoint"
+  ],
+  "objective": {
+    "reconstruction": "mean((recon-h)^2) / TRAIN mean((h-TRAIN_mean)^2)",
+    "relation": "mean_i KL(softmax_j cos(h_i-mu,h_j-mu)/tau || softmax_j cos(recon_i-mu,recon_j-mu)/tau)); teacher detached",
+    "tau": 0.1,
+    "eligible_anchors": "other TRAIN donors in same balanced batch; no self or same-donor anchors",
+    "probabilities": "log_softmax, rows sum1; mean overqueries, sum overanchors; finite/normalization assertions"
+  },
+  "training_proposal": {
+    "additional_steps": 1000,
+    "batch_size": 256,
+    "cells_per_TRAIN_donor": 64,
+    "sampling": "four TRAIN donors balanced, within-donor sample without replacement per batch; paired batch indices across all arms",
+    "optimizer": "Adam reset equally",
+    "lr_initial": 0.0003,
+    "lr_final": 1e-05,
+    "schedule": "cosine over1000 steps, same all arms",
+    "checkpoint": "fixed final1000 step primary; no VALID-MSE-only checkpoint choice for relation models",
+    "geometry_only_centering": "decoder still reconstructs raw512D h; same TRAIN mean used for teacher and student cosine"
+  },
+  "pilot": {
+    "folds": [
+      0,
+      2
+    ],
+    "seed": 42,
+    "arms": "all3",
+    "selection": "health, finite losses, nonzero gradients, term-gradient ratio, raw/centered reconstruction, memory and runtime only; no new TEST score or label-driven choice",
+    "budget_changes": "if necessary establish common budget from TRAIN/VALID unlabeled stability before any new TEST scoring; preserve initial proposed protocol version"
+  },
+  "evaluation": {
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "split": "historical fourTRAIN/oneVALID/oneTEST donor rotations; exploratory data reuse",
+    "main_embedding": "reconstruction directly,512D, no mixture-alpha search",
+    "optional_secondary": "fixed half raw+half reconstruction, declared before TEST; never replace primary based on TEST",
+    "ridge": "TRAIN-only scaling and balanced Ridge; existing common11-alpha grid selected with VALID labels",
+    "primary_contrasts": [
+      "weak_relation vs original_h",
+      "weak_relation vs matched continue_mse"
+    ],
+    "secondary_contrasts": [
+      "strong_relation vs same controls",
+      "continue_mse vs existing_raw20"
+    ],
+    "statistics": "seed mean within each donor then6-donor equal mean; paired descriptive donor interval; not18 independent donors",
+    "advance": "at least+0.5pp versus original_h and positive matched-MSE difference, >=4/6 positive donors, >=2/3 positive seed means; descriptive gate not significance",
+    "lock": "all selections and protocol fixed before unified new TEST evaluation"
+  },
+  "interpretation_limits": [
+    "preserving h relationships does not inject new observed information or guarantee better class separation",
+    "cross-donor neighborhoods can still contain technical/biological mixture and are not ground-truth cell-type neighbors",
+    "last20-epoch selection does not establish undertraining as the cause of classification failure",
+    "continued-training success alone does not establish a relational-loss or SAE-specific benefit"
+  ],
+  "deferred": [
+    "SDCV supervised feature selection: same residual family as past gates, requires TRAIN-only feature rediscovery; do not reuse full-Kang selected B-cell features",
+    "If a reproducible gain is found, add strong non-SAE nonlinear/denoising controls before an SAE-specific claim; independent cohort confirmation needs a separate dataset-specific SAE"
+  ],
+  "paper_sources": {
+    "NAACL2025": "https://aclanthology.org/2025.naacl-short.58.pdf",
+    "author_code": "https://github.com/cxcscmu/embedding-scope/blob/main/source/trainer/v2410.py",
+    "SDCV": "https://aclanthology.org/2026.findings-eacl.40.pdf"
+  },
+  "code_caveat": "author current measure() uses score/(score+norms), whose rows do not generally sum1; proposal follows categorical normalized KL, not a byte-identical code reproduction"
+}

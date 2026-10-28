@@ -1,0 +1,771 @@
+{
+  "scope": "read-only TRAIN geometry + gradients at old seed42 checkpoint; no optimizer steps, labels, VALID/TEST embeddings or new prediction scores",
+  "sources": {
+    "runner_sha": "ad8ab0a4a46d0624ee22bd4eea78ada46009244fcaad0fcd2a70b12533a48003",
+    "embedding_sha": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d"
+  },
+  "records": [
+    {
+      "fold": 0,
+      "train_donors": [
+        "patient_1015",
+        "patient_107",
+        "patient_1256",
+        "patient_1488"
+      ],
+      "n_train": 7394,
+      "sampled_per_donor": 64,
+      "batch_size": 256,
+      "anchors_per_cell": 192,
+      "normalized_reconstruction_mse": 0.09204591810703278,
+      "centered_train_mean_square": 0.020817102154471086,
+      "geometry": [
+        {
+          "centered": false,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            0.9527683687021005,
+            0.9755078646478186,
+            0.9929833797250032
+          ],
+          "mean_effective_neighbors": 187.61136396747906,
+          "relative_entropy": 0.9955913455161612,
+          "kl": 0.00029098588623280595,
+          "kl_gradient_norm": 0.0016372038995885903,
+          "normalized_mse_gradient_norm": 0.031111064844444297,
+          "gradient_ratio_kl_over_mse": 0.05262448931833834
+        },
+        {
+          "centered": false,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            0.9527683687021005,
+            0.9755078646478186,
+            0.9929833797250032
+          ],
+          "mean_effective_neighbors": 190.8345271309846,
+          "relative_entropy": 0.9988411399903555,
+          "kl": 7.628136436500621e-05,
+          "kl_gradient_norm": 0.00045994876664957304,
+          "normalized_mse_gradient_norm": 0.031111064844444297,
+          "gradient_ratio_kl_over_mse": 0.01478408948550371
+        },
+        {
+          "centered": false,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            0.9527683687021005,
+            0.9755078646478186,
+            0.9929833797250032
+          ],
+          "mean_effective_neighbors": 191.70058876223416,
+          "relative_entropy": 0.9997031057314208,
+          "kl": 1.9530000359535258e-05,
+          "kl_gradient_norm": 0.00012200053714426114,
+          "normalized_mse_gradient_norm": 0.031111064844444297,
+          "gradient_ratio_kl_over_mse": 0.0039214516685386796
+        },
+        {
+          "centered": true,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            -0.5481562128065565,
+            -0.044807718607520135,
+            0.6283632970137543
+          ],
+          "mean_effective_neighbors": 11.50118553226557,
+          "relative_entropy": 0.42801256633106355,
+          "kl": 0.1531076312748169,
+          "kl_gradient_norm": 0.3671298353814919,
+          "normalized_mse_gradient_norm": 0.031111064844444297,
+          "gradient_ratio_kl_over_mse": 11.800619400754861
+        },
+        {
+          "centered": true,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            -0.5481562128065565,
+            -0.044807718607520135,
+            0.6283632970137543
+          ],
+          "mean_effective_neighbors": 31.366708254850163,
+          "relative_entropy": 0.6377939502783613,
+          "kl": 0.059740622902009384,
+          "kl_gradient_norm": 0.11843984596252866,
+          "normalized_mse_gradient_norm": 0.031111064844444297,
+          "gradient_ratio_kl_over_mse": 3.8070007103494956
+        },
+        {
+          "centered": true,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            -0.5481562128065565,
+            -0.044807718607520135,
+            0.6283632970137543
+          ],
+          "mean_effective_neighbors": 76.29988408017657,
+          "relative_entropy": 0.8188629604611352,
+          "kl": 0.02283165629747823,
+          "kl_gradient_norm": 0.05058183624319074,
+          "normalized_mse_gradient_norm": 0.031111064844444297,
+          "gradient_ratio_kl_over_mse": 1.625847154255264
+        }
+      ],
+      "existing_training": [
+        {
+          "seed": 42,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.06354510259918895
+        },
+        {
+          "seed": 43,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.07215055260209786
+        },
+        {
+          "seed": 44,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.06769955312865285
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "train_donors": [
+        "patient_1016",
+        "patient_107",
+        "patient_1256",
+        "patient_1488"
+      ],
+      "n_train": 6379,
+      "sampled_per_donor": 64,
+      "batch_size": 256,
+      "anchors_per_cell": 192,
+      "normalized_reconstruction_mse": 0.10022876411676407,
+      "centered_train_mean_square": 0.020284186967153946,
+      "geometry": [
+        {
+          "centered": false,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            0.9509284091711493,
+            0.9762629516145365,
+            0.9928064911466433
+          ],
+          "mean_effective_neighbors": 187.8655948961964,
+          "relative_entropy": 0.9958512345539813,
+          "kl": 0.00029675438336827884,
+          "kl_gradient_norm": 0.0014207701040019876,
+          "normalized_mse_gradient_norm": 0.03296088291927492,
+          "gradient_ratio_kl_over_mse": 0.04310473440537442
+        },
+        {
+          "centered": false,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            0.9509284091711493,
+            0.9762629516145365,
+            0.9928064911466433
+          ],
+          "mean_effective_neighbors": 190.89605259456442,
+          "relative_entropy": 0.9989026098621626,
+          "kl": 7.761204824583905e-05,
+          "kl_gradient_norm": 0.0004100262247113882,
+          "normalized_mse_gradient_norm": 0.03296088291927492,
+          "gradient_ratio_kl_over_mse": 0.012439782809082835
+        },
+        {
+          "centered": false,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            0.9509284091711493,
+            0.9762629516145365,
+            0.9928064911466433
+          ],
+          "mean_effective_neighbors": 191.7155078862578,
+          "relative_entropy": 0.9997179177964701,
+          "kl": 1.9857680858109153e-05,
+          "kl_gradient_norm": 0.0001101177689396893,
+          "normalized_mse_gradient_norm": 0.03296088291927492,
+          "gradient_ratio_kl_over_mse": 0.0033408622338600784
+        },
+        {
+          "centered": true,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            -0.48498591982154265,
+            -0.05428347569652933,
+            0.5781791091153655
+          ],
+          "mean_effective_neighbors": 10.091924863131801,
+          "relative_entropy": 0.40833372825649045,
+          "kl": 0.16263434016279832,
+          "kl_gradient_norm": 0.35415871358593026,
+          "normalized_mse_gradient_norm": 0.03296088291927492,
+          "gradient_ratio_kl_over_mse": 10.744818773614368
+        },
+        {
+          "centered": true,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            -0.48498591982154265,
+            -0.05428347569652933,
+            0.5781791091153655
+          ],
+          "mean_effective_neighbors": 30.112165148593462,
+          "relative_entropy": 0.6319118671789916,
+          "kl": 0.06880805486105981,
+          "kl_gradient_norm": 0.1305728919944398,
+          "normalized_mse_gradient_norm": 0.03296088291927492,
+          "gradient_ratio_kl_over_mse": 3.961450071414294
+        },
+        {
+          "centered": true,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            -0.48498591982154265,
+            -0.05428347569652933,
+            0.5781791091153655
+          ],
+          "mean_effective_neighbors": 77.74628816165966,
+          "relative_entropy": 0.8215487635966843,
+          "kl": 0.026922013363198723,
+          "kl_gradient_norm": 0.05657079158419008,
+          "normalized_mse_gradient_norm": 0.03296088291927492,
+          "gradient_ratio_kl_over_mse": 1.7163008564648772
+        }
+      ],
+      "existing_training": [
+        {
+          "seed": 42,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11079385518131829
+        },
+        {
+          "seed": 43,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.1110440153773553
+        },
+        {
+          "seed": 44,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.10963168863222822
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "train_donors": [
+        "patient_1016",
+        "patient_1039",
+        "patient_107",
+        "patient_1256"
+      ],
+      "n_train": 4808,
+      "sampled_per_donor": 64,
+      "batch_size": 256,
+      "anchors_per_cell": 192,
+      "normalized_reconstruction_mse": 0.11924859136343002,
+      "centered_train_mean_square": 0.02232392640580551,
+      "geometry": [
+        {
+          "centered": false,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            0.9127642545559125,
+            0.9743698320127976,
+            0.9925855850961663
+          ],
+          "mean_effective_neighbors": 185.4005297608944,
+          "relative_entropy": 0.9933327058973888,
+          "kl": 0.0004337678370039393,
+          "kl_gradient_norm": 0.003716832131726644,
+          "normalized_mse_gradient_norm": 0.04515051482985479,
+          "gradient_ratio_kl_over_mse": 0.08232092470557988
+        },
+        {
+          "centered": false,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            0.9127642545559125,
+            0.9743698320127976,
+            0.9925855850961663
+          ],
+          "mean_effective_neighbors": 189.92323443087614,
+          "relative_entropy": 0.9979298438629777,
+          "kl": 0.0001253398761409611,
+          "kl_gradient_norm": 0.0016898992377106876,
+          "normalized_mse_gradient_norm": 0.04515051482985479,
+          "gradient_ratio_kl_over_mse": 0.037428127765074315
+        },
+        {
+          "centered": false,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            0.9127642545559125,
+            0.9743698320127976,
+            0.9925855850961663
+          ],
+          "mean_effective_neighbors": 191.40871550658954,
+          "relative_entropy": 0.9994132001537754,
+          "kl": 3.44700388947676e-05,
+          "kl_gradient_norm": 0.0005845876743706473,
+          "normalized_mse_gradient_norm": 0.04515051482985479,
+          "gradient_ratio_kl_over_mse": 0.012947530644414746
+        },
+        {
+          "centered": true,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            -0.4975205694627083,
+            -0.040560145733017396,
+            0.573666484894939
+          ],
+          "mean_effective_neighbors": 10.745534983323257,
+          "relative_entropy": 0.41588282855212044,
+          "kl": 0.21779663773268254,
+          "kl_gradient_norm": 0.4280352125076003,
+          "normalized_mse_gradient_norm": 0.04515051482985479,
+          "gradient_ratio_kl_over_mse": 9.480184536557518
+        },
+        {
+          "centered": true,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            -0.4975205694627083,
+            -0.040560145733017396,
+            0.573666484894939
+          ],
+          "mean_effective_neighbors": 33.368864927568495,
+          "relative_entropy": 0.6475904085508373,
+          "kl": 0.08158094573022501,
+          "kl_gradient_norm": 0.13868141225933062,
+          "normalized_mse_gradient_norm": 0.04515051482985479,
+          "gradient_ratio_kl_over_mse": 3.0715355690170463
+        },
+        {
+          "centered": true,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            -0.4975205694627083,
+            -0.040560145733017396,
+            0.573666484894939
+          ],
+          "mean_effective_neighbors": 83.03695825386072,
+          "relative_entropy": 0.8335403280755214,
+          "kl": 0.028589903106702085,
+          "kl_gradient_norm": 0.05049876330065685,
+          "normalized_mse_gradient_norm": 0.04515051482985479,
+          "gradient_ratio_kl_over_mse": 1.1184537649450155
+        }
+      ],
+      "existing_training": [
+        {
+          "seed": 42,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11683826531861036
+        },
+        {
+          "seed": 43,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11580897468180644
+        },
+        {
+          "seed": 44,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11391637373307185
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "train_donors": [
+        "patient_1015",
+        "patient_1016",
+        "patient_1039",
+        "patient_107"
+      ],
+      "n_train": 5438,
+      "sampled_per_donor": 64,
+      "batch_size": 256,
+      "anchors_per_cell": 192,
+      "normalized_reconstruction_mse": 0.12018746882677078,
+      "centered_train_mean_square": 0.022675903133928726,
+      "geometry": [
+        {
+          "centered": false,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            0.9075916260303749,
+            0.9726369391467395,
+            0.9916510133583138
+          ],
+          "mean_effective_neighbors": 184.59031367283882,
+          "relative_entropy": 0.9924952562302506,
+          "kl": 0.00045004485044537214,
+          "kl_gradient_norm": 0.004400279552646073,
+          "normalized_mse_gradient_norm": 0.04726986130963625,
+          "gradient_ratio_kl_over_mse": 0.09308848028604326
+        },
+        {
+          "centered": false,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            0.9075916260303749,
+            0.9726369391467395,
+            0.9916510133583138
+          ],
+          "mean_effective_neighbors": 189.57806553386936,
+          "relative_entropy": 0.9975831435384808,
+          "kl": 0.00013328532299543077,
+          "kl_gradient_norm": 0.00212749000091651,
+          "normalized_mse_gradient_norm": 0.04726986130963625,
+          "gradient_ratio_kl_over_mse": 0.045007324793711806
+        },
+        {
+          "centered": false,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            0.9075916260303749,
+            0.9726369391467395,
+            0.9916510133583138
+          ],
+          "mean_effective_neighbors": 191.28851645153335,
+          "relative_entropy": 0.9992936403488504,
+          "kl": 3.757786759861215e-05,
+          "kl_gradient_norm": 0.0007668726610024354,
+          "normalized_mse_gradient_norm": 0.04726986130963625,
+          "gradient_ratio_kl_over_mse": 0.01622328984591507
+        },
+        {
+          "centered": true,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            -0.49257805309340336,
+            -0.033732110437418916,
+            0.5882538722831911
+          ],
+          "mean_effective_neighbors": 10.317098452203751,
+          "relative_entropy": 0.4104885831146303,
+          "kl": 0.1841386757389462,
+          "kl_gradient_norm": 0.43028987626356135,
+          "normalized_mse_gradient_norm": 0.04726986130963625,
+          "gradient_ratio_kl_over_mse": 9.102837713971548
+        },
+        {
+          "centered": true,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            -0.49257805309340336,
+            -0.033732110437418916,
+            0.5882538722831911
+          ],
+          "mean_effective_neighbors": 32.771226124562475,
+          "relative_entropy": 0.6425878044328617,
+          "kl": 0.06856963949638792,
+          "kl_gradient_norm": 0.13354665606235502,
+          "normalized_mse_gradient_norm": 0.04726986130963625,
+          "gradient_ratio_kl_over_mse": 2.8251966974806995
+        },
+        {
+          "centered": true,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            -0.49257805309340336,
+            -0.033732110437418916,
+            0.5882538722831911
+          ],
+          "mean_effective_neighbors": 81.87921859700187,
+          "relative_entropy": 0.8309850706657629,
+          "kl": 0.025260830027429102,
+          "kl_gradient_norm": 0.04663391528941147,
+          "normalized_mse_gradient_norm": 0.04726986130963625,
+          "gradient_ratio_kl_over_mse": 0.9865464800910018
+        }
+      ],
+      "existing_training": [
+        {
+          "seed": 42,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11540787921741814
+        },
+        {
+          "seed": 43,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11534654140660049
+        },
+        {
+          "seed": 44,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11524536369970463
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "train_donors": [
+        "patient_1015",
+        "patient_1016",
+        "patient_1039",
+        "patient_1488"
+      ],
+      "n_train": 6952,
+      "sampled_per_donor": 64,
+      "batch_size": 256,
+      "anchors_per_cell": 192,
+      "normalized_reconstruction_mse": 0.10778665542602539,
+      "centered_train_mean_square": 0.021731319499553835,
+      "geometry": [
+        {
+          "centered": false,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            0.9064241451498338,
+            0.975887905949286,
+            0.9920606420130741
+          ],
+          "mean_effective_neighbors": 185.47449239623478,
+          "relative_entropy": 0.9934107933054972,
+          "kl": 0.00035479765646621246,
+          "kl_gradient_norm": 0.0032224254719975627,
+          "normalized_mse_gradient_norm": 0.047170226188688553,
+          "gradient_ratio_kl_over_mse": 0.06831481916383733
+        },
+        {
+          "centered": false,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            0.9064241451498338,
+            0.975887905949286,
+            0.9920606420130741
+          ],
+          "mean_effective_neighbors": 189.72480886146923,
+          "relative_entropy": 0.9977307020092028,
+          "kl": 0.00010984086940137056,
+          "kl_gradient_norm": 0.0019398614670873395,
+          "normalized_mse_gradient_norm": 0.047170226188688553,
+          "gradient_ratio_kl_over_mse": 0.04112470140226971
+        },
+        {
+          "centered": false,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            0.9064241451498338,
+            0.975887905949286,
+            0.9920606420130741
+          ],
+          "mean_effective_neighbors": 191.29808651418404,
+          "relative_entropy": 0.9993031606235054,
+          "kl": 3.2721063521272214e-05,
+          "kl_gradient_norm": 0.0007906064783139344,
+          "normalized_mse_gradient_norm": 0.047170226188688553,
+          "gradient_ratio_kl_over_mse": 0.016760709926456157
+        },
+        {
+          "centered": true,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            -0.48655858586093165,
+            -0.030228348192466156,
+            0.5542018798242768
+          ],
+          "mean_effective_neighbors": 9.702823069676775,
+          "relative_entropy": 0.3955307613132041,
+          "kl": 0.1618736543698508,
+          "kl_gradient_norm": 0.37545008505597116,
+          "normalized_mse_gradient_norm": 0.047170226188688553,
+          "gradient_ratio_kl_over_mse": 7.95947179803866
+        },
+        {
+          "centered": true,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            -0.48655858586093165,
+            -0.030228348192466156,
+            0.5542018798242768
+          ],
+          "mean_effective_neighbors": 31.652429805312728,
+          "relative_entropy": 0.6400359181208364,
+          "kl": 0.0692706071489337,
+          "kl_gradient_norm": 0.13432681185327308,
+          "normalized_mse_gradient_norm": 0.047170226188688553,
+          "gradient_ratio_kl_over_mse": 2.84770336516819
+        },
+        {
+          "centered": true,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            -0.48655858586093165,
+            -0.030228348192466156,
+            0.5542018798242768
+          ],
+          "mean_effective_neighbors": 83.68669113861823,
+          "relative_entropy": 0.8365158090034002,
+          "kl": 0.026044082759537762,
+          "kl_gradient_norm": 0.047590777247640395,
+          "normalized_mse_gradient_norm": 0.047170226188688553,
+          "gradient_ratio_kl_over_mse": 1.0089156040352567
+        }
+      ],
+      "existing_training": [
+        {
+          "seed": 42,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11122637118326817
+        },
+        {
+          "seed": 43,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.11052906766363425
+        },
+        {
+          "seed": 44,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.1049984493441565
+        }
+      ]
+    },
+    {
+      "fold": 5,
+      "train_donors": [
+        "patient_1015",
+        "patient_1039",
+        "patient_1256",
+        "patient_1488"
+      ],
+      "n_train": 7337,
+      "sampled_per_donor": 64,
+      "batch_size": 256,
+      "anchors_per_cell": 192,
+      "normalized_reconstruction_mse": 0.10422930121421814,
+      "centered_train_mean_square": 0.02154399125944719,
+      "geometry": [
+        {
+          "centered": false,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            0.8962343867149545,
+            0.9756336639614602,
+            0.9935418116030499
+          ],
+          "mean_effective_neighbors": 184.41023620030143,
+          "relative_entropy": 0.9923025764407465,
+          "kl": 0.0003679209752699836,
+          "kl_gradient_norm": 0.0046049286227040865,
+          "normalized_mse_gradient_norm": 0.04732979432291812,
+          "gradient_ratio_kl_over_mse": 0.09729449892146012
+        },
+        {
+          "centered": false,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            0.8962343867149545,
+            0.9756336639614602,
+            0.9935418116030499
+          ],
+          "mean_effective_neighbors": 189.33705159429832,
+          "relative_entropy": 0.9973398080067533,
+          "kl": 0.00011689635474415017,
+          "kl_gradient_norm": 0.0025655221633022144,
+          "normalized_mse_gradient_norm": 0.04732979432291812,
+          "gradient_ratio_kl_over_mse": 0.05420522527096495
+        },
+        {
+          "centered": false,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            0.8962343867149545,
+            0.9756336639614602,
+            0.9935418116030499
+          ],
+          "mean_effective_neighbors": 191.18566078663542,
+          "relative_entropy": 0.9991911850043551,
+          "kl": 3.469282610678637e-05,
+          "kl_gradient_norm": 0.0009792485018553212,
+          "normalized_mse_gradient_norm": 0.04732979432291812,
+          "gradient_ratio_kl_over_mse": 0.02068989556925135
+        },
+        {
+          "centered": true,
+          "tau": 0.05,
+          "teacher_cosine_quantiles": [
+            -0.5275001052780584,
+            -0.0262068781922824,
+            0.597894107997374
+          ],
+          "mean_effective_neighbors": 11.879800427002658,
+          "relative_entropy": 0.4388815463795752,
+          "kl": 0.17455052883844527,
+          "kl_gradient_norm": 0.39491769863212384,
+          "normalized_mse_gradient_norm": 0.04732979432291812,
+          "gradient_ratio_kl_over_mse": 8.34395552065385
+        },
+        {
+          "centered": true,
+          "tau": 0.1,
+          "teacher_cosine_quantiles": [
+            -0.5275001052780584,
+            -0.0262068781922824,
+            0.597894107997374
+          ],
+          "mean_effective_neighbors": 34.72195885935963,
+          "relative_entropy": 0.6585274071503638,
+          "kl": 0.06664086669079233,
+          "kl_gradient_norm": 0.1263857755666151,
+          "normalized_mse_gradient_norm": 0.04732979432291812,
+          "gradient_ratio_kl_over_mse": 2.670321673158346
+        },
+        {
+          "centered": true,
+          "tau": 0.2,
+          "teacher_cosine_quantiles": [
+            -0.5275001052780584,
+            -0.0262068781922824,
+            0.597894107997374
+          ],
+          "mean_effective_neighbors": 83.29086390940643,
+          "relative_entropy": 0.8343483130942867,
+          "kl": 0.024298117426176203,
+          "kl_gradient_norm": 0.04962083014153622,
+          "normalized_mse_gradient_norm": 0.04732979432291812,
+          "gradient_ratio_kl_over_mse": 1.0484057843773205
+        }
+      ],
+      "existing_training": [
+        {
+          "seed": 42,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.10502263906243527
+        },
+        {
+          "seed": 43,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.10261008189171134
+        },
+        {
+          "seed": 44,
+          "best_epoch": 20,
+          "last_epoch": 20,
+          "relative_valid_mse_drop_last5": 0.10056019919345822
+        }
+      ]
+    }
+  ]
+}

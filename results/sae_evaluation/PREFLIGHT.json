@@ -1,0 +1,332 @@
+{
+  "status": "PASS",
+  "splits": [
+    {
+      "dataset": "ctrl",
+      "fold": 0,
+      "counts": {
+        "train": 7394,
+        "valid": 460,
+        "test": 1723
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_107",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1039"
+        ],
+        "test": [
+          "patient_1016"
+        ]
+      }
+    },
+    {
+      "dataset": "ctrl",
+      "fold": 1,
+      "counts": {
+        "train": 6379,
+        "valid": 2738,
+        "test": 460
+      },
+      "groups": {
+        "train": [
+          "patient_1016",
+          "patient_107",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1015"
+        ],
+        "test": [
+          "patient_1039"
+        ]
+      }
+    },
+    {
+      "dataset": "ctrl",
+      "fold": 2,
+      "counts": {
+        "train": 4808,
+        "valid": 2031,
+        "test": 2738
+      },
+      "groups": {
+        "train": [
+          "patient_1016",
+          "patient_1039",
+          "patient_107",
+          "patient_1256"
+        ],
+        "valid": [
+          "patient_1488"
+        ],
+        "test": [
+          "patient_1015"
+        ]
+      }
+    },
+    {
+      "dataset": "ctrl",
+      "fold": 3,
+      "counts": {
+        "train": 5438,
+        "valid": 2108,
+        "test": 2031
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1016",
+          "patient_1039",
+          "patient_107"
+        ],
+        "valid": [
+          "patient_1256"
+        ],
+        "test": [
+          "patient_1488"
+        ]
+      }
+    },
+    {
+      "dataset": "ctrl",
+      "fold": 4,
+      "counts": {
+        "train": 6952,
+        "valid": 517,
+        "test": 2108
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1016",
+          "patient_1039",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_107"
+        ],
+        "test": [
+          "patient_1256"
+        ]
+      }
+    },
+    {
+      "dataset": "ctrl",
+      "fold": 5,
+      "counts": {
+        "train": 7337,
+        "valid": 1723,
+        "test": 517
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1039",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1016"
+        ],
+        "test": [
+          "patient_107"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "counts": {
+        "train": 7452,
+        "valid": 641,
+        "test": 1635
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_107",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1039"
+        ],
+        "test": [
+          "patient_1016"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "counts": {
+        "train": 6735,
+        "valid": 2352,
+        "test": 641
+      },
+      "groups": {
+        "train": [
+          "patient_1016",
+          "patient_107",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1015"
+        ],
+        "test": [
+          "patient_1039"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "counts": {
+        "train": 4827,
+        "valid": 2549,
+        "test": 2352
+      },
+      "groups": {
+        "train": [
+          "patient_1016",
+          "patient_1039",
+          "patient_107",
+          "patient_1256"
+        ],
+        "valid": [
+          "patient_1488"
+        ],
+        "test": [
+          "patient_1015"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "counts": {
+        "train": 5153,
+        "valid": 2026,
+        "test": 2549
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1016",
+          "patient_1039",
+          "patient_107"
+        ],
+        "valid": [
+          "patient_1256"
+        ],
+        "test": [
+          "patient_1488"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "counts": {
+        "train": 7177,
+        "valid": 525,
+        "test": 2026
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1016",
+          "patient_1039",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_107"
+        ],
+        "test": [
+          "patient_1256"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "counts": {
+        "train": 7568,
+        "valid": 1635,
+        "test": 525
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1039",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1016"
+        ],
+        "test": [
+          "patient_107"
+        ]
+      }
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "counts": {
+        "train": 2111,
+        "valid": 527,
+        "test": 2000
+      },
+      "groups": {
+        "train": [
+          "Batch1_3k"
+        ],
+        "valid": [
+          "Batch1_3k"
+        ],
+        "test": [
+          "Batch2_68k_r"
+        ]
+      }
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "counts": {
+        "train": 1599,
+        "valid": 401,
+        "test": 2638
+      },
+      "groups": {
+        "train": [
+          "Batch2_68k_r"
+        ],
+        "valid": [
+          "Batch2_68k_r"
+        ],
+        "test": [
+          "Batch1_3k"
+        ]
+      }
+    }
+  ],
+  "IFN_genes": [
+    "IFI6",
+    "IFIT1",
+    "IFIT2",
+    "IFIT3",
+    "ISG15",
+    "MX1",
+    "OAS1",
+    "RSAD2"
+  ],
+  "total_blocks": 98
+}

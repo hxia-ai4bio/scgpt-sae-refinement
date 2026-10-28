@@ -1,0 +1,49 @@
+target,test_donor,test_auc,n_valid_seeds,test_target_n,test_other_n,very_sparse_test,status
+B cells,patient_1015,0.9752025296166603,3,459,2279,False,ok
+B cells,patient_1016,0.9859482686691697,3,125,1598,False,ok
+B cells,patient_1039,0.9685395249911379,3,26,434,False,ok
+B cells,patient_107,0.9759273496059965,3,44,473,False,ok
+B cells,patient_1256,0.9721522418005598,3,218,1890,False,ok
+B cells,patient_1488,0.9758663387045496,3,220,1811,False,ok
+CD14+ Monocytes,patient_1015,0.9724919524933279,3,859,1879,False,ok
+CD14+ Monocytes,patient_1016,0.9413753850274542,3,393,1330,False,ok
+CD14+ Monocytes,patient_1039,0.9839170864619966,3,126,334,False,ok
+CD14+ Monocytes,patient_107,0.9913267152680834,3,210,307,False,ok
+CD14+ Monocytes,patient_1256,0.9785312884580614,3,402,1706,False,ok
+CD14+ Monocytes,patient_1488,0.9553163347063277,3,317,1714,False,ok
+CD4 T cells,patient_1015,0.7969395158514261,3,951,1787,False,ok
+CD4 T cells,patient_1016,0.7036435203765881,3,502,1221,False,ok
+CD4 T cells,patient_1039,0.7902924246207829,3,201,259,False,ok
+CD4 T cells,patient_107,0.8265578635014837,3,180,337,False,ok
+CD4 T cells,patient_1256,0.8128467749461169,3,1049,1059,False,ok
+CD4 T cells,patient_1488,0.8329362756969109,3,1216,815,False,ok
+CD8 T cells,patient_1015,0.7861200416842199,3,85,2653,False,ok
+CD8 T cells,patient_1016,0.9030949017105704,3,504,1219,False,ok
+CD8 T cells,patient_1039,0.8595713229859571,3,9,451,False,ok
+CD8 T cells,patient_107,0.7705058939096266,3,8,509,False,ok
+CD8 T cells,patient_1256,0.8895392317302786,3,114,1994,False,ok
+CD8 T cells,patient_1488,0.8277519944186612,3,33,1998,False,ok
+Dendritic cells,patient_1015,0.9383972695824068,3,40,2698,False,ok
+Dendritic cells,patient_1016,0.923909562077801,3,27,1696,False,ok
+Dendritic cells,patient_1039,0.9993333333333333,3,10,450,False,ok
+Dendritic cells,patient_107,0.9739183943955316,3,14,503,False,ok
+Dendritic cells,patient_1256,0.959680545313593,3,34,2074,False,ok
+Dendritic cells,patient_1488,0.9701858138940606,3,46,1985,False,ok
+FCGR3A+ Monocytes,patient_1015,0.9597076929394003,3,164,2574,False,ok
+FCGR3A+ Monocytes,patient_1016,0.9915640366310282,3,81,1642,False,ok
+FCGR3A+ Monocytes,patient_1039,0.9534831460674157,3,15,445,False,ok
+FCGR3A+ Monocytes,patient_107,0.9712221095334685,3,24,493,False,ok
+FCGR3A+ Monocytes,patient_1256,0.9885409891913656,3,47,2061,False,ok
+FCGR3A+ Monocytes,patient_1488,0.9778985507246377,3,76,1955,False,ok
+Megakaryocytes,patient_1015,0.8271221532091096,3,1,2737,True,ok
+Megakaryocytes,patient_1016,0.832365466511808,3,1,1722,True,ok
+Megakaryocytes,patient_1039,0.7683587858220212,3,52,408,False,ok
+Megakaryocytes,patient_107,,0,0,517,True,undefined_test_auc
+Megakaryocytes,patient_1256,0.9992877492877493,3,2,2106,True,ok
+Megakaryocytes,patient_1488,0.8729855286959382,3,4,2027,True,ok
+NK cells,patient_1015,0.9161741922291281,3,179,2559,False,ok
+NK cells,patient_1016,0.9290909709464517,3,90,1633,False,ok
+NK cells,patient_1039,0.8916006797555772,3,21,439,False,ok
+NK cells,patient_107,0.9624249249249249,3,37,480,False,ok
+NK cells,patient_1256,0.9476753799320301,3,242,1866,False,ok
+NK cells,patient_1488,0.9405977872320476,3,119,1912,False,ok

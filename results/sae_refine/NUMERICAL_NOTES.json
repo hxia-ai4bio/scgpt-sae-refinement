@@ -1,0 +1,10 @@
+{
+  "status": "recorded",
+  "runtime_warnings_present": true,
+  "warning_log": "work/sae_refine/postprocess.log",
+  "affected_path": "sklearn reference fit uses numpy matmul; primary fit uses scipy BLAS",
+  "cause": "not determined in this run",
+  "sklearn_comparison_max_abs_error": 8.799405648574066e-12,
+  "primary_vs_explicit_einsum_max_abs_error": 1.2434497875801753e-14,
+  "verification_assertions": "finite saved predictions, full metrics recomputation, normal-equation residuals and sklearn numerical agreement all passed"
+}

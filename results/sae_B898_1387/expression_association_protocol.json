@@ -1,0 +1,40 @@
+{
+  "type": "secondary exploratory same-RNA association; not input attribution or independent validation",
+  "score": "partial Pearson log1pCP10k gene expression vs feature within B cells controlling logtotalcounts,loggenes,donor; absent MT in Kang not assessable",
+  "genes": "detected>=20 TRAIN B cells and in model vocab; same gene set TEST",
+  "pathways": "no pathway tests on these secondary association rankings",
+  "diagnostics": [
+    {
+      "feature": 898,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 19.24354131074943,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1387,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 16.144233054043607,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 898,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 1.668750047046047,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1387,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 2.1069582962460167,
+      "degenerate_feature": false
+    }
+  ]
+}

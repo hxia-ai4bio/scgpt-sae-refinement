@@ -1,0 +1,54 @@
+{
+  "dataset": "pbmc",
+  "folds": 2,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "checkpoints": [
+    0,
+    25,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ],
+  "topk": 32,
+  "width": 2048,
+  "question": "Does VALID-only selection of an earlier C checkpoint improve frozen masked-gene expression readout versus original_h and the fixed step1000 C checkpoint?",
+  "body_training": "Exactly replay sealed C: same warmup, original joint head seed+2003, masked input, TRAIN panel/target,1000x256 inherited minibatches, Adam3e-4->1e-5 cosine, decoder normalization after every update. Extra evaluation/save calls do not update weights.",
+  "body_selection": "Full VALID standardized masked-positive expression MSE through jointly trained C head at seven prespecified checkpoints; earliest minimum. Discard joint head for downstream expression probes.",
+  "head_training": {
+    "steps": 1000,
+    "batch_size": 256,
+    "optimizer": "Adam",
+    "initial_lr": 0.001,
+    "final_lr": 1e-05,
+    "weight_decay": 0,
+    "objective": "Mean squared error of standardized masked-positive expression entries",
+    "initialization": "paired torch.manual_seed(seed+400003), Normal(0,.002) weights and zero bias; identical initial heads per arm",
+    "batches": "Reuse identical parent1000x256 TRAIN-balanced minibatch indices for paired arms",
+    "selection": "Full VALID raw-logCP10k token MAE at steps0,100,250,500,750,1000; earliest minimum; no TRAIN+VALID refit"
+  },
+  "head_scaling": "Separate per-representation TRAIN-masked coordinate mean/std, floor1e-6; targets use identical inherited TRAIN-positive gene mean/std.",
+  "comparisons": [
+    "original_h",
+    "C_1000",
+    "C_selected"
+  ],
+  "baseline_reuse": "Reuse same-dataset sealed original_h/C_1000 fresh-linear-probe models,predictions,metrics. New step1000 body must exactly match old state before using these references.",
+  "knn": "Same fixed15NN centered cosine, clean TRAIN reference, clean/masked TEST queries, original clean TRAIN mean; eight-class MacroF1. Existing original/C_1000 metrics reused, selected body newly evaluated.",
+  "primary": "Raw-logCP10k masked-positive token MAE, paired C_selected vs original_h and C_1000",
+  "secondary": [
+    "gene-macro MAE",
+    "normalized MSE",
+    "clean/masked15NN MacroF1"
+  ],
+  "aggregation": "Average3seeds within heldout group then equal groups: stim six historical Kang donors, PBMC two batch directions. No TEST choice among checkpoint,method,seed.",
+  "scope": "Same fixed rule transferred from ctrl, not new tuning: historical stim shares Kang donors with ctrl; PBMC is two batch directions, not verified donor generalization. One fixed25pct mask on originally selected positive tokens; no zero-expression/all-gene imputation. Same architecture/loss/budget; finite readout optimization and upstream VALID reused for head selection. No TEST-based adjustment.",
+  "new_body_trajectories": 6,
+  "new_fresh_heads": 6,
+  "no_new_hyperparameter_sweep": true
+}

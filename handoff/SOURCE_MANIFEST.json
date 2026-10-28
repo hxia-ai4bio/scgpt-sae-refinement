@@ -1,0 +1,782 @@
+[
+  {
+    "relative_path": "data/figure3/CAPTION_ZH.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/CAPTION_ZH.txt",
+    "bytes": 2601,
+    "sha256": "b287e61ac23cad5d96f039649f2016f2b456e3db78a5929f1c42adb30c48205f"
+  },
+  {
+    "relative_path": "data/figure3/COMPUTATION_CHECKS.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/COMPUTATION_CHECKS.json",
+    "bytes": 5132,
+    "sha256": "e182d259a859d6842d0d97b330775aaee0c328734df6b0c589fbd68804083a6a"
+  },
+  {
+    "relative_path": "data/figure3/panel_A_heldout_activations.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/panel_A_heldout_activations.csv",
+    "bytes": 8391,
+    "sha256": "a0841424be3d29305488ef4d42ae12bd7c4c9320bb72c31600ba0ad4a75feb62"
+  },
+  {
+    "relative_path": "data/figure3/PLOT_PROVENANCE.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/PLOT_PROVENANCE.json",
+    "bytes": 890,
+    "sha256": "81bc3ba85771541ddbd2777e4b6f0278d7fa981a1cb5e8b137c332392af87b56"
+  },
+  {
+    "relative_path": "data/figure3/panel_B_summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/panel_B_summary.csv",
+    "bytes": 627,
+    "sha256": "0a0e07712458f638960c6936942337143932db86cfcb15eef4def1777f5f6399"
+  },
+  {
+    "relative_path": "data/figure3/panel_B_donor_AUROC.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/panel_B_donor_AUROC.csv",
+    "bytes": 3207,
+    "sha256": "a2eec6c36a8cbdfea2608cd35d190f123481f714d92bac8c85c283aa0ded4669"
+  },
+  {
+    "relative_path": "data/figure3/panel_B_selected_features_by_fold_seed.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/panel_B_selected_features_by_fold_seed.csv",
+    "bytes": 23844,
+    "sha256": "607d87dd295fa217be5f3b24a83645a7071ef880fb13264db142dfabf9300847"
+  },
+  {
+    "relative_path": "data/figure3/PROTOCOL.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/PROTOCOL.json",
+    "bytes": 1271,
+    "sha256": "caab23652e57ef412f034383e00174db7911acadaa225fafcd8d44153b1b921d"
+  },
+  {
+    "relative_path": "data/figure3/cell_counts_by_donor.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/cell_counts_by_donor.csv",
+    "bytes": 1486,
+    "sha256": "5c0cf5bc5c8f37b3c0c20d0e2996135eeab5da4431d72603f4239f8bf9570db6"
+  },
+  {
+    "relative_path": "data/figure4/CAPTION_ZH.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/CAPTION_ZH.txt",
+    "bytes": 4583,
+    "sha256": "09d2305997dbe37653a1ee1499a3b9bfae9c93bff12d4a6ac6cd7e5bc17b2adb"
+  },
+  {
+    "relative_path": "data/figure4/PROVENANCE.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/PROVENANCE.json",
+    "bytes": 1417,
+    "sha256": "30942ed4f458cefacaf8f473eb2df97e82c36cffe4bce21ba1ec11f3abc81604"
+  },
+  {
+    "relative_path": "data/figure4/heatmap_source_data.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/heatmap_source_data.csv",
+    "bytes": 12981,
+    "sha256": "a5599a5122f834cbe944e0a55e21866efa18add0db655b96d19619bb2d7db102"
+  },
+  {
+    "relative_path": "data/figure4/panel_A_activation_all_cells.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/panel_A_activation_all_cells.csv",
+    "bytes": 100587,
+    "sha256": "77e4e248c6bb724a2bfec63a685227971bfe1c02419577c5d7341e001ba1c8c7"
+  },
+  {
+    "relative_path": "data/figure4/panel_C_mean_replacement.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/panel_C_mean_replacement.csv",
+    "bytes": 1038,
+    "sha256": "bc223abbaaa42ba6fb0a487d9389d9fde3d757a69de11ffdce33c79802e3e485"
+  },
+  {
+    "relative_path": "data/figure4/gene_groups_and_evidence.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/gene_groups_and_evidence.csv",
+    "bytes": 8485,
+    "sha256": "5441cf367c45c9ab427a0f685a2abf8bd12381a928422f9ceedfca419f0ee344"
+  },
+  {
+    "relative_path": "data/figure4/panel_C_per_cell_replacement.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/panel_C_per_cell_replacement.csv",
+    "bytes": 4237,
+    "sha256": "7b1c5db5358a01eb97d730da16632d4a23e65d439e12b44dcf5caea4d4b09e16"
+  },
+  {
+    "relative_path": "data/performance/CLASSIFICATION_PROVENANCE.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/CLASSIFICATION_PROVENANCE.json",
+    "bytes": 1583,
+    "sha256": "ddf8b93816475fbdf961484de75d946825e1cd24ffdea9193ce4ffe8a95b5cd8"
+  },
+  {
+    "relative_path": "data/performance/SECONDARY_PROVENANCE.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/SECONDARY_PROVENANCE.json",
+    "bytes": 5262,
+    "sha256": "f8f74364958b3ebd95cbf8d2a1005b6b66a548f2888eadab86b0fa633577b1b0"
+  },
+  {
+    "relative_path": "data/performance/lambda_best_seed_curve.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/lambda_best_seed_curve.csv",
+    "bytes": 967,
+    "sha256": "10c36ed6846fd67f8f533d134ae9fc60ad039c6203efcefe03dbf7f6caeb95f1"
+  },
+  {
+    "relative_path": "data/performance/classification_table.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/classification_table.csv",
+    "bytes": 373,
+    "sha256": "e546cd5dd4c774b6297147f94457008e681497fa4d775991fa75e36ff1983f47"
+  },
+  {
+    "relative_path": "data/performance/CLASSIFICATION_CAPTION_ZH.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/CLASSIFICATION_CAPTION_ZH.txt",
+    "bytes": 1669,
+    "sha256": "d586f0ad9393c5e8581d5c1a22c750b6d2900fb2a4c34e866e2285a10dce80a2"
+  },
+  {
+    "relative_path": "data/performance/secondary_panel_means.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/secondary_panel_means.csv",
+    "bytes": 1213,
+    "sha256": "b2dd094fdb18ecee84859b8ed050147f612118525290a2c885647358c325d5d2"
+  },
+  {
+    "relative_path": "data/performance/selection_registry.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/selection_registry.csv",
+    "bytes": 618,
+    "sha256": "e5769b121364bf9b63f6ad43069be5a5a69c3458c31b19ae39e5da50e79dd366"
+  },
+  {
+    "relative_path": "data/performance/secondary_B_robustness.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/secondary_B_robustness.csv",
+    "bytes": 3240,
+    "sha256": "179485094d9b8f13aa21dbd3db8590661915a82f7cb37c9f2afaae775c3b5b6c"
+  },
+  {
+    "relative_path": "data/performance/secondary_C_clustering.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/secondary_C_clustering.csv",
+    "bytes": 2194,
+    "sha256": "0b614063fb490f52e07a4182ea43f4279ad9975f0693a0a07f8a4e02cbd72047"
+  },
+  {
+    "relative_path": "data/performance/secondary_A_expression.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/secondary_A_expression.csv",
+    "bytes": 1472,
+    "sha256": "0b94983d31dd1c7aabf711370820669232ba27d543b651477b931b71c383c826"
+  },
+  {
+    "relative_path": "data/performance/SECONDARY_CAPTION_ZH.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/SECONDARY_CAPTION_ZH.txt",
+    "bytes": 2364,
+    "sha256": "ac6b21cd3a91d58381b5509fcde0b5f07f921ded7460b3362023e8d90d272e5c"
+  },
+  {
+    "relative_path": "figures/Figure3_celltype_associations.svg",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/overview_all_celltypes/SAE_celltype_overview_all.svg",
+    "bytes": 101315,
+    "sha256": "b2c640a22a2e69d2c8acbd9a75aa5fb5040976fb8d2635443570c8bff89b1432"
+  },
+  {
+    "relative_path": "figures/Figure4_Bcell.pdf",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/Figure4_Bcell_F160.pdf",
+    "bytes": 81736,
+    "sha256": "6611708bb0279f8ac3bab4464d08bf4e7fc50fcbcf6d5a245b83cb70e2c6f34e"
+  },
+  {
+    "relative_path": "figures/Figure4_Bcell.svg",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/Figure4_complete/Figure4_Bcell_F160.svg",
+    "bytes": 186528,
+    "sha256": "9fe8b459c6ea1f4383700b85f0708933857546a521013243894f91f4fa67c2ff"
+  },
+  {
+    "relative_path": "figures/Figure5_secondary_performance.svg",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/Secondary_performance_three_panels.svg",
+    "bytes": 60952,
+    "sha256": "bdc3978da5af3798d7a0a669a9559ffba09d97943adf944f5b345513d13110f7"
+  },
+  {
+    "relative_path": "figures/Table1_classification_lambda.pdf",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/Classification_and_lambda.pdf",
+    "bytes": 49484,
+    "sha256": "9a21872fafb51498f22e64442f39a3efba54418987f88e70a0ab789dafb38ed4"
+  },
+  {
+    "relative_path": "figures/Table1_classification_lambda.svg",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/Classification_and_lambda.svg",
+    "bytes": 39663,
+    "sha256": "5aa398578d01c100e88f5489f405e0e8dfe2d5f0ebdfc33da1bb738c1da2f2da"
+  },
+  {
+    "relative_path": "figures/Figure1_model.png",
+    "original_path": "/Users/apple/Desktop/6204 Figure/Figure1模型流程图.png",
+    "bytes": 1383087,
+    "sha256": "5264965af87c0db30a0b029b02d76124d5690ba7513a7102aad9262620a1c842"
+  },
+  {
+    "relative_path": "figures/Figure2_interpretability.png",
+    "original_path": "/Users/apple/Desktop/6204 Figure/Figure2可解释性流程图.png",
+    "bytes": 1649278,
+    "sha256": "d8162250c86a1dda11a8245ae3f9130a1d8ef373fcfb9e90a2e3029d5334b663"
+  },
+  {
+    "relative_path": "figures/Figure3_celltype_associations.png",
+    "original_path": "/Users/apple/Desktop/6204 Figure/Figure3 全细胞的激活值分析.png",
+    "bytes": 264647,
+    "sha256": "f1b36db5e9185d43431ae9043c1457592451696dbc7c385f6f838b7b5fef7209"
+  },
+  {
+    "relative_path": "figures/Figure4_Bcell.png",
+    "original_path": "/Users/apple/Desktop/6204 Figure/Figure4 Bcell的一些生物学分析.png",
+    "bytes": 678337,
+    "sha256": "e1a2132b7af4604b0bd3487bb45f71824903c8d9f7b152cb6b476429d9172e95"
+  },
+  {
+    "relative_path": "figures/Figure5_secondary_performance.png",
+    "original_path": "/Users/apple/Desktop/6204 Figure/Figure5 其他性能的比较.png",
+    "bytes": 335896,
+    "sha256": "4aa0ef4a7209c9d6818a8db5c101361fa6c3266a5020f2dd63f1f65fbcd4371b"
+  },
+  {
+    "relative_path": "figures/Table1_classification_lambda.png",
+    "original_path": "/Users/apple/Desktop/6204 Figure/Table1.png",
+    "bytes": 386384,
+    "sha256": "cc02c366cff0d2eb83dba9378b5c90c0365e2c7200764091093f227ac65d5e7f"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/summary.csv",
+    "bytes": 817,
+    "sha256": "cc8cb1f9d1298c595b89e1c8f7fa48aea9f6e0a885d7b8d7a446a75027f312fe"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/EXPERIMENT_AUDIT.md",
+    "bytes": 3553,
+    "sha256": "a8a6d77e6cde55c2bf988cb30b7749685526608a6278985fd8d63b5bd1f9e274"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/REPRODUCIBILITY.txt",
+    "bytes": 804,
+    "sha256": "d5e8308e91d65296c8ad41f70391216c9cdfa328cdb4d035de4465cdca7d6359"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/all_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/all_metrics.csv",
+    "bytes": 15358,
+    "sha256": "6d5609d34bdc8a1a43bda9fc762afbab278a338979bf93cfbcafcd10b23e0ef7"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/CLAIMS_FROM_RESULTS.md",
+    "bytes": 2484,
+    "sha256": "b6828623cec5bfcb3e63bbbdd305935db3b02891faa407ae670ace1ece49f3ee"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/PROTOCOL_NOTES.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/PROTOCOL_NOTES.json",
+    "bytes": 444,
+    "sha256": "6c47387b1255ee147eff13f77a65d4f2c9cbae0da85a9d209c5a837022e8edd4"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/PROTOCOL.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/PROTOCOL.json",
+    "bytes": 3999,
+    "sha256": "ff33b82ec2c09e92757ccd06f3dea8a0cd4e988f6e3d1a3044f6d09d2fc3559a"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/findings.md",
+    "bytes": 1210,
+    "sha256": "407715f0769b762cb593d1136bb2279ba57b33bffe2aa14a97fcfe41ad26ef22"
+  },
+  {
+    "relative_path": "evidence/sae_lambda/seed_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/seed_metrics.csv",
+    "bytes": 2904,
+    "sha256": "3c06dfbad0d37a566a6bc32ab86c3abb81255518e867a1ca865fe0419e0ce095"
+  },
+  {
+    "relative_path": "evidence/sae_extension/summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/summary.csv",
+    "bytes": 1585,
+    "sha256": "995ea0a0f7ace8d07d1b65ea32a3a24cd391c6972dbdd4be3c8bda1a79a64752"
+  },
+  {
+    "relative_path": "evidence/sae_extension/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/EXPERIMENT_AUDIT.md",
+    "bytes": 6106,
+    "sha256": "6782624da88b375c04919f0d752a049326bed2730d1d4e715644bc565b763d62"
+  },
+  {
+    "relative_path": "evidence/sae_extension/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/REPRODUCIBILITY.txt",
+    "bytes": 1151,
+    "sha256": "2043f57703d8ec325e0dc8519ad7cb10cb5bf3abb8a0a67f0a34b5056302c200"
+  },
+  {
+    "relative_path": "evidence/sae_extension/all_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/all_metrics.csv",
+    "bytes": 20816,
+    "sha256": "963faa103c508c26cab58ac202f18b8a8b1d077af5c24731b48b8138374a0c27"
+  },
+  {
+    "relative_path": "evidence/sae_extension/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/CLAIMS_FROM_RESULTS.md",
+    "bytes": 3830,
+    "sha256": "833171dffc1e7ca3d906872607cfba3077635e7844d3537130bda7312fdc169b"
+  },
+  {
+    "relative_path": "evidence/sae_extension/PROTOCOL_NOTES.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/PROTOCOL_NOTES.json",
+    "bytes": 1302,
+    "sha256": "1ad94a71e6a74f38b3945b029569bd56d55ac9bc47e5ccc89e3e3ea5e0367fac"
+  },
+  {
+    "relative_path": "evidence/sae_extension/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/findings.md",
+    "bytes": 1796,
+    "sha256": "1d5ce09defaf6b5fd00df513d82b39445011853b7b639334727a6d79f169d940"
+  },
+  {
+    "relative_path": "evidence/sae_extension/DATA_MANIFEST.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/DATA_MANIFEST.json",
+    "bytes": 3741,
+    "sha256": "65b9645788dd99de710b949b2bef688da02754c3c4fac659e4eeb92d5d16dffe"
+  },
+  {
+    "relative_path": "evidence/sae_extension/seed_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/seed_metrics.csv",
+    "bytes": 5849,
+    "sha256": "b98444ca854c861594edf28112c5f85379bbabe9a42aef0f0f86e4366f1abe0b"
+  },
+  {
+    "relative_path": "evidence/sae_evaluation/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/EXPERIMENT_AUDIT.md",
+    "bytes": 8508,
+    "sha256": "e9f698a89e40a5bf25ff8130478853f118a3986c5a7e7dec24c91e2420411344"
+  },
+  {
+    "relative_path": "evidence/sae_evaluation/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/REPRODUCIBILITY.txt",
+    "bytes": 1344,
+    "sha256": "405aeed11213fbb814d3a7e5cf94c835557d2e0ee28891a22fe7345c979d296c"
+  },
+  {
+    "relative_path": "evidence/sae_evaluation/clustering_all.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/clustering_all.csv",
+    "bytes": 28386,
+    "sha256": "e9f0424d369871d7a25a469524adb26a456cf0b23632f1c77f441ae9a1190195"
+  },
+  {
+    "relative_path": "evidence/sae_evaluation/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/CLAIMS_FROM_RESULTS.md",
+    "bytes": 3878,
+    "sha256": "38c85b732254703a22dfda39dc770891c3dbe5ea6f432e16af566edd3b7a6f79"
+  },
+  {
+    "relative_path": "evidence/sae_evaluation/PROTOCOL.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/PROTOCOL.json",
+    "bytes": 2386,
+    "sha256": "4d00865375cfd79c075828eec1a54fc891c817d2717783fcea9055856b16bde7"
+  },
+  {
+    "relative_path": "evidence/sae_evaluation/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/findings.md",
+    "bytes": 121,
+    "sha256": "4eb185c5c515b178daad9ef8fcc2e5fb2f1ecabc5c6251e2ab4f285ecfc60b68"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/summary.csv",
+    "bytes": 4672,
+    "sha256": "8df7219cce53fbe51845b5a58920d33c18a9c3f2aec0c53a2f83712d7f3eb826"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/EXPERIMENT_AUDIT.md",
+    "bytes": 8832,
+    "sha256": "541e254e4dff3d305dd6126f0d090001f4d357f4dd9871b096c28da93d11d24a"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/REPRODUCIBILITY.txt",
+    "bytes": 780,
+    "sha256": "2e3fcaa383859439dca677124a2eca189449a56d399df38340aa316e47f29269"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/all_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/all_metrics.csv",
+    "bytes": 61313,
+    "sha256": "ebb25d25ae03baba13a16e3cfbc26ea5c5a57b86e5f86179787b56a32f762853"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/CLAIMS_FROM_RESULTS.md",
+    "bytes": 6300,
+    "sha256": "c686d55ed4c23d67d008f4eb922eec36d7c31295063503d3af3fd8226391ec8e"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/PROTOCOL_NOTES.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/PROTOCOL_NOTES.json",
+    "bytes": 745,
+    "sha256": "900265feee3846b48482d1cf2c45546ec11e40cf3d195f7dfadcd610a45dd053"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/PROTOCOL.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/PROTOCOL.json",
+    "bytes": 4142,
+    "sha256": "e8b726c50f003b1d0e2bfeef5e562b4a72451438c3e1f74c34f42acf6b20469b"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/findings.md",
+    "bytes": 984,
+    "sha256": "103e2e2c4124da443bc48ec9c82b452d14c3865907d02ccc5d68462931e97565"
+  },
+  {
+    "relative_path": "evidence/sae_masked_ac/seed_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/seed_metrics.csv",
+    "bytes": 12191,
+    "sha256": "029cbe82b8f87174c1e0ba4345309e1c45f260c29dc8103a217d3bab913a71c9"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/summary.csv",
+    "bytes": 618,
+    "sha256": "3348ff399e9e618a791de28509fe8ffcf9f3fc3999e259df528d332337ade809"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/EXPERIMENT_AUDIT.md",
+    "bytes": 2293,
+    "sha256": "2b3bc87ac6e7bd501380c929e05392ff049e729dca52d06580071dafad02cac3"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/REPRODUCIBILITY.txt",
+    "bytes": 1320,
+    "sha256": "c8df99d108ab629ca3a10e558d392c190f41427eb19b1eff2329be56592824a1"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/all_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/all_metrics.csv",
+    "bytes": 11737,
+    "sha256": "a796911ae99995680162fcd6513438c084e04a8775653a556ca242e6f4319c61"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/CLAIMS_FROM_RESULTS.md",
+    "bytes": 1827,
+    "sha256": "2aaba8e4cc74a70815a5e8d5c1e287ee7980c2ae4f09a7086972e99a5df68a9a"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/PROTOCOL.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/PROTOCOL.json",
+    "bytes": 2240,
+    "sha256": "70bacd191c6cbc21ee29a02bef15b90576a574418db33a77f42c25c4fde7bf3d"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/findings.md",
+    "bytes": 1219,
+    "sha256": "34ab07e53a9d6d9729964eada2cbf7ed30cbea27a53bc71ccfe8672223ded4cb"
+  },
+  {
+    "relative_path": "evidence/sae_expression_probe/seed_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_expression_probe/seed_metrics.csv",
+    "bytes": 1769,
+    "sha256": "72e87675bb2ab43a12e4f2deea48d7b0877d339cff1c8b7189d216d4071cd8e2"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/summary.csv",
+    "bytes": 327,
+    "sha256": "0fd4e1be367b4a8bf3f668716b52f4f6ed434d5deba876359bcda6ac4a86042d"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/EXPERIMENT_AUDIT.md",
+    "bytes": 2353,
+    "sha256": "5edbad09b1bcba848af2d6f67ea485d4fb55c1a00e8ab02b51d81fce64142ee3"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/knn_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/knn_metrics.csv",
+    "bytes": 6301,
+    "sha256": "ce280f69b3dfada8050f7868d6434fc12887ec6ced4203cbcc697947256c43be"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/REPRODUCIBILITY.txt",
+    "bytes": 1508,
+    "sha256": "d17153c0865a9c7e39e1af77b4cad4db06a150d5862a2feeb7918a5b8b614ac4"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/all_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/all_metrics.csv",
+    "bytes": 8690,
+    "sha256": "dd7a9f78202624e3f1b2a2d8ce3f7a4e80b8b4ee3ba34e462b6495f704039b03"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/CLAIMS_FROM_RESULTS.md",
+    "bytes": 1711,
+    "sha256": "b681b37b873c5751bc5d6586bb759e3120261781ebfe826b283630d43c315edc"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/PROTOCOL.json",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/PROTOCOL.json",
+    "bytes": 2846,
+    "sha256": "d9d1a7ed2b47d8758872d4e8aa97f40e1da163cb288c0fa2823def6c96444615"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/findings.md",
+    "bytes": 902,
+    "sha256": "fd1a1797925b6792a0eb19d2a22e1a20c7f42358e3c5a426b013aa88d031f95a"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_selection/seed_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/seed_metrics.csv",
+    "bytes": 884,
+    "sha256": "60d222335555af1927464ad6faa22918ea2116a4c87ebe842226a41d2d6b487d"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/summary.csv",
+    "bytes": 1089,
+    "sha256": "2dc0cb81c7c5af9e68c8446be44f04e77c7a0cc85fb634854e24f90efeb6427f"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/EXPERIMENT_AUDIT.md",
+    "bytes": 2235,
+    "sha256": "1698b641e73b5b1cb9ca335b7ce4d1d6f224e3f2093dc4f993418e3e21522138"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/knn_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/knn_metrics.csv",
+    "bytes": 8338,
+    "sha256": "cd792e1ce05ec85182ae0eba564222a33a32d4cbe15c08063508d29fd01ef133"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/REPRODUCIBILITY.txt",
+    "bytes": 1879,
+    "sha256": "238d6972cff02d0b27087b32508f246198338d92153efd0b4ab63da0174aeb07"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/all_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/all_metrics.csv",
+    "bytes": 11500,
+    "sha256": "438616f65dde7dc8ec6d98d2441cc729e2a69421e11111f0bca61311ee68e105"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/CLAIMS_FROM_RESULTS.md",
+    "bytes": 1825,
+    "sha256": "23fc11a831d11e160fc36eb14245143cd4c20dbbc722f88ff6fa9f1b2e101e62"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/combined_with_ctrl_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/combined_with_ctrl_metrics.csv",
+    "bytes": 22504,
+    "sha256": "ae172b50d9f5f1b0831febb2c15e8bf72684057c3dca9b58449fe504d06faa98"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/findings.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/findings.md",
+    "bytes": 1123,
+    "sha256": "c9d426ad36835f5d69fa90c28f536333d4f09a891ce9b17428d38addff6219f2"
+  },
+  {
+    "relative_path": "evidence/sae_checkpoint_extension/seed_metrics.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/seed_metrics.csv",
+    "bytes": 3193,
+    "sha256": "00b569ae0698629c86e4a03d6b15b1ac8b54af977cc62fb36d96be5d3fbfd875"
+  },
+  {
+    "relative_path": "evidence/sae_gene_attribution_v2/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/EXPERIMENT_AUDIT.md",
+    "bytes": 5787,
+    "sha256": "5e83c48906b4a7d6e34a669c9301799a9d0a00d2be0856dc42a1ae89658b1780"
+  },
+  {
+    "relative_path": "evidence/sae_gene_attribution_v2/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/REPRODUCIBILITY.txt",
+    "bytes": 2035,
+    "sha256": "10d0f79b7c757f0a2f9c939282ba5aec6d0cf42b3af3a2837b79d483f4e45cf4"
+  },
+  {
+    "relative_path": "evidence/sae_gene_attribution_v2/deletion_summary.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/deletion_summary.csv",
+    "bytes": 14386,
+    "sha256": "fc321f14d8dbab7b39d70ef8126ef2d5a9a5fda408dbb24089811b4879ddadd6"
+  },
+  {
+    "relative_path": "evidence/sae_gene_attribution_v2/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/CLAIMS_FROM_RESULTS.md",
+    "bytes": 2445,
+    "sha256": "873069294f99cf3550494bb3982a950c5a7f032413fa2c6d78a38202bd6dcf3f"
+  },
+  {
+    "relative_path": "evidence/sae_gene_attribution_v2/deletion_per_prototype.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/deletion_per_prototype.csv",
+    "bytes": 60518,
+    "sha256": "51eaeb03dba6610d815b4bd8f4144d974b05e6ce33d13c026c629ab759491c5c"
+  },
+  {
+    "relative_path": "evidence/sae_gene_attribution_v2/gene_rankings_train.csv",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/gene_rankings_train.csv",
+    "bytes": 532460,
+    "sha256": "4d3e2314dabacbfbc42115c99e7840f6bc15ed07834b659cbe093ae81143ca6a"
+  },
+  {
+    "relative_path": "evidence/sae_interpretability/EXPERIMENT_AUDIT.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_interpretability/EXPERIMENT_AUDIT.md",
+    "bytes": 15040,
+    "sha256": "5774284f4163915c4ab63c5cf4bb6ddf80aa4a75aff200e89d91f0775c021456"
+  },
+  {
+    "relative_path": "evidence/sae_interpretability/REPRODUCIBILITY.txt",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_interpretability/REPRODUCIBILITY.txt",
+    "bytes": 2739,
+    "sha256": "ca5bfe01c2d1129ef4a35006421b2ea7eda6b0f27aaa7b5d6939884333bfbe39"
+  },
+  {
+    "relative_path": "evidence/sae_interpretability/CLAIMS_FROM_RESULTS.md",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_interpretability/CLAIMS_FROM_RESULTS.md",
+    "bytes": 4217,
+    "sha256": "b843ca7ec1248921820a68a108382bf39a5ea52dd1aeb85f3c1107bdad22b683"
+  },
+  {
+    "relative_path": "evidence/original/data_manifest.json",
+    "original_path": "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/data_manifest.json",
+    "bytes": 921969,
+    "sha256": "1eeb5d86e66ef463c5b8e765e66ee3da45e6fb6a6a0678449ec3acf30edbf9cd"
+  },
+  {
+    "relative_path": "source_reference/original/sae.py",
+    "original_path": "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/sae.py",
+    "bytes": 1111,
+    "sha256": "b97e6bfac00a77238cea61a8755b1c9893289764159e5ac40063b559c289931d"
+  },
+  {
+    "relative_path": "source_reference/original/prepare.py",
+    "original_path": "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/prepare.py",
+    "bytes": 7161,
+    "sha256": "19c57a2dcd720ecbfe5e5b5ae253cc43ee06422c14f0dd693275e9af1bf2c79e"
+  },
+  {
+    "relative_path": "source_reference/sae_figures/compute_all_celltypes.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/compute_all_celltypes.py",
+    "bytes": 9130,
+    "sha256": "9ced2f71bf49f31ccb5dd81be289b6738164b7a51317f10d2b8cda4091444abe"
+  },
+  {
+    "relative_path": "source_reference/sae_figures/draw_all_celltypes.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_all_celltypes.py",
+    "bytes": 8205,
+    "sha256": "eaaa410a15f52908bbb9fa5cfbfb66c8f78f3f6ed5d4f534aa0a0acbff0c285d"
+  },
+  {
+    "relative_path": "source_reference/sae_figures/draw_figure4_complete.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_figure4_complete.py",
+    "bytes": 8702,
+    "sha256": "fa3495cfd8f2c1461f338be84ec6fc46e4f9363de6ffc893366f277ae2f8d09b"
+  },
+  {
+    "relative_path": "source_reference/sae_figures/draw_performance_table.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_performance_table.py",
+    "bytes": 8416,
+    "sha256": "8a9423e29f4d4bb1a87fa645a63f7094ac8f42592505ec2ea16dc50c129ca709"
+  },
+  {
+    "relative_path": "source_reference/sae_figures/draw_secondary_performance.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_secondary_performance.py",
+    "bytes": 10669,
+    "sha256": "119231014be02fe76161eec84806a4a35c79cc2b431981c0edc333dce0b3b68c"
+  },
+  {
+    "relative_path": "source_reference/sae_relation/run.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/run.py",
+    "bytes": 26440,
+    "sha256": "e4a708407fbb31078ee18c6871b123a59357b86561232c849fe66db2b9e1eaee"
+  },
+  {
+    "relative_path": "source_reference/sae_refine/run.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_refine/run.py",
+    "bytes": 24064,
+    "sha256": "19d1757066309cf96590befdc479eb431f81b98dba1bde2a8ed8852e57109831"
+  },
+  {
+    "relative_path": "source_reference/sae_complementarity/core.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_complementarity/core.py",
+    "bytes": 9955,
+    "sha256": "9f327908ea442ea482f6b517528ab699e8ee10b867cc3a757c90d5ca1ebe28f2"
+  },
+  {
+    "relative_path": "source_reference/sae_lambda/run.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_lambda/run.py",
+    "bytes": 14699,
+    "sha256": "69c6e4308ffd4e14a9ce1e03283e4656d2c8ed30491fc22810c7eb835130be1a"
+  },
+  {
+    "relative_path": "source_reference/sae_extension/run.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/run.py",
+    "bytes": 25710,
+    "sha256": "f9ba4c950bb412269cb35d29a9accd72714853bbe7e8d773f8e97b8d269af4ca"
+  },
+  {
+    "relative_path": "source_reference/sae_extension/prepare.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/prepare.py",
+    "bytes": 6168,
+    "sha256": "12f43a3de5d60090ad604291737af3f182e1da6baa0c43c00f731fbc3bfd9f28"
+  },
+  {
+    "relative_path": "source_reference/sae_masked_ac/pipeline.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_masked_ac/pipeline.py",
+    "bytes": 19554,
+    "sha256": "905c4fd889f745674a0420e7dc6f52e8d27eda3715de4ee82ded938f8dade74c"
+  },
+  {
+    "relative_path": "source_reference/sae_masked_ac/prepare.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_masked_ac/prepare.py",
+    "bytes": 8668,
+    "sha256": "68a8944bebbcab1ddbc3ec03a97ce9dd971601b713550ada9d019a764ad7ba2e"
+  },
+  {
+    "relative_path": "source_reference/sae_checkpoint_selection/run.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_selection/run.py",
+    "bytes": 16002,
+    "sha256": "d86d99714b8c1fbe1f6659bd46bbd5a925886a04d74a5987b4cc660b2ae93aed"
+  },
+  {
+    "relative_path": "source_reference/sae_checkpoint_selection/execute.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_selection/execute.py",
+    "bytes": 469,
+    "sha256": "f760c9e540e25d48cbdbbb46733c1b104c10eb4b9fc612cd06bd674a3cf3528d"
+  },
+  {
+    "relative_path": "source_reference/sae_checkpoint_extension/run.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_extension/run.py",
+    "bytes": 17822,
+    "sha256": "c5db8bc0fa13548182e33002df9aa4ceee1ff1a204dc28d47394bbe3413107ef"
+  },
+  {
+    "relative_path": "source_reference/sae_checkpoint_extension/execute.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_extension/execute.py",
+    "bytes": 1654,
+    "sha256": "a2db2767504c95c343867580a80a28d6337619106b7d542e2e533d4d8d1459eb"
+  },
+  {
+    "relative_path": "source_reference/sae_interpretability/common.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/common.py",
+    "bytes": 4155,
+    "sha256": "7ff3d6cdfc55a46a4415f3ebbde294118e699fa1e46f045b2a097fee61a7f883"
+  },
+  {
+    "relative_path": "source_reference/sae_interpretability/01_atlas.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/01_atlas.py",
+    "bytes": 10390,
+    "sha256": "70b5a124816ae36ef85914a239c214b64314bed950974c54b28929086cb3ca5e"
+  },
+  {
+    "relative_path": "source_reference/sae_interpretability/05_all_folds.py",
+    "original_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/05_all_folds.py",
+    "bytes": 4011,
+    "sha256": "6eda129d074fa7e94f53faae46eaf5f31b0ba60a54f1ca3eb30be70bc47d5ae6"
+  }
+]

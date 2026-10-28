@@ -1,0 +1,6 @@
+三项下游评估（已有任务特定实验的排版稿）。
+重要方法区分：a、b 使用表达监督 SAE（C_selected，按 VALID 表达重建 MSE 选择 body checkpoint）；c 使用纯 embedding 重建 SAE（MSE / MSE+KL，λ=0.3）。a、b 的改善不能归因于 c 或分类表中的 KL 正则，不代表一个模型同时改善全部任务。图面直接使用不同方法名称，未统称为 Ours。
+a：在相同遮蔽输入上，由冻结表征训练的独立线性探针预测被遮蔽阳性 gene tokens。指标为 token-level MAE。每个数据集选 C_selected TEST MAE 最低的种子，ctrl=44、stim=43、PBMC=43，并取原始 h 的同种子探针对照。淡点为各留出组，灰线连接同组，实心大点为组等权均值；Kang 各六供体，PBMC 两批次方向。该选种子方式是历史 TEST 最佳展示，有选择偏差，不是无偏泛化估计。
+b：沿用 a 的同一个表达 SAE 种子，不再为鲁棒性另选种子。比较 clean 输入与预先固定的 25% 阳性 token 遮蔽输入的 15NN Macro-F1；空心点为 clean，实心点为 masked，短线连接二者的组等权均值。无额外遮蔽比例，无 UMI 下采样实验，不把两个条件补成多强度曲线。评价使用已有固定参考和读出协议；较低下降量不等于较高绝对性能，因此同时展示 clean/masked 的绝对分数。无误差条，组级原始数值在 secondary_B_robustness.csv。
+c：TEST 内 cosine 15NN 图、Leiden resolution=1.0 的 ARI，聚类算法固定随机状态 20261019。使用 λ=0.3 的已有模型，而非 stim/PBMC 分类表中 λ=0.03 的最佳模型。MSE 和 KL 各按对应配置的分类 Macro-F1 选择种子，不根据 ARI 再选：ctrl MSE42/KL42、stim MSE43/KL42、PBMC MSE43/KL43；Original 为共享原始表征。淡点为组，连线连接同组，大点为组等权平均。未用 TEST 标签优化 resolution。
+本图仅汇总已有结果，没有新训练。表达模型与 KL 模型的目标不同，本版用于讨论两类已有分析；若要证明同一 MSE+KL 模型的多任务收益，必须补充相应表达预测和遮蔽鲁棒性评估。各任务都保留未改善结果，不把不同模型和不同种子的最优指标拼成不存在的单个模型。种子未标在图面，但在图注与源数据中完整披露。没有显著性标记。

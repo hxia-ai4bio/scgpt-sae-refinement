@@ -1,0 +1,77 @@
+{
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "k": 32,
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "branch_eta": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "correction_gamma": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "fixed_alpha": [
+    0.0,
+    -1.0,
+    -0.5,
+    -0.25,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "residual_lambda": [
+    1.0,
+    0.0,
+    0.5,
+    0.6666666666666666,
+    0.8,
+    1.3333333333333333,
+    2.0
+  ],
+  "classes": [
+    "B cells",
+    "CD14+ Monocytes",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Dendritic cells",
+    "FCGR3A+ Monocytes",
+    "Megakaryocytes",
+    "NK cells"
+  ],
+  "selection": "VALID fixed-eight-class MacroF1; identity wins ties; then ascending grid order. All 18 selections locked before any new TEST/PBMC scoring.",
+  "fit": "four TRAIN donors only; no TRAIN+VALID refit; TRAIN-only unweighted feature mean/std; class-balanced weighted Ridge with intercept, targets 2*onehot-1; weights sum to TRAIN n",
+  "scope": "posthoc exploratory re-use of historically explored Kang and PBMC, not blind confirmatory validation; frozen upstream checkpoints fit four TRAIN donors and selected by VALID reconstruction MSE",
+  "crossfit": "TRAIN four-donor LODO base predictions. For each held-out TRAIN donor, choose base alpha by three-donor LODO inside remaining three donors, refit remaining three, predict excluded donor. Targets 2*onehot-1 minus these honest label-crossfit scores. Frozen upstream SAE is NOT refit inside these inner splits; its unsupervised training included inner-held-out h. Cross-fitting claim concerns label/readout fitting only.",
+  "correction": "fit weighted Ridge of TRAIN z to label-crossfit residuals; VALID-select correction alpha and gamma against separately VALID-selected original h Ridge. Identity candidate included. Report TEST residual MSE against final original-h errors separately from class metrics.",
+  "concat": "TRAIN standardize h and z separately once, then concatenate [h_std, eta*z_std]; no second scaler; select eta and alpha jointly; identity included",
+  "controls": "random: 2048 unit Gaussian directions, TRAIN mean, raw-value TopK32, three paired seeds, nominal dimension/K/search budget matched, not activation frequency/correlation/semantics. linear: SAME SAE encoder pre-TopK affine activations; deterministic affine function of h; can only change linear-readout regularization, not function class.",
+  "fixed_equivalence": "q=Dz, h=mean+q+r. h+alpha*q=(1+alpha)*(mean+q+r/(1+alpha))-alpha*mean for alpha!=-1. With TRAIN channel scaling + intercept the paired mixtures yield identical standardized coordinates up to roundoff. alpha=-1 isolates r; lambda=0 isolates reconstruction. The two grids overlap and are not independent corroboration.",
+  "statistics": "primary original-vs-concat_SAE and concat_SAE-vs-concat_random/linear; TEST MacroF1 averaged over 3 seeds within each of 6 donors, then donor mean/paired bootstrap interval. Only 6 donors; overlapping training sets; descriptive intervals, no independent-cell inference. PBMC has one dataset, repeated fold/seed fits are not independent external datasets.",
+  "stop_rule": "complete predefined grids on all 18 frozen checkpoints; no test-guided retuning or additional complex networks"
+}

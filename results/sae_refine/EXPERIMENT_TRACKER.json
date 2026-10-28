@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "development": "complete",
+  "test": "complete",
+  "DIAL": "conditional_not_run",
+  "selection_lock_sha": "95ced5b307063da4ab65d4e62a876b9aa60e876aeaaab1d334c386344e71291a",
+  "verification": "PASS",
+  "report": "complete",
+  "review": "same-family / provisional"
+}

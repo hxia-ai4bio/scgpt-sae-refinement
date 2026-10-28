@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "updated_at_utc": "2026-10-19T08:26:59Z",
+  "warmup_completed": 24,
+  "warmup_total": 24,
+  "continuation_completed": 168,
+  "continuation_total": 168,
+  "evaluation": "complete",
+  "review": "same-family / provisional",
+  "dataset": "stim",
+  "fold": 5,
+  "seed": 44,
+  "verification": "PASS",
+  "report": "complete"
+}

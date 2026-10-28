@@ -1,0 +1,13 @@
+{
+  "attribution": "complete",
+  "heldout_deletion": "complete",
+  "GO_pathways": "complete",
+  "gene_mapping": "complete",
+  "attribution_verification": {
+    "898": "PASS",
+    "1387": "PASS"
+  },
+  "pathway_verification": "PASS",
+  "scientific_audit": "WARN",
+  "scope": "2frozen B-cell features, historical selected prototypes, no biological causal validation"
+}

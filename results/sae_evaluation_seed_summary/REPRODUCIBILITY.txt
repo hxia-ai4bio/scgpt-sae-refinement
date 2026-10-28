@@ -1,0 +1,2 @@
+Run /opt/anaconda3/envs/scgpt/bin/python /Users/apple/Documents/Codex/2026-10-18/wo/work/sae_evaluation_seed_summary/summarize.py
+No sealed upstream artifact was modified. Post-hoc descriptive seed rankings, not validation selection.

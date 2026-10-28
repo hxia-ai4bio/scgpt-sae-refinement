@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "scored_roles": [
+    "train",
+    "valid"
+  ],
+  "never_scored": [
+    "test",
+    "pbmc"
+  ],
+  "trajectory_arms": [
+    "gate",
+    "rotated_gate"
+  ],
+  "head_modes": [
+    "joint",
+    "frozen"
+  ],
+  "epochs": 40,
+  "ridge_probe_every_epochs": 2,
+  "beta": 0.1,
+  "lr": 0.001,
+  "gate_bound": 0.5,
+  "clip": 5.0,
+  "same_sampler_as_original": true,
+  "checkpoint_probe": "epoch0, every2 epochs, and original beta0.1 best/stopping epochs",
+  "head_freezing": "same selected original CE head, only parameter trainability differs",
+  "branch_latents": [
+    "learned_SAE",
+    "random_TopK"
+  ],
+  "branch_scales": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "branch_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "branch_selection": "VALID MacroF1, identity wins ties; then lower scale and alpha",
+  "branch_scaling": "TRAIN standardize h/z once, then scale z; no second standardization removing the scale",
+  "branch_weights": "same global class-balanced cell weights as original fresh Ridge",
+  "random_latent": "2048 independent unit-norm random directions, TRAIN h mean, raw TopK32, bias0; same nominal dimension/K but not activation-frequency/correlation matched",
+  "scope": "posthoc exploratory diagnosis after prior TEST results; same historically explored validation donors; no new generalization estimate or proof of uselessness; only seed42 follow-up"
+}

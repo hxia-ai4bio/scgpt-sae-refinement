@@ -1,0 +1,70 @@
+{
+  "pass_gate": false,
+  "vs_original": {
+    "left": "relation_weak",
+    "right": "original_h",
+    "variant": "reconstruction",
+    "delta_pp": -0.17344794593721996,
+    "positive_donors": 3,
+    "descriptive_ci95_pp": [
+      -1.0198395850486688,
+      0.672943693174229
+    ],
+    "seed_deltas": [
+      {
+        "seed": 42,
+        "delta_pp": -0.5365634915246091
+      },
+      {
+        "seed": 43,
+        "delta_pp": 0.3843808293386356
+      },
+      {
+        "seed": 44,
+        "delta_pp": -0.36816117562569384
+      }
+    ],
+    "donor_deltas_pp": {
+      "0": 0.242638283829677,
+      "1": 1.4065102032896237,
+      "2": -0.597170706344341,
+      "3": 0.7895870874903954,
+      "4": -1.5971639024322637,
+      "5": -1.285088641456411
+    }
+  },
+  "vs_matched_MSE": {
+    "left": "relation_weak",
+    "right": "continue_mse",
+    "variant": "reconstruction",
+    "delta_pp": -0.12720675361588646,
+    "positive_donors": 1,
+    "descriptive_ci95_pp": [
+      -0.5424524154158339,
+      0.38203244075260356
+    ],
+    "seed_deltas": [
+      {
+        "seed": 42,
+        "delta_pp": -0.7896548757230948
+      },
+      {
+        "seed": 43,
+        "delta_pp": 0.6394424930897036
+      },
+      {
+        "seed": 44,
+        "delta_pp": -0.23140787821426625
+      }
+    ],
+    "donor_deltas_pp": {
+      "0": -0.7821656343062089,
+      "1": -0.03458840423645748,
+      "2": -0.24093105369074053,
+      "3": -0.09146355103371029,
+      "4": 1.0446068125056218,
+      "5": -0.6586986909338233
+    }
+  },
+  "note": "descriptive development gate, not significance; only predeclared weak reconstruction arm is primary"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "scope": "deterministic existence only; semantic review is independent",
+  "sources": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/summary.json": "0f020973ab842492164529327787b50f8b95eb13c3f616aeee8b7c8d5baf8397",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/verification.json": "9e5e8fc4c2d4b5aa7a8c492e28384d952d7786a186fc74f7733d65f4fb8d2be6",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/planned_contrasts.json": "1ff198abb81eb9bb99c27eb7a37343032744be2a53593c60ec7c192fa8862f3a",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/sensitivity_diagnostics.json": "77470a3066f8b8c2bd03d59d4561184316810c81b6a752a721c7bbfeb23c4b3b"
+  }
+}

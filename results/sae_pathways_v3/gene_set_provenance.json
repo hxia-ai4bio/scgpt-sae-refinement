@@ -1,0 +1,26 @@
+[
+  {
+    "collection": "Hallmark",
+    "file": "h.all.v2025.1.Hs.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Hs/h.all.v2025.1.Hs.symbols.gmt",
+    "sha256": "f22066af72e215ccb7b89d88e492c07e1eef17534c2ca7b0f9902cfecbbdd8e9",
+    "bytes": 48689,
+    "terms": 50
+  },
+  {
+    "collection": "Reactome",
+    "file": "c2.cp.reactome.v2025.1.Hs.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Hs/c2.cp.reactome.v2025.1.Hs.symbols.gmt",
+    "sha256": "53b9b506bf3be87700cbb3cbbbb7a6faa847fbe62e65421541b14a2b763bab6b",
+    "bytes": 861211,
+    "terms": 1787
+  },
+  {
+    "collection": "GO_BP",
+    "file": "c5.go.bp.v2025.1.Hs.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Hs/c5.go.bp.v2025.1.Hs.symbols.gmt",
+    "sha256": "7fb5d2513caf56cc35b810f4ae39b6e075e5140e6cc14bf89de3bceae79b34e2",
+    "bytes": 4848374,
+    "terms": 7583
+  }
+]

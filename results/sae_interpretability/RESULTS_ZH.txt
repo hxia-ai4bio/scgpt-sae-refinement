@@ -1,0 +1,72 @@
+SAE生物可解释性：首轮探索结果（2026-10-18）
+
+完成：18个K32模型的类型读出诊断；主模型2048特征概览；4个候选；24个原型/参照对；10781次单基因替换前向与1056次组合替换前向（含审计后补充的480次更严格随机对照）。
+SAE/scGPT没有重新训练。主归因使用4个训练供体各1细胞及1个测试供体的2细胞，每个细胞1个参照；PBMC没有运行输入归因。
+
+六供体平均单坐标AUROC（先对种子平均；不是八类Macro-F1）：
+         target representation  test_auc  Batch1_3k_auc  Batch2_68k_r_auc
+        B cells      embedding    0.9532         0.9451            0.9168
+        B cells            pca    0.9127         0.9261            0.9113
+        B cells            sae    0.9756         0.9842            0.9666
+CD14+ Monocytes      embedding    0.9731         0.8896            0.7196
+CD14+ Monocytes            pca    0.9789         0.9550            0.9825
+CD14+ Monocytes            sae    0.9705         0.5041            0.5271
+       NK cells      embedding    0.9305         0.9796            0.9715
+       NK cells            pca    0.8593         0.9072            0.9009
+       NK cells            sae    0.9313         0.8638            0.8676
+
+固定训练基因排序，在测试原型细胞替换40个基因后的原始激活下降：
+ feature                method  raw_baseline  raw_activation  raw_drop
+     120           attribution        0.7916          0.6696    0.1219
+     120 expression_difference        0.7916          0.7267    0.0649
+     120        matched_random        0.7916          0.7450    0.0466
+     120 strong_matched_random        0.7916          0.7092    0.0824
+     160           attribution        1.0933          0.7896    0.3037
+     160 expression_difference        1.0933          1.0467    0.0466
+     160        matched_random        1.0933          1.0126    0.0806
+     160 strong_matched_random        1.0933          0.9466    0.1467
+     440           attribution        1.4474          1.1665    0.2809
+     440 expression_difference        1.4474          1.2933    0.1540
+     440        matched_random        1.4474          1.3758    0.0715
+     440 strong_matched_random        1.4474          1.3050    0.1424
+    1724           attribution        1.1242          0.8618    0.2624
+    1724 expression_difference        1.1242          0.9735    0.1507
+    1724        matched_random        1.1242          0.9958    0.1285
+    1724 strong_matched_random        1.1242          0.9312    0.1931
+
+F440 CD14单核细胞候选
+表达关联前6：CCL2, CTSL, FTL, CD63, ANXA5, ATP6V1F
+归因前6：ATP6V1F, RPS4X, RPL3, RPL7, CSTB, RPL26
+
+F160 B细胞候选
+表达关联前6：CXCR4, CD74, CD79A, CD37, LAPTM5, RPL3
+归因前6：TPT1, RPS10, RPL35, SERF2, GAPDH, RPL36
+
+F120 NK细胞候选
+表达关联前6：HLA-B, GZMB, FGFBP2, TMSB4X, CST7, CHST12
+归因前6：RPL9, RPS4X, RPLP1, RPS27A, SLA2, RPS13
+
+F1724 深度关联对照
+表达关联前6：RPS14, RPS18, RPL21, RPL13A, RPS6, RPL3
+归因前6：RPL29, RPS27, RPL27A, RPL27, RPS16, RPS20
+
+解释边界：B细胞相关信号具有较好的跨文件保留；CD14特征在PBMC中被TopK大幅压低；NK跨文件结果弱于原embedding单坐标对照。不能声称SAE整体优于原表征。
+四个特征的扰动重要基因都混入大量RPL/RPS基因。不能把类型关联直接命名为独立功能程序；同源核糖体基因造成多个重叠富集条目，不代表发现多个独立机制。
+归因排序在本轮每类两个测试细胞上，40基因替换平均下降大于差异表达与随机排序；这是复合输入→scGPT→SAE特征的局部敏感性，不是原scGPT依赖SAE特征的证据，更不是真实细胞因果验证。
+加强随机对照是事后审计驱动：同时匹配原表达分箱、替换方向及变化量分箱；有限匹配池会复用部分归因基因，详见strong_null_matching_diagnostics.csv，不能据此作供体级显著性推断。
+不同种子解码方向余弦较低；同种子跨折共享初始化与大量训练供体，不能当独立概念稳定性证明。
+基因归因跨原型一致性：
+ feature  role  mean_gene_spearman  min_shared_genes  cell_pairs
+     120  test               0.319               103           1
+     120 train               0.255                77           6
+     160  test               0.366               139           1
+     160 train               0.061               135           6
+     440  test               0.102               155           1
+     440 train               0.184               127           6
+    1724  test               0.272                94           1
+    1724 train               0.221                71           6
+这些细胞对共享原型，不能当独立重复；B细胞身份信号可读出不等于归因基因稳定。
+限制：历史探索数据；只一个主归因模型/测试供体；每细胞一个参照；一对NK训练参照跨细胞类型；固定token/bin干预不是重新处理raw-count干预；Kang没有MT-基因，线粒体混杂不可评估；SAE采用20轮预算，未验证充分收敛；对照候选维数不等；目前没有盲评整体可解释比例、细胞功能干预或SAE内部消融。
+通路：训练集表达关联基因的富集在匹配表达量与检出率的随机对照下，没有条目达到FDR<0.05（最小q约0.0703）；归因基因的显著条目主要集中于相互重叠的翻译/核糖体相关通路。采用Hallmark/Reactome ORA，非论文GSEA。各split独立挑前40基因的富集仅作描述；真正固定TRAIN前40基因的迁移诊断见expression_association_summary.json。匹配基因随机检验只在TRAIN运行，TEST/PBMC为未计算。
+确定性核验：PASS；语义审计：WARN（same-family/provisional）。
+建议下一步：以B细胞候选为首个案例，扩展同类型多参照、更多供体原型，并对核糖体与细胞身份信号做有针对性的分离；暂不把这些特征命名为功能模块。

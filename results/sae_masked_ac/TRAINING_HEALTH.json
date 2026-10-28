@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "new_models": 126,
+  "all_steps1000": true,
+  "all_weights_changed": true,
+  "monitoring_only": "Lowest monitored VALID loss is descriptive, not a selected checkpoint; intermediate weights were not retained.",
+  "mean_training_seconds": {
+    "A_dense": 9.67394707316444,
+    "A_sae": 9.354576837448846,
+    "C_sae": 13.296993113699413
+  }
+}

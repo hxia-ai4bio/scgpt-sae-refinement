@@ -1,0 +1,17 @@
+[
+  {
+    "id": "C_1000_MAE",
+    "value": 0.33461017169279744,
+    "source": "outputs/sae_checkpoint_selection/SUMMARY.json"
+  },
+  {
+    "id": "C_selected_MAE",
+    "value": 0.3207723170833228,
+    "source": "outputs/sae_checkpoint_selection/SUMMARY.json"
+  },
+  {
+    "id": "original_h_MAE",
+    "value": 0.32595499122624333,
+    "source": "outputs/sae_checkpoint_selection/SUMMARY.json"
+  }
+]

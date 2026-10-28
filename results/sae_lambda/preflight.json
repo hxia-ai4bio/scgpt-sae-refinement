@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "reused_networks": 54,
+  "reused_selected_probes": 60,
+  "paired_batch_checks": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "paired_batch_array_sha": "eb6bf6a6cc56fcb7fea45f6a5b6810f3396a1eeaaf2e48d77217523e290825b0",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "paired_batch_array_sha": "bc97bce7205b91bf565be38dd0fc64197eb9def65ca635a76889b87531bc86b2",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "paired_batch_array_sha": "70ee779d9a16c6039bba7c84323381b1c32a0bc0209b78bdf76463200d12b018",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "paired_batch_array_sha": "2370164f00c381eb9d3cf528de9c7c5a8e3f7c3b7187ebacc70ae5368523d650",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "paired_batch_array_sha": "9cb30b93cabe0d5e56e259d52e0cc0f15cdee1337629027606c967b2f4d3e334",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "paired_batch_array_sha": "c000aa7841fd97cc8e95899d03e5319211aa672ab42cefad7ce8d3ad77b7ed92",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "paired_batch_array_sha": "601c8ff5d640262057a6918200752d5bae3e496202562fb96b2d57670271544c",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "paired_batch_array_sha": "fd0922134f9bff6f9cd14906b56e10a06e6dff7598551700e5a152f0ed422d34",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "paired_batch_array_sha": "2aebd7c67dd9c4f05d2d063436b4d930c5033169217330b7ac9b160b308351a8",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "paired_batch_array_sha": "8845bbee0ccfbf412525fe3ee281a4182058640c5d8a4162223879c49d5a48dd",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "paired_batch_array_sha": "7e185e82b56c87d503c15e73a84a90ed0aa2518530c49daadcf527b121764228",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "paired_batch_array_sha": "4e0ea090b2c8a234965cfa7cbffaf521e7ab2904ace24a5fd5217852115b9222",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "paired_batch_array_sha": "1de6fc131dddbfd726e2cab41ac2441a76895b94419282b07adf5633868092c8",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "paired_batch_array_sha": "2181cb61e69b485ae5d84e7a1a65dfddfe494e26202a8f21ea8f6a79e5701877",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "paired_batch_array_sha": "cc5d131f785b759438fac574aaa946d0523584028543198287845022171c15bc",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "paired_batch_array_sha": "0020afed1ca9492d4532c181531d609449b14cbad905bff0e5decfdd9fdb0d0d",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "paired_batch_array_sha": "60283383924ea2aa48cf2a4f64dc98c93f555665fb841a248a2d54d3b995683e",
+      "cross_donor_anchors": 192
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "paired_batch_array_sha": "c656ae5e2853856183f0853c6eab6546b80cb6ac8d27c28cd9f0f1cafaf99f89",
+      "cross_donor_anchors": 192
+    }
+  ],
+  "original_lock_files_verified": 930,
+  "no_new_TEST_evaluation": true
+}

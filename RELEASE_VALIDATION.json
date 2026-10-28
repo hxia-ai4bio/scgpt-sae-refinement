@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "date": "2026-10-28",
+  "copied_source_files": 985,
+  "python_syntax_files": 176,
+  "numerical_unit_tests": 4,
+  "tests": [
+    "raw signed TopK and fixed mean",
+    "teacher-detached KL with gradients through reconstructed queries and anchors",
+    "balanced Ridge agreement with sklearn",
+    "split overlap and held-out group leakage rejection"
+  ],
+  "handoff_verification": "PASS: 130 source hashes; table/lambda recomputation; all-cell-type AUROC aggregation; downstream group means; 30 local links",
+  "portable_cli_smoke": "PASS: synthetic data, two optimizer updates, both readouts, one CPU thread. Not a research result.",
+  "figure_regeneration": "PASS: classification table/lambda; all 27 downstream means validated. Rendered in a separate validation directory.",
+  "credential_pattern_scan": "No matches for common token/private-key patterns in text files; not a formal security audit.",
+  "limitations": [
+    "No full raw-RNA or historical training rerun",
+    "Raw data, pretrained model and SAE weights are external",
+    "Archive source paths and old audit bindings are historical",
+    "Initial four-thread smoke hit an environment OpenMP shared-memory error; one-thread rerun passed",
+    "sklearn reference test emitted local NumPy matmul warnings; finite scores still agreed within 1e-10"
+  ],
+  "manuscript": "Existing v7 PDF and Overleaf archive copied byte-for-byte; paper unchanged"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "classes": [
+    "B cells",
+    "CD14+ Monocytes",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Dendritic cells",
+    "FCGR3A+ Monocytes",
+    "Megakaryocytes",
+    "NK cells"
+  ],
+  "stim_cells": 9728,
+  "stim_QC_excluded": 0,
+  "pbmc_cells": 4638,
+  "pooling": "final12 transformer output; signed masked mean over nonpadding512 gene tokens; no CLS; no model tuning",
+  "preprocessing": {
+    "dataset": "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad",
+    "checkpoint_dir": "/Users/apple/Desktop/scGPT/scGPT_human",
+    "development_donors": [
+      "patient_1016",
+      "patient_1039",
+      "patient_1015",
+      "patient_1488",
+      "patient_1256",
+      "patient_107"
+    ],
+    "untouched_donors": [
+      "patient_1244",
+      "patient_101"
+    ],
+    "condition": "stim",
+    "excluded_cell_types": [],
+    "seq_len": 512,
+    "n_bins": 51,
+    "min_expressed_vocab_genes": 16,
+    "feature_batch_size": 8,
+    "cpu_threads": 6,
+    "seed": 20261012,
+    "knn_neighbors": 15,
+    "logistic_c": 1.0,
+    "ridge_alpha": 10.0,
+    "sparse_ffn_c": 0.05,
+    "sparse_neuron_budget": 64,
+    "random_control_repeats": 10,
+    "device": "auto"
+  },
+  "checkpoint_audit": {
+    "checkpoint_tensors": 163,
+    "checkpoint_parameters": 51330049,
+    "strict_load": true
+  },
+  "sources": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/prepare.py": "12f43a3de5d60090ad604291737af3f182e1da6baa0c43c00f731fbc3bfd9f28",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/prepare.py": "19c57a2dcd720ecbfe5e5b5ae253cc43ee06422c14f0dd693275e9af1bf2c79e",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/kang_error_atlas_20261012/run_error_atlas.py": "522d1058e98071d3e7aeec5467c9bf515b0298ff0f8b6ee8a1c6b8a06d6aafac",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/kang_error_atlas_20261012/config.json": "233affe2e949d55375fed161c46bfaea6d76f9ef57bfcd40da441c8f24649246",
+    "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad": "e6a5adac64dcdeb36eaba27db49b63e0c64bb0ed4a64c6705971506b41c39830",
+    "/Users/apple/Desktop/Llava-Cell/dataset/PBMC368k_raw.h5ad": "211b06d897f35bb8590aed649173d5f44b6e6986c468d8e8dc0dc78646fee2aa",
+    "/Users/apple/Desktop/scGPT/scGPT_human/best_model.pt": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922",
+    "/Users/apple/Desktop/scGPT/scGPT_human/args.json": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60",
+    "/Users/apple/Desktop/scGPT/scGPT_human/vocab.json": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/pbmc_embeddings.npz": "585e2648a407b5f0004247742b98f11df3f5771032c0b961c0f76f9c869e00c7",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d"
+  },
+  "canonical_files": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/data/stim.npz": "55a52d9d6bce6c9b4d158d3ff0a7b517b79be3eaa7a29b63b483b787fecafdff",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/data/pbmc.npz": "624ad9e46debfb8be3d018d41288148b3c346882ab684e7e0d554b23566fc317"
+  },
+  "ctrl_replay8_max_error": 2.86102294921875e-06,
+  "pbmc_replay8_max_error": 0.0,
+  "seconds": 2411.1920158863068,
+  "scope": "stim six historical development donors only; two original untouched Kang donors excluded; PBMC two batches not verified donors; no backbone training or label-based feature fitting"
+}

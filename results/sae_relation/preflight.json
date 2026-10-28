@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 42,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "role": "valid",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "role": "train",
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "role": "valid",
+      "cache_max_error": 0.0
+    }
+  ],
+  "identity_kl": 0.0,
+  "manual_KL_error": 7.155734338404329e-17,
+  "nonzero_student_gradient": 0.036451250314712524,
+  "no_new_TEST_score": true
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Does the positive relation-reconstruction signal persist across adjacent lambda values and multiple donors?",
+  "scope": "Descriptive full fixed grid, no winner selection and no confirmatory/general improvement claim",
+  "new_training_fits": 72,
+  "reused_training_fits": 54,
+  "test_readouts": 132,
+  "VALID_candidates": 1452
+}

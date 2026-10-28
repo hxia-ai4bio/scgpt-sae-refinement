@@ -1,0 +1,18 @@
+其余高AUROC B细胞特征的基因贡献分析
+范围：全部合格特征中TRAIN供体平均B-vs-other AUROC>=0.70，排除此前已完成160/898/1387，得到137/370/146/1373/1125/1409。后两者最差供体AUROC<0.70，单独标注为跨供体较弱。高AUROC是描述性筛选，不等于统计显著的生物学功能。
+固定同一个历史K32、seed42模型；本轮不重训，也未检验这些编号的跨种子对应关系。每特征4个TRAIN供体各2个高激活B细胞、历史单TEST供体4个；各配最多3个同供体同类型零激活近邻。各特征选择自己的原型/参照，跨特征不是配对实验。原型/参照的QC差异、复用和覆盖稀疏性均保留。
+输入贡献=原始激活−单基因输入值替换后的激活，固定原gene tokens和padding，取参照全细胞的离散bin；不是原始counts敲除或真实细胞干预；这里只测给定gene-token集合下的表达值敏感性，未测删除/加入gene-token身份本身的贡献。先等权参照，再原型，再供体；未进入某原型tokens的基因该原型贡献记0，另报覆盖与条件均值。高排名不等于稳定，需看正向供体数和覆盖次数；TEST缺失表示未覆盖，不是0。
+生产MPS float32 batch16，CPU独立慢后端重放每对最大贡献与最大组合替换；数值/输入/来源hash核验独立保存。TopK实际得分与preTopK encoder另存，已发生门控变化时不能把全部效应解释为平滑编码变化，详见TopK_gate_diagnostics.csv。embedding/PCA只是同一批SAE原型上的诊断坐标，非全局可解释性优势基准。
+基因排序仅由TRAIN决定。组合替换是在每个TEST原型中按训练排序选可替换的基因，不是对所有细胞强制同一个40基因清单；与TRAIN表达差异和10个联合分箱匹配随机顺序比较。非RPL/RPS组合排序没有专用随机对照。历史测试已多次探索，仅1供体，不能作盲测或供体级显著性推断。
+GO BP / Reactome / Hallmark：MSigDB2025.1.Hs，标准ORA。各特征全部正向top40及移除RPL/RPS后重新选top40，背景同步移除前缀；背景限TRAIN实际输入覆盖的基因，未注释基因保留，条目背景成员5..500。每列表10000个随机基因集，联合匹配全部941个TRAIN B细胞中的平均raw count/检出率五分位及原型覆盖1-2/3-5/6-8分箱。仅分箱匹配，存在连续指标残余差异；选择基因仍可进入随机集。MC p=(超越数+1)/10001，精确条件超几何卷积单列作预定敏感性分析，消除MC误差但不消除分箱假设。
+全局BH跨本轮全部6特征×2列表×3库，共39911项；普通ORA显著155，主匹配检验显著0，精确敏感性显著0。这是本轮统一家族；旧3特征保留历史校正，不直接比较q强弱。显著数为分析-条目行数，重叠GO/Reactome不是独立机制；感染条目也不证明样本感染。去RPL/RPS是前缀敏感性分析，不会移除所有翻译基因。
+普通富集而匹配未通过的条目仅作候选注释，不推断通路活性、因果或独立功能模块。次要RNA偏相关在B细胞内控制logcounts/loggenes/供体，属于同RNA关联而非输入贡献或独立验证；它不用于选本轮通路。Kang缺少MT-前缀编码基因，无法用该QC指标评估线粒体比例；核编码的线粒体功能基因仍可存在。另列描述性后续候选：冻结TRAIN非RPL/RPS前40中，至少3个TRAIN供体正向且TEST均值正向；此为探索性展示，不改变任何基因/通路检验，也不是独立验证。
+汇总：
+ feature  mean_TRAIN_donor_AUC  min_TRAIN_donor_AUC  historical_TEST_AUC                                  TRAIN_non_RPL_RPS_top8  TRAIN_top40_TEST_covered  TRAIN_top40_TEST_positive  TRAIN_donor_pair_Spearman_median
+     137              0.876709             0.863749             0.889056 NDUFA11;SERF2;NDUFC2;LAMP1;ARHGDIA;OST4;LAPTM5;HNRNPUL1                        27                         19                          0.085070
+     370              0.730964             0.713024             0.773184      TMSB4X;FTL;HLA-DPB1;EEF1A1;HLA-DPA1;PFDN5;VIM;SRGN                        39                         27                          0.171018
+     146              0.746066             0.709723             0.738308         MIR142;PRDX1;COX5B;EMP3;PSME2;TAGAP;VBP1;NDUFA1                        31                         17                          0.038250
+    1373              0.734497             0.704276             0.743850          ACTB;CD79A;ARPC1B;EMP3;HINT1;HLA-DRA;MYL6;CD37                        25                         17                          0.085791
+    1125              0.701448             0.678165             0.718959  TCL1A;CD74;HLA-DRA;CD79B;BTG1;HMGB1;HLA-A;RP11-108M9.4                        26                         14                          0.085780
+    1409              0.727300             0.668059             0.757662         TMSB4X;TPT1;PKM;HLA-DRA;HLA-DRB1;KMT2A;DBI;FTH1                        35                         24                          0.064538
+数值复核PASS；科研审查WARN（same-family/provisional）。

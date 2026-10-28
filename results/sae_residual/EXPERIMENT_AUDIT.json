@@ -1,0 +1,141 @@
+{
+  "agent_id": "/root/residual_audit",
+  "verdict_id": "2026-10-19-sae-residual-final",
+  "executor_model": "unknown",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "reviewer_model_metadata": "Requested fresh-agent route; runtime identity is not independently introspectable.",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-10-18T17:31:36.207094+00:00",
+  "date": "2026-10-19",
+  "trace_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_residual/review_trace",
+  "audited_input_hashes": {
+    "manifest": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_residual/review_trace/audited_input_hashes.json",
+    "manifest_sha256": "sha256:9d9af24a90c1211c3bd9fdc2e04895722a42a1c5c01272ba205f297fdc9dbd56",
+    "count": 1485
+  },
+  "hash_scope": "Review snapshot; status/index-only report refresh is allowed. Executor FINAL_MANIFEST binds final delivered bytes.",
+  "pending_external_review": true,
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reason_code": "bounded_historical_scope_and_retained_numerical_warnings",
+  "summary": "No unresolved substantive computation, label-alignment or selection error found. Scoped development null result; no supported gate improvement claim.",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "Dataset-provided eight-class annotations; direct H5AD-to-cache label, donor, row and cell-ID alignment verified for 9,577 Kang and 4,638 PBMC cells. No predictions serve as labels.",
+      "evidence": [
+        "original/prepare.py:16-23,40-48",
+        "work/sae_residual/experiment.py:64-76",
+        "work/sae_residual/review_trace/independent_static_checks.json#checks.dataset_labels_rows_donors"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Raw fixed-eight-label F1/accuracy; table percentages and paired percentage-point differences only. Residual and normal-equation ratios are diagnostics, not rescaled performance.",
+      "evidence": [
+        "work/sae_residual/experiment.py:61-63,169-187",
+        "work/sae_residual/report.py:23-33",
+        "work/sae_residual/review_trace/independent_final_checks.json#checks.report_table_class_mapping_and_continuation"
+      ]
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "144 result families, 126 selections, 378 adapter candidate records and 18 baseline-head fits verified. All 1,296 metric blocks rederived from saved predictions; 432 finite score arrays; summary and 10,368 per-class rows match.",
+      "evidence": [
+        "outputs/sae_residual/completion.json",
+        "work/sae_residual/review_trace/independent_final_checks.json",
+        "work/sae_residual/review_trace/evidence_precheck.json"
+      ]
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Ridge, kNN and trained-head metrics are called and saved for VALID/TEST/PBMC. Selected checkpoints, probe parameters and sampled predictions independently replay.",
+      "evidence": [
+        "work/sae_residual/experiment.py:240-265",
+        "work/sae_residual/fast_evaluate.py:34-38",
+        "work/sae_residual/review_trace/independent_final_checks.json#checks.selected_checkpoint_probe_replay"
+      ]
+    },
+    "scope": {
+      "status": "warn",
+      "details": "Six historically explored Kang development donors with overlapping TRAIN sets; three coupled SAE/adapter seeds, not 18 independent donors. PBMC is one historically explored 4,638-cell file; independent donor/study/pretraining status unknown. Missing and tiny class supports limit interpretation.",
+      "evidence": [
+        "outputs/sae_residual/PROTOCOL.json",
+        "outputs/sae_residual/per_class_metrics.csv",
+        "work/sae_residual/report.py:61-64",
+        "work/sae_residual/review_trace/independent_static_checks.json#checks.folds_and_means"
+      ]
+    },
+    "eval_type": "real_gt",
+    "split_selection_and_resume": {
+      "status": "pass",
+      "details": "TRAIN-only statistics; donor-disjoint roles within each fold; 18 SAE means equal TRAIN means. All 126 selections locked before TEST scoring. Current source/protocol/checkpoint/metadata/result bindings pass. Initial unbound partial run was discarded before TEST.",
+      "evidence": [
+        "work/sae_residual/experiment.py:45-60,204-232,240-265,278-287",
+        "work/sae_residual/recovery/unbound_initial/amendment.json",
+        "work/sae_residual/review_trace/independent_final_checks.json#checks.source_checkpoint_selection_bindings"
+      ]
+    },
+    "adapter_and_loss": {
+      "status": "pass",
+      "details": "Signed raw-value TopK cache replay passes on 792 independently selected rows. Full raw h skip is present; zero residual initialization and two-step gradient flow verified. SupCon matches explicit-loop duplicate/cross-donor masks. Rotation preserves sampled Gram and all dictionary-column norms.",
+      "evidence": [
+        "original/sae.py:12-17",
+        "work/sae_residual/experiment.py:78-131,138-161",
+        "work/sae_residual/review_trace/independent_static_checks.json"
+      ]
+    },
+    "capacity_and_budget": {
+      "status": "warn",
+      "details": "Gate/rotated gate match at 2,048 adapter parameters; lowrank/MLP match at 40,960. Gate-vs-MLP is not parameter matched. All adapter arms share 3 beta candidates, common head and upper epoch budget; early stopping differs. This does not establish optimal tuning for every architecture.",
+      "evidence": [
+        "outputs/sae_residual/PROTOCOL.json",
+        "work/sae_residual/experiment.py:23-39,138-161,215-232"
+      ]
+    },
+    "numerics_and_backend": {
+      "status": "warn",
+      "details": "RuntimeWarnings remain in logs, but saved arrays are finite. Full executor replay: max score error 0 and normal-equation relative error 7.46e-14. Fresh reviewer Ridge matches sklearn within 1.88e-12; sampled checkpoint scores and 48 direct-distance kNN queries match exactly. kNN backend amendment has 34,105 initial-reference query parity checks and explicit tie test. Warning origin is not proven; no observed result corruption.",
+      "evidence": [
+        "outputs/sae_residual/verification.json",
+        "outputs/sae_residual/numerical_warning_summary.json",
+        "outputs/sae_residual/EVALUATION_BACKEND.json",
+        "work/sae_residual/review_trace/independent_final_checks.log"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "impact": "unsupported",
+      "claim": "SAE gate improves the predeclared fresh-Ridge endpoint and beats rotation."
+    },
+    {
+      "id": "C2",
+      "impact": "supported",
+      "claim": "Under this exact training/selection recipe, retained adaptations are mostly zero or tiny and show no material primary gain."
+    },
+    {
+      "id": "C3",
+      "impact": "needs_qualifier",
+      "claim": "Dense MLP+SupCon changes the secondary kNN endpoint."
+    },
+    {
+      "id": "C4",
+      "impact": "unsupported",
+      "claim": "All SAE residual optimization is ineffective, or learned gates identify causal biological modules."
+    }
+  ],
+  "resolved_findings": [
+    "Fail-closed source/checkpoint/resume guards added before TEST; unbound partial run retained but not reused.",
+    "Capacity-matching targets explicitly labeled.",
+    "Class-index/name map exported."
+  ],
+  "unresolved_computational_failures": []
+}

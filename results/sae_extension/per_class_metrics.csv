@@ -1,0 +1,1409 @@
+dataset,method,lambda_KL,fold,seed,cell_type,f1,support
+stim,original_h,,0,shared,B cells,0.9877551020408163,123
+stim,original_h,,0,shared,CD14+ Monocytes,0.9548762736535662,355
+stim,original_h,,0,shared,CD4 T cells,0.8859857482185273,461
+stim,original_h,,0,shared,CD8 T cells,0.8893093661305582,489
+stim,original_h,,0,shared,Dendritic cells,0.8372093023255814,20
+stim,original_h,,0,shared,FCGR3A+ Monocytes,0.8787878787878788,89
+stim,original_h,,0,shared,Megakaryocytes,0.0,0
+stim,original_h,,0,shared,NK cells,0.8333333333333334,98
+stim,lambda_0,0.0,0,42,B cells,0.9877551020408163,123
+stim,lambda_0,0.0,0,42,CD14+ Monocytes,0.9668109668109668,355
+stim,lambda_0,0.0,0,42,CD4 T cells,0.8736717827626919,461
+stim,lambda_0,0.0,0,42,CD8 T cells,0.8762983947119924,489
+stim,lambda_0,0.0,0,42,Dendritic cells,0.7916666666666666,20
+stim,lambda_0,0.0,0,42,FCGR3A+ Monocytes,0.9354838709677419,89
+stim,lambda_0,0.0,0,42,Megakaryocytes,0.0,0
+stim,lambda_0,0.0,0,42,NK cells,0.8253968253968254,98
+stim,lambda_0p01,0.01,0,42,B cells,0.9877551020408163,123
+stim,lambda_0p01,0.01,0,42,CD14+ Monocytes,0.9623188405797102,355
+stim,lambda_0p01,0.01,0,42,CD4 T cells,0.8792497069167644,461
+stim,lambda_0p01,0.01,0,42,CD8 T cells,0.8774928774928775,489
+stim,lambda_0p01,0.01,0,42,Dendritic cells,0.7916666666666666,20
+stim,lambda_0p01,0.01,0,42,FCGR3A+ Monocytes,0.9206349206349206,89
+stim,lambda_0p01,0.01,0,42,Megakaryocytes,0.0,0
+stim,lambda_0p01,0.01,0,42,NK cells,0.8253968253968254,98
+stim,lambda_0p03,0.03,0,42,B cells,0.9877551020408163,123
+stim,lambda_0p03,0.03,0,42,CD14+ Monocytes,0.968299711815562,355
+stim,lambda_0p03,0.03,0,42,CD4 T cells,0.876905041031653,461
+stim,lambda_0p03,0.03,0,42,CD8 T cells,0.8785578747628083,489
+stim,lambda_0p03,0.03,0,42,Dendritic cells,0.8260869565217391,20
+stim,lambda_0p03,0.03,0,42,FCGR3A+ Monocytes,0.9354838709677419,89
+stim,lambda_0p03,0.03,0,42,Megakaryocytes,0.0,0
+stim,lambda_0p03,0.03,0,42,NK cells,0.8359788359788359,98
+stim,lambda_0p1,0.1,0,42,B cells,0.983739837398374,123
+stim,lambda_0p1,0.1,0,42,CD14+ Monocytes,0.9668109668109668,355
+stim,lambda_0p1,0.1,0,42,CD4 T cells,0.8729411764705882,461
+stim,lambda_0p1,0.1,0,42,CD8 T cells,0.875,489
+stim,lambda_0p1,0.1,0,42,Dendritic cells,0.8260869565217391,20
+stim,lambda_0p1,0.1,0,42,FCGR3A+ Monocytes,0.925531914893617,89
+stim,lambda_0p1,0.1,0,42,Megakaryocytes,0.0,0
+stim,lambda_0p1,0.1,0,42,NK cells,0.8297872340425532,98
+stim,lambda_0p3,0.3,0,42,B cells,0.983739837398374,123
+stim,lambda_0p3,0.3,0,42,CD14+ Monocytes,0.9593023255813954,355
+stim,lambda_0p3,0.3,0,42,CD4 T cells,0.8752941176470588,461
+stim,lambda_0p3,0.3,0,42,CD8 T cells,0.8825757575757576,489
+stim,lambda_0p3,0.3,0,42,Dendritic cells,0.8260869565217391,20
+stim,lambda_0p3,0.3,0,42,FCGR3A+ Monocytes,0.9109947643979057,89
+stim,lambda_0p3,0.3,0,42,Megakaryocytes,0.0,0
+stim,lambda_0p3,0.3,0,42,NK cells,0.8315789473684211,98
+stim,lambda_1,1.0,0,42,B cells,0.983739837398374,123
+stim,lambda_1,1.0,0,42,CD14+ Monocytes,0.968299711815562,355
+stim,lambda_1,1.0,0,42,CD4 T cells,0.8699763593380615,461
+stim,lambda_1,1.0,0,42,CD8 T cells,0.8735849056603774,489
+stim,lambda_1,1.0,0,42,Dendritic cells,0.8837209302325582,20
+stim,lambda_1,1.0,0,42,FCGR3A+ Monocytes,0.9206349206349206,89
+stim,lambda_1,1.0,0,42,Megakaryocytes,0.0,0
+stim,lambda_1,1.0,0,42,NK cells,0.8359788359788359,98
+stim,lambda_3,3.0,0,42,B cells,0.9877551020408163,123
+stim,lambda_3,3.0,0,42,CD14+ Monocytes,0.9593023255813954,355
+stim,lambda_3,3.0,0,42,CD4 T cells,0.8705882352941177,461
+stim,lambda_3,3.0,0,42,CD8 T cells,0.8777251184834123,489
+stim,lambda_3,3.0,0,42,Dendritic cells,0.9047619047619048,20
+stim,lambda_3,3.0,0,42,FCGR3A+ Monocytes,0.883248730964467,89
+stim,lambda_3,3.0,0,42,Megakaryocytes,0.0,0
+stim,lambda_3,3.0,0,42,NK cells,0.8315789473684211,98
+stim,lambda_0,0.0,0,43,B cells,0.983739837398374,123
+stim,lambda_0,0.0,0,43,CD14+ Monocytes,0.961038961038961,355
+stim,lambda_0,0.0,0,43,CD4 T cells,0.8761682242990654,461
+stim,lambda_0,0.0,0,43,CD8 T cells,0.8789323164918971,489
+stim,lambda_0,0.0,0,43,Dendritic cells,0.8780487804878049,20
+stim,lambda_0,0.0,0,43,FCGR3A+ Monocytes,0.9015544041450777,89
+stim,lambda_0,0.0,0,43,Megakaryocytes,0.0,0
+stim,lambda_0,0.0,0,43,NK cells,0.8253968253968254,98
+stim,lambda_0p01,0.01,0,43,B cells,0.9877551020408163,123
+stim,lambda_0p01,0.01,0,43,CD14+ Monocytes,0.9624277456647399,355
+stim,lambda_0p01,0.01,0,43,CD4 T cells,0.8808411214953271,461
+stim,lambda_0p01,0.01,0,43,CD8 T cells,0.8821292775665399,489
+stim,lambda_0p01,0.01,0,43,Dendritic cells,0.8780487804878049,20
+stim,lambda_0p01,0.01,0,43,FCGR3A+ Monocytes,0.9015544041450777,89
+stim,lambda_0p01,0.01,0,43,Megakaryocytes,0.0,0
+stim,lambda_0p01,0.01,0,43,NK cells,0.8297872340425532,98
+stim,lambda_0p03,0.03,0,43,B cells,0.9877551020408163,123
+stim,lambda_0p03,0.03,0,43,CD14+ Monocytes,0.9623188405797102,355
+stim,lambda_0p03,0.03,0,43,CD4 T cells,0.8844807467911319,461
+stim,lambda_0p03,0.03,0,43,CD8 T cells,0.8867745004757374,489
+stim,lambda_0p03,0.03,0,43,Dendritic cells,0.926829268292683,20
+stim,lambda_0p03,0.03,0,43,FCGR3A+ Monocytes,0.8923076923076924,89
+stim,lambda_0p03,0.03,0,43,Megakaryocytes,0.0,0
+stim,lambda_0p03,0.03,0,43,NK cells,0.8404255319148937,98
+stim,lambda_0p1,0.1,0,43,B cells,0.983739837398374,123
+stim,lambda_0p1,0.1,0,43,CD14+ Monocytes,0.9548762736535662,355
+stim,lambda_0p1,0.1,0,43,CD4 T cells,0.8739884393063584,461
+stim,lambda_0p1,0.1,0,43,CD8 T cells,0.8734299516908213,489
+stim,lambda_0p1,0.1,0,43,Dendritic cells,0.8780487804878049,20
+stim,lambda_0p1,0.1,0,43,FCGR3A+ Monocytes,0.8743718592964824,89
+stim,lambda_0p1,0.1,0,43,Megakaryocytes,0.0,0
+stim,lambda_0p1,0.1,0,43,NK cells,0.806282722513089,98
+stim,lambda_0p3,0.3,0,43,B cells,0.983739837398374,123
+stim,lambda_0p3,0.3,0,43,CD14+ Monocytes,0.9504373177842566,355
+stim,lambda_0p3,0.3,0,43,CD4 T cells,0.875725900116144,461
+stim,lambda_0p3,0.3,0,43,CD8 T cells,0.8794599807135969,489
+stim,lambda_0p3,0.3,0,43,Dendritic cells,0.8292682926829268,20
+stim,lambda_0p3,0.3,0,43,FCGR3A+ Monocytes,0.87,89
+stim,lambda_0p3,0.3,0,43,Megakaryocytes,0.0,0
+stim,lambda_0p3,0.3,0,43,NK cells,0.8082901554404145,98
+stim,lambda_1,1.0,0,43,B cells,0.983739837398374,123
+stim,lambda_1,1.0,0,43,CD14+ Monocytes,0.9516837481698389,355
+stim,lambda_1,1.0,0,43,CD4 T cells,0.8723897911832946,461
+stim,lambda_1,1.0,0,43,CD8 T cells,0.8794599807135969,489
+stim,lambda_1,1.0,0,43,Dendritic cells,0.8571428571428571,20
+stim,lambda_1,1.0,0,43,FCGR3A+ Monocytes,0.8712871287128713,89
+stim,lambda_1,1.0,0,43,Megakaryocytes,0.0,0
+stim,lambda_1,1.0,0,43,NK cells,0.8125,98
+stim,lambda_3,3.0,0,43,B cells,0.9877551020408163,123
+stim,lambda_3,3.0,0,43,CD14+ Monocytes,0.9563953488372093,355
+stim,lambda_3,3.0,0,43,CD4 T cells,0.8723897911832946,461
+stim,lambda_3,3.0,0,43,CD8 T cells,0.8760806916426513,489
+stim,lambda_3,3.0,0,43,Dendritic cells,0.8780487804878049,20
+stim,lambda_3,3.0,0,43,FCGR3A+ Monocytes,0.8686868686868687,89
+stim,lambda_3,3.0,0,43,Megakaryocytes,0.0,0
+stim,lambda_3,3.0,0,43,NK cells,0.8333333333333334,98
+stim,lambda_0,0.0,0,44,B cells,0.983739837398374,123
+stim,lambda_0,0.0,0,44,CD14+ Monocytes,0.9594202898550724,355
+stim,lambda_0,0.0,0,44,CD4 T cells,0.8899297423887588,461
+stim,lambda_0,0.0,0,44,CD8 T cells,0.888465204957102,489
+stim,lambda_0,0.0,0,44,Dendritic cells,0.7906976744186046,20
+stim,lambda_0,0.0,0,44,FCGR3A+ Monocytes,0.9015544041450777,89
+stim,lambda_0,0.0,0,44,Megakaryocytes,0.0,0
+stim,lambda_0,0.0,0,44,NK cells,0.8229166666666666,98
+stim,lambda_0p01,0.01,0,44,B cells,0.9877551020408163,123
+stim,lambda_0p01,0.01,0,44,CD14+ Monocytes,0.9563953488372093,355
+stim,lambda_0p01,0.01,0,44,CD4 T cells,0.8912280701754386,461
+stim,lambda_0p01,0.01,0,44,CD8 T cells,0.8912213740458015,489
+stim,lambda_0p01,0.01,0,44,Dendritic cells,0.7659574468085106,20
+stim,lambda_0p01,0.01,0,44,FCGR3A+ Monocytes,0.900523560209424,89
+stim,lambda_0p01,0.01,0,44,Megakaryocytes,0.0,0
+stim,lambda_0p01,0.01,0,44,NK cells,0.8290155440414507,98
+stim,lambda_0p03,0.03,0,44,B cells,0.983739837398374,123
+stim,lambda_0p03,0.03,0,44,CD14+ Monocytes,0.9533527696793003,355
+stim,lambda_0p03,0.03,0,44,CD4 T cells,0.8873239436619719,461
+stim,lambda_0p03,0.03,0,44,CD8 T cells,0.8867745004757374,489
+stim,lambda_0p03,0.03,0,44,Dendritic cells,0.8,20
+stim,lambda_0p03,0.03,0,44,FCGR3A+ Monocytes,0.8923076923076924,89
+stim,lambda_0p03,0.03,0,44,Megakaryocytes,0.0,0
+stim,lambda_0p03,0.03,0,44,NK cells,0.8229166666666666,98
+stim,lambda_0p1,0.1,0,44,B cells,0.9877551020408163,123
+stim,lambda_0p1,0.1,0,44,CD14+ Monocytes,0.9563953488372093,355
+stim,lambda_0p1,0.1,0,44,CD4 T cells,0.8815943728018757,461
+stim,lambda_0p1,0.1,0,44,CD8 T cells,0.8840304182509505,489
+stim,lambda_0p1,0.1,0,44,Dendritic cells,0.782608695652174,20
+stim,lambda_0p1,0.1,0,44,FCGR3A+ Monocytes,0.90625,89
+stim,lambda_0p1,0.1,0,44,Megakaryocytes,0.0,0
+stim,lambda_0p1,0.1,0,44,NK cells,0.8272251308900523,98
+stim,lambda_0p3,0.3,0,44,B cells,0.9877551020408163,123
+stim,lambda_0p3,0.3,0,44,CD14+ Monocytes,0.9563953488372093,355
+stim,lambda_0p3,0.3,0,44,CD4 T cells,0.8850174216027874,461
+stim,lambda_0p3,0.3,0,44,CD8 T cells,0.8833652007648184,489
+stim,lambda_0p3,0.3,0,44,Dendritic cells,0.8,20
+stim,lambda_0p3,0.3,0,44,FCGR3A+ Monocytes,0.9015544041450777,89
+stim,lambda_0p3,0.3,0,44,Megakaryocytes,0.0,0
+stim,lambda_0p3,0.3,0,44,NK cells,0.8148148148148148,98
+stim,lambda_1,1.0,0,44,B cells,0.9877551020408163,123
+stim,lambda_1,1.0,0,44,CD14+ Monocytes,0.9579100145137881,355
+stim,lambda_1,1.0,0,44,CD4 T cells,0.8983833718244804,461
+stim,lambda_1,1.0,0,44,CD8 T cells,0.8933717579250721,489
+stim,lambda_1,1.0,0,44,Dendritic cells,0.7659574468085106,20
+stim,lambda_1,1.0,0,44,FCGR3A+ Monocytes,0.9052631578947369,89
+stim,lambda_1,1.0,0,44,Megakaryocytes,0.0,0
+stim,lambda_1,1.0,0,44,NK cells,0.8148148148148148,98
+stim,lambda_3,3.0,0,44,B cells,0.9877551020408163,123
+stim,lambda_3,3.0,0,44,CD14+ Monocytes,0.9518248175182482,355
+stim,lambda_3,3.0,0,44,CD4 T cells,0.8904267589388697,461
+stim,lambda_3,3.0,0,44,CD8 T cells,0.8858800773694391,489
+stim,lambda_3,3.0,0,44,Dendritic cells,0.7906976744186046,20
+stim,lambda_3,3.0,0,44,FCGR3A+ Monocytes,0.883248730964467,89
+stim,lambda_3,3.0,0,44,Megakaryocytes,0.0,0
+stim,lambda_3,3.0,0,44,NK cells,0.8205128205128205,98
+stim,original_h,,1,shared,B cells,0.9761904761904762,41
+stim,original_h,,1,shared,CD14+ Monocytes,0.9604863221884499,164
+stim,original_h,,1,shared,CD4 T cells,0.9710391822827938,302
+stim,original_h,,1,shared,CD8 T cells,0.4864864864864865,11
+stim,original_h,,1,shared,Dendritic cells,0.8947368421052632,18
+stim,original_h,,1,shared,FCGR3A+ Monocytes,0.8679245283018868,25
+stim,original_h,,1,shared,Megakaryocytes,0.9557522123893806,58
+stim,original_h,,1,shared,NK cells,0.8292682926829268,22
+stim,lambda_0,0.0,1,42,B cells,0.975609756097561,41
+stim,lambda_0,0.0,1,42,CD14+ Monocytes,0.9698795180722891,164
+stim,lambda_0,0.0,1,42,CD4 T cells,0.9678510998307953,302
+stim,lambda_0,0.0,1,42,CD8 T cells,0.41025641025641024,11
+stim,lambda_0,0.0,1,42,Dendritic cells,0.9444444444444444,18
+stim,lambda_0,0.0,1,42,FCGR3A+ Monocytes,0.8085106382978723,25
+stim,lambda_0,0.0,1,42,Megakaryocytes,0.9649122807017544,58
+stim,lambda_0,0.0,1,42,NK cells,0.8780487804878049,22
+stim,lambda_0p01,0.01,1,42,B cells,0.975609756097561,41
+stim,lambda_0p01,0.01,1,42,CD14+ Monocytes,0.9820359281437125,164
+stim,lambda_0p01,0.01,1,42,CD4 T cells,0.9714285714285714,302
+stim,lambda_0p01,0.01,1,42,CD8 T cells,0.4444444444444444,11
+stim,lambda_0p01,0.01,1,42,Dendritic cells,0.9714285714285714,18
+stim,lambda_0p01,0.01,1,42,FCGR3A+ Monocytes,0.8888888888888888,25
+stim,lambda_0p01,0.01,1,42,Megakaryocytes,0.9649122807017544,58
+stim,lambda_0p01,0.01,1,42,NK cells,0.8780487804878049,22
+stim,lambda_0p03,0.03,1,42,B cells,0.975609756097561,41
+stim,lambda_0p03,0.03,1,42,CD14+ Monocytes,0.9819277108433735,164
+stim,lambda_0p03,0.03,1,42,CD4 T cells,0.9696969696969697,302
+stim,lambda_0p03,0.03,1,42,CD8 T cells,0.3888888888888889,11
+stim,lambda_0p03,0.03,1,42,Dendritic cells,0.9714285714285714,18
+stim,lambda_0p03,0.03,1,42,FCGR3A+ Monocytes,0.8936170212765957,25
+stim,lambda_0p03,0.03,1,42,Megakaryocytes,0.9649122807017544,58
+stim,lambda_0p03,0.03,1,42,NK cells,0.8571428571428571,22
+stim,lambda_0p1,0.1,1,42,B cells,0.9397590361445783,41
+stim,lambda_0p1,0.1,1,42,CD14+ Monocytes,0.978978978978979,164
+stim,lambda_0p1,0.1,1,42,CD4 T cells,0.972972972972973,302
+stim,lambda_0p1,0.1,1,42,CD8 T cells,0.4444444444444444,11
+stim,lambda_0p1,0.1,1,42,Dendritic cells,0.9714285714285714,18
+stim,lambda_0p1,0.1,1,42,FCGR3A+ Monocytes,0.8444444444444444,25
+stim,lambda_0p1,0.1,1,42,Megakaryocytes,0.9914529914529915,58
+stim,lambda_0p1,0.1,1,42,NK cells,0.8780487804878049,22
+stim,lambda_0p3,0.3,1,42,B cells,0.9761904761904762,41
+stim,lambda_0p3,0.3,1,42,CD14+ Monocytes,0.9726443768996961,164
+stim,lambda_0p3,0.3,1,42,CD4 T cells,0.9746192893401016,302
+stim,lambda_0p3,0.3,1,42,CD8 T cells,0.45714285714285713,11
+stim,lambda_0p3,0.3,1,42,Dendritic cells,0.918918918918919,18
+stim,lambda_0p3,0.3,1,42,FCGR3A+ Monocytes,0.875,25
+stim,lambda_0p3,0.3,1,42,Megakaryocytes,0.9914529914529915,58
+stim,lambda_0p3,0.3,1,42,NK cells,0.8780487804878049,22
+stim,lambda_1,1.0,1,42,B cells,0.963855421686747,41
+stim,lambda_1,1.0,1,42,CD14+ Monocytes,0.9696969696969697,164
+stim,lambda_1,1.0,1,42,CD4 T cells,0.9643463497453311,302
+stim,lambda_1,1.0,1,42,CD8 T cells,0.42105263157894735,11
+stim,lambda_1,1.0,1,42,Dendritic cells,0.9444444444444444,18
+stim,lambda_1,1.0,1,42,FCGR3A+ Monocytes,0.8333333333333334,25
+stim,lambda_1,1.0,1,42,Megakaryocytes,0.9914529914529915,58
+stim,lambda_1,1.0,1,42,NK cells,0.8780487804878049,22
+stim,lambda_3,3.0,1,42,B cells,0.9523809523809523,41
+stim,lambda_3,3.0,1,42,CD14+ Monocytes,0.972809667673716,164
+stim,lambda_3,3.0,1,42,CD4 T cells,0.9676320272572402,302
+stim,lambda_3,3.0,1,42,CD8 T cells,0.42105263157894735,11
+stim,lambda_3,3.0,1,42,Dendritic cells,0.9714285714285714,18
+stim,lambda_3,3.0,1,42,FCGR3A+ Monocytes,0.8333333333333334,25
+stim,lambda_3,3.0,1,42,Megakaryocytes,0.9914529914529915,58
+stim,lambda_3,3.0,1,42,NK cells,0.8571428571428571,22
+stim,lambda_0,0.0,1,43,B cells,0.9879518072289156,41
+stim,lambda_0,0.0,1,43,CD14+ Monocytes,0.9695121951219512,164
+stim,lambda_0,0.0,1,43,CD4 T cells,0.9730639730639731,302
+stim,lambda_0,0.0,1,43,CD8 T cells,0.3333333333333333,11
+stim,lambda_0,0.0,1,43,Dendritic cells,0.85,18
+stim,lambda_0,0.0,1,43,FCGR3A+ Monocytes,0.875,25
+stim,lambda_0,0.0,1,43,Megakaryocytes,0.9174311926605505,58
+stim,lambda_0,0.0,1,43,NK cells,0.9090909090909091,22
+stim,lambda_0p01,0.01,1,43,B cells,0.9647058823529412,41
+stim,lambda_0p01,0.01,1,43,CD14+ Monocytes,0.9788519637462235,164
+stim,lambda_0p01,0.01,1,43,CD4 T cells,0.9712351945854484,302
+stim,lambda_0p01,0.01,1,43,CD8 T cells,0.3888888888888889,11
+stim,lambda_0p01,0.01,1,43,Dendritic cells,0.723404255319149,18
+stim,lambda_0p01,0.01,1,43,FCGR3A+ Monocytes,0.875,25
+stim,lambda_0p01,0.01,1,43,Megakaryocytes,0.8316831683168316,58
+stim,lambda_0p01,0.01,1,43,NK cells,0.9302325581395349,22
+stim,lambda_0p03,0.03,1,43,B cells,0.9879518072289156,41
+stim,lambda_0p03,0.03,1,43,CD14+ Monocytes,0.9788519637462235,164
+stim,lambda_0p03,0.03,1,43,CD4 T cells,0.9780775716694773,302
+stim,lambda_0p03,0.03,1,43,CD8 T cells,0.4444444444444444,11
+stim,lambda_0p03,0.03,1,43,Dendritic cells,0.9444444444444444,18
+stim,lambda_0p03,0.03,1,43,FCGR3A+ Monocytes,0.875,25
+stim,lambda_0p03,0.03,1,43,Megakaryocytes,0.9557522123893806,58
+stim,lambda_0p03,0.03,1,43,NK cells,0.9047619047619048,22
+stim,lambda_0p1,0.1,1,43,B cells,0.9879518072289156,41
+stim,lambda_0p1,0.1,1,43,CD14+ Monocytes,0.9695121951219512,164
+stim,lambda_0p1,0.1,1,43,CD4 T cells,0.9712351945854484,302
+stim,lambda_0p1,0.1,1,43,CD8 T cells,0.4,11
+stim,lambda_0p1,0.1,1,43,Dendritic cells,0.7727272727272727,18
+stim,lambda_0p1,0.1,1,43,FCGR3A+ Monocytes,0.8571428571428571,25
+stim,lambda_0p1,0.1,1,43,Megakaryocytes,0.8653846153846154,58
+stim,lambda_0p1,0.1,1,43,NK cells,0.8372093023255814,22
+stim,lambda_0p3,0.3,1,43,B cells,0.9879518072289156,41
+stim,lambda_0p3,0.3,1,43,CD14+ Monocytes,0.972809667673716,164
+stim,lambda_0p3,0.3,1,43,CD4 T cells,0.9731543624161074,302
+stim,lambda_0p3,0.3,1,43,CD8 T cells,0.43243243243243246,11
+stim,lambda_0p3,0.3,1,43,Dendritic cells,0.918918918918919,18
+stim,lambda_0p3,0.3,1,43,FCGR3A+ Monocytes,0.851063829787234,25
+stim,lambda_0p3,0.3,1,43,Megakaryocytes,0.9272727272727272,58
+stim,lambda_0p3,0.3,1,43,NK cells,0.8780487804878049,22
+stim,lambda_1,1.0,1,43,B cells,0.9761904761904762,41
+stim,lambda_1,1.0,1,43,CD14+ Monocytes,0.960960960960961,164
+stim,lambda_1,1.0,1,43,CD4 T cells,0.9781512605042016,302
+stim,lambda_1,1.0,1,43,CD8 T cells,0.45714285714285713,11
+stim,lambda_1,1.0,1,43,Dendritic cells,0.9444444444444444,18
+stim,lambda_1,1.0,1,43,FCGR3A+ Monocytes,0.8085106382978723,25
+stim,lambda_1,1.0,1,43,Megakaryocytes,0.954954954954955,58
+stim,lambda_1,1.0,1,43,NK cells,0.8780487804878049,22
+stim,lambda_3,3.0,1,43,B cells,0.9761904761904762,41
+stim,lambda_3,3.0,1,43,CD14+ Monocytes,0.972809667673716,164
+stim,lambda_3,3.0,1,43,CD4 T cells,0.9781512605042016,302
+stim,lambda_3,3.0,1,43,CD8 T cells,0.4375,11
+stim,lambda_3,3.0,1,43,Dendritic cells,0.972972972972973,18
+stim,lambda_3,3.0,1,43,FCGR3A+ Monocytes,0.8260869565217391,25
+stim,lambda_3,3.0,1,43,Megakaryocytes,1.0,58
+stim,lambda_3,3.0,1,43,NK cells,0.8780487804878049,22
+stim,lambda_0,0.0,1,44,B cells,0.963855421686747,41
+stim,lambda_0,0.0,1,44,CD14+ Monocytes,0.9667673716012085,164
+stim,lambda_0,0.0,1,44,CD4 T cells,0.9730639730639731,302
+stim,lambda_0,0.0,1,44,CD8 T cells,0.3783783783783784,11
+stim,lambda_0,0.0,1,44,Dendritic cells,0.9411764705882353,18
+stim,lambda_0,0.0,1,44,FCGR3A+ Monocytes,0.8163265306122449,25
+stim,lambda_0,0.0,1,44,Megakaryocytes,0.9464285714285714,58
+stim,lambda_0,0.0,1,44,NK cells,0.8095238095238095,22
+stim,lambda_0p01,0.01,1,44,B cells,0.9761904761904762,41
+stim,lambda_0p01,0.01,1,44,CD14+ Monocytes,0.972809667673716,164
+stim,lambda_0p01,0.01,1,44,CD4 T cells,0.9713322091062394,302
+stim,lambda_0p01,0.01,1,44,CD8 T cells,0.3783783783783784,11
+stim,lambda_0p01,0.01,1,44,Dendritic cells,0.9411764705882353,18
+stim,lambda_0p01,0.01,1,44,FCGR3A+ Monocytes,0.8571428571428571,25
+stim,lambda_0p01,0.01,1,44,Megakaryocytes,0.9649122807017544,58
+stim,lambda_0p01,0.01,1,44,NK cells,0.8,22
+stim,lambda_0p03,0.03,1,44,B cells,0.9523809523809523,41
+stim,lambda_0p03,0.03,1,44,CD14+ Monocytes,0.972972972972973,164
+stim,lambda_0p03,0.03,1,44,CD4 T cells,0.9728813559322034,302
+stim,lambda_0p03,0.03,1,44,CD8 T cells,0.43243243243243246,11
+stim,lambda_0p03,0.03,1,44,Dendritic cells,0.9411764705882353,18
+stim,lambda_0p03,0.03,1,44,FCGR3A+ Monocytes,0.851063829787234,25
+stim,lambda_0p03,0.03,1,44,Megakaryocytes,0.9565217391304348,58
+stim,lambda_0p03,0.03,1,44,NK cells,0.8095238095238095,22
+stim,lambda_0p1,0.1,1,44,B cells,0.9761904761904762,41
+stim,lambda_0p1,0.1,1,44,CD14+ Monocytes,0.9760479041916168,164
+stim,lambda_0p1,0.1,1,44,CD4 T cells,0.9780775716694773,302
+stim,lambda_0p1,0.1,1,44,CD8 T cells,0.48484848484848486,11
+stim,lambda_0p1,0.1,1,44,Dendritic cells,0.9411764705882353,18
+stim,lambda_0p1,0.1,1,44,FCGR3A+ Monocytes,0.8695652173913043,25
+stim,lambda_0p1,0.1,1,44,Megakaryocytes,0.9739130434782609,58
+stim,lambda_0p1,0.1,1,44,NK cells,0.8372093023255814,22
+stim,lambda_0p3,0.3,1,44,B cells,0.9761904761904762,41
+stim,lambda_0p3,0.3,1,44,CD14+ Monocytes,0.9757575757575757,164
+stim,lambda_0p3,0.3,1,44,CD4 T cells,0.9712351945854484,302
+stim,lambda_0p3,0.3,1,44,CD8 T cells,0.42424242424242425,11
+stim,lambda_0p3,0.3,1,44,Dendritic cells,0.9444444444444444,18
+stim,lambda_0p3,0.3,1,44,FCGR3A+ Monocytes,0.875,25
+stim,lambda_0p3,0.3,1,44,Megakaryocytes,0.9827586206896551,58
+stim,lambda_0p3,0.3,1,44,NK cells,0.8636363636363636,22
+stim,lambda_1,1.0,1,44,B cells,0.9647058823529412,41
+stim,lambda_1,1.0,1,44,CD14+ Monocytes,0.9760479041916168,164
+stim,lambda_1,1.0,1,44,CD4 T cells,0.9695945945945946,302
+stim,lambda_1,1.0,1,44,CD8 T cells,0.42424242424242425,11
+stim,lambda_1,1.0,1,44,Dendritic cells,0.9411764705882353,18
+stim,lambda_1,1.0,1,44,FCGR3A+ Monocytes,0.8695652173913043,25
+stim,lambda_1,1.0,1,44,Megakaryocytes,0.9827586206896551,58
+stim,lambda_1,1.0,1,44,NK cells,0.8571428571428571,22
+stim,lambda_3,3.0,1,44,B cells,0.9879518072289156,41
+stim,lambda_3,3.0,1,44,CD14+ Monocytes,0.9760479041916168,164
+stim,lambda_3,3.0,1,44,CD4 T cells,0.9694915254237289,302
+stim,lambda_3,3.0,1,44,CD8 T cells,0.4,11
+stim,lambda_3,3.0,1,44,Dendritic cells,0.8888888888888888,18
+stim,lambda_3,3.0,1,44,FCGR3A+ Monocytes,0.8444444444444444,25
+stim,lambda_3,3.0,1,44,Megakaryocytes,0.9739130434782609,58
+stim,lambda_3,3.0,1,44,NK cells,0.8636363636363636,22
+stim,original_h,,2,shared,B cells,0.9876543209876543,366
+stim,original_h,,2,shared,CD14+ Monocytes,0.9694019471488178,718
+stim,original_h,,2,shared,CD4 T cells,0.9513715710723192,835
+stim,original_h,,2,shared,CD8 T cells,0.5445026178010471,60
+stim,original_h,,2,shared,Dendritic cells,0.88,36
+stim,original_h,,2,shared,FCGR3A+ Monocytes,0.8853503184713376,159
+stim,original_h,,2,shared,Megakaryocytes,0.8,3
+stim,original_h,,2,shared,NK cells,0.9482758620689655,175
+stim,lambda_0,0.0,2,42,B cells,0.9807162534435262,366
+stim,lambda_0,0.0,2,42,CD14+ Monocytes,0.963573883161512,718
+stim,lambda_0,0.0,2,42,CD4 T cells,0.9331651954602774,835
+stim,lambda_0,0.0,2,42,CD8 T cells,0.47619047619047616,60
+stim,lambda_0,0.0,2,42,Dendritic cells,0.8493150684931506,36
+stim,lambda_0,0.0,2,42,FCGR3A+ Monocytes,0.8707482993197279,159
+stim,lambda_0,0.0,2,42,Megakaryocytes,0.5454545454545454,3
+stim,lambda_0,0.0,2,42,NK cells,0.9512893982808023,175
+stim,lambda_0p01,0.01,2,42,B cells,0.9821182943603851,366
+stim,lambda_0p01,0.01,2,42,CD14+ Monocytes,0.961218836565097,718
+stim,lambda_0p01,0.01,2,42,CD4 T cells,0.939261114589856,835
+stim,lambda_0p01,0.01,2,42,CD8 T cells,0.5247524752475248,60
+stim,lambda_0p01,0.01,2,42,Dendritic cells,0.825,36
+stim,lambda_0p01,0.01,2,42,FCGR3A+ Monocytes,0.8695652173913043,159
+stim,lambda_0p01,0.01,2,42,Megakaryocytes,0.6666666666666666,3
+stim,lambda_0p01,0.01,2,42,NK cells,0.953757225433526,175
+stim,lambda_0p03,0.03,2,42,B cells,0.9806629834254144,366
+stim,lambda_0p03,0.03,2,42,CD14+ Monocytes,0.9580178940123881,718
+stim,lambda_0p03,0.03,2,42,CD4 T cells,0.9293820933165196,835
+stim,lambda_0p03,0.03,2,42,CD8 T cells,0.4766355140186916,60
+stim,lambda_0p03,0.03,2,42,Dendritic cells,0.8157894736842105,36
+stim,lambda_0p03,0.03,2,42,FCGR3A+ Monocytes,0.847457627118644,159
+stim,lambda_0p03,0.03,2,42,Megakaryocytes,0.6,3
+stim,lambda_0p03,0.03,2,42,NK cells,0.953757225433526,175
+stim,lambda_0p1,0.1,2,42,B cells,0.9806629834254144,366
+stim,lambda_0p1,0.1,2,42,CD14+ Monocytes,0.956401384083045,718
+stim,lambda_0p1,0.1,2,42,CD4 T cells,0.9355040701314965,835
+stim,lambda_0p1,0.1,2,42,CD8 T cells,0.49261083743842365,60
+stim,lambda_0p1,0.1,2,42,Dendritic cells,0.8157894736842105,36
+stim,lambda_0p1,0.1,2,42,FCGR3A+ Monocytes,0.8421052631578947,159
+stim,lambda_0p1,0.1,2,42,Megakaryocytes,0.75,3
+stim,lambda_0p1,0.1,2,42,NK cells,0.9510086455331412,175
+stim,lambda_0p3,0.3,2,42,B cells,0.9806629834254144,366
+stim,lambda_0p3,0.3,2,42,CD14+ Monocytes,0.9551414768806074,718
+stim,lambda_0p3,0.3,2,42,CD4 T cells,0.9251101321585903,835
+stim,lambda_0p3,0.3,2,42,CD8 T cells,0.45714285714285713,60
+stim,lambda_0p3,0.3,2,42,Dendritic cells,0.8266666666666667,36
+stim,lambda_0p3,0.3,2,42,FCGR3A+ Monocytes,0.8417508417508418,159
+stim,lambda_0p3,0.3,2,42,Megakaryocytes,0.5,3
+stim,lambda_0p3,0.3,2,42,NK cells,0.9540229885057471,175
+stim,lambda_1,1.0,2,42,B cells,0.9806094182825484,366
+stim,lambda_1,1.0,2,42,CD14+ Monocytes,0.9578438147892191,718
+stim,lambda_1,1.0,2,42,CD4 T cells,0.929968454258675,835
+stim,lambda_1,1.0,2,42,CD8 T cells,0.4700460829493088,60
+stim,lambda_1,1.0,2,42,Dendritic cells,0.8051948051948052,36
+stim,lambda_1,1.0,2,42,FCGR3A+ Monocytes,0.8504983388704319,159
+stim,lambda_1,1.0,2,42,Megakaryocytes,0.75,3
+stim,lambda_1,1.0,2,42,NK cells,0.9510086455331412,175
+stim,lambda_3,3.0,2,42,B cells,0.9793672627235214,366
+stim,lambda_3,3.0,2,42,CD14+ Monocytes,0.9590562109646079,718
+stim,lambda_3,3.0,2,42,CD4 T cells,0.929471032745592,835
+stim,lambda_3,3.0,2,42,CD8 T cells,0.45933014354066987,60
+stim,lambda_3,3.0,2,42,Dendritic cells,0.8051948051948052,36
+stim,lambda_3,3.0,2,42,FCGR3A+ Monocytes,0.8599348534201955,159
+stim,lambda_3,3.0,2,42,Megakaryocytes,0.8571428571428571,3
+stim,lambda_3,3.0,2,42,NK cells,0.9482758620689655,175
+stim,lambda_0,0.0,2,43,B cells,0.9889807162534435,366
+stim,lambda_0,0.0,2,43,CD14+ Monocytes,0.9620951068228808,718
+stim,lambda_0,0.0,2,43,CD4 T cells,0.9391849529780564,835
+stim,lambda_0,0.0,2,43,CD8 T cells,0.4975124378109453,60
+stim,lambda_0,0.0,2,43,Dendritic cells,0.8354430379746836,36
+stim,lambda_0,0.0,2,43,FCGR3A+ Monocytes,0.8581081081081081,159
+stim,lambda_0,0.0,2,43,Megakaryocytes,0.8571428571428571,3
+stim,lambda_0,0.0,2,43,NK cells,0.9570200573065902,175
+stim,lambda_0p01,0.01,2,43,B cells,0.99039780521262,366
+stim,lambda_0p01,0.01,2,43,CD14+ Monocytes,0.9585062240663901,718
+stim,lambda_0p01,0.01,2,43,CD4 T cells,0.9405134627426425,835
+stim,lambda_0p01,0.01,2,43,CD8 T cells,0.504950495049505,60
+stim,lambda_0p01,0.01,2,43,Dendritic cells,0.825,36
+stim,lambda_0p01,0.01,2,43,FCGR3A+ Monocytes,0.84,159
+stim,lambda_0p01,0.01,2,43,Megakaryocytes,1.0,3
+stim,lambda_0p01,0.01,2,43,NK cells,0.9593023255813954,175
+stim,lambda_0p03,0.03,2,43,B cells,0.9903713892709766,366
+stim,lambda_0p03,0.03,2,43,CD14+ Monocytes,0.9634230503795721,718
+stim,lambda_0p03,0.03,2,43,CD4 T cells,0.9391086001255493,835
+stim,lambda_0p03,0.03,2,43,CD8 T cells,0.5024630541871922,60
+stim,lambda_0p03,0.03,2,43,Dendritic cells,0.8354430379746836,36
+stim,lambda_0p03,0.03,2,43,FCGR3A+ Monocytes,0.8686868686868687,159
+stim,lambda_0p03,0.03,2,43,Megakaryocytes,0.75,3
+stim,lambda_0p03,0.03,2,43,NK cells,0.9540229885057471,175
+stim,lambda_0p1,0.1,2,43,B cells,0.9889807162534435,366
+stim,lambda_0p1,0.1,2,43,CD14+ Monocytes,0.9614325068870524,718
+stim,lambda_0p1,0.1,2,43,CD4 T cells,0.9408805031446541,835
+stim,lambda_0p1,0.1,2,43,CD8 T cells,0.5024154589371981,60
+stim,lambda_0p1,0.1,2,43,Dendritic cells,0.8205128205128205,36
+stim,lambda_0p1,0.1,2,43,FCGR3A+ Monocytes,0.8610169491525423,159
+stim,lambda_0p1,0.1,2,43,Megakaryocytes,0.8571428571428571,3
+stim,lambda_0p1,0.1,2,43,NK cells,0.9455587392550143,175
+stim,lambda_0p3,0.3,2,43,B cells,0.9917582417582418,366
+stim,lambda_0p3,0.3,2,43,CD14+ Monocytes,0.9621472814865795,718
+stim,lambda_0p3,0.3,2,43,CD4 T cells,0.9430181590482154,835
+stim,lambda_0p3,0.3,2,43,CD8 T cells,0.5226130653266332,60
+stim,lambda_0p3,0.3,2,43,Dendritic cells,0.8354430379746836,36
+stim,lambda_0p3,0.3,2,43,FCGR3A+ Monocytes,0.8513513513513513,159
+stim,lambda_0p3,0.3,2,43,Megakaryocytes,0.8571428571428571,3
+stim,lambda_0p3,0.3,2,43,NK cells,0.9565217391304348,175
+stim,lambda_1,1.0,2,43,B cells,0.9848275862068966,366
+stim,lambda_1,1.0,2,43,CD14+ Monocytes,0.9614325068870524,718
+stim,lambda_1,1.0,2,43,CD4 T cells,0.9374217772215269,835
+stim,lambda_1,1.0,2,43,CD8 T cells,0.504950495049505,60
+stim,lambda_1,1.0,2,43,Dendritic cells,0.8354430379746836,36
+stim,lambda_1,1.0,2,43,FCGR3A+ Monocytes,0.8571428571428571,159
+stim,lambda_1,1.0,2,43,Megakaryocytes,0.75,3
+stim,lambda_1,1.0,2,43,NK cells,0.953757225433526,175
+stim,lambda_3,3.0,2,43,B cells,0.9875518672199171,366
+stim,lambda_3,3.0,2,43,CD14+ Monocytes,0.9551414768806074,718
+stim,lambda_3,3.0,2,43,CD4 T cells,0.9446172993154948,835
+stim,lambda_3,3.0,2,43,CD8 T cells,0.5284974093264249,60
+stim,lambda_3,3.0,2,43,Dendritic cells,0.825,36
+stim,lambda_3,3.0,2,43,FCGR3A+ Monocytes,0.822742474916388,159
+stim,lambda_3,3.0,2,43,Megakaryocytes,1.0,3
+stim,lambda_3,3.0,2,43,NK cells,0.9567723342939481,175
+stim,lambda_0,0.0,2,44,B cells,0.9777777777777777,366
+stim,lambda_0,0.0,2,44,CD14+ Monocytes,0.9538249483115093,718
+stim,lambda_0,0.0,2,44,CD4 T cells,0.93099121706399,835
+stim,lambda_0,0.0,2,44,CD8 T cells,0.49514563106796117,60
+stim,lambda_0,0.0,2,44,Dendritic cells,0.8395061728395061,36
+stim,lambda_0,0.0,2,44,FCGR3A+ Monocytes,0.8247422680412371,159
+stim,lambda_0,0.0,2,44,Megakaryocytes,0.5454545454545454,3
+stim,lambda_0,0.0,2,44,NK cells,0.9485714285714286,175
+stim,lambda_0p01,0.01,2,44,B cells,0.9819694868238558,366
+stim,lambda_0p01,0.01,2,44,CD14+ Monocytes,0.953103448275862,718
+stim,lambda_0p01,0.01,2,44,CD4 T cells,0.935423197492163,835
+stim,lambda_0p01,0.01,2,44,CD8 T cells,0.49,60
+stim,lambda_0p01,0.01,2,44,Dendritic cells,0.8,36
+stim,lambda_0p01,0.01,2,44,FCGR3A+ Monocytes,0.8262295081967214,159
+stim,lambda_0p01,0.01,2,44,Megakaryocytes,0.6666666666666666,3
+stim,lambda_0p01,0.01,2,44,NK cells,0.9431818181818182,175
+stim,lambda_0p03,0.03,2,44,B cells,0.9777777777777777,366
+stim,lambda_0p03,0.03,2,44,CD14+ Monocytes,0.957960027567195,718
+stim,lambda_0p03,0.03,2,44,CD4 T cells,0.929471032745592,835
+stim,lambda_0p03,0.03,2,44,CD8 T cells,0.4857142857142857,60
+stim,lambda_0p03,0.03,2,44,Dendritic cells,0.8717948717948718,36
+stim,lambda_0p03,0.03,2,44,FCGR3A+ Monocytes,0.8338983050847457,159
+stim,lambda_0p03,0.03,2,44,Megakaryocytes,0.5454545454545454,3
+stim,lambda_0p03,0.03,2,44,NK cells,0.9458689458689459,175
+stim,lambda_0p1,0.1,2,44,B cells,0.9806094182825484,366
+stim,lambda_0p1,0.1,2,44,CD14+ Monocytes,0.956401384083045,718
+stim,lambda_0p1,0.1,2,44,CD4 T cells,0.9288860918816866,835
+stim,lambda_0p1,0.1,2,44,CD8 T cells,0.4880382775119617,60
+stim,lambda_0p1,0.1,2,44,Dendritic cells,0.8354430379746836,36
+stim,lambda_0p1,0.1,2,44,FCGR3A+ Monocytes,0.8389261744966443,159
+stim,lambda_0p1,0.1,2,44,Megakaryocytes,0.5,3
+stim,lambda_0p1,0.1,2,44,NK cells,0.9485714285714286,175
+stim,lambda_0p3,0.3,2,44,B cells,0.9791955617198336,366
+stim,lambda_0p3,0.3,2,44,CD14+ Monocytes,0.9558011049723757,718
+stim,lambda_0p3,0.3,2,44,CD4 T cells,0.926860025220681,835
+stim,lambda_0p3,0.3,2,44,CD8 T cells,0.4766355140186916,60
+stim,lambda_0p3,0.3,2,44,Dendritic cells,0.8461538461538461,36
+stim,lambda_0p3,0.3,2,44,FCGR3A+ Monocytes,0.825503355704698,159
+stim,lambda_0p3,0.3,2,44,Megakaryocytes,0.5454545454545454,3
+stim,lambda_0p3,0.3,2,44,NK cells,0.9482758620689655,175
+stim,lambda_1,1.0,2,44,B cells,0.9763560500695411,366
+stim,lambda_1,1.0,2,44,CD14+ Monocytes,0.9557399723374828,718
+stim,lambda_1,1.0,2,44,CD4 T cells,0.9329153605015674,835
+stim,lambda_1,1.0,2,44,CD8 T cells,0.4927536231884058,60
+stim,lambda_1,1.0,2,44,Dendritic cells,0.8461538461538461,36
+stim,lambda_1,1.0,2,44,FCGR3A+ Monocytes,0.8322147651006712,159
+stim,lambda_1,1.0,2,44,Megakaryocytes,0.5454545454545454,3
+stim,lambda_1,1.0,2,44,NK cells,0.9485714285714286,175
+stim,lambda_3,3.0,2,44,B cells,0.9777777777777777,366
+stim,lambda_3,3.0,2,44,CD14+ Monocytes,0.951856946354883,718
+stim,lambda_3,3.0,2,44,CD4 T cells,0.9322459222082811,835
+stim,lambda_3,3.0,2,44,CD8 T cells,0.47058823529411764,60
+stim,lambda_3,3.0,2,44,Dendritic cells,0.868421052631579,36
+stim,lambda_3,3.0,2,44,FCGR3A+ Monocytes,0.8054607508532423,159
+stim,lambda_3,3.0,2,44,Megakaryocytes,0.5,3
+stim,lambda_3,3.0,2,44,NK cells,0.9401709401709402,175
+stim,original_h,,3,shared,B cells,0.9861111111111112,289
+stim,original_h,,3,shared,CD14+ Monocytes,0.979381443298969,393
+stim,original_h,,3,shared,CD4 T cells,0.989494418910046,1529
+stim,original_h,,3,shared,CD8 T cells,0.5319148936170213,42
+stim,original_h,,3,shared,Dendritic cells,0.9333333333333333,57
+stim,original_h,,3,shared,FCGR3A+ Monocytes,0.9508196721311475,90
+stim,original_h,,3,shared,Megakaryocytes,0.0,0
+stim,original_h,,3,shared,NK cells,0.9,149
+stim,lambda_0,0.0,3,42,B cells,0.9790209790209791,289
+stim,lambda_0,0.0,3,42,CD14+ Monocytes,0.9754838709677419,393
+stim,lambda_0,0.0,3,42,CD4 T cells,0.9888670595939751,1529
+stim,lambda_0,0.0,3,42,CD8 T cells,0.5555555555555556,42
+stim,lambda_0,0.0,3,42,Dendritic cells,0.9333333333333333,57
+stim,lambda_0,0.0,3,42,FCGR3A+ Monocytes,0.9297297297297298,90
+stim,lambda_0,0.0,3,42,Megakaryocytes,0.0,0
+stim,lambda_0,0.0,3,42,NK cells,0.9066666666666666,149
+stim,lambda_0p01,0.01,3,42,B cells,0.9825174825174825,289
+stim,lambda_0p01,0.01,3,42,CD14+ Monocytes,0.9781209781209781,393
+stim,lambda_0p01,0.01,3,42,CD4 T cells,0.9895219384413884,1529
+stim,lambda_0p01,0.01,3,42,CD8 T cells,0.5977011494252874,42
+stim,lambda_0p01,0.01,3,42,Dendritic cells,0.9256198347107438,57
+stim,lambda_0p01,0.01,3,42,FCGR3A+ Monocytes,0.9398907103825137,90
+stim,lambda_0p01,0.01,3,42,Megakaryocytes,0.0,0
+stim,lambda_0p01,0.01,3,42,NK cells,0.9169435215946844,149
+stim,lambda_0p03,0.03,3,42,B cells,0.9825174825174825,289
+stim,lambda_0p03,0.03,3,42,CD14+ Monocytes,0.9781209781209781,393
+stim,lambda_0p03,0.03,3,42,CD4 T cells,0.989839396919043,1529
+stim,lambda_0p03,0.03,3,42,CD8 T cells,0.5806451612903226,42
+stim,lambda_0p03,0.03,3,42,Dendritic cells,0.9256198347107438,57
+stim,lambda_0p03,0.03,3,42,FCGR3A+ Monocytes,0.9347826086956522,90
+stim,lambda_0p03,0.03,3,42,Megakaryocytes,0.0,0
+stim,lambda_0p03,0.03,3,42,NK cells,0.9060402684563759,149
+stim,lambda_0p1,0.1,3,42,B cells,0.9772329246935202,289
+stim,lambda_0p1,0.1,3,42,CD14+ Monocytes,0.9717223650385605,393
+stim,lambda_0p1,0.1,3,42,CD4 T cells,0.9891838741396264,1529
+stim,lambda_0p1,0.1,3,42,CD8 T cells,0.5684210526315789,42
+stim,lambda_0p1,0.1,3,42,Dendritic cells,0.9090909090909091,57
+stim,lambda_0p1,0.1,3,42,FCGR3A+ Monocytes,0.9130434782608695,90
+stim,lambda_0p1,0.1,3,42,Megakaryocytes,0.0,0
+stim,lambda_0p1,0.1,3,42,NK cells,0.8986486486486487,149
+stim,lambda_0p3,0.3,3,42,B cells,0.9790209790209791,289
+stim,lambda_0p3,0.3,3,42,CD14+ Monocytes,0.9768637532133676,393
+stim,lambda_0p3,0.3,3,42,CD4 T cells,0.9895287958115183,1529
+stim,lambda_0p3,0.3,3,42,CD8 T cells,0.5494505494505495,42
+stim,lambda_0p3,0.3,3,42,Dendritic cells,0.9333333333333333,57
+stim,lambda_0p3,0.3,3,42,FCGR3A+ Monocytes,0.9398907103825137,90
+stim,lambda_0p3,0.3,3,42,Megakaryocytes,0.0,0
+stim,lambda_0p3,0.3,3,42,NK cells,0.8918918918918919,149
+stim,lambda_1,1.0,3,42,B cells,0.9790209790209791,289
+stim,lambda_1,1.0,3,42,CD14+ Monocytes,0.9782330345710627,393
+stim,lambda_1,1.0,3,42,CD4 T cells,0.9898460530625615,1529
+stim,lambda_1,1.0,3,42,CD8 T cells,0.5909090909090909,42
+stim,lambda_1,1.0,3,42,Dendritic cells,0.9411764705882353,57
+stim,lambda_1,1.0,3,42,FCGR3A+ Monocytes,0.9340659340659341,90
+stim,lambda_1,1.0,3,42,Megakaryocytes,0.0,0
+stim,lambda_1,1.0,3,42,NK cells,0.9102990033222591,149
+stim,lambda_3,3.0,3,42,B cells,0.9790209790209791,289
+stim,lambda_3,3.0,3,42,CD14+ Monocytes,0.9768041237113402,393
+stim,lambda_3,3.0,3,42,CD4 T cells,0.9878569084345258,1529
+stim,lambda_3,3.0,3,42,CD8 T cells,0.5154639175257731,42
+stim,lambda_3,3.0,3,42,Dendritic cells,0.9166666666666666,57
+stim,lambda_3,3.0,3,42,FCGR3A+ Monocytes,0.9247311827956989,90
+stim,lambda_3,3.0,3,42,Megakaryocytes,0.0,0
+stim,lambda_3,3.0,3,42,NK cells,0.8926174496644296,149
+stim,lambda_0,0.0,3,43,B cells,0.9772329246935202,289
+stim,lambda_0,0.0,3,43,CD14+ Monocytes,0.9729032258064516,393
+stim,lambda_0,0.0,3,43,CD4 T cells,0.987192118226601,1529
+stim,lambda_0,0.0,3,43,CD8 T cells,0.5360824742268041,42
+stim,lambda_0,0.0,3,43,Dendritic cells,0.9243697478991597,57
+stim,lambda_0,0.0,3,43,FCGR3A+ Monocytes,0.9032258064516129,90
+stim,lambda_0,0.0,3,43,Megakaryocytes,0.0,0
+stim,lambda_0,0.0,3,43,NK cells,0.9036544850498339,149
+stim,lambda_0p01,0.01,3,43,B cells,0.9772329246935202,289
+stim,lambda_0p01,0.01,3,43,CD14+ Monocytes,0.9702457956015524,393
+stim,lambda_0p01,0.01,3,43,CD4 T cells,0.9881889763779528,1529
+stim,lambda_0p01,0.01,3,43,CD8 T cells,0.5416666666666666,42
+stim,lambda_0p01,0.01,3,43,Dendritic cells,0.9243697478991597,57
+stim,lambda_0p01,0.01,3,43,FCGR3A+ Monocytes,0.8936170212765957,90
+stim,lambda_0p01,0.01,3,43,Megakaryocytes,0.0,0
+stim,lambda_0p01,0.01,3,43,NK cells,0.903010033444816,149
+stim,lambda_0p03,0.03,3,43,B cells,0.9808695652173913,289
+stim,lambda_0p03,0.03,3,43,CD14+ Monocytes,0.9729032258064516,393
+stim,lambda_0p03,0.03,3,43,CD4 T cells,0.9891696750902527,1529
+stim,lambda_0p03,0.03,3,43,CD8 T cells,0.5625,42
+stim,lambda_0p03,0.03,3,43,Dendritic cells,0.9401709401709402,57
+stim,lambda_0p03,0.03,3,43,FCGR3A+ Monocytes,0.9042553191489362,90
+stim,lambda_0p03,0.03,3,43,Megakaryocytes,0.0,0
+stim,lambda_0p03,0.03,3,43,NK cells,0.8993288590604027,149
+stim,lambda_0p1,0.1,3,43,B cells,0.9826388888888888,289
+stim,lambda_0p1,0.1,3,43,CD14+ Monocytes,0.9781209781209781,393
+stim,lambda_0p1,0.1,3,43,CD4 T cells,0.9894875164257556,1529
+stim,lambda_0p1,0.1,3,43,CD8 T cells,0.5294117647058824,42
+stim,lambda_0p1,0.1,3,43,Dendritic cells,0.9322033898305084,57
+stim,lambda_0p1,0.1,3,43,FCGR3A+ Monocytes,0.9347826086956522,90
+stim,lambda_0p1,0.1,3,43,Megakaryocytes,0.0,0
+stim,lambda_0p1,0.1,3,43,NK cells,0.8851351351351351,149
+stim,lambda_0p3,0.3,3,43,B cells,0.9825783972125436,289
+stim,lambda_0p3,0.3,3,43,CD14+ Monocytes,0.9596879063719116,393
+stim,lambda_0p3,0.3,3,43,CD4 T cells,0.9888597640891219,1529
+stim,lambda_0p3,0.3,3,43,CD8 T cells,0.5148514851485149,42
+stim,lambda_0p3,0.3,3,43,Dendritic cells,0.9230769230769231,57
+stim,lambda_0p3,0.3,3,43,FCGR3A+ Monocytes,0.8795811518324608,90
+stim,lambda_0p3,0.3,3,43,Megakaryocytes,0.0,0
+stim,lambda_0p3,0.3,3,43,NK cells,0.8904109589041096,149
+stim,lambda_1,1.0,3,43,B cells,0.9773913043478261,289
+stim,lambda_1,1.0,3,43,CD14+ Monocytes,0.9702457956015524,393
+stim,lambda_1,1.0,3,43,CD4 T cells,0.9891625615763546,1529
+stim,lambda_1,1.0,3,43,CD8 T cells,0.5384615384615384,42
+stim,lambda_1,1.0,3,43,Dendritic cells,0.9230769230769231,57
+stim,lambda_1,1.0,3,43,FCGR3A+ Monocytes,0.8947368421052632,90
+stim,lambda_1,1.0,3,43,Megakaryocytes,0.0,0
+stim,lambda_1,1.0,3,43,NK cells,0.8873720136518771,149
+stim,lambda_3,3.0,3,43,B cells,0.9754385964912281,289
+stim,lambda_3,3.0,3,43,CD14+ Monocytes,0.9676584734799483,393
+stim,lambda_3,3.0,3,43,CD4 T cells,0.9881889763779528,1529
+stim,lambda_3,3.0,3,43,CD8 T cells,0.5306122448979592,42
+stim,lambda_3,3.0,3,43,Dendritic cells,0.9,57
+stim,lambda_3,3.0,3,43,FCGR3A+ Monocytes,0.8947368421052632,90
+stim,lambda_3,3.0,3,43,Megakaryocytes,0.0,0
+stim,lambda_3,3.0,3,43,NK cells,0.8956228956228957,149
+stim,lambda_0,0.0,3,44,B cells,0.9807355516637478,289
+stim,lambda_0,0.0,3,44,CD14+ Monocytes,0.9741602067183462,393
+stim,lambda_0,0.0,3,44,CD4 T cells,0.9875409836065574,1529
+stim,lambda_0,0.0,3,44,CD8 T cells,0.5979381443298969,42
+stim,lambda_0,0.0,3,44,Dendritic cells,0.9322033898305084,57
+stim,lambda_0,0.0,3,44,FCGR3A+ Monocytes,0.9197860962566845,90
+stim,lambda_0,0.0,3,44,Megakaryocytes,0.0,0
+stim,lambda_0,0.0,3,44,NK cells,0.9023569023569024,149
+stim,lambda_0p01,0.01,3,44,B cells,0.9790209790209791,289
+stim,lambda_0p01,0.01,3,44,CD14+ Monocytes,0.9754204398447607,393
+stim,lambda_0p01,0.01,3,44,CD4 T cells,0.989839396919043,1529
+stim,lambda_0p01,0.01,3,44,CD8 T cells,0.58,42
+stim,lambda_0p01,0.01,3,44,Dendritic cells,0.9322033898305084,57
+stim,lambda_0p01,0.01,3,44,FCGR3A+ Monocytes,0.925531914893617,90
+stim,lambda_0p01,0.01,3,44,Megakaryocytes,0.0,0
+stim,lambda_0p01,0.01,3,44,NK cells,0.9152542372881356,149
+stim,lambda_0p03,0.03,3,44,B cells,0.9825174825174825,289
+stim,lambda_0p03,0.03,3,44,CD14+ Monocytes,0.9728331177231565,393
+stim,lambda_0p03,0.03,3,44,CD4 T cells,0.989839396919043,1529
+stim,lambda_0p03,0.03,3,44,CD8 T cells,0.5544554455445545,42
+stim,lambda_0p03,0.03,3,44,Dendritic cells,0.9310344827586207,57
+stim,lambda_0p03,0.03,3,44,FCGR3A+ Monocytes,0.9042553191489362,90
+stim,lambda_0p03,0.03,3,44,Megakaryocytes,0.0,0
+stim,lambda_0p03,0.03,3,44,NK cells,0.9054054054054054,149
+stim,lambda_0p1,0.1,3,44,B cells,0.9860627177700348,289
+stim,lambda_0p1,0.1,3,44,CD14+ Monocytes,0.9728331177231565,393
+stim,lambda_0p1,0.1,3,44,CD4 T cells,0.9891838741396264,1529
+stim,lambda_0p1,0.1,3,44,CD8 T cells,0.5346534653465347,42
+stim,lambda_0p1,0.1,3,44,Dendritic cells,0.9243697478991597,57
+stim,lambda_0p1,0.1,3,44,FCGR3A+ Monocytes,0.9247311827956989,90
+stim,lambda_0p1,0.1,3,44,Megakaryocytes,0.0,0
+stim,lambda_0p1,0.1,3,44,NK cells,0.9047619047619048,149
+stim,lambda_0p3,0.3,3,44,B cells,0.9808027923211169,289
+stim,lambda_0p3,0.3,3,44,CD14+ Monocytes,0.9716494845360825,393
+stim,lambda_0p3,0.3,3,44,CD4 T cells,0.9898327320432929,1529
+stim,lambda_0p3,0.3,3,44,CD8 T cells,0.5544554455445545,42
+stim,lambda_0p3,0.3,3,44,Dendritic cells,0.9322033898305084,57
+stim,lambda_0p3,0.3,3,44,FCGR3A+ Monocytes,0.9139784946236559,90
+stim,lambda_0p3,0.3,3,44,Megakaryocytes,0.0,0
+stim,lambda_0p3,0.3,3,44,NK cells,0.9047619047619048,149
+stim,lambda_1,1.0,3,44,B cells,0.9789473684210527,289
+stim,lambda_1,1.0,3,44,CD14+ Monocytes,0.9742268041237113,393
+stim,lambda_1,1.0,3,44,CD4 T cells,0.990501146413364,1529
+stim,lambda_1,1.0,3,44,CD8 T cells,0.5346534653465347,42
+stim,lambda_1,1.0,3,44,Dendritic cells,0.9491525423728814,57
+stim,lambda_1,1.0,3,44,FCGR3A+ Monocytes,0.9130434782608695,90
+stim,lambda_1,1.0,3,44,Megakaryocytes,0.0,0
+stim,lambda_1,1.0,3,44,NK cells,0.888135593220339,149
+stim,lambda_3,3.0,3,44,B cells,0.9755244755244755,289
+stim,lambda_3,3.0,3,44,CD14+ Monocytes,0.9715025906735751,393
+stim,lambda_3,3.0,3,44,CD4 T cells,0.987880773010154,1529
+stim,lambda_3,3.0,3,44,CD8 T cells,0.5416666666666666,42
+stim,lambda_3,3.0,3,44,Dendritic cells,0.9333333333333333,57
+stim,lambda_3,3.0,3,44,FCGR3A+ Monocytes,0.9354838709677419,90
+stim,lambda_3,3.0,3,44,Megakaryocytes,0.0,0
+stim,lambda_3,3.0,3,44,NK cells,0.8993288590604027,149
+stim,original_h,,4,shared,B cells,0.9773755656108597,219
+stim,original_h,,4,shared,CD14+ Monocytes,0.9804941482444733,387
+stim,original_h,,4,shared,CD4 T cells,0.986815415821501,993
+stim,original_h,,4,shared,CD8 T cells,0.88,132
+stim,original_h,,4,shared,Dendritic cells,0.9183673469387755,48
+stim,original_h,,4,shared,FCGR3A+ Monocytes,0.9230769230769231,57
+stim,original_h,,4,shared,Megakaryocytes,0.5714285714285714,4
+stim,original_h,,4,shared,NK cells,0.9354838709677419,186
+stim,lambda_0,0.0,4,42,B cells,0.9705215419501134,219
+stim,lambda_0,0.0,4,42,CD14+ Monocytes,0.9740932642487047,387
+stim,lambda_0,0.0,4,42,CD4 T cells,0.983789260385005,993
+stim,lambda_0,0.0,4,42,CD8 T cells,0.8676470588235294,132
+stim,lambda_0,0.0,4,42,Dendritic cells,0.8842105263157894,48
+stim,lambda_0,0.0,4,42,FCGR3A+ Monocytes,0.8888888888888888,57
+stim,lambda_0,0.0,4,42,Megakaryocytes,0.6666666666666666,4
+stim,lambda_0,0.0,4,42,NK cells,0.9354838709677419,186
+stim,lambda_0p01,0.01,4,42,B cells,0.9750566893424036,219
+stim,lambda_0p01,0.01,4,42,CD14+ Monocytes,0.9715025906735751,387
+stim,lambda_0p01,0.01,4,42,CD4 T cells,0.9853164556962025,993
+stim,lambda_0p01,0.01,4,42,CD8 T cells,0.8560885608856088,132
+stim,lambda_0p01,0.01,4,42,Dendritic cells,0.8695652173913043,48
+stim,lambda_0p01,0.01,4,42,FCGR3A+ Monocytes,0.8739495798319328,57
+stim,lambda_0p01,0.01,4,42,Megakaryocytes,0.8888888888888888,4
+stim,lambda_0p01,0.01,4,42,NK cells,0.9329758713136729,186
+stim,lambda_0p03,0.03,4,42,B cells,0.9705215419501134,219
+stim,lambda_0p03,0.03,4,42,CD14+ Monocytes,0.9740932642487047,387
+stim,lambda_0p03,0.03,4,42,CD4 T cells,0.9858299595141701,993
+stim,lambda_0p03,0.03,4,42,CD8 T cells,0.8666666666666667,132
+stim,lambda_0p03,0.03,4,42,Dendritic cells,0.8723404255319149,48
+stim,lambda_0p03,0.03,4,42,FCGR3A+ Monocytes,0.8907563025210085,57
+stim,lambda_0p03,0.03,4,42,Megakaryocytes,0.75,4
+stim,lambda_0p03,0.03,4,42,NK cells,0.9354838709677419,186
+stim,lambda_0p1,0.1,4,42,B cells,0.9706546275395034,219
+stim,lambda_0p1,0.1,4,42,CD14+ Monocytes,0.9740932642487047,387
+stim,lambda_0p1,0.1,4,42,CD4 T cells,0.9848024316109423,993
+stim,lambda_0p1,0.1,4,42,CD8 T cells,0.8623188405797102,132
+stim,lambda_0p1,0.1,4,42,Dendritic cells,0.9032258064516129,48
+stim,lambda_0p1,0.1,4,42,FCGR3A+ Monocytes,0.8813559322033898,57
+stim,lambda_0p1,0.1,4,42,Megakaryocytes,0.5714285714285714,4
+stim,lambda_0p1,0.1,4,42,NK cells,0.9322493224932249,186
+stim,lambda_0p3,0.3,4,42,B cells,0.9706546275395034,219
+stim,lambda_0p3,0.3,4,42,CD14+ Monocytes,0.9728331177231565,387
+stim,lambda_0p3,0.3,4,42,CD4 T cells,0.9858299595141701,993
+stim,lambda_0p3,0.3,4,42,CD8 T cells,0.8560885608856088,132
+stim,lambda_0p3,0.3,4,42,Dendritic cells,0.8913043478260869,48
+stim,lambda_0p3,0.3,4,42,FCGR3A+ Monocytes,0.8813559322033898,57
+stim,lambda_0p3,0.3,4,42,Megakaryocytes,0.6666666666666666,4
+stim,lambda_0p3,0.3,4,42,NK cells,0.9351351351351351,186
+stim,lambda_1,1.0,4,42,B cells,0.9706546275395034,219
+stim,lambda_1,1.0,4,42,CD14+ Monocytes,0.9688311688311688,387
+stim,lambda_1,1.0,4,42,CD4 T cells,0.9832572298325722,993
+stim,lambda_1,1.0,4,42,CD8 T cells,0.851985559566787,132
+stim,lambda_1,1.0,4,42,Dendritic cells,0.8631578947368421,48
+stim,lambda_1,1.0,4,42,FCGR3A+ Monocytes,0.864406779661017,57
+stim,lambda_1,1.0,4,42,Megakaryocytes,0.75,4
+stim,lambda_1,1.0,4,42,NK cells,0.9297297297297298,186
+stim,lambda_3,3.0,4,42,B cells,0.9772727272727273,219
+stim,lambda_3,3.0,4,42,CD14+ Monocytes,0.9700910273081924,387
+stim,lambda_3,3.0,4,42,CD4 T cells,0.9858442871587462,993
+stim,lambda_3,3.0,4,42,CD8 T cells,0.8571428571428571,132
+stim,lambda_3,3.0,4,42,Dendritic cells,0.8421052631578947,48
+stim,lambda_3,3.0,4,42,FCGR3A+ Monocytes,0.8666666666666667,57
+stim,lambda_3,3.0,4,42,Megakaryocytes,0.75,4
+stim,lambda_3,3.0,4,42,NK cells,0.926829268292683,186
+stim,lambda_0,0.0,4,43,B cells,0.9703872437357631,219
+stim,lambda_0,0.0,4,43,CD14+ Monocytes,0.9741602067183462,387
+stim,lambda_0,0.0,4,43,CD4 T cells,0.9873801110550228,993
+stim,lambda_0,0.0,4,43,CD8 T cells,0.8582089552238806,132
+stim,lambda_0,0.0,4,43,Dendritic cells,0.9130434782608695,48
+stim,lambda_0,0.0,4,43,FCGR3A+ Monocytes,0.8813559322033898,57
+stim,lambda_0,0.0,4,43,Megakaryocytes,0.5714285714285714,4
+stim,lambda_0,0.0,4,43,NK cells,0.9276139410187667,186
+stim,lambda_0p01,0.01,4,43,B cells,0.9727272727272728,219
+stim,lambda_0p01,0.01,4,43,CD14+ Monocytes,0.9767441860465116,387
+stim,lambda_0p01,0.01,4,43,CD4 T cells,0.9873417721518988,993
+stim,lambda_0p01,0.01,4,43,CD8 T cells,0.8654545454545455,132
+stim,lambda_0p01,0.01,4,43,Dendritic cells,0.9130434782608695,48
+stim,lambda_0p01,0.01,4,43,FCGR3A+ Monocytes,0.8983050847457628,57
+stim,lambda_0p01,0.01,4,43,Megakaryocytes,0.75,4
+stim,lambda_0p01,0.01,4,43,NK cells,0.9351351351351351,186
+stim,lambda_0p03,0.03,4,43,B cells,0.9727272727272728,219
+stim,lambda_0p03,0.03,4,43,CD14+ Monocytes,0.9767441860465116,387
+stim,lambda_0p03,0.03,4,43,CD4 T cells,0.9868421052631579,993
+stim,lambda_0p03,0.03,4,43,CD8 T cells,0.8613138686131386,132
+stim,lambda_0p03,0.03,4,43,Dendritic cells,0.9130434782608695,48
+stim,lambda_0p03,0.03,4,43,FCGR3A+ Monocytes,0.8983050847457628,57
+stim,lambda_0p03,0.03,4,43,Megakaryocytes,0.75,4
+stim,lambda_0p03,0.03,4,43,NK cells,0.9351351351351351,186
+stim,lambda_0p1,0.1,4,43,B cells,0.9705215419501134,219
+stim,lambda_0p1,0.1,4,43,CD14+ Monocytes,0.9766839378238342,387
+stim,lambda_0p1,0.1,4,43,CD4 T cells,0.9873417721518988,993
+stim,lambda_0p1,0.1,4,43,CD8 T cells,0.8686131386861314,132
+stim,lambda_0p1,0.1,4,43,Dendritic cells,0.9032258064516129,48
+stim,lambda_0p1,0.1,4,43,FCGR3A+ Monocytes,0.8907563025210085,57
+stim,lambda_0p1,0.1,4,43,Megakaryocytes,0.75,4
+stim,lambda_0p1,0.1,4,43,NK cells,0.9351351351351351,186
+stim,lambda_0p3,0.3,4,43,B cells,0.9727272727272728,219
+stim,lambda_0p3,0.3,4,43,CD14+ Monocytes,0.9780077619663649,387
+stim,lambda_0p3,0.3,4,43,CD4 T cells,0.9893778452200304,993
+stim,lambda_0p3,0.3,4,43,CD8 T cells,0.875,132
+stim,lambda_0p3,0.3,4,43,Dendritic cells,0.8936170212765957,48
+stim,lambda_0p3,0.3,4,43,FCGR3A+ Monocytes,0.8888888888888888,57
+stim,lambda_0p3,0.3,4,43,Megakaryocytes,0.75,4
+stim,lambda_0p3,0.3,4,43,NK cells,0.9326145552560647,186
+stim,lambda_1,1.0,4,43,B cells,0.9773755656108597,219
+stim,lambda_1,1.0,4,43,CD14+ Monocytes,0.9740932642487047,387
+stim,lambda_1,1.0,4,43,CD4 T cells,0.9873289406994424,993
+stim,lambda_1,1.0,4,43,CD8 T cells,0.8592592592592593,132
+stim,lambda_1,1.0,4,43,Dendritic cells,0.8602150537634409,48
+stim,lambda_1,1.0,4,43,FCGR3A+ Monocytes,0.8833333333333333,57
+stim,lambda_1,1.0,4,43,Megakaryocytes,0.75,4
+stim,lambda_1,1.0,4,43,NK cells,0.9411764705882353,186
+stim,lambda_3,3.0,4,43,B cells,0.9705215419501134,219
+stim,lambda_3,3.0,4,43,CD14+ Monocytes,0.9740932642487047,387
+stim,lambda_3,3.0,4,43,CD4 T cells,0.9842878864673087,993
+stim,lambda_3,3.0,4,43,CD8 T cells,0.8644688644688645,132
+stim,lambda_3,3.0,4,43,Dendritic cells,0.8602150537634409,48
+stim,lambda_3,3.0,4,43,FCGR3A+ Monocytes,0.8739495798319328,57
+stim,lambda_3,3.0,4,43,Megakaryocytes,0.75,4
+stim,lambda_3,3.0,4,43,NK cells,0.9329758713136729,186
+stim,lambda_0,0.0,4,44,B cells,0.9493087557603687,219
+stim,lambda_0,0.0,4,44,CD14+ Monocytes,0.9673202614379085,387
+stim,lambda_0,0.0,4,44,CD4 T cells,0.979240506329114,993
+stim,lambda_0,0.0,4,44,CD8 T cells,0.8365019011406845,132
+stim,lambda_0,0.0,4,44,Dendritic cells,0.8484848484848485,48
+stim,lambda_0,0.0,4,44,FCGR3A+ Monocytes,0.8524590163934426,57
+stim,lambda_0,0.0,4,44,Megakaryocytes,0.5714285714285714,4
+stim,lambda_0,0.0,4,44,NK cells,0.9147286821705426,186
+stim,lambda_0p01,0.01,4,44,B cells,0.9703872437357631,219
+stim,lambda_0p01,0.01,4,44,CD14+ Monocytes,0.9726205997392438,387
+stim,lambda_0p01,0.01,4,44,CD4 T cells,0.9822605169792195,993
+stim,lambda_0p01,0.01,4,44,CD8 T cells,0.8405797101449275,132
+stim,lambda_0p01,0.01,4,44,Dendritic cells,0.8936170212765957,48
+stim,lambda_0p01,0.01,4,44,FCGR3A+ Monocytes,0.9016393442622951,57
+stim,lambda_0p01,0.01,4,44,Megakaryocytes,0.8888888888888888,4
+stim,lambda_0p01,0.01,4,44,NK cells,0.9354838709677419,186
+stim,lambda_0p03,0.03,4,44,B cells,0.9705215419501134,219
+stim,lambda_0p03,0.03,4,44,CD14+ Monocytes,0.9660574412532638,387
+stim,lambda_0p03,0.03,4,44,CD4 T cells,0.9843037974683544,993
+stim,lambda_0p03,0.03,4,44,CD8 T cells,0.8571428571428571,132
+stim,lambda_0p03,0.03,4,44,Dendritic cells,0.8817204301075269,48
+stim,lambda_0p03,0.03,4,44,FCGR3A+ Monocytes,0.8709677419354839,57
+stim,lambda_0p03,0.03,4,44,Megakaryocytes,0.75,4
+stim,lambda_0p03,0.03,4,44,NK cells,0.9408602150537635,186
+stim,lambda_0p1,0.1,4,44,B cells,0.9728506787330317,219
+stim,lambda_0p1,0.1,4,44,CD14+ Monocytes,0.9700910273081924,387
+stim,lambda_0p1,0.1,4,44,CD4 T cells,0.9863291139240506,993
+stim,lambda_0p1,0.1,4,44,CD8 T cells,0.8581818181818182,132
+stim,lambda_0p1,0.1,4,44,Dendritic cells,0.8913043478260869,48
+stim,lambda_0p1,0.1,4,44,FCGR3A+ Monocytes,0.8780487804878049,57
+stim,lambda_0p1,0.1,4,44,Megakaryocytes,0.5714285714285714,4
+stim,lambda_0p1,0.1,4,44,NK cells,0.9322493224932249,186
+stim,lambda_0p3,0.3,4,44,B cells,0.9658314350797267,219
+stim,lambda_0p3,0.3,4,44,CD14+ Monocytes,0.9701686121919585,387
+stim,lambda_0p3,0.3,4,44,CD4 T cells,0.9853461344113188,993
+stim,lambda_0p3,0.3,4,44,CD8 T cells,0.8498168498168498,132
+stim,lambda_0p3,0.3,4,44,Dendritic cells,0.8695652173913043,48
+stim,lambda_0p3,0.3,4,44,FCGR3A+ Monocytes,0.9016393442622951,57
+stim,lambda_0p3,0.3,4,44,Megakaryocytes,0.5714285714285714,4
+stim,lambda_0p3,0.3,4,44,NK cells,0.926829268292683,186
+stim,lambda_1,1.0,4,44,B cells,0.9705215419501134,219
+stim,lambda_1,1.0,4,44,CD14+ Monocytes,0.9648894668400521,387
+stim,lambda_1,1.0,4,44,CD4 T cells,0.9863705199394245,993
+stim,lambda_1,1.0,4,44,CD8 T cells,0.8550185873605948,132
+stim,lambda_1,1.0,4,44,Dendritic cells,0.8444444444444444,48
+stim,lambda_1,1.0,4,44,FCGR3A+ Monocytes,0.88,57
+stim,lambda_1,1.0,4,44,Megakaryocytes,0.75,4
+stim,lambda_1,1.0,4,44,NK cells,0.926829268292683,186
+stim,lambda_3,3.0,4,44,B cells,0.9683257918552036,219
+stim,lambda_3,3.0,4,44,CD14+ Monocytes,0.9699346405228758,387
+stim,lambda_3,3.0,4,44,CD4 T cells,0.9868421052631579,993
+stim,lambda_3,3.0,4,44,CD8 T cells,0.8518518518518519,132
+stim,lambda_3,3.0,4,44,Dendritic cells,0.8723404255319149,48
+stim,lambda_3,3.0,4,44,FCGR3A+ Monocytes,0.8709677419354839,57
+stim,lambda_3,3.0,4,44,Megakaryocytes,0.75,4
+stim,lambda_3,3.0,4,44,NK cells,0.9329758713136729,186
+stim,original_h,,5,shared,B cells,0.9747899159663865,60
+stim,original_h,,5,shared,CD14+ Monocytes,0.9774011299435028,179
+stim,original_h,,5,shared,CD4 T cells,0.9743589743589743,199
+stim,original_h,,5,shared,CD8 T cells,0.34782608695652173,10
+stim,original_h,,5,shared,Dendritic cells,0.8333333333333334,16
+stim,original_h,,5,shared,FCGR3A+ Monocytes,0.926829268292683,20
+stim,original_h,,5,shared,Megakaryocytes,1.0,1
+stim,original_h,,5,shared,NK cells,0.9176470588235294,40
+stim,lambda_0,0.0,5,42,B cells,0.9572649572649573,60
+stim,lambda_0,0.0,5,42,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_0,0.0,5,42,CD4 T cells,0.9693877551020408,199
+stim,lambda_0,0.0,5,42,CD8 T cells,0.3,10
+stim,lambda_0,0.0,5,42,Dendritic cells,0.9090909090909091,16
+stim,lambda_0,0.0,5,42,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_0,0.0,5,42,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0,0.0,5,42,NK cells,0.9195402298850575,40
+stim,lambda_0p01,0.01,5,42,B cells,0.9572649572649573,60
+stim,lambda_0p01,0.01,5,42,CD14+ Monocytes,0.9802816901408451,179
+stim,lambda_0p01,0.01,5,42,CD4 T cells,0.9641025641025641,199
+stim,lambda_0p01,0.01,5,42,CD8 T cells,0.2727272727272727,10
+stim,lambda_0p01,0.01,5,42,Dendritic cells,0.8823529411764706,16
+stim,lambda_0p01,0.01,5,42,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_0p01,0.01,5,42,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0p01,0.01,5,42,NK cells,0.9195402298850575,40
+stim,lambda_0p03,0.03,5,42,B cells,0.9661016949152542,60
+stim,lambda_0p03,0.03,5,42,CD14+ Monocytes,0.9802816901408451,179
+stim,lambda_0p03,0.03,5,42,CD4 T cells,0.9822784810126582,199
+stim,lambda_0p03,0.03,5,42,CD8 T cells,0.3333333333333333,10
+stim,lambda_0p03,0.03,5,42,Dendritic cells,0.8571428571428571,16
+stim,lambda_0p03,0.03,5,42,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0p03,0.03,5,42,Megakaryocytes,1.0,1
+stim,lambda_0p03,0.03,5,42,NK cells,0.9069767441860465,40
+stim,lambda_0p1,0.1,5,42,B cells,0.9661016949152542,60
+stim,lambda_0p1,0.1,5,42,CD14+ Monocytes,0.9774011299435028,179
+stim,lambda_0p1,0.1,5,42,CD4 T cells,0.9822784810126582,199
+stim,lambda_0p1,0.1,5,42,CD8 T cells,0.35294117647058826,10
+stim,lambda_0p1,0.1,5,42,Dendritic cells,0.8333333333333334,16
+stim,lambda_0p1,0.1,5,42,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0p1,0.1,5,42,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0p1,0.1,5,42,NK cells,0.9302325581395349,40
+stim,lambda_0p3,0.3,5,42,B cells,0.9661016949152542,60
+stim,lambda_0p3,0.3,5,42,CD14+ Monocytes,0.9802816901408451,179
+stim,lambda_0p3,0.3,5,42,CD4 T cells,0.9796954314720813,199
+stim,lambda_0p3,0.3,5,42,CD8 T cells,0.3333333333333333,10
+stim,lambda_0p3,0.3,5,42,Dendritic cells,0.8571428571428571,16
+stim,lambda_0p3,0.3,5,42,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0p3,0.3,5,42,Megakaryocytes,1.0,1
+stim,lambda_0p3,0.3,5,42,NK cells,0.9195402298850575,40
+stim,lambda_1,1.0,5,42,B cells,0.9661016949152542,60
+stim,lambda_1,1.0,5,42,CD14+ Monocytes,0.9774011299435028,179
+stim,lambda_1,1.0,5,42,CD4 T cells,0.9744897959183674,199
+stim,lambda_1,1.0,5,42,CD8 T cells,0.3,10
+stim,lambda_1,1.0,5,42,Dendritic cells,0.8571428571428571,16
+stim,lambda_1,1.0,5,42,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_1,1.0,5,42,Megakaryocytes,0.6666666666666666,1
+stim,lambda_1,1.0,5,42,NK cells,0.9302325581395349,40
+stim,lambda_3,3.0,5,42,B cells,0.9661016949152542,60
+stim,lambda_3,3.0,5,42,CD14+ Monocytes,0.9802816901408451,179
+stim,lambda_3,3.0,5,42,CD4 T cells,0.9770992366412213,199
+stim,lambda_3,3.0,5,42,CD8 T cells,0.42105263157894735,10
+stim,lambda_3,3.0,5,42,Dendritic cells,0.8823529411764706,16
+stim,lambda_3,3.0,5,42,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_3,3.0,5,42,Megakaryocytes,1.0,1
+stim,lambda_3,3.0,5,42,NK cells,0.9195402298850575,40
+stim,lambda_0,0.0,5,43,B cells,0.9747899159663865,60
+stim,lambda_0,0.0,5,43,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_0,0.0,5,43,CD4 T cells,0.9847715736040609,199
+stim,lambda_0,0.0,5,43,CD8 T cells,0.4444444444444444,10
+stim,lambda_0,0.0,5,43,Dendritic cells,0.9090909090909091,16
+stim,lambda_0,0.0,5,43,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_0,0.0,5,43,Megakaryocytes,1.0,1
+stim,lambda_0,0.0,5,43,NK cells,0.9069767441860465,40
+stim,lambda_0p01,0.01,5,43,B cells,0.9661016949152542,60
+stim,lambda_0p01,0.01,5,43,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_0p01,0.01,5,43,CD4 T cells,0.9796954314720813,199
+stim,lambda_0p01,0.01,5,43,CD8 T cells,0.42105263157894735,10
+stim,lambda_0p01,0.01,5,43,Dendritic cells,0.8823529411764706,16
+stim,lambda_0p01,0.01,5,43,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0p01,0.01,5,43,Megakaryocytes,1.0,1
+stim,lambda_0p01,0.01,5,43,NK cells,0.9069767441860465,40
+stim,lambda_0p03,0.03,5,43,B cells,0.9661016949152542,60
+stim,lambda_0p03,0.03,5,43,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_0p03,0.03,5,43,CD4 T cells,0.9848484848484849,199
+stim,lambda_0p03,0.03,5,43,CD8 T cells,0.47058823529411764,10
+stim,lambda_0p03,0.03,5,43,Dendritic cells,0.9090909090909091,16
+stim,lambda_0p03,0.03,5,43,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_0p03,0.03,5,43,Megakaryocytes,1.0,1
+stim,lambda_0p03,0.03,5,43,NK cells,0.9069767441860465,40
+stim,lambda_0p1,0.1,5,43,B cells,0.9743589743589743,60
+stim,lambda_0p1,0.1,5,43,CD14+ Monocytes,0.9775280898876404,179
+stim,lambda_0p1,0.1,5,43,CD4 T cells,0.9692307692307692,199
+stim,lambda_0p1,0.1,5,43,CD8 T cells,0.2857142857142857,10
+stim,lambda_0p1,0.1,5,43,Dendritic cells,0.9090909090909091,16
+stim,lambda_0p1,0.1,5,43,FCGR3A+ Monocytes,0.8837209302325582,20
+stim,lambda_0p1,0.1,5,43,Megakaryocytes,0.4,1
+stim,lambda_0p1,0.1,5,43,NK cells,0.9176470588235294,40
+stim,lambda_0p3,0.3,5,43,B cells,0.9661016949152542,60
+stim,lambda_0p3,0.3,5,43,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_0p3,0.3,5,43,CD4 T cells,0.9744897959183674,199
+stim,lambda_0p3,0.3,5,43,CD8 T cells,0.3,10
+stim,lambda_0p3,0.3,5,43,Dendritic cells,0.8571428571428571,16
+stim,lambda_0p3,0.3,5,43,FCGR3A+ Monocytes,0.95,20
+stim,lambda_0p3,0.3,5,43,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0p3,0.3,5,43,NK cells,0.9069767441860465,40
+stim,lambda_1,1.0,5,43,B cells,0.9661016949152542,60
+stim,lambda_1,1.0,5,43,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_1,1.0,5,43,CD4 T cells,0.9692307692307692,199
+stim,lambda_1,1.0,5,43,CD8 T cells,0.3,10
+stim,lambda_1,1.0,5,43,Dendritic cells,0.8823529411764706,16
+stim,lambda_1,1.0,5,43,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_1,1.0,5,43,Megakaryocytes,0.4,1
+stim,lambda_1,1.0,5,43,NK cells,0.9069767441860465,40
+stim,lambda_3,3.0,5,43,B cells,0.9661016949152542,60
+stim,lambda_3,3.0,5,43,CD14+ Monocytes,0.9774011299435028,179
+stim,lambda_3,3.0,5,43,CD4 T cells,0.9796954314720813,199
+stim,lambda_3,3.0,5,43,CD8 T cells,0.35294117647058826,10
+stim,lambda_3,3.0,5,43,Dendritic cells,0.8571428571428571,16
+stim,lambda_3,3.0,5,43,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_3,3.0,5,43,Megakaryocytes,0.5,1
+stim,lambda_3,3.0,5,43,NK cells,0.9069767441860465,40
+stim,lambda_0,0.0,5,44,B cells,0.9661016949152542,60
+stim,lambda_0,0.0,5,44,CD14+ Monocytes,0.9859943977591037,179
+stim,lambda_0,0.0,5,44,CD4 T cells,0.9796954314720813,199
+stim,lambda_0,0.0,5,44,CD8 T cells,0.42105263157894735,10
+stim,lambda_0,0.0,5,44,Dendritic cells,0.9090909090909091,16
+stim,lambda_0,0.0,5,44,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0,0.0,5,44,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0,0.0,5,44,NK cells,0.9176470588235294,40
+stim,lambda_0p01,0.01,5,44,B cells,0.9661016949152542,60
+stim,lambda_0p01,0.01,5,44,CD14+ Monocytes,0.9859943977591037,179
+stim,lambda_0p01,0.01,5,44,CD4 T cells,0.9665809768637532,199
+stim,lambda_0p01,0.01,5,44,CD8 T cells,0.3333333333333333,10
+stim,lambda_0p01,0.01,5,44,Dendritic cells,0.9090909090909091,16
+stim,lambda_0p01,0.01,5,44,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0p01,0.01,5,44,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0p01,0.01,5,44,NK cells,0.9176470588235294,40
+stim,lambda_0p03,0.03,5,44,B cells,0.9661016949152542,60
+stim,lambda_0p03,0.03,5,44,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_0p03,0.03,5,44,CD4 T cells,0.9744897959183674,199
+stim,lambda_0p03,0.03,5,44,CD8 T cells,0.38095238095238093,10
+stim,lambda_0p03,0.03,5,44,Dendritic cells,0.8823529411764706,16
+stim,lambda_0p03,0.03,5,44,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_0p03,0.03,5,44,Megakaryocytes,0.6666666666666666,1
+stim,lambda_0p03,0.03,5,44,NK cells,0.9176470588235294,40
+stim,lambda_0p1,0.1,5,44,B cells,0.9747899159663865,60
+stim,lambda_0p1,0.1,5,44,CD14+ Monocytes,0.9888268156424581,179
+stim,lambda_0p1,0.1,5,44,CD4 T cells,0.9795918367346939,199
+stim,lambda_0p1,0.1,5,44,CD8 T cells,0.38095238095238093,10
+stim,lambda_0p1,0.1,5,44,Dendritic cells,0.9090909090909091,16
+stim,lambda_0p1,0.1,5,44,FCGR3A+ Monocytes,0.95,20
+stim,lambda_0p1,0.1,5,44,Megakaryocytes,1.0,1
+stim,lambda_0p1,0.1,5,44,NK cells,0.8941176470588236,40
+stim,lambda_0p3,0.3,5,44,B cells,0.9661016949152542,60
+stim,lambda_0p3,0.3,5,44,CD14+ Monocytes,0.9802816901408451,179
+stim,lambda_0p3,0.3,5,44,CD4 T cells,0.9770992366412213,199
+stim,lambda_0p3,0.3,5,44,CD8 T cells,0.38095238095238093,10
+stim,lambda_0p3,0.3,5,44,Dendritic cells,0.8823529411764706,16
+stim,lambda_0p3,0.3,5,44,FCGR3A+ Monocytes,0.9047619047619048,20
+stim,lambda_0p3,0.3,5,44,Megakaryocytes,1.0,1
+stim,lambda_0p3,0.3,5,44,NK cells,0.8941176470588236,40
+stim,lambda_1,1.0,5,44,B cells,0.9747899159663865,60
+stim,lambda_1,1.0,5,44,CD14+ Monocytes,0.9859943977591037,179
+stim,lambda_1,1.0,5,44,CD4 T cells,0.9847715736040609,199
+stim,lambda_1,1.0,5,44,CD8 T cells,0.4,10
+stim,lambda_1,1.0,5,44,Dendritic cells,0.9090909090909091,16
+stim,lambda_1,1.0,5,44,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_1,1.0,5,44,Megakaryocytes,1.0,1
+stim,lambda_1,1.0,5,44,NK cells,0.9047619047619048,40
+stim,lambda_3,3.0,5,44,B cells,0.9661016949152542,60
+stim,lambda_3,3.0,5,44,CD14+ Monocytes,0.9831460674157303,179
+stim,lambda_3,3.0,5,44,CD4 T cells,0.9692307692307692,199
+stim,lambda_3,3.0,5,44,CD8 T cells,0.34782608695652173,10
+stim,lambda_3,3.0,5,44,Dendritic cells,0.8823529411764706,16
+stim,lambda_3,3.0,5,44,FCGR3A+ Monocytes,0.926829268292683,20
+stim,lambda_3,3.0,5,44,Megakaryocytes,0.6666666666666666,1
+stim,lambda_3,3.0,5,44,NK cells,0.9176470588235294,40
+pbmc,original_h,,0,shared,B cells,0.9618320610687023,134
+pbmc,original_h,,0,shared,CD14+ Monocytes,0.8875,84
+pbmc,original_h,,0,shared,CD4 T cells,0.9606625258799172,1240
+pbmc,original_h,,0,shared,CD8 T cells,0.8620236530880421,349
+pbmc,original_h,,0,shared,Dendritic cells,0.7777777777777778,24
+pbmc,original_h,,0,shared,FCGR3A+ Monocytes,0.9777777777777777,45
+pbmc,original_h,,0,shared,Megakaryocytes,0.5,2
+pbmc,original_h,,0,shared,NK cells,0.88,122
+pbmc,lambda_0,0.0,0,42,B cells,0.9578544061302682,134
+pbmc,lambda_0,0.0,0,42,CD14+ Monocytes,0.9012345679012346,84
+pbmc,lambda_0,0.0,0,42,CD4 T cells,0.9629324546952224,1240
+pbmc,lambda_0,0.0,0,42,CD8 T cells,0.8533333333333334,349
+pbmc,lambda_0,0.0,0,42,Dendritic cells,0.7924528301886793,24
+pbmc,lambda_0,0.0,0,42,FCGR3A+ Monocytes,0.967032967032967,45
+pbmc,lambda_0,0.0,0,42,Megakaryocytes,0.5,2
+pbmc,lambda_0,0.0,0,42,NK cells,0.8825910931174089,122
+pbmc,lambda_0p01,0.01,0,42,B cells,0.9615384615384616,134
+pbmc,lambda_0p01,0.01,0,42,CD14+ Monocytes,0.8780487804878049,84
+pbmc,lambda_0p01,0.01,0,42,CD4 T cells,0.9590834697217676,1240
+pbmc,lambda_0p01,0.01,0,42,CD8 T cells,0.8292682926829268,349
+pbmc,lambda_0p01,0.01,0,42,Dendritic cells,0.7450980392156863,24
+pbmc,lambda_0p01,0.01,0,42,FCGR3A+ Monocytes,0.9655172413793104,45
+pbmc,lambda_0p01,0.01,0,42,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0p01,0.01,0,42,NK cells,0.8353413654618473,122
+pbmc,lambda_0p03,0.03,0,42,B cells,0.9578544061302682,134
+pbmc,lambda_0p03,0.03,0,42,CD14+ Monocytes,0.8805031446540881,84
+pbmc,lambda_0p03,0.03,0,42,CD4 T cells,0.9639344262295082,1240
+pbmc,lambda_0p03,0.03,0,42,CD8 T cells,0.8532608695652174,349
+pbmc,lambda_0p03,0.03,0,42,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_0p03,0.03,0,42,FCGR3A+ Monocytes,0.9565217391304348,45
+pbmc,lambda_0p03,0.03,0,42,Megakaryocytes,0.5,2
+pbmc,lambda_0p03,0.03,0,42,NK cells,0.88,122
+pbmc,lambda_0p1,0.1,0,42,B cells,0.9615384615384616,134
+pbmc,lambda_0p1,0.1,0,42,CD14+ Monocytes,0.8888888888888888,84
+pbmc,lambda_0p1,0.1,0,42,CD4 T cells,0.957560774618871,1240
+pbmc,lambda_0p1,0.1,0,42,CD8 T cells,0.8249336870026526,349
+pbmc,lambda_0p1,0.1,0,42,Dendritic cells,0.76,24
+pbmc,lambda_0p1,0.1,0,42,FCGR3A+ Monocytes,0.9285714285714286,45
+pbmc,lambda_0p1,0.1,0,42,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0p1,0.1,0,42,NK cells,0.8502024291497976,122
+pbmc,lambda_0p3,0.3,0,42,B cells,0.9612403100775194,134
+pbmc,lambda_0p3,0.3,0,42,CD14+ Monocytes,0.8452380952380952,84
+pbmc,lambda_0p3,0.3,0,42,CD4 T cells,0.9516329061595701,1240
+pbmc,lambda_0p3,0.3,0,42,CD8 T cells,0.8031704095112285,349
+pbmc,lambda_0p3,0.3,0,42,Dendritic cells,0.68,24
+pbmc,lambda_0p3,0.3,0,42,FCGR3A+ Monocytes,0.9302325581395349,45
+pbmc,lambda_0p3,0.3,0,42,Megakaryocytes,0.5,2
+pbmc,lambda_0p3,0.3,0,42,NK cells,0.8661417322834646,122
+pbmc,lambda_1,1.0,0,42,B cells,0.9575289575289575,134
+pbmc,lambda_1,1.0,0,42,CD14+ Monocytes,0.9202453987730062,84
+pbmc,lambda_1,1.0,0,42,CD4 T cells,0.9631469979296067,1240
+pbmc,lambda_1,1.0,0,42,CD8 T cells,0.8642297650130548,349
+pbmc,lambda_1,1.0,0,42,Dendritic cells,0.7924528301886793,24
+pbmc,lambda_1,1.0,0,42,FCGR3A+ Monocytes,0.967741935483871,45
+pbmc,lambda_1,1.0,0,42,Megakaryocytes,0.5,2
+pbmc,lambda_1,1.0,0,42,NK cells,0.9053497942386831,122
+pbmc,lambda_3,3.0,0,42,B cells,0.9575289575289575,134
+pbmc,lambda_3,3.0,0,42,CD14+ Monocytes,0.9,84
+pbmc,lambda_3,3.0,0,42,CD4 T cells,0.9626590069757899,1240
+pbmc,lambda_3,3.0,0,42,CD8 T cells,0.8356164383561644,349
+pbmc,lambda_3,3.0,0,42,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_3,3.0,0,42,FCGR3A+ Monocytes,0.9782608695652174,45
+pbmc,lambda_3,3.0,0,42,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_3,3.0,0,42,NK cells,0.8505747126436781,122
+pbmc,lambda_0,0.0,0,43,B cells,0.9618320610687023,134
+pbmc,lambda_0,0.0,0,43,CD14+ Monocytes,0.9156626506024096,84
+pbmc,lambda_0,0.0,0,43,CD4 T cells,0.9654605263157895,1240
+pbmc,lambda_0,0.0,0,43,CD8 T cells,0.8617449664429531,349
+pbmc,lambda_0,0.0,0,43,Dendritic cells,0.7924528301886793,24
+pbmc,lambda_0,0.0,0,43,FCGR3A+ Monocytes,0.9662921348314607,45
+pbmc,lambda_0,0.0,0,43,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0,0.0,0,43,NK cells,0.8780487804878049,122
+pbmc,lambda_0p01,0.01,0,43,B cells,0.9618320610687023,134
+pbmc,lambda_0p01,0.01,0,43,CD14+ Monocytes,0.9090909090909091,84
+pbmc,lambda_0p01,0.01,0,43,CD4 T cells,0.9663105998356615,1240
+pbmc,lambda_0p01,0.01,0,43,CD8 T cells,0.8694481830417228,349
+pbmc,lambda_0p01,0.01,0,43,Dendritic cells,0.8076923076923077,24
+pbmc,lambda_0p01,0.01,0,43,FCGR3A+ Monocytes,0.9777777777777777,45
+pbmc,lambda_0p01,0.01,0,43,Megakaryocytes,0.5,2
+pbmc,lambda_0p01,0.01,0,43,NK cells,0.8861788617886179,122
+pbmc,lambda_0p03,0.03,0,43,B cells,0.9618320610687023,134
+pbmc,lambda_0p03,0.03,0,43,CD14+ Monocytes,0.9101796407185628,84
+pbmc,lambda_0p03,0.03,0,43,CD4 T cells,0.9681372549019608,1240
+pbmc,lambda_0p03,0.03,0,43,CD8 T cells,0.869684499314129,349
+pbmc,lambda_0p03,0.03,0,43,Dendritic cells,0.8076923076923077,24
+pbmc,lambda_0p03,0.03,0,43,FCGR3A+ Monocytes,0.9662921348314607,45
+pbmc,lambda_0p03,0.03,0,43,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0p03,0.03,0,43,NK cells,0.8780487804878049,122
+pbmc,lambda_0p1,0.1,0,43,B cells,0.9618320610687023,134
+pbmc,lambda_0p1,0.1,0,43,CD14+ Monocytes,0.9349112426035503,84
+pbmc,lambda_0p1,0.1,0,43,CD4 T cells,0.9627831715210357,1240
+pbmc,lambda_0p1,0.1,0,43,CD8 T cells,0.833810888252149,349
+pbmc,lambda_0p1,0.1,0,43,Dendritic cells,0.8333333333333334,24
+pbmc,lambda_0p1,0.1,0,43,FCGR3A+ Monocytes,0.9777777777777777,45
+pbmc,lambda_0p1,0.1,0,43,Megakaryocytes,0.5,2
+pbmc,lambda_0p1,0.1,0,43,NK cells,0.8616600790513834,122
+pbmc,lambda_0p3,0.3,0,43,B cells,0.9657794676806084,134
+pbmc,lambda_0p3,0.3,0,43,CD14+ Monocytes,0.9212121212121213,84
+pbmc,lambda_0p3,0.3,0,43,CD4 T cells,0.9659417316372589,1240
+pbmc,lambda_0p3,0.3,0,43,CD8 T cells,0.8567493112947658,349
+pbmc,lambda_0p3,0.3,0,43,Dendritic cells,0.7924528301886793,24
+pbmc,lambda_0p3,0.3,0,43,FCGR3A+ Monocytes,0.967032967032967,45
+pbmc,lambda_0p3,0.3,0,43,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0p3,0.3,0,43,NK cells,0.8682170542635659,122
+pbmc,lambda_1,1.0,0,43,B cells,0.9657794676806084,134
+pbmc,lambda_1,1.0,0,43,CD14+ Monocytes,0.906832298136646,84
+pbmc,lambda_1,1.0,0,43,CD4 T cells,0.9671592775041051,1240
+pbmc,lambda_1,1.0,0,43,CD8 T cells,0.8579234972677595,349
+pbmc,lambda_1,1.0,0,43,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_1,1.0,0,43,FCGR3A+ Monocytes,0.967741935483871,45
+pbmc,lambda_1,1.0,0,43,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_1,1.0,0,43,NK cells,0.8503937007874016,122
+pbmc,lambda_3,3.0,0,43,B cells,0.9618320610687023,134
+pbmc,lambda_3,3.0,0,43,CD14+ Monocytes,0.9202453987730062,84
+pbmc,lambda_3,3.0,0,43,CD4 T cells,0.9688269073010665,1240
+pbmc,lambda_3,3.0,0,43,CD8 T cells,0.8688524590163934,349
+pbmc,lambda_3,3.0,0,43,Dendritic cells,0.7924528301886793,24
+pbmc,lambda_3,3.0,0,43,FCGR3A+ Monocytes,0.967741935483871,45
+pbmc,lambda_3,3.0,0,43,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_3,3.0,0,43,NK cells,0.873015873015873,122
+pbmc,lambda_0,0.0,0,44,B cells,0.9538461538461539,134
+pbmc,lambda_0,0.0,0,44,CD14+ Monocytes,0.8658536585365854,84
+pbmc,lambda_0,0.0,0,44,CD4 T cells,0.9554192229038855,1240
+pbmc,lambda_0,0.0,0,44,CD8 T cells,0.7966101694915254,349
+pbmc,lambda_0,0.0,0,44,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_0,0.0,0,44,FCGR3A+ Monocytes,0.9347826086956522,45
+pbmc,lambda_0,0.0,0,44,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0,0.0,0,44,NK cells,0.8074074074074075,122
+pbmc,lambda_0p01,0.01,0,44,B cells,0.9652509652509652,134
+pbmc,lambda_0p01,0.01,0,44,CD14+ Monocytes,0.8834355828220859,84
+pbmc,lambda_0p01,0.01,0,44,CD4 T cells,0.9606625258799172,1240
+pbmc,lambda_0p01,0.01,0,44,CD8 T cells,0.8397350993377484,349
+pbmc,lambda_0p01,0.01,0,44,Dendritic cells,0.7636363636363637,24
+pbmc,lambda_0p01,0.01,0,44,FCGR3A+ Monocytes,0.945054945054945,45
+pbmc,lambda_0p01,0.01,0,44,Megakaryocytes,0.6666666666666666,2
+pbmc,lambda_0p01,0.01,0,44,NK cells,0.84375,122
+pbmc,lambda_0p03,0.03,0,44,B cells,0.9578544061302682,134
+pbmc,lambda_0p03,0.03,0,44,CD14+ Monocytes,0.9012345679012346,84
+pbmc,lambda_0p03,0.03,0,44,CD4 T cells,0.9642122583299054,1240
+pbmc,lambda_0p03,0.03,0,44,CD8 T cells,0.8689839572192514,349
+pbmc,lambda_0p03,0.03,0,44,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_0p03,0.03,0,44,FCGR3A+ Monocytes,0.967032967032967,45
+pbmc,lambda_0p03,0.03,0,44,Megakaryocytes,0.6666666666666666,2
+pbmc,lambda_0p03,0.03,0,44,NK cells,0.8906882591093117,122
+pbmc,lambda_0p1,0.1,0,44,B cells,0.9538461538461539,134
+pbmc,lambda_0p1,0.1,0,44,CD14+ Monocytes,0.9079754601226994,84
+pbmc,lambda_0p1,0.1,0,44,CD4 T cells,0.9654605263157895,1240
+pbmc,lambda_0p1,0.1,0,44,CD8 T cells,0.8708388814913449,349
+pbmc,lambda_0p1,0.1,0,44,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_0p1,0.1,0,44,FCGR3A+ Monocytes,0.967032967032967,45
+pbmc,lambda_0p1,0.1,0,44,Megakaryocytes,0.6666666666666666,2
+pbmc,lambda_0p1,0.1,0,44,NK cells,0.8888888888888888,122
+pbmc,lambda_0p3,0.3,0,44,B cells,0.9538461538461539,134
+pbmc,lambda_0p3,0.3,0,44,CD14+ Monocytes,0.8795180722891566,84
+pbmc,lambda_0p3,0.3,0,44,CD4 T cells,0.9588138385502472,1240
+pbmc,lambda_0p3,0.3,0,44,CD8 T cells,0.8279569892473119,349
+pbmc,lambda_0p3,0.3,0,44,Dendritic cells,0.75,24
+pbmc,lambda_0p3,0.3,0,44,FCGR3A+ Monocytes,0.9438202247191011,45
+pbmc,lambda_0p3,0.3,0,44,Megakaryocytes,0.5714285714285714,2
+pbmc,lambda_0p3,0.3,0,44,NK cells,0.832,122
+pbmc,lambda_1,1.0,0,44,B cells,0.9578544061302682,134
+pbmc,lambda_1,1.0,0,44,CD14+ Monocytes,0.9036144578313253,84
+pbmc,lambda_1,1.0,0,44,CD4 T cells,0.9651210504718917,1240
+pbmc,lambda_1,1.0,0,44,CD8 T cells,0.8571428571428571,349
+pbmc,lambda_1,1.0,0,44,Dendritic cells,0.7777777777777778,24
+pbmc,lambda_1,1.0,0,44,FCGR3A+ Monocytes,0.9438202247191011,45
+pbmc,lambda_1,1.0,0,44,Megakaryocytes,0.6666666666666666,2
+pbmc,lambda_1,1.0,0,44,NK cells,0.8650793650793651,122
+pbmc,lambda_3,3.0,0,44,B cells,0.9578544061302682,134
+pbmc,lambda_3,3.0,0,44,CD14+ Monocytes,0.9079754601226994,84
+pbmc,lambda_3,3.0,0,44,CD4 T cells,0.9673202614379085,1240
+pbmc,lambda_3,3.0,0,44,CD8 T cells,0.8684931506849315,349
+pbmc,lambda_3,3.0,0,44,Dendritic cells,0.7924528301886793,24
+pbmc,lambda_3,3.0,0,44,FCGR3A+ Monocytes,0.967032967032967,45
+pbmc,lambda_3,3.0,0,44,Megakaryocytes,0.6666666666666666,2
+pbmc,lambda_3,3.0,0,44,NK cells,0.8709677419354839,122
+pbmc,original_h,,1,shared,B cells,0.9751098096632503,342
+pbmc,original_h,,1,shared,CD14+ Monocytes,0.8742921857304643,480
+pbmc,original_h,,1,shared,CD4 T cells,0.9473684210526315,1144
+pbmc,original_h,,1,shared,CD8 T cells,0.7716049382716049,316
+pbmc,original_h,,1,shared,Dendritic cells,0.5660377358490566,37
+pbmc,original_h,,1,shared,FCGR3A+ Monocytes,0.8166666666666667,150
+pbmc,original_h,,1,shared,Megakaryocytes,0.5714285714285714,15
+pbmc,original_h,,1,shared,NK cells,0.8980891719745223,154
+pbmc,lambda_0,0.0,1,42,B cells,0.9484536082474226,342
+pbmc,lambda_0,0.0,1,42,CD14+ Monocytes,0.7263556116015133,480
+pbmc,lambda_0,0.0,1,42,CD4 T cells,0.875275451740855,1144
+pbmc,lambda_0,0.0,1,42,CD8 T cells,0.6350974930362117,316
+pbmc,lambda_0,0.0,1,42,Dendritic cells,0.390625,37
+pbmc,lambda_0,0.0,1,42,FCGR3A+ Monocytes,0.7988668555240793,150
+pbmc,lambda_0,0.0,1,42,Megakaryocytes,0.5714285714285714,15
+pbmc,lambda_0,0.0,1,42,NK cells,0.7873015873015873,154
+pbmc,lambda_0p01,0.01,1,42,B cells,0.9748892171344166,342
+pbmc,lambda_0p01,0.01,1,42,CD14+ Monocytes,0.6891891891891891,480
+pbmc,lambda_0p01,0.01,1,42,CD4 T cells,0.9342442356959864,1144
+pbmc,lambda_0p01,0.01,1,42,CD8 T cells,0.7529812606473595,316
+pbmc,lambda_0p01,0.01,1,42,Dendritic cells,0.45751633986928103,37
+pbmc,lambda_0p01,0.01,1,42,FCGR3A+ Monocytes,0.6772009029345373,150
+pbmc,lambda_0p01,0.01,1,42,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p01,0.01,1,42,NK cells,0.9155844155844156,154
+pbmc,lambda_0p03,0.03,1,42,B cells,0.9622093023255814,342
+pbmc,lambda_0p03,0.03,1,42,CD14+ Monocytes,0.7557251908396947,480
+pbmc,lambda_0p03,0.03,1,42,CD4 T cells,0.9167755991285403,1144
+pbmc,lambda_0p03,0.03,1,42,CD8 T cells,0.7104477611940299,316
+pbmc,lambda_0p03,0.03,1,42,Dendritic cells,0.4339622641509434,37
+pbmc,lambda_0p03,0.03,1,42,FCGR3A+ Monocytes,0.7525252525252525,150
+pbmc,lambda_0p03,0.03,1,42,Megakaryocytes,0.8,15
+pbmc,lambda_0p03,0.03,1,42,NK cells,0.8516129032258064,154
+pbmc,lambda_0p1,0.1,1,42,B cells,0.9704142011834319,342
+pbmc,lambda_0p1,0.1,1,42,CD14+ Monocytes,0.6936572199730094,480
+pbmc,lambda_0p1,0.1,1,42,CD4 T cells,0.928388746803069,1144
+pbmc,lambda_0p1,0.1,1,42,CD8 T cells,0.7359454855195912,316
+pbmc,lambda_0p1,0.1,1,42,Dendritic cells,0.45751633986928103,37
+pbmc,lambda_0p1,0.1,1,42,FCGR3A+ Monocytes,0.684931506849315,150
+pbmc,lambda_0p1,0.1,1,42,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p1,0.1,1,42,NK cells,0.919093851132686,154
+pbmc,lambda_0p3,0.3,1,42,B cells,0.9751824817518249,342
+pbmc,lambda_0p3,0.3,1,42,CD14+ Monocytes,0.6855600539811066,480
+pbmc,lambda_0p3,0.3,1,42,CD4 T cells,0.9245364381198793,1144
+pbmc,lambda_0p3,0.3,1,42,CD8 T cells,0.7563291139240507,316
+pbmc,lambda_0p3,0.3,1,42,Dendritic cells,0.44594594594594594,37
+pbmc,lambda_0p3,0.3,1,42,FCGR3A+ Monocytes,0.7215496368038741,150
+pbmc,lambda_0p3,0.3,1,42,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p3,0.3,1,42,NK cells,0.9038461538461539,154
+pbmc,lambda_1,1.0,1,42,B cells,0.9708454810495627,342
+pbmc,lambda_1,1.0,1,42,CD14+ Monocytes,0.6900269541778976,480
+pbmc,lambda_1,1.0,1,42,CD4 T cells,0.9388286334056399,1144
+pbmc,lambda_1,1.0,1,42,CD8 T cells,0.7568438003220612,316
+pbmc,lambda_1,1.0,1,42,Dendritic cells,0.4125,37
+pbmc,lambda_1,1.0,1,42,FCGR3A+ Monocytes,0.7198067632850241,150
+pbmc,lambda_1,1.0,1,42,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_1,1.0,1,42,NK cells,0.9006211180124224,154
+pbmc,lambda_3,3.0,1,42,B cells,0.9704142011834319,342
+pbmc,lambda_3,3.0,1,42,CD14+ Monocytes,0.6414565826330533,480
+pbmc,lambda_3,3.0,1,42,CD4 T cells,0.9340232858990944,1144
+pbmc,lambda_3,3.0,1,42,CD8 T cells,0.7454844006568144,316
+pbmc,lambda_3,3.0,1,42,Dendritic cells,0.4093567251461988,37
+pbmc,lambda_3,3.0,1,42,FCGR3A+ Monocytes,0.6696428571428571,150
+pbmc,lambda_3,3.0,1,42,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_3,3.0,1,42,NK cells,0.9201277955271565,154
+pbmc,lambda_0,0.0,1,43,B cells,0.9780380673499268,342
+pbmc,lambda_0,0.0,1,43,CD14+ Monocytes,0.6527777777777778,480
+pbmc,lambda_0,0.0,1,43,CD4 T cells,0.9348659003831418,1144
+pbmc,lambda_0,0.0,1,43,CD8 T cells,0.7253521126760564,316
+pbmc,lambda_0,0.0,1,43,Dendritic cells,0.4927536231884058,37
+pbmc,lambda_0,0.0,1,43,FCGR3A+ Monocytes,0.6289308176100629,150
+pbmc,lambda_0,0.0,1,43,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0,0.0,1,43,NK cells,0.9142857142857143,154
+pbmc,lambda_0p01,0.01,1,43,B cells,0.9781021897810219,342
+pbmc,lambda_0p01,0.01,1,43,CD14+ Monocytes,0.6330532212885154,480
+pbmc,lambda_0p01,0.01,1,43,CD4 T cells,0.9353448275862069,1144
+pbmc,lambda_0p01,0.01,1,43,CD8 T cells,0.6951219512195121,316
+pbmc,lambda_0p01,0.01,1,43,Dendritic cells,0.49635036496350365,37
+pbmc,lambda_0p01,0.01,1,43,FCGR3A+ Monocytes,0.7058823529411765,150
+pbmc,lambda_0p01,0.01,1,43,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p01,0.01,1,43,NK cells,0.9009584664536742,154
+pbmc,lambda_0p03,0.03,1,43,B cells,0.97953216374269,342
+pbmc,lambda_0p03,0.03,1,43,CD14+ Monocytes,0.7144754316069057,480
+pbmc,lambda_0p03,0.03,1,43,CD4 T cells,0.932420872540633,1144
+pbmc,lambda_0p03,0.03,1,43,CD8 T cells,0.740495867768595,316
+pbmc,lambda_0p03,0.03,1,43,Dendritic cells,0.591304347826087,37
+pbmc,lambda_0p03,0.03,1,43,FCGR3A+ Monocytes,0.6802721088435374,150
+pbmc,lambda_0p03,0.03,1,43,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p03,0.03,1,43,NK cells,0.9171974522292994,154
+pbmc,lambda_0p1,0.1,1,43,B cells,0.9779735682819384,342
+pbmc,lambda_0p1,0.1,1,43,CD14+ Monocytes,0.6639118457300276,480
+pbmc,lambda_0p1,0.1,1,43,CD4 T cells,0.935429056924384,1144
+pbmc,lambda_0p1,0.1,1,43,CD8 T cells,0.7539267015706806,316
+pbmc,lambda_0p1,0.1,1,43,Dendritic cells,0.5190839694656488,37
+pbmc,lambda_0p1,0.1,1,43,FCGR3A+ Monocytes,0.6342494714587738,150
+pbmc,lambda_0p1,0.1,1,43,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p1,0.1,1,43,NK cells,0.9294871794871795,154
+pbmc,lambda_0p3,0.3,1,43,B cells,0.975254730713246,342
+pbmc,lambda_0p3,0.3,1,43,CD14+ Monocytes,0.6221590909090909,480
+pbmc,lambda_0p3,0.3,1,43,CD4 T cells,0.9293361884368309,1144
+pbmc,lambda_0p3,0.3,1,43,CD8 T cells,0.7378640776699029,316
+pbmc,lambda_0p3,0.3,1,43,Dendritic cells,0.42105263157894735,37
+pbmc,lambda_0p3,0.3,1,43,FCGR3A+ Monocytes,0.7011764705882353,150
+pbmc,lambda_0p3,0.3,1,43,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p3,0.3,1,43,NK cells,0.9161290322580645,154
+pbmc,lambda_1,1.0,1,43,B cells,0.9666182873730044,342
+pbmc,lambda_1,1.0,1,43,CD14+ Monocytes,0.6766304347826086,480
+pbmc,lambda_1,1.0,1,43,CD4 T cells,0.9341991341991343,1144
+pbmc,lambda_1,1.0,1,43,CD8 T cells,0.6553323029366306,316
+pbmc,lambda_1,1.0,1,43,Dendritic cells,0.4268292682926829,37
+pbmc,lambda_1,1.0,1,43,FCGR3A+ Monocytes,0.7563451776649747,150
+pbmc,lambda_1,1.0,1,43,Megakaryocytes,0.8,15
+pbmc,lambda_1,1.0,1,43,NK cells,0.8102893890675241,154
+pbmc,lambda_3,3.0,1,43,B cells,0.97953216374269,342
+pbmc,lambda_3,3.0,1,43,CD14+ Monocytes,0.7477360931435963,480
+pbmc,lambda_3,3.0,1,43,CD4 T cells,0.9343629343629344,1144
+pbmc,lambda_3,3.0,1,43,CD8 T cells,0.7290969899665551,316
+pbmc,lambda_3,3.0,1,43,Dendritic cells,0.4605263157894737,37
+pbmc,lambda_3,3.0,1,43,FCGR3A+ Monocytes,0.7582697201017812,150
+pbmc,lambda_3,3.0,1,43,Megakaryocytes,0.8,15
+pbmc,lambda_3,3.0,1,43,NK cells,0.88125,154
+pbmc,lambda_0,0.0,1,44,B cells,0.9736842105263158,342
+pbmc,lambda_0,0.0,1,44,CD14+ Monocytes,0.6395511921458625,480
+pbmc,lambda_0,0.0,1,44,CD4 T cells,0.9244791666666666,1144
+pbmc,lambda_0,0.0,1,44,CD8 T cells,0.7449768160741885,316
+pbmc,lambda_0,0.0,1,44,Dendritic cells,0.34196891191709844,37
+pbmc,lambda_0,0.0,1,44,FCGR3A+ Monocytes,0.7313432835820896,150
+pbmc,lambda_0,0.0,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0,0.0,1,44,NK cells,0.9055374592833876,154
+pbmc,lambda_0p01,0.01,1,44,B cells,0.9720998531571219,342
+pbmc,lambda_0p01,0.01,1,44,CD14+ Monocytes,0.649025069637883,480
+pbmc,lambda_0p01,0.01,1,44,CD4 T cells,0.9267654751525719,1144
+pbmc,lambda_0p01,0.01,1,44,CD8 T cells,0.7496206373292867,316
+pbmc,lambda_0p01,0.01,1,44,Dendritic cells,0.35051546391752575,37
+pbmc,lambda_0p01,0.01,1,44,FCGR3A+ Monocytes,0.7241379310344828,150
+pbmc,lambda_0p01,0.01,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p01,0.01,1,44,NK cells,0.8926174496644296,154
+pbmc,lambda_0p03,0.03,1,44,B cells,0.9591836734693877,342
+pbmc,lambda_0p03,0.03,1,44,CD14+ Monocytes,0.630098452883263,480
+pbmc,lambda_0p03,0.03,1,44,CD4 T cells,0.9,1144
+pbmc,lambda_0p03,0.03,1,44,CD8 T cells,0.6740331491712708,316
+pbmc,lambda_0p03,0.03,1,44,Dendritic cells,0.35502958579881655,37
+pbmc,lambda_0p03,0.03,1,44,FCGR3A+ Monocytes,0.7295285359801489,150
+pbmc,lambda_0p03,0.03,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p03,0.03,1,44,NK cells,0.8619528619528619,154
+pbmc,lambda_0p1,0.1,1,44,B cells,0.9591836734693877,342
+pbmc,lambda_0p1,0.1,1,44,CD14+ Monocytes,0.6028571428571429,480
+pbmc,lambda_0p1,0.1,1,44,CD4 T cells,0.9129287598944591,1144
+pbmc,lambda_0p1,0.1,1,44,CD8 T cells,0.7246376811594203,316
+pbmc,lambda_0p1,0.1,1,44,Dendritic cells,0.31683168316831684,37
+pbmc,lambda_0p1,0.1,1,44,FCGR3A+ Monocytes,0.7596899224806202,150
+pbmc,lambda_0p1,0.1,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p1,0.1,1,44,NK cells,0.8553054662379421,154
+pbmc,lambda_0p3,0.3,1,44,B cells,0.9737609329446064,342
+pbmc,lambda_0p3,0.3,1,44,CD14+ Monocytes,0.5872093023255814,480
+pbmc,lambda_0p3,0.3,1,44,CD4 T cells,0.9347921225382932,1144
+pbmc,lambda_0p3,0.3,1,44,CD8 T cells,0.7577639751552795,316
+pbmc,lambda_0p3,0.3,1,44,Dendritic cells,0.30493273542600896,37
+pbmc,lambda_0p3,0.3,1,44,FCGR3A+ Monocytes,0.7047619047619048,150
+pbmc,lambda_0p3,0.3,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_0p3,0.3,1,44,NK cells,0.9144736842105263,154
+pbmc,lambda_1,1.0,1,44,B cells,0.9765395894428153,342
+pbmc,lambda_1,1.0,1,44,CD14+ Monocytes,0.7334200260078023,480
+pbmc,lambda_1,1.0,1,44,CD4 T cells,0.932396839332748,1144
+pbmc,lambda_1,1.0,1,44,CD8 T cells,0.7460815047021944,316
+pbmc,lambda_1,1.0,1,44,Dendritic cells,0.39751552795031053,37
+pbmc,lambda_1,1.0,1,44,FCGR3A+ Monocytes,0.729064039408867,150
+pbmc,lambda_1,1.0,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_1,1.0,1,44,NK cells,0.9177215189873418,154
+pbmc,lambda_3,3.0,1,44,B cells,0.972181551976574,342
+pbmc,lambda_3,3.0,1,44,CD14+ Monocytes,0.6989247311827957,480
+pbmc,lambda_3,3.0,1,44,CD4 T cells,0.9318081830180378,1144
+pbmc,lambda_3,3.0,1,44,CD8 T cells,0.7561728395061729,316
+pbmc,lambda_3,3.0,1,44,Dendritic cells,0.39325842696629215,37
+pbmc,lambda_3,3.0,1,44,FCGR3A+ Monocytes,0.7125890736342043,150
+pbmc,lambda_3,3.0,1,44,Megakaryocytes,0.8461538461538461,15
+pbmc,lambda_3,3.0,1,44,NK cells,0.9174917491749175,154

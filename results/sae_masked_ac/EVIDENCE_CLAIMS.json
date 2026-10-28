@@ -1,0 +1,326 @@
+[
+  {
+    "id": "ctrl_A_sae_clean_ridge_macro_f1",
+    "value": 0.8272141693424873,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "ctrl",
+    "method": "A_sae",
+    "view": "clean"
+  },
+  {
+    "id": "ctrl_A_sae_clean_knn_macro_f1",
+    "value": 0.7910441612851651,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "ctrl",
+    "method": "A_sae",
+    "view": "clean"
+  },
+  {
+    "id": "ctrl_A_sae_masked_ridge_macro_f1",
+    "value": 0.8188519084520803,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "ctrl",
+    "method": "A_sae",
+    "view": "masked"
+  },
+  {
+    "id": "ctrl_A_sae_masked_knn_macro_f1",
+    "value": 0.7766142616167239,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "ctrl",
+    "method": "A_sae",
+    "view": "masked"
+  },
+  {
+    "id": "ctrl_C_sae_clean_ridge_macro_f1",
+    "value": 0.8266945820159375,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "ctrl",
+    "method": "C_sae",
+    "view": "clean"
+  },
+  {
+    "id": "ctrl_C_sae_clean_knn_macro_f1",
+    "value": 0.8300731886385234,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "ctrl",
+    "method": "C_sae",
+    "view": "clean"
+  },
+  {
+    "id": "ctrl_C_sae_masked_ridge_macro_f1",
+    "value": 0.8173935008749967,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "ctrl",
+    "method": "C_sae",
+    "view": "masked"
+  },
+  {
+    "id": "ctrl_C_sae_masked_knn_macro_f1",
+    "value": 0.81459836711864,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "ctrl",
+    "method": "C_sae",
+    "view": "masked"
+  },
+  {
+    "id": "ctrl_original_h_clean_ridge_macro_f1",
+    "value": 0.827539600326646,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "ctrl",
+    "method": "original_h",
+    "view": "clean"
+  },
+  {
+    "id": "ctrl_original_h_clean_knn_macro_f1",
+    "value": 0.781000729633678,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "ctrl",
+    "method": "original_h",
+    "view": "clean"
+  },
+  {
+    "id": "ctrl_original_h_masked_ridge_macro_f1",
+    "value": 0.8139801266047098,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "ctrl",
+    "method": "original_h",
+    "view": "masked"
+  },
+  {
+    "id": "ctrl_original_h_masked_knn_macro_f1",
+    "value": 0.7608079928730795,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "ctrl",
+    "method": "original_h",
+    "view": "masked"
+  },
+  {
+    "id": "pbmc_A_sae_clean_ridge_macro_f1",
+    "value": 0.8314549033376557,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "pbmc",
+    "method": "A_sae",
+    "view": "clean"
+  },
+  {
+    "id": "pbmc_A_sae_clean_knn_macro_f1",
+    "value": 0.7429721932492288,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "pbmc",
+    "method": "A_sae",
+    "view": "clean"
+  },
+  {
+    "id": "pbmc_A_sae_masked_ridge_macro_f1",
+    "value": 0.8199412283587106,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "pbmc",
+    "method": "A_sae",
+    "view": "masked"
+  },
+  {
+    "id": "pbmc_A_sae_masked_knn_macro_f1",
+    "value": 0.728160587437257,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "pbmc",
+    "method": "A_sae",
+    "view": "masked"
+  },
+  {
+    "id": "pbmc_C_sae_clean_ridge_macro_f1",
+    "value": 0.7912964699582041,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "pbmc",
+    "method": "C_sae",
+    "view": "clean"
+  },
+  {
+    "id": "pbmc_C_sae_clean_knn_macro_f1",
+    "value": 0.7503318498712033,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "pbmc",
+    "method": "C_sae",
+    "view": "clean"
+  },
+  {
+    "id": "pbmc_C_sae_masked_ridge_macro_f1",
+    "value": 0.7832411416665424,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "pbmc",
+    "method": "C_sae",
+    "view": "masked"
+  },
+  {
+    "id": "pbmc_C_sae_masked_knn_macro_f1",
+    "value": 0.7378161910372856,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "pbmc",
+    "method": "C_sae",
+    "view": "masked"
+  },
+  {
+    "id": "pbmc_original_h_clean_ridge_macro_f1",
+    "value": 0.8267607060143116,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "pbmc",
+    "method": "original_h",
+    "view": "clean"
+  },
+  {
+    "id": "pbmc_original_h_clean_knn_macro_f1",
+    "value": 0.7409104592281712,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "pbmc",
+    "method": "original_h",
+    "view": "clean"
+  },
+  {
+    "id": "pbmc_original_h_masked_ridge_macro_f1",
+    "value": 0.8241976069637882,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "pbmc",
+    "method": "original_h",
+    "view": "masked"
+  },
+  {
+    "id": "pbmc_original_h_masked_knn_macro_f1",
+    "value": 0.7382424234271703,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "pbmc",
+    "method": "original_h",
+    "view": "masked"
+  },
+  {
+    "id": "stim_A_sae_clean_ridge_macro_f1",
+    "value": 0.8346650923130126,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "stim",
+    "method": "A_sae",
+    "view": "clean"
+  },
+  {
+    "id": "stim_A_sae_clean_knn_macro_f1",
+    "value": 0.7592205571128378,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "stim",
+    "method": "A_sae",
+    "view": "clean"
+  },
+  {
+    "id": "stim_A_sae_masked_ridge_macro_f1",
+    "value": 0.8159437459830742,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "stim",
+    "method": "A_sae",
+    "view": "masked"
+  },
+  {
+    "id": "stim_A_sae_masked_knn_macro_f1",
+    "value": 0.7424443582846614,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "stim",
+    "method": "A_sae",
+    "view": "masked"
+  },
+  {
+    "id": "stim_C_sae_clean_ridge_macro_f1",
+    "value": 0.8184990243849101,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "stim",
+    "method": "C_sae",
+    "view": "clean"
+  },
+  {
+    "id": "stim_C_sae_clean_knn_macro_f1",
+    "value": 0.7856014921651256,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "stim",
+    "method": "C_sae",
+    "view": "clean"
+  },
+  {
+    "id": "stim_C_sae_masked_ridge_macro_f1",
+    "value": 0.7981263998539587,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "stim",
+    "method": "C_sae",
+    "view": "masked"
+  },
+  {
+    "id": "stim_C_sae_masked_knn_macro_f1",
+    "value": 0.7646856528437734,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "stim",
+    "method": "C_sae",
+    "view": "masked"
+  },
+  {
+    "id": "stim_original_h_clean_ridge_macro_f1",
+    "value": 0.8452495930590307,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "stim",
+    "method": "original_h",
+    "view": "clean"
+  },
+  {
+    "id": "stim_original_h_clean_knn_macro_f1",
+    "value": 0.7417944144683308,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "stim",
+    "method": "original_h",
+    "view": "clean"
+  },
+  {
+    "id": "stim_original_h_masked_ridge_macro_f1",
+    "value": 0.8261630476765917,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "ridge_macro_f1",
+    "dataset": "stim",
+    "method": "original_h",
+    "view": "masked"
+  },
+  {
+    "id": "stim_original_h_masked_knn_macro_f1",
+    "value": 0.7247052316122615,
+    "source": "outputs/sae_masked_ac/SUMMARY.json",
+    "metric": "knn_macro_f1",
+    "dataset": "stim",
+    "method": "original_h",
+    "view": "masked"
+  }
+]

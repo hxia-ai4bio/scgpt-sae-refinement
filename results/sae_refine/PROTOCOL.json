@@ -1,0 +1,68 @@
+{
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "mix_alpha": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "ridge_alpha": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "epochs_max": 20,
+  "patience": 3,
+  "batch_size": 256,
+  "lr": 0.0003,
+  "optimizer": "Adam",
+  "threads": 4,
+  "device": "cpu",
+  "sae_dtype": "float32",
+  "probe_dtype": "float64",
+  "backbone": "frozen cached scGPT; no backbone or supervised adapter training",
+  "data": "Kang ctrl historical 9577 cells / 6 donors / 8 labels",
+  "fit": "four TRAIN donors only; fixed TRAIN mean; dictionary columns unit-norm after every update; no decoder bias",
+  "sae_selection": "lowest VALID MSE, earliest tie, epoch0 eligible; same as historical SAE",
+  "probe_selection": "VALID fixed-eight-class MacroF1; alpha=0 identity wins ties, then ascending mixture and Ridge alpha; no TRAIN+VALID refit",
+  "arms": [
+    "original_h",
+    "single_raw",
+    "ensemble_existing3",
+    "wide6144_k96",
+    "abs2048_k32",
+    "abs_sparse_z",
+    "bag2_1024_k16",
+    "boost2_1024_k16"
+  ],
+  "variants": "each reconstruction arm reports independently selected forced reconstruction (mix=1) and mixed512 (mix includes0); z is diagnostic only",
+  "capacity_controls": "existing3 ensemble: 6144 dictionary/96 slots vs single6144/96; bag2 and boost2: 2048 dictionary/32 slots vs single2048/32. Maximum total dictionary-weighted epochs matched; actual early stopping and compute recorded, not exactly equal walltime.",
+  "boost": "first SAE fit h, second fit h-first_reconstruction; residual TRAIN mean only. First1024 shared with bag2; second same initialization seed as bag2 second, different target.",
+  "bag": "average independently reconstructed h; member seeds s and s+10000",
+  "existing_ensemble": "one ensemble of existing seeds42,43,44 per fold, not three independent repeats",
+  "scope": "exploratory reuse of historically inspected Kang donors; no new blind confirmation; no PBMC transfer",
+  "statistics": "average seeds within donor then equal mean across6 donors; donor paired bootstrap descriptive only, overlapping training sets; seeds not independent donors",
+  "advance_rule": "descriptive >=0.5pp gain, >=4/6 positive donors; >=2/3 positive seed means when applicable; report every class including rare classes",
+  "DIAL": "not scheduled: no validated nuisance-only directions yet; technical suppression is conditional, not silently omitted after results"
+}

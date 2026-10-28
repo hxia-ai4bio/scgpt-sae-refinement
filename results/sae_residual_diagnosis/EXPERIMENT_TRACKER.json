@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "trajectories": "complete",
+  "conditional_readouts": "complete",
+  "numerical_verification": "PASS",
+  "scientific_review": "WARN",
+  "scored_roles": [
+    "train",
+    "valid"
+  ]
+}

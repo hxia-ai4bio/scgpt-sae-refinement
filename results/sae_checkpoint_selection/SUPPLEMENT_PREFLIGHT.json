@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "roles_seen": "Input metadata only; no new TEST scoring",
+  "canonical_groups_rows_labels_embedding_condition_cell_ids_exactly_match_external_cache": true,
+  "inputs": 12
+}

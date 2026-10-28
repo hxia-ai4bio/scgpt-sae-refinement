@@ -1,0 +1,27 @@
+[
+  {
+    "feature": 440,
+    "target": "CD14+ Monocytes",
+    "role": "biological_candidate",
+    "train_min_donor_auc": 0.9766103235923127
+  },
+  {
+    "feature": 160,
+    "target": "B cells",
+    "role": "biological_candidate",
+    "train_min_donor_auc": 0.9696616669093733
+  },
+  {
+    "feature": 120,
+    "target": "NK cells",
+    "role": "biological_candidate",
+    "train_min_donor_auc": 0.9738419118850983
+  },
+  {
+    "feature": 1724,
+    "target": "all",
+    "role": "technical_comparator",
+    "covariate": "log_genes",
+    "partial_r": 0.5339715227087481
+  }
+]

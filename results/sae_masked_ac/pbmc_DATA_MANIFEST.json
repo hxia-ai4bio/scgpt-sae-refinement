@@ -1,0 +1,24 @@
+{
+  "binding": {
+    "sources": {
+      "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_masked_ac/prepare.py": "68a8944bebbcab1ddbc3ec03a97ce9dd971601b713550ada9d019a764ad7ba2e",
+      "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/prepare.py": "19c57a2dcd720ecbfe5e5b5ae253cc43ee06422c14f0dd693275e9af1bf2c79e",
+      "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/kang_error_atlas_20261012/run_error_atlas.py": "522d1058e98071d3e7aeec5467c9bf515b0298ff0f8b6ee8a1c6b8a06d6aafac",
+      "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/kang_error_atlas_20261012/config.json": "233affe2e949d55375fed161c46bfaea6d76f9ef57bfcd40da441c8f24649246",
+      "/Users/apple/Desktop/scGPT/scGPT_human/best_model.pt": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922",
+      "/Users/apple/Desktop/scGPT/scGPT_human/args.json": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60",
+      "/Users/apple/Desktop/scGPT/scGPT_human/vocab.json": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f"
+    },
+    "raw_path": "/Users/apple/Desktop/Llava-Cell/dataset/PBMC368k_raw.h5ad",
+    "raw_sha": "211b06d897f35bb8590aed649173d5f44b6e6986c468d8e8dc0dc78646fee2aa",
+    "canonical_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_extension/data/pbmc.npz",
+    "canonical_sha": "624ad9e46debfb8be3d018d41288148b3c346882ab684e7e0d554b23566fc317",
+    "protocol_sha": "e8b726c50f003b1d0e2bfeef5e562b4a72451438c3e1f74c34f42acf6b20469b",
+    "device": "mps"
+  },
+  "canonical_data_sha": "8bafbe563dc96fd87e80e0c4cd4e887a0aa52c49633be34996c4d76c7ba48c6f",
+  "raw_genes": 14236,
+  "cells": 4638,
+  "model_frozen": true,
+  "scope": "Mask25pct original expressed selected tokens; pad hidden positions and recompute bins/library totals without hidden counts. C targets logCP10k expression of masked positive tokens in TRAIN-selected gene panel, not all-gene/zero-expression imputation. One fixed mask per cell shared across methods/seeds."
+}

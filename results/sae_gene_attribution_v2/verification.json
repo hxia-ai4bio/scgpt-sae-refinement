@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_hashes_unchanged": true,
+  "exact_occlusion_inputs_checked": 34,
+  "baseline_cache_max_error": 7.152557373046875e-07,
+  "slow_backend_replays_from_run": 34,
+  "slow_backend_max_error": 1.6689300537109375e-06,
+  "gene_aggregation_max_error": 9.996344030316351e-17,
+  "deletion_inputs_checked": 1152,
+  "joint_random_stratum_sets_checked": 720,
+  "deletion_csv_max_error": 9.996344030316351e-17,
+  "scope": "numerical/input/provenance verification, not biological validation"
+}

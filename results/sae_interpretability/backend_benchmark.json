@@ -1,0 +1,26 @@
+[
+  {
+    "threads": 4,
+    "fastpath": false,
+    "seconds16": 1.3722689151763916,
+    "max_score_diff": 0.0
+  },
+  {
+    "threads": 8,
+    "fastpath": false,
+    "seconds16": 1.2559947967529297,
+    "max_score_diff": 0.0
+  },
+  {
+    "threads": 4,
+    "fastpath": true,
+    "seconds16": 0.9457170963287354,
+    "max_score_diff": 5.364418029785156e-07
+  },
+  {
+    "threads": 8,
+    "fastpath": true,
+    "seconds16": 0.6886332035064697,
+    "max_score_diff": 5.364418029785156e-07
+  }
+]

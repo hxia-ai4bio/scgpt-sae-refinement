@@ -1,0 +1,245 @@
+{
+  "primary": [
+    {
+      "dataset": "ctrl",
+      "original_MAE": 0.32595499122624333,
+      "C_frozen_MAE": 0.33461017169279744,
+      "delta_C_minus_original": 0.008655180466554113,
+      "reduction_pct": -2.6553299380363216,
+      "improved_groups": 0,
+      "groups": 6
+    },
+    {
+      "dataset": "pbmc",
+      "original_MAE": 0.36272204162867183,
+      "C_frozen_MAE": 0.386179286767002,
+      "delta_C_minus_original": 0.02345724513833014,
+      "reduction_pct": -6.4670029516276095,
+      "improved_groups": 0,
+      "groups": 2
+    },
+    {
+      "dataset": "stim",
+      "original_MAE": 0.33869703291738057,
+      "C_frozen_MAE": 0.3465485648768731,
+      "delta_C_minus_original": 0.007851531959492508,
+      "reduction_pct": -2.318157880470051,
+      "improved_groups": 0,
+      "groups": 6
+    }
+  ],
+  "metrics": [
+    {
+      "dataset": "ctrl",
+      "method": "C_sae",
+      "MAE": 0.33461017169279744,
+      "normalized_MSE": 0.6363938180579171,
+      "gene_macro_MAE": 0.2741759403470895,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "MAE": 0.32595499122624333,
+      "normalized_MSE": 0.6050673822083864,
+      "gene_macro_MAE": 0.2749012252647122,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_sae",
+      "MAE": 0.386179286767002,
+      "normalized_MSE": 1.151477955338677,
+      "gene_macro_MAE": 0.32458108487516657,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "MAE": 0.36272204162867183,
+      "normalized_MSE": 1.0572423419328478,
+      "gene_macro_MAE": 0.3092787291144675,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "stim",
+      "method": "C_sae",
+      "MAE": 0.3465485648768731,
+      "normalized_MSE": 0.6461921279405584,
+      "gene_macro_MAE": 0.2828360733940839,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "MAE": 0.33869703291738057,
+      "normalized_MSE": 0.6162568394766742,
+      "gene_macro_MAE": 0.2835750151604625,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    }
+  ],
+  "seed_metrics": [
+    {
+      "dataset": "ctrl",
+      "method": "C_sae",
+      "seed": 42,
+      "MAE": 0.33505901318725045,
+      "normalized_MSE": 0.6383713485390184,
+      "gene_macro_MAE": 0.2743688285068524,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_sae",
+      "seed": 43,
+      "MAE": 0.33503436026433575,
+      "normalized_MSE": 0.6371212606267537,
+      "gene_macro_MAE": 0.2749125569224788,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_sae",
+      "seed": 44,
+      "MAE": 0.3337371416268063,
+      "normalized_MSE": 0.6336888450079788,
+      "gene_macro_MAE": 0.2732464356119371,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "seed": 42,
+      "MAE": 0.3262130291690153,
+      "normalized_MSE": 0.6057070798670576,
+      "gene_macro_MAE": 0.27506293164980794,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "seed": 43,
+      "MAE": 0.32599522364989203,
+      "normalized_MSE": 0.6049370251300247,
+      "gene_macro_MAE": 0.27496061703805347,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "seed": 44,
+      "MAE": 0.3256567208598226,
+      "normalized_MSE": 0.604558041628077,
+      "gene_macro_MAE": 0.2746801271062753,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_sae",
+      "seed": 42,
+      "MAE": 0.3860575095866464,
+      "normalized_MSE": 1.1505935656005977,
+      "gene_macro_MAE": 0.3241100569514046,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_sae",
+      "seed": 43,
+      "MAE": 0.3842116874974441,
+      "normalized_MSE": 1.1423840960951601,
+      "gene_macro_MAE": 0.3217593047435055,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_sae",
+      "seed": 44,
+      "MAE": 0.3882686632169152,
+      "normalized_MSE": 1.1614562043202723,
+      "gene_macro_MAE": 0.32787389293058977,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "seed": 42,
+      "MAE": 0.36192870233170726,
+      "normalized_MSE": 1.0535393072567474,
+      "gene_macro_MAE": 0.3089361328084226,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "seed": 43,
+      "MAE": 0.36345508061379744,
+      "normalized_MSE": 1.0599516069243633,
+      "gene_macro_MAE": 0.30991576235578905,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "seed": 44,
+      "MAE": 0.3627823419405109,
+      "normalized_MSE": 1.0582361116174333,
+      "gene_macro_MAE": 0.3089842921791909,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "stim",
+      "method": "C_sae",
+      "seed": 42,
+      "MAE": 0.3463037050413136,
+      "normalized_MSE": 0.6457694424741839,
+      "gene_macro_MAE": 0.2825168035387042,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "C_sae",
+      "seed": 43,
+      "MAE": 0.3469268050770499,
+      "normalized_MSE": 0.6468394228054517,
+      "gene_macro_MAE": 0.28321837907206754,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "C_sae",
+      "seed": 44,
+      "MAE": 0.3464151845122558,
+      "normalized_MSE": 0.6459675185420398,
+      "gene_macro_MAE": 0.28277303757148,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "seed": 42,
+      "MAE": 0.3386693221063913,
+      "normalized_MSE": 0.6155182857238852,
+      "gene_macro_MAE": 0.28335746182644217,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "seed": 43,
+      "MAE": 0.3389017513346199,
+      "normalized_MSE": 0.6175413664484303,
+      "gene_macro_MAE": 0.283743386249156,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "seed": 44,
+      "MAE": 0.33852002531113046,
+      "normalized_MSE": 0.6157108662577069,
+      "gene_macro_MAE": 0.28362419740578937,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    }
+  ]
+}

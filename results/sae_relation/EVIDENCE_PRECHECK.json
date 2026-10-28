@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "sources": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/all_metrics.json": "eb8218e1d3a344e9549891ac92cf893dfd18398b97c2cb9093332f562ade98fe",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/summary.json": "67b0fdc72082c7f13e7cd35b78b5448e3cc75fbb82004751e6a9a04368b2b275",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/verification.json": "396c2ae6868e55a5e3bb7b95790a35e3ef7cc5fe4946268ca5021550a810cf17",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_relation/advance_gate.json": "4b38629f486e010e001a44b08861146bbf7d0ef96f4e1796e5e5e719f263b0c1"
+  },
+  "meaning": "deterministic existence and metric checks; semantic interpretation still needs review"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "fold": 0,
+      "arm": "continue_mse",
+      "additional_steps": 1000,
+      "seconds": 9.125380039215088,
+      "decoder_norm_error": 5.173978288031122e-07
+    },
+    {
+      "fold": 0,
+      "arm": "relation_weak",
+      "additional_steps": 1000,
+      "seconds": 12.684908151626587,
+      "decoder_norm_error": 5.173275032799296e-07
+    },
+    {
+      "fold": 0,
+      "arm": "relation_strong",
+      "additional_steps": 1000,
+      "seconds": 13.24544095993042,
+      "decoder_norm_error": 5.697877780708183e-07
+    },
+    {
+      "fold": 2,
+      "arm": "continue_mse",
+      "additional_steps": 1000,
+      "seconds": 9.042256832122803,
+      "decoder_norm_error": 4.885954612010579e-07
+    },
+    {
+      "fold": 2,
+      "arm": "relation_weak",
+      "additional_steps": 1000,
+      "seconds": 13.335510015487671,
+      "decoder_norm_error": 5.055303531342759e-07
+    },
+    {
+      "fold": 2,
+      "arm": "relation_strong",
+      "additional_steps": 1000,
+      "seconds": 13.209237098693848,
+      "decoder_norm_error": 4.985722135142368e-07
+    }
+  ],
+  "no_pilot_classification_or_TEST": true,
+  "budget_decision": "keep proposed1000 extra steps for all arms; this is a fixed-budget comparison, not proof of convergence"
+}

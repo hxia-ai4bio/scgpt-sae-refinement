@@ -1,0 +1,8 @@
+{
+  "purpose": "descriptive follow-up aid, not inferential test or frozen ranking change",
+  "rule": "within each fixed TRAIN positive non-RPL/RPS top40, show genes with positive contribution in>=3 TRAIN donors, input coverage>=3 TRAIN donors, and TEST mean contribution>0",
+  "timing": "added after F137 initial rank inspection; remaining five features not yet complete",
+  "no_test_based_pathway_selection": true,
+  "all_unfiltered_results_retained": true,
+  "same_direction_does_not_establish_stability_or_causality": true
+}

@@ -1,0 +1,207 @@
+{
+  "sources_sha256": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/combined_with_ctrl_metrics.csv": "ae172b50d9f5f1b0831febb2c15e8bf72684057c3dca9b58449fe504d06faa98",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/knn_metrics.csv": "ce280f69b3dfada8050f7868d6434fc12887ec6ced4203cbcc697947256c43be",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/knn_metrics.csv": "cd792e1ce05ec85182ae0eba564222a33a32d4cbe15c08063508d29fd01ef133",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_evaluation/clustering_all.csv": "e9f0424d369871d7a25a469524adb26a456cf0b23632f1c77f441ae9a1190195",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/performance/selection_registry.csv": "e5769b121364bf9b63f6ad43069be5a5a69c3458c31b19ae39e5da50e79dd366",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_secondary_performance.py": "119231014be02fe76161eec84806a4a35c79cc2b431981c0edc333dce0b3b68c"
+  },
+  "expression_seeds": {
+    "ctrl": 44,
+    "stim": 43,
+    "pbmc": 43
+  },
+  "status": "Task-specific existing-results draft; not a unified-model evaluation",
+  "panel_means": [
+    {
+      "panel": "a",
+      "dataset": "ctrl",
+      "method": "original_h",
+      "condition": "masked",
+      "value": 0.3256567208598226
+    },
+    {
+      "panel": "a",
+      "dataset": "ctrl",
+      "method": "C_selected",
+      "condition": "masked",
+      "value": 0.32052788091325385
+    },
+    {
+      "panel": "a",
+      "dataset": "stim",
+      "method": "original_h",
+      "condition": "masked",
+      "value": 0.3389017513346199
+    },
+    {
+      "panel": "a",
+      "dataset": "stim",
+      "method": "C_selected",
+      "condition": "masked",
+      "value": 0.3341153944365684
+    },
+    {
+      "panel": "a",
+      "dataset": "pbmc",
+      "method": "original_h",
+      "condition": "masked",
+      "value": 0.36345508061379744
+    },
+    {
+      "panel": "a",
+      "dataset": "pbmc",
+      "method": "C_selected",
+      "condition": "masked",
+      "value": 0.34381996933084513
+    },
+    {
+      "panel": "b",
+      "dataset": "ctrl",
+      "method": "original_h",
+      "condition": "clean",
+      "value": 78.1000729633678
+    },
+    {
+      "panel": "b",
+      "dataset": "ctrl",
+      "method": "original_h",
+      "condition": "masked",
+      "value": 76.08079928730795
+    },
+    {
+      "panel": "b",
+      "dataset": "ctrl",
+      "method": "C_selected",
+      "condition": "clean",
+      "value": 82.5092023125771
+    },
+    {
+      "panel": "b",
+      "dataset": "ctrl",
+      "method": "C_selected",
+      "condition": "masked",
+      "value": 81.58963841911627
+    },
+    {
+      "panel": "b",
+      "dataset": "stim",
+      "method": "original_h",
+      "condition": "clean",
+      "value": 74.1794414468331
+    },
+    {
+      "panel": "b",
+      "dataset": "stim",
+      "method": "original_h",
+      "condition": "masked",
+      "value": 72.47052316122615
+    },
+    {
+      "panel": "b",
+      "dataset": "stim",
+      "method": "C_selected",
+      "condition": "clean",
+      "value": 76.98435529385436
+    },
+    {
+      "panel": "b",
+      "dataset": "stim",
+      "method": "C_selected",
+      "condition": "masked",
+      "value": 75.71957896917704
+    },
+    {
+      "panel": "b",
+      "dataset": "pbmc",
+      "method": "original_h",
+      "condition": "clean",
+      "value": 74.09104592281713
+    },
+    {
+      "panel": "b",
+      "dataset": "pbmc",
+      "method": "original_h",
+      "condition": "masked",
+      "value": 73.82424234271703
+    },
+    {
+      "panel": "b",
+      "dataset": "pbmc",
+      "method": "C_selected",
+      "condition": "clean",
+      "value": 69.23866106163368
+    },
+    {
+      "panel": "b",
+      "dataset": "pbmc",
+      "method": "C_selected",
+      "condition": "masked",
+      "value": 68.34572182222573
+    },
+    {
+      "panel": "c",
+      "dataset": "ctrl",
+      "method": "original_h",
+      "condition": "clean",
+      "value": 0.5178000687581332
+    },
+    {
+      "panel": "c",
+      "dataset": "ctrl",
+      "method": "mse",
+      "condition": "clean",
+      "value": 0.4783484973219849
+    },
+    {
+      "panel": "c",
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "condition": "clean",
+      "value": 0.48115808894237705
+    },
+    {
+      "panel": "c",
+      "dataset": "stim",
+      "method": "original_h",
+      "condition": "clean",
+      "value": 0.4612091092436714
+    },
+    {
+      "panel": "c",
+      "dataset": "stim",
+      "method": "mse",
+      "condition": "clean",
+      "value": 0.45536410722400866
+    },
+    {
+      "panel": "c",
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "condition": "clean",
+      "value": 0.4348219818245263
+    },
+    {
+      "panel": "c",
+      "dataset": "pbmc",
+      "method": "original_h",
+      "condition": "clean",
+      "value": 0.35099033181807704
+    },
+    {
+      "panel": "c",
+      "dataset": "pbmc",
+      "method": "mse",
+      "condition": "clean",
+      "value": 0.315086175389528
+    },
+    {
+      "panel": "c",
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "condition": "clean",
+      "value": 0.3010307415972834
+    }
+  ]
+}

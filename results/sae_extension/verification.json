@@ -1,0 +1,1419 @@
+{
+  "status": "PASS",
+  "prediction_models": 176,
+  "continuation_training_runs": 168,
+  "warmup_training_runs": 24,
+  "embedding_files_read_back": 176,
+  "selected_probe_checks": [
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 1.2656542480726785e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.7755575615628914e-15,
+      "VALID_cholesky_max_error": 8.240630400280224e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 3.774758283725532e-15,
+      "VALID_cholesky_max_error": 5.564437799421285e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 3.219646771412954e-15,
+      "VALID_cholesky_max_error": 4.489741911584133e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 3.9968028886505635e-15,
+      "VALID_cholesky_max_error": 5.433431482515516e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 7.349676423018536e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 6.938893903907228e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 7.4495964952348e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 8.08242361927114e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 7.127631818093505e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 7.860379014346108e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 1.9984014443252818e-15,
+      "VALID_cholesky_max_error": 1.2795320358804929e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 1.7763568394002505e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 1.099120794378905e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 9.880984919163893e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 6.661338147750939e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 6.505906924303417e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 1.0613732115416497e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 6.317169010117141e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 7.505107646466058e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 3.219646771412954e-15,
+      "VALID_cholesky_max_error": 5.173639294753229e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 8.060219158778636e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 1.2878587085651816e-14,
+      "VALID_cholesky_max_error": 1.80899739632423e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 7.993605777301127e-15,
+      "VALID_cholesky_max_error": 1.0105249970138175e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 8.659739592076221e-15,
+      "VALID_cholesky_max_error": 6.048495038157853e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 1.199040866595169e-14,
+      "VALID_cholesky_max_error": 1.3948842081390467e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 7.216449660063518e-15,
+      "VALID_cholesky_max_error": 5.39124300757976e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 7.549516567451064e-15,
+      "VALID_cholesky_max_error": 6.797895579779833e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 4.440892098500626e-15,
+      "VALID_cholesky_max_error": 3.247402347028583e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.9968028886505635e-15,
+      "VALID_cholesky_max_error": 1.5509815654013437e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 5.10702591327572e-15,
+      "VALID_cholesky_max_error": 8.206768598029157e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 7.771561172376096e-15,
+      "VALID_cholesky_max_error": 9.552358903874847e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 1.4210854715202004e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 6.439293542825908e-15,
+      "VALID_cholesky_max_error": 5.965228311310966e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.1671553440683056e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 5.995204332975845e-15,
+      "VALID_cholesky_max_error": 7.971401316808624e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 4.440892098500626e-15,
+      "VALID_cholesky_max_error": 2.389199948993337e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 7.549516567451064e-15,
+      "VALID_cholesky_max_error": 6.20281603858075e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 7.105427357601002e-15,
+      "VALID_cholesky_max_error": 1.0749179324420766e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 5.329070518200751e-15,
+      "VALID_cholesky_max_error": 7.214229214014267e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 4.440892098500626e-15,
+      "VALID_cholesky_max_error": 2.828848266744899e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 6.661338147750939e-15,
+      "VALID_cholesky_max_error": 4.7839510131098e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 4.440892098500626e-15,
+      "VALID_cholesky_max_error": 1.7363888105137448e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 4.884981308350689e-15,
+      "VALID_cholesky_max_error": 4.4231285301066237e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 8.43769498715119e-15,
+      "VALID_cholesky_max_error": 2.4961144262647394e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 5.495603971894525e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 3.9968028886505635e-15,
+      "VALID_cholesky_max_error": 7.72937269744034e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 6.050715484207103e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 3.9968028886505635e-15,
+      "VALID_cholesky_max_error": 8.497647030480948e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 1.0880185641326534e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.886579864025407e-15,
+      "VALID_cholesky_max_error": 2.753353101070388e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 2.2282176104226892e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 1.9984014443252818e-15,
+      "VALID_cholesky_max_error": 9.070522111187529e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 3.54605234065275e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 1.0391687510491465e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 5.0959236830294685e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.5934809855243657e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 3.8968828164342995e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.886579864025407e-15,
+      "VALID_cholesky_max_error": 6.445954880973659e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 4.451994328746878e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 4.440892098500626e-15,
+      "VALID_cholesky_max_error": 2.832512002726162e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 7.349676423018536e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 6.605826996519681e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 1.9984014443252818e-15,
+      "VALID_cholesky_max_error": 8.770761894538737e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 8.260059303211165e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 5.784261958297066e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 4.085620730620576e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.227107387398064e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.886579864025407e-15,
+      "VALID_cholesky_max_error": 2.462474668618597e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 3.842481888227667e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 7.549516567451064e-15,
+      "VALID_cholesky_max_error": 1.5157874955207262e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 3.9968028886505635e-15,
+      "VALID_cholesky_max_error": 3.148592497836944e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.4913404672588513e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.552713678800501e-15,
+      "VALID_cholesky_max_error": 1.9673151996357774e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 4.1300296516055823e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 7.038813976123492e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 3.774758283725532e-15,
+      "VALID_cholesky_max_error": 2.3370194668359545e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 2.370326157574709e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 5.218048215738236e-15,
+      "VALID_cholesky_max_error": 4.249489649055249e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.7045032879868813e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 4.8627768478581856e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 7.416289804496046e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 2.453592884421596e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 5.995204332975845e-15,
+      "VALID_cholesky_max_error": 1.9058088440715437e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 5.329070518200751e-15,
+      "VALID_cholesky_max_error": 1.0860201626883281e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 6.439293542825908e-15,
+      "VALID_cholesky_max_error": 1.3674616994308053e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 4.440892098500626e-15,
+      "VALID_cholesky_max_error": 2.972067036921544e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.9968028886505635e-15,
+      "VALID_cholesky_max_error": 5.571099137569036e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 6.439293542825908e-15,
+      "VALID_cholesky_max_error": 2.0046186932631826e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 2.9753977059954195e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 5.329070518200751e-15,
+      "VALID_cholesky_max_error": 1.7322809853226318e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 2.2648549702353193e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 4.578559753554146e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 6.439293542825908e-15,
+      "VALID_cholesky_max_error": 1.5349943538467414e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 5.10702591327572e-15,
+      "VALID_cholesky_max_error": 1.0447198661722723e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.6637359812630166e-15,
+      "VALID_cholesky_max_error": 6.770140004164205e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 6.439293542825908e-15,
+      "VALID_cholesky_max_error": 2.4715784974205235e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 3.9168668308775523e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 3.219646771412954e-15,
+      "VALID_cholesky_max_error": 3.1741276274033225e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 8.124612094206896e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 4.9960036108132044e-15,
+      "VALID_cholesky_max_error": 1.6295853555448048e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 4.155564781171961e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.453592884421596e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 1.1102230246251565e-15,
+      "VALID_cholesky_max_error": 4.551914400963142e-15
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 3.219646771412954e-15,
+      "VALID_cholesky_max_error": 3.559375016948252e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 7.549516567451064e-15,
+      "VALID_cholesky_max_error": 1.6303625116620424e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 4.218847493575595e-15,
+      "VALID_cholesky_max_error": 1.2500001034254637e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 4.107825191113079e-15,
+      "VALID_cholesky_max_error": 7.955858194463872e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 5.662137425588298e-15,
+      "VALID_cholesky_max_error": 8.901768211444505e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.774758283725532e-15,
+      "VALID_cholesky_max_error": 6.509237593377293e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 3.552713678800501e-15,
+      "VALID_cholesky_max_error": 3.0619951019161817e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 2.4980018054066022e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 2.864375403532904e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 4.884981308350689e-15,
+      "VALID_cholesky_max_error": 1.27631238910908e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.55351295663786e-15,
+      "VALID_cholesky_max_error": 3.262945469373335e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 5.786482404346316e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 2.913225216616411e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.886579864025407e-15,
+      "VALID_cholesky_max_error": 5.639932965095795e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 4.9960036108132044e-15,
+      "VALID_cholesky_max_error": 1.4939161019356106e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 7.155387393709134e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 5.88418203051333e-15,
+      "VALID_cholesky_max_error": 1.2149170558473088e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 1.5543122344752192e-15,
+      "VALID_cholesky_max_error": 2.0650148258027912e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 4.121147867408581e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 7.760458942129844e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 2.8110846983508964e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 3.879119248040297e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 6.017408793468348e-14
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 1.1080025785759062e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 4.773959005888173e-15,
+      "VALID_cholesky_max_error": 1.6658896484500474e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 4.884981308350689e-15,
+      "VALID_cholesky_max_error": 1.3522516439934407e-12
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 6.5503158452884236e-15,
+      "VALID_cholesky_max_error": 9.807710199538633e-13
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 6.916689443414725e-14
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 1.1657341758564144e-14,
+      "VALID_cholesky_max_error": 3.0871971645751728e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 2.682298827494378e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 4.218847493575595e-15,
+      "VALID_cholesky_max_error": 1.1539658117953877e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 1.4299672557172016e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 8.43769498715119e-15,
+      "VALID_cholesky_max_error": 8.165690346118026e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 8.43769498715119e-15,
+      "VALID_cholesky_max_error": 1.908695423935569e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 2.986499936241671e-14
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 1.6231460620019789e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 1.9984014443252818e-15,
+      "VALID_cholesky_max_error": 1.9229062786507711e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 1.1213252548714081e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 1.5631940186722204e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 4.884981308350689e-15,
+      "VALID_cholesky_max_error": 9.691691893465304e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 3.552713678800501e-15,
+      "VALID_cholesky_max_error": 1.0080825063596421e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 1.5010215292932116e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 1.6575629757653587e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 8.43769498715119e-15,
+      "VALID_cholesky_max_error": 1.9615420399077266e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 5.10702591327572e-15,
+      "VALID_cholesky_max_error": 6.632472349110685e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 1.2145839889399213e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.886579864025407e-15,
+      "VALID_cholesky_max_error": 1.3322676295501878e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 4.107825191113079e-15,
+      "VALID_cholesky_max_error": 1.389555137620846e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.530198273120732e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.886579864025407e-15,
+      "VALID_cholesky_max_error": 2.3070434451710753e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": "shared",
+      "method": "original_h",
+      "TEST_einsum_max_error": 1.4210854715202004e-14,
+      "VALID_cholesky_max_error": 1.0494494162571755e-11
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 1.1546319456101628e-14,
+      "VALID_cholesky_max_error": 5.566658245470535e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 7.216449660063518e-15
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 5.773159728050814e-15,
+      "VALID_cholesky_max_error": 2.0738966099997924e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 7.105427357601002e-15
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 4.831690603168681e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 1.8918200339612667e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 1.7763568394002505e-15,
+      "VALID_cholesky_max_error": 4.440892098500626e-15
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 6.106226635438361e-15
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 3.552713678800501e-15,
+      "VALID_cholesky_max_error": 1.2922996006636822e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 6.583622536027178e-14
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 2.4424906541753444e-15,
+      "VALID_cholesky_max_error": 7.66053886991358e-15
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 3.552713678800501e-15,
+      "VALID_cholesky_max_error": 2.1549428907974288e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 5.551115123125783e-15,
+      "VALID_cholesky_max_error": 1.7785772854495008e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 3.1086244689504383e-15,
+      "VALID_cholesky_max_error": 2.2792878695554464e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0",
+      "TEST_einsum_max_error": 3.552713678800501e-15,
+      "VALID_cholesky_max_error": 3.2229774404868294e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p01",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 1.7896795156957523e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p03",
+      "TEST_einsum_max_error": 4.884981308350689e-15,
+      "VALID_cholesky_max_error": 1.2398970739013748e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p1",
+      "TEST_einsum_max_error": 5.329070518200751e-15,
+      "VALID_cholesky_max_error": 1.727173959409356e-12
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_0p3",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 1.8139656443594276e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_1",
+      "TEST_einsum_max_error": 2.6645352591003757e-15,
+      "VALID_cholesky_max_error": 2.1005419625907962e-13
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "method": "lambda_3",
+      "TEST_einsum_max_error": 2.220446049250313e-15,
+      "VALID_cholesky_max_error": 3.108624468950438e-14
+    }
+  ],
+  "group_semantics_verified": true,
+  "selection_lock_sha": "741271a714c11fd2670c6798c8b353faa5c1da8a750b219ef1b95b9f600b1f6d"
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "Descriptive diagnostics, not a winner selection or advance gate",
+  "grid": [
+    {
+      "lambda_KL": 0.0,
+      "delta_vs_h_pp": -0.0462411923213335,
+      "delta_vs_MSE_pp": 0.0,
+      "leave_one_donor_out_min_pp": -0.3437091522908164,
+      "leave_one_donor_out_max_pp": 0.4728647122019769
+    },
+    {
+      "lambda_KL": 0.01,
+      "delta_vs_h_pp": -0.0690789071517613,
+      "delta_vs_MSE_pp": -0.02283771483042781,
+      "leave_one_donor_out_min_pp": -0.3668938192922333,
+      "leave_one_donor_out_max_pp": 0.4011590093919315
+    },
+    {
+      "lambda_KL": 0.03,
+      "delta_vs_h_pp": -0.17344794593721993,
+      "delta_vs_MSE_pp": -0.12720675361588643,
+      "leave_one_donor_out_min_pp": -0.4894395757825887,
+      "leave_one_donor_out_max_pp": 0.1112952453617888
+    },
+    {
+      "lambda_KL": 0.1,
+      "delta_vs_h_pp": 0.24647270205005087,
+      "delta_vs_MSE_pp": 0.29271389437138434,
+      "leave_one_donor_out_min_pp": -0.0429924931033953,
+      "leave_one_donor_out_max_pp": 0.6996052649298856
+    },
+    {
+      "lambda_KL": 0.3,
+      "delta_vs_h_pp": 0.7212555936343067,
+      "delta_vs_MSE_pp": 0.7674967859556402,
+      "leave_one_donor_out_min_pp": -0.1016558215991092,
+      "leave_one_donor_out_max_pp": 1.2332832472900002
+    },
+    {
+      "lambda_KL": 1.0,
+      "delta_vs_h_pp": -0.14546533140412285,
+      "delta_vs_MSE_pp": -0.09922413908278933,
+      "leave_one_donor_out_min_pp": -0.5293131070489654,
+      "leave_one_donor_out_max_pp": 0.1659518552509342
+    },
+    {
+      "lambda_KL": 3.0,
+      "delta_vs_h_pp": -0.52205695496824,
+      "delta_vs_MSE_pp": -0.47581576264690656,
+      "leave_one_donor_out_min_pp": -1.037013639752058,
+      "leave_one_donor_out_max_pp": -0.0131063960232102
+    }
+  ]
+}

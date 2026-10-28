@@ -1,0 +1,3272 @@
+[
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.02872437176510074,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.0201031678927547,
+        "updates": 30
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.0165223486110153,
+        "updates": 60
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.014384997768676648,
+        "updates": 90
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.013019916805952622,
+        "updates": 120
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.012030632844078064,
+        "updates": 150
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.01125644907287974,
+        "updates": 180
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.010696763318212893,
+        "updates": 210
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.010182887922231067,
+        "updates": 240
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.009770910285709197,
+        "updates": 270
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.00939280344516985,
+        "updates": 300
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.00906120226805626,
+        "updates": 330
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.008692527575580325,
+        "updates": 360
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.008490526555534178,
+        "updates": 390
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.008290333807117096,
+        "updates": 420
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.008017818702709746,
+        "updates": 450
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.007863581530667617,
+        "updates": 480
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.00773416999370085,
+        "updates": 510
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.007568917224352319,
+        "updates": 540
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.007409131455918897,
+        "updates": 570
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.007358722325433834,
+        "updates": 600
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 600,
+    "selected_updates": 600,
+    "valid_mse": 0.007358722325433834,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0022795512340962887,
+      "encoder.bias": 0.0008211923413909972,
+      "decoder.weight": 0.00437516812235117
+    },
+    "train_input_sha": "f4719b6fecf28f8540256394f445053f8d6805ef2cb5c2188c7869f209883dbd",
+    "valid_input_sha": "716ddc95a42c11fdad3b794247755364de9b47090f0fba354c1f53ca9e89863f",
+    "train_groups": [
+      "patient_1015",
+      "patient_107",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "6afdf0956cf25f22cf6c019b0cc9374829a5f2efa13eb11022700a3bfabc9bc8",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.546133145377109,
+      "encoder.bias": 1.111917613885864,
+      "decoder.weight": 21.360109545156586
+    },
+    "seconds": 4.89711594581604
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.02897374716602758,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.020197428990839487,
+        "updates": 30
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.016626675684787054,
+        "updates": 60
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.014409862762628813,
+        "updates": 90
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.012988852443860423,
+        "updates": 120
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.012014004316605393,
+        "updates": 150
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.011357692018286795,
+        "updates": 180
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.010764413207057953,
+        "updates": 210
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.010448088939115597,
+        "updates": 240
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.010083296749544363,
+        "updates": 270
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.009894354501278485,
+        "updates": 300
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.009651359662135008,
+        "updates": 330
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.009416980634323812,
+        "updates": 360
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.009205115001967744,
+        "updates": 390
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.009053743755147432,
+        "updates": 420
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.008964876407352988,
+        "updates": 450
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.008738197607248898,
+        "updates": 480
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.008626241435062477,
+        "updates": 510
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.008433498845965124,
+        "updates": 540
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.008358098480895231,
+        "updates": 570
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.008235111378419365,
+        "updates": 600
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 600,
+    "selected_updates": 600,
+    "valid_mse": 0.008235111378419365,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0030469358898699284,
+      "encoder.bias": 0.0009582669008523226,
+      "decoder.weight": 0.005199089180678129
+    },
+    "train_input_sha": "f4719b6fecf28f8540256394f445053f8d6805ef2cb5c2188c7869f209883dbd",
+    "valid_input_sha": "716ddc95a42c11fdad3b794247755364de9b47090f0fba354c1f53ca9e89863f",
+    "train_groups": [
+      "patient_1015",
+      "patient_107",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "e4e5fbc27a6dbab3cfb064b7fd9438daa292eb8bfca6e0ac9f3a726530bd47fa",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.465739448651368,
+      "encoder.bias": 1.1211134362034194,
+      "decoder.weight": 21.486736946817008
+    },
+    "seconds": 4.766651153564453
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.02880670998283763,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.020251513732188586,
+        "updates": 30
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.016662678197738548,
+        "updates": 60
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.014450274644680284,
+        "updates": 90
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.012926630760301011,
+        "updates": 120
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.011696837108078968,
+        "updates": 150
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.01090894420956489,
+        "updates": 180
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.01037596551604808,
+        "updates": 210
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.009898884892377013,
+        "updates": 240
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.009552322744745212,
+        "updates": 270
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.009237100857488986,
+        "updates": 300
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.008983992794511203,
+        "updates": 330
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.008750898492769709,
+        "updates": 360
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0085679789248224,
+        "updates": 390
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.008421154047975542,
+        "updates": 420
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.008202615102061925,
+        "updates": 450
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.008023062145767862,
+        "updates": 480
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.007933409508910211,
+        "updates": 510
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.007806099259556328,
+        "updates": 540
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.007681420136828179,
+        "updates": 570
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.00760097442063523,
+        "updates": 600
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 600,
+    "selected_updates": 600,
+    "valid_mse": 0.00760097442063523,
+    "first_gradient_norms": {
+      "encoder.weight": 0.00284409336745739,
+      "encoder.bias": 0.0008564363233745098,
+      "decoder.weight": 0.004855251871049404
+    },
+    "train_input_sha": "f4719b6fecf28f8540256394f445053f8d6805ef2cb5c2188c7869f209883dbd",
+    "valid_input_sha": "716ddc95a42c11fdad3b794247755364de9b47090f0fba354c1f53ca9e89863f",
+    "train_groups": [
+      "patient_1015",
+      "patient_107",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "fdc923e3d19e7226dcf26c65de81bf88d27a562728daa37e14fb3e9341f10946",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.454622781268101,
+      "encoder.bias": 1.1194347587311901,
+      "decoder.weight": 21.584068565658065
+    },
+    "seconds": 4.687375783920288
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.018101857391140647,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.01026061379648893,
+        "updates": 27
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007259981862359289,
+        "updates": 54
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006025140470639001,
+        "updates": 81
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.00528667677730587,
+        "updates": 108
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004755310876991875,
+        "updates": 135
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004349779153527041,
+        "updates": 162
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004041659331627402,
+        "updates": 189
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0037958188875638547,
+        "updates": 216
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0035827757150776397,
+        "updates": 243
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003410883969584553,
+        "updates": 270
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0032654829115541582,
+        "updates": 297
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0031326060225297893,
+        "updates": 324
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.00302198848567048,
+        "updates": 351
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.002922801956244668,
+        "updates": 378
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0028404300449154985,
+        "updates": 405
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0027648051773474843,
+        "updates": 432
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0026937128487641774,
+        "updates": 459
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002635010110479978,
+        "updates": 486
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.002577094412458101,
+        "updates": 513
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0025209658877534155,
+        "updates": 540
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 540,
+    "selected_updates": 540,
+    "valid_mse": 0.0025209658877534155,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0025232252664864063,
+      "encoder.bias": 0.0008160712895914912,
+      "decoder.weight": 0.004780278075486422
+    },
+    "train_input_sha": "ae4f77f0cf7dbb2790e5cea057292a74d9040c5ed8249db4834534731ba63c9d",
+    "valid_input_sha": "6c42a277ecf1d7dea2b118628685098d25c238c25b3726a25f8b81961ad0359a",
+    "train_groups": [
+      "patient_1016",
+      "patient_107",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "dd407f54bc54b2e4f6fbfddb9ef2066136a9abf70debef610452d0f8556b70f6",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.214714015717611,
+      "encoder.bias": 1.0450167152377527,
+      "decoder.weight": 21.116108925759622
+    },
+    "seconds": 4.792413234710693
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.017951467650456247,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010016182695233678,
+        "updates": 27
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007221771890763377,
+        "updates": 54
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.005968908438481263,
+        "updates": 81
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005233948429413379,
+        "updates": 108
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004705280920226346,
+        "updates": 135
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004317580295963451,
+        "updates": 162
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004019451943247904,
+        "updates": 189
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0037780246155261574,
+        "updates": 216
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0035792811464478635,
+        "updates": 243
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003400121204286938,
+        "updates": 270
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0032600875489849595,
+        "updates": 297
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.003134117221823515,
+        "updates": 324
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0030244456596448836,
+        "updates": 351
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0029274081534156147,
+        "updates": 378
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.00284014255678808,
+        "updates": 405
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0027640207332836507,
+        "updates": 432
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0026913784404408543,
+        "updates": 459
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002637907569649185,
+        "updates": 486
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0025849559184273085,
+        "updates": 513
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0025412945913054503,
+        "updates": 540
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 540,
+    "selected_updates": 540,
+    "valid_mse": 0.0025412945913054503,
+    "first_gradient_norms": {
+      "encoder.weight": 0.002653826493769884,
+      "encoder.bias": 0.0008423590334132314,
+      "decoder.weight": 0.004500978160649538
+    },
+    "train_input_sha": "ae4f77f0cf7dbb2790e5cea057292a74d9040c5ed8249db4834534731ba63c9d",
+    "valid_input_sha": "6c42a277ecf1d7dea2b118628685098d25c238c25b3726a25f8b81961ad0359a",
+    "train_groups": [
+      "patient_1016",
+      "patient_107",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "1d3ac3b4a1d391682098719dd340dc74538bf740b48a06234f00802af619c75c",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.207198700875724,
+      "encoder.bias": 1.0585902124731494,
+      "decoder.weight": 21.041327492102724
+    },
+    "seconds": 5.026577949523926
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.018074602184790598,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010117630996765707,
+        "updates": 27
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007177143850566595,
+        "updates": 54
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.005938343493333351,
+        "updates": 81
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005215355520258093,
+        "updates": 108
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004701587142212353,
+        "updates": 135
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004316686533491023,
+        "updates": 162
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004008489208587027,
+        "updates": 189
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.003774138595163005,
+        "updates": 216
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0035728968274674577,
+        "updates": 243
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003405451508607325,
+        "updates": 270
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0032600321700170442,
+        "updates": 297
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.003135132358345094,
+        "updates": 324
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0030355310882090557,
+        "updates": 351
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.002941487263434125,
+        "updates": 378
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0028585737309351645,
+        "updates": 405
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002784691899271674,
+        "updates": 432
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0027234860414923345,
+        "updates": 459
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002660787719307467,
+        "updates": 486
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.002607242023838266,
+        "updates": 513
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0025602018076556687,
+        "updates": 540
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 540,
+    "selected_updates": 540,
+    "valid_mse": 0.0025602018076556687,
+    "first_gradient_norms": {
+      "encoder.weight": 0.002210040111094713,
+      "encoder.bias": 0.000748295511584729,
+      "decoder.weight": 0.003938897978514433
+    },
+    "train_input_sha": "ae4f77f0cf7dbb2790e5cea057292a74d9040c5ed8249db4834534731ba63c9d",
+    "valid_input_sha": "6c42a277ecf1d7dea2b118628685098d25c238c25b3726a25f8b81961ad0359a",
+    "train_groups": [
+      "patient_1016",
+      "patient_107",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "6711a76d76f98ef8918909ca0ff741fa25eae7c807dce5031c2faff894e052a1",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.178374849231334,
+      "encoder.bias": 1.0476637315039627,
+      "decoder.weight": 21.097487898146294
+    },
+    "seconds": 4.719942092895508
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.016155480577384567,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010690319763244098,
+        "updates": 19
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007823365404335817,
+        "updates": 38
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006412267268733306,
+        "updates": 57
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005585324426074804,
+        "updates": 76
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.005026569253651578,
+        "updates": 95
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004612741816424456,
+        "updates": 114
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004280524257619127,
+        "updates": 133
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0040115571794450055,
+        "updates": 152
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.003782637876379426,
+        "updates": 171
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0036037273340291482,
+        "updates": 190
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0034445508807259503,
+        "updates": 209
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0033110472674101423,
+        "updates": 228
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003190753033521123,
+        "updates": 247
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.003084950527169295,
+        "updates": 266
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.002993036613123009,
+        "updates": 285
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0029090836193644207,
+        "updates": 304
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002832758731076083,
+        "updates": 323
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002768260416458405,
+        "updates": 342
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.002705096295979354,
+        "updates": 361
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0026491605921602096,
+        "updates": 380
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 380,
+    "selected_updates": 380,
+    "valid_mse": 0.0026491605921602096,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0021678816992789507,
+      "encoder.bias": 0.0007571197929792106,
+      "decoder.weight": 0.004153008572757244
+    },
+    "train_input_sha": "bdd328006f7fa9f8b58987b230f516a85766f63bfa99b95dc556ae74f4b74eaf",
+    "valid_input_sha": "ba91d12f389ee9cf37c3a91949188f8e729aaef8ec3328f194dd656d37201bd2",
+    "train_groups": [
+      "patient_1016",
+      "patient_1039",
+      "patient_107",
+      "patient_1256"
+    ],
+    "checkpoint_sha": "7a629173b99d15f3cea8c807e3045235cbcf25ad87d968a135d82719c9ecd947",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.0593637999619885,
+      "encoder.bias": 0.8092942343735501,
+      "decoder.weight": 18.53704120077215
+    },
+    "seconds": 3.69036602973938
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.01610256972479752,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010637814783913391,
+        "updates": 19
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007810934155075454,
+        "updates": 38
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006383046706170716,
+        "updates": 57
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005542527043196442,
+        "updates": 76
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004984240214003395,
+        "updates": 95
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004565405438235538,
+        "updates": 114
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004245682775933056,
+        "updates": 133
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.003972756353495197,
+        "updates": 152
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.003754730777101318,
+        "updates": 171
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0035665278902981385,
+        "updates": 190
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0034083722794824274,
+        "updates": 209
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.003269436541876333,
+        "updates": 228
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0031468121488669033,
+        "updates": 247
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0030389828208010608,
+        "updates": 266
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0029480926498541807,
+        "updates": 285
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002866480714509669,
+        "updates": 304
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002789014580217662,
+        "updates": 323
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002720981686984254,
+        "updates": 342
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0026651312066115684,
+        "updates": 361
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0026079657474067227,
+        "updates": 380
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 380,
+    "selected_updates": 380,
+    "valid_mse": 0.0026079657474067227,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0030003150459378958,
+      "encoder.bias": 0.0009072590619325638,
+      "decoder.weight": 0.005196014419198036
+    },
+    "train_input_sha": "bdd328006f7fa9f8b58987b230f516a85766f63bfa99b95dc556ae74f4b74eaf",
+    "valid_input_sha": "ba91d12f389ee9cf37c3a91949188f8e729aaef8ec3328f194dd656d37201bd2",
+    "train_groups": [
+      "patient_1016",
+      "patient_1039",
+      "patient_107",
+      "patient_1256"
+    ],
+    "checkpoint_sha": "e6e10c7d0948ed21b764b5809a5be00fd0a05cf9e8da02a308d3530c7632456c",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.128960559882733,
+      "encoder.bias": 0.8259484400536773,
+      "decoder.weight": 18.580866498866275
+    },
+    "seconds": 2.892045021057129
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.016127156442032466,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010671269063586309,
+        "updates": 19
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007773066692371755,
+        "updates": 38
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006335509519204583,
+        "updates": 57
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005516507438041181,
+        "updates": 76
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004976929622683512,
+        "updates": 95
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004574915485708869,
+        "updates": 114
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004259257388164988,
+        "updates": 133
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.003994335399757477,
+        "updates": 152
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0037751156764478373,
+        "updates": 171
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0035917434400582274,
+        "updates": 190
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.003434556897016086,
+        "updates": 209
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.00328994289342978,
+        "updates": 228
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003173982923623651,
+        "updates": 247
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.003059592408256498,
+        "updates": 266
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0029731780651872947,
+        "updates": 285
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002887814020674459,
+        "updates": 304
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0028122194144684187,
+        "updates": 323
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002742135825753798,
+        "updates": 342
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0026802207626335692,
+        "updates": 361
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0026268885787890106,
+        "updates": 380
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 380,
+    "selected_updates": 380,
+    "valid_mse": 0.0026268885787890106,
+    "first_gradient_norms": {
+      "encoder.weight": 0.003118082182481885,
+      "encoder.bias": 0.0008440104429610074,
+      "decoder.weight": 0.005715656094253063
+    },
+    "train_input_sha": "bdd328006f7fa9f8b58987b230f516a85766f63bfa99b95dc556ae74f4b74eaf",
+    "valid_input_sha": "ba91d12f389ee9cf37c3a91949188f8e729aaef8ec3328f194dd656d37201bd2",
+    "train_groups": [
+      "patient_1016",
+      "patient_1039",
+      "patient_107",
+      "patient_1256"
+    ],
+    "checkpoint_sha": "65a4d8a2ed08679bc06eea2036acde84b75995f63c53045ec036f7ed5e7933f7",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.132414946084995,
+      "encoder.bias": 0.8309870350854662,
+      "decoder.weight": 18.371635659185625
+    },
+    "seconds": 3.009930372238159
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.01653571390175833,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010738140454791364,
+        "updates": 21
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007847203455769447,
+        "updates": 42
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006443385374239402,
+        "updates": 63
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005628211708182266,
+        "updates": 84
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.00506701882951804,
+        "updates": 105
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004645836458212717,
+        "updates": 126
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.00430718221923044,
+        "updates": 147
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.004032462653373445,
+        "updates": 168
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.003810776308982069,
+        "updates": 189
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003627934098697876,
+        "updates": 210
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0034610249942124806,
+        "updates": 231
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0033277952447847616,
+        "updates": 252
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003207090585099314,
+        "updates": 273
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0031005598244961217,
+        "updates": 294
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.003004001028432062,
+        "updates": 315
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0029214130584161745,
+        "updates": 336
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0028462346743556495,
+        "updates": 357
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002779052783635899,
+        "updates": 378
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.002719584709197721,
+        "updates": 399
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0026666571549172798,
+        "updates": 420
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 420,
+    "selected_updates": 420,
+    "valid_mse": 0.0026666571549172798,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0024603470228612423,
+      "encoder.bias": 0.0008307166863232851,
+      "decoder.weight": 0.004598378669470549
+    },
+    "train_input_sha": "85c18639cd8ac4730319da8d8845d37ad0b45ff55ea210f46804a7ad4a4d2921",
+    "valid_input_sha": "de28dc0b1a03a5b01ba1c95ec6b281a44804959c03805dbc1743bfcbf0480cf7",
+    "train_groups": [
+      "patient_1015",
+      "patient_1016",
+      "patient_1039",
+      "patient_107"
+    ],
+    "checkpoint_sha": "c6f88c04e65166b33598544f3963a54a15fec6dff1e99795995b5033c51a194c",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.241605481133612,
+      "encoder.bias": 0.8553985222127031,
+      "decoder.weight": 18.642763094195278
+    },
+    "seconds": 3.162208080291748
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.016492283360933575,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010632942726691274,
+        "updates": 21
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007770398799658853,
+        "updates": 42
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006370950430762077,
+        "updates": 63
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005560019685850063,
+        "updates": 84
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.0050122866293396025,
+        "updates": 105
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004592511020138368,
+        "updates": 126
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.0042752253923712645,
+        "updates": 147
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.004009747045884146,
+        "updates": 168
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.003799106873809749,
+        "updates": 189
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0036146498415740424,
+        "updates": 210
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0034560220378008575,
+        "updates": 231
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.003321112861630037,
+        "updates": 252
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0031980057986722202,
+        "updates": 273
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.003093048502464194,
+        "updates": 294
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0029982641792310476,
+        "updates": 315
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002912313605203462,
+        "updates": 336
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0028361888790242804,
+        "updates": 357
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002762832018456869,
+        "updates": 378
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.002708616789792282,
+        "updates": 399
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.002653708841694779,
+        "updates": 420
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 420,
+    "selected_updates": 420,
+    "valid_mse": 0.002653708841694779,
+    "first_gradient_norms": {
+      "encoder.weight": 0.003029697807505727,
+      "encoder.bias": 0.0009737768559716642,
+      "decoder.weight": 0.005121635273098946
+    },
+    "train_input_sha": "85c18639cd8ac4730319da8d8845d37ad0b45ff55ea210f46804a7ad4a4d2921",
+    "valid_input_sha": "de28dc0b1a03a5b01ba1c95ec6b281a44804959c03805dbc1743bfcbf0480cf7",
+    "train_groups": [
+      "patient_1015",
+      "patient_1016",
+      "patient_1039",
+      "patient_107"
+    ],
+    "checkpoint_sha": "4982048c4ac74ada2a69f7990eda73180977ba55539f0eec60e4d70d692bf416",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.289297390528874,
+      "encoder.bias": 0.8617798732790799,
+      "decoder.weight": 18.701411271164233
+    },
+    "seconds": 3.346764087677002
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.016553399699088055,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010729627521338958,
+        "updates": 21
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007854088298903227,
+        "updates": 42
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.00642531780098921,
+        "updates": 63
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005599190647484258,
+        "updates": 84
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.0050430604133420735,
+        "updates": 105
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004625420337049274,
+        "updates": 126
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004301416165854024,
+        "updates": 147
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.00403958417934017,
+        "updates": 168
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0038131251210504714,
+        "updates": 189
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.00362902201661415,
+        "updates": 210
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0034737861133244505,
+        "updates": 231
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0033331549835605356,
+        "updates": 252
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003213945163785198,
+        "updates": 273
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0031123498449378718,
+        "updates": 294
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0030161343165288207,
+        "updates": 315
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002936215207099166,
+        "updates": 336
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002866114916401989,
+        "updates": 357
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002794232554883871,
+        "updates": 378
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.00273412183764091,
+        "updates": 399
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0026836647100691785,
+        "updates": 420
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 420,
+    "selected_updates": 420,
+    "valid_mse": 0.0026836647100691785,
+    "first_gradient_norms": {
+      "encoder.weight": 0.002517896005883813,
+      "encoder.bias": 0.0007739195134490728,
+      "decoder.weight": 0.00467382837086916
+    },
+    "train_input_sha": "85c18639cd8ac4730319da8d8845d37ad0b45ff55ea210f46804a7ad4a4d2921",
+    "valid_input_sha": "de28dc0b1a03a5b01ba1c95ec6b281a44804959c03805dbc1743bfcbf0480cf7",
+    "train_groups": [
+      "patient_1015",
+      "patient_1016",
+      "patient_1039",
+      "patient_107"
+    ],
+    "checkpoint_sha": "d6e2bbbf7a8a1b0569f24a7e081f9ba8511111fc8877097c66dcf9d742b45651",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.247926472055438,
+      "encoder.bias": 0.864764867637354,
+      "decoder.weight": 18.76910859138345
+    },
+    "seconds": 3.1617820262908936
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.02051489755210805,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.011101826931807621,
+        "updates": 29
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007865806653929911,
+        "updates": 58
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006513265075021476,
+        "updates": 87
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.00570704925586131,
+        "updates": 116
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.005137048703213994,
+        "updates": 145
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.0047054112962308684,
+        "updates": 174
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004358510408643536,
+        "updates": 203
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.004091371802115419,
+        "updates": 232
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.003870200182156323,
+        "updates": 261
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0036946264950018163,
+        "updates": 290
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0035344516231388765,
+        "updates": 319
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0034068647696328933,
+        "updates": 348
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003291590492359096,
+        "updates": 377
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0031854839443946396,
+        "updates": 406
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.003103279396549172,
+        "updates": 435
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0030195943135996666,
+        "updates": 464
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002950810843891627,
+        "updates": 493
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0028911159024192093,
+        "updates": 522
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0028310463523836464,
+        "updates": 551
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.002769206033608093,
+        "updates": 580
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 580,
+    "selected_updates": 580,
+    "valid_mse": 0.002769206033608093,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0027028589975088835,
+      "encoder.bias": 0.0008381236111745238,
+      "decoder.weight": 0.005045389756560326
+    },
+    "train_input_sha": "5791c57364cf5f9827ccb2d01c02605e5561f0a12c4041399c62cbc26f9e1609",
+    "valid_input_sha": "cdc726e429a1a832b31b0e087297a7fd128d0a9251503e601a2d330bc6f5cd29",
+    "train_groups": [
+      "patient_1015",
+      "patient_1016",
+      "patient_1039",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "db1017b47d16d5fab34c8e5ebea1c6bc92149e1c3bb1ca04ba986dbac68ca4fb",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.184036011527693,
+      "encoder.bias": 1.055480111729392,
+      "decoder.weight": 20.88594390443417
+    },
+    "seconds": 4.143900156021118
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.020282547950613808,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010861450283324546,
+        "updates": 29
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007769436380268595,
+        "updates": 58
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006459982279112875,
+        "updates": 87
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005692914519358003,
+        "updates": 116
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.005121722909249707,
+        "updates": 145
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.00470280017130967,
+        "updates": 174
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004357691044597872,
+        "updates": 203
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0040871549043111225,
+        "updates": 232
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0038650719735685538,
+        "updates": 261
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003680535512167057,
+        "updates": 290
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0035098634449351237,
+        "updates": 319
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.003381442838015586,
+        "updates": 348
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0032510210199530884,
+        "updates": 377
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0031402654403983065,
+        "updates": 406
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0030429988036835918,
+        "updates": 435
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002965970928450262,
+        "updates": 464
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002898070366937253,
+        "updates": 493
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002834641519228707,
+        "updates": 522
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.002776075895968748,
+        "updates": 551
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0027163363568039043,
+        "updates": 580
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 580,
+    "selected_updates": 580,
+    "valid_mse": 0.0027163363568039043,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0031355805695056915,
+      "encoder.bias": 0.0009657529299147427,
+      "decoder.weight": 0.005351887550204992
+    },
+    "train_input_sha": "5791c57364cf5f9827ccb2d01c02605e5561f0a12c4041399c62cbc26f9e1609",
+    "valid_input_sha": "cdc726e429a1a832b31b0e087297a7fd128d0a9251503e601a2d330bc6f5cd29",
+    "train_groups": [
+      "patient_1015",
+      "patient_1016",
+      "patient_1039",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "1f3f928fef42168b255466a4ec6a1c3fb49f73e7cbe31040f3abd40d7a228064",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.262008764108558,
+      "encoder.bias": 1.0784283135891632,
+      "decoder.weight": 20.995024752421315
+    },
+    "seconds": 3.7098779678344727
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.02043220002231492,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010914437404366102,
+        "updates": 29
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007771631222374295,
+        "updates": 58
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006477426091412281,
+        "updates": 87
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005670126069910115,
+        "updates": 116
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.0051098248163502485,
+        "updates": 145
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.0046905744014424655,
+        "updates": 174
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004366594502259644,
+        "updates": 203
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.00409256007259909,
+        "updates": 232
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0038689932777430033,
+        "updates": 261
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0036584178957259177,
+        "updates": 290
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0035064950607426575,
+        "updates": 319
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0033645738890766184,
+        "updates": 348
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003252312367740303,
+        "updates": 377
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.003144816364797396,
+        "updates": 406
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0030513669732397833,
+        "updates": 435
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0029672701407349286,
+        "updates": 464
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0028971619418950594,
+        "updates": 493
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002835745310092483,
+        "updates": 522
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0027753034439502115,
+        "updates": 551
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0027297491708945503,
+        "updates": 580
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 580,
+    "selected_updates": 580,
+    "valid_mse": 0.0027297491708945503,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0026843673549592495,
+      "encoder.bias": 0.000819563283585012,
+      "decoder.weight": 0.004693921655416489
+    },
+    "train_input_sha": "5791c57364cf5f9827ccb2d01c02605e5561f0a12c4041399c62cbc26f9e1609",
+    "valid_input_sha": "cdc726e429a1a832b31b0e087297a7fd128d0a9251503e601a2d330bc6f5cd29",
+    "train_groups": [
+      "patient_1015",
+      "patient_1016",
+      "patient_1039",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "81c6e01fde86b3d0effb1c3cd4cba1c5ef633f66dd52ce80d9feabb80b1e7be7",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.222230162878123,
+      "encoder.bias": 1.073585518307298,
+      "decoder.weight": 20.979547250509512
+    },
+    "seconds": 3.880931854248047
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.015033415067855277,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.009201878925919477,
+        "updates": 30
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.006873462789145653,
+        "updates": 60
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.00576023108790725,
+        "updates": 90
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.00506298753005059,
+        "updates": 120
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004550480031560229,
+        "updates": 150
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004172442449786787,
+        "updates": 180
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.0038799105477978447,
+        "updates": 210
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0036368433325083467,
+        "updates": 240
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.003438213631822324,
+        "updates": 270
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0032634469755689066,
+        "updates": 300
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0031173239657856944,
+        "updates": 330
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0029885323129617307,
+        "updates": 360
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0028837187165243463,
+        "updates": 390
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0027870864890553225,
+        "updates": 420
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0027114499867365305,
+        "updates": 450
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0026390281018824143,
+        "updates": 480
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002576286787974485,
+        "updates": 510
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0025170904621970975,
+        "updates": 540
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0024720847726942266,
+        "updates": 570
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0024268393273582864,
+        "updates": 600
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 600,
+    "selected_updates": 600,
+    "valid_mse": 0.0024268393273582864,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0025034972932189703,
+      "encoder.bias": 0.0008599227876402438,
+      "decoder.weight": 0.004721025004982948
+    },
+    "train_input_sha": "522f77b1f046e556eb40b724df79e485a80c7fdb0a9680efe273dd9df19a69be",
+    "valid_input_sha": "10411d6f385f847b8d991c43714a1459fb1e1df4f98fdebdde62f527a8312c33",
+    "train_groups": [
+      "patient_1015",
+      "patient_1039",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "eeed7b3b9e19195dae424d2dbefb3a984546ccfdc0151a067c8381d1c2a0f09f",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.626476771163526,
+      "encoder.bias": 1.1669782676019633,
+      "decoder.weight": 21.412206501229207
+    },
+    "seconds": 4.106546878814697
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.014988754905090123,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.0091292573172307,
+        "updates": 30
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.006807543482746872,
+        "updates": 60
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.005692465289304303,
+        "updates": 90
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.004999066632672604,
+        "updates": 120
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004509908428215471,
+        "updates": 150
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004132903053439805,
+        "updates": 180
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.0038308564723973306,
+        "updates": 210
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0035892055150401605,
+        "updates": 240
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.0033850045948063488,
+        "updates": 270
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0032176910387180908,
+        "updates": 300
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.003075710141941099,
+        "updates": 330
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0029493752132821356,
+        "updates": 360
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0028424001522628583,
+        "updates": 390
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0027583647722040586,
+        "updates": 420
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0026674051835483925,
+        "updates": 450
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002607106263936026,
+        "updates": 480
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0025362678484260395,
+        "updates": 510
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.002490392470178945,
+        "updates": 540
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0024376729948336635,
+        "updates": 570
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0023930729689829577,
+        "updates": 600
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 600,
+    "selected_updates": 600,
+    "valid_mse": 0.0023930729689829577,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0030546400230377913,
+      "encoder.bias": 0.0009635594906285405,
+      "decoder.weight": 0.005199722480028868
+    },
+    "train_input_sha": "522f77b1f046e556eb40b724df79e485a80c7fdb0a9680efe273dd9df19a69be",
+    "valid_input_sha": "10411d6f385f847b8d991c43714a1459fb1e1df4f98fdebdde62f527a8312c33",
+    "train_groups": [
+      "patient_1015",
+      "patient_1039",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "7a092e758a5ae7dadf4379847b7b59e8a7ffeca219c1b93c3ba5c57a74688838",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.684170050671764,
+      "encoder.bias": 1.1960927968082853,
+      "decoder.weight": 21.39784330688627
+    },
+    "seconds": 4.244894027709961
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.015090746868600185,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.009321781290389927,
+        "updates": 30
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.006930485630303772,
+        "updates": 60
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.005777384789858259,
+        "updates": 90
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005048868910816287,
+        "updates": 120
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.004532867245005427,
+        "updates": 150
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004146990741859321,
+        "updates": 180
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.003838379044768601,
+        "updates": 210
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.00359951121041836,
+        "updates": 240
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.00340307452333901,
+        "updates": 270
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003233486686349338,
+        "updates": 300
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0030901846496501537,
+        "updates": 330
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0029722538876430665,
+        "updates": 360
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.002864071159247358,
+        "updates": 390
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0027756724114331847,
+        "updates": 420
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0026931713618006856,
+        "updates": 450
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.002623892328796035,
+        "updates": 480
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.002563144652450532,
+        "updates": 510
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0025073960041603225,
+        "updates": 540
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0024599220045944995,
+        "updates": 570
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0024156887641126495,
+        "updates": 600
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 600,
+    "selected_updates": 600,
+    "valid_mse": 0.0024156887641126495,
+    "first_gradient_norms": {
+      "encoder.weight": 0.00343917403370142,
+      "encoder.bias": 0.0009505380876362324,
+      "decoder.weight": 0.006020807661116123
+    },
+    "train_input_sha": "522f77b1f046e556eb40b724df79e485a80c7fdb0a9680efe273dd9df19a69be",
+    "valid_input_sha": "10411d6f385f847b8d991c43714a1459fb1e1df4f98fdebdde62f527a8312c33",
+    "train_groups": [
+      "patient_1015",
+      "patient_1039",
+      "patient_1256",
+      "patient_1488"
+    ],
+    "checkpoint_sha": "85c4bbe1934021d7c343e0476691de9251e37a7ce8fa06511594f9dfad993ed6",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.665876024041626,
+      "encoder.bias": 1.186133957709916,
+      "decoder.weight": 21.391219753299143
+    },
+    "seconds": 4.133297920227051
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.01207570062271891,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010270521072334015,
+        "updates": 9
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.008910041671193504,
+        "updates": 18
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.007688122219843856,
+        "updates": 27
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.006838435419246734,
+        "updates": 36
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.006208455300587325,
+        "updates": 45
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.005735716601633958,
+        "updates": 54
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.005374080445861705,
+        "updates": 63
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0050815637571051024,
+        "updates": 72
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.004836118497634261,
+        "updates": 81
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.004639694844025127,
+        "updates": 90
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.004469983882286398,
+        "updates": 99
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.004317827691234605,
+        "updates": 108
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.004175863451465408,
+        "updates": 117
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.004054546835967673,
+        "updates": 126
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.003939062020932928,
+        "updates": 135
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0038431493193829508,
+        "updates": 144
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.003762630053792076,
+        "updates": 153
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.003672254675475428,
+        "updates": 162
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.003599707752719848,
+        "updates": 171
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0035311816581952986,
+        "updates": 180
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 180,
+    "selected_updates": 180,
+    "valid_mse": 0.0035311816581952986,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0013461349299177527,
+      "encoder.bias": 0.0005791704752482474,
+      "decoder.weight": 0.002549765631556511
+    },
+    "train_input_sha": "5ac6bfd479e41d1308569f9e2a4e7a45b2c1c5b0061efb060fd2412792d9db37",
+    "valid_input_sha": "837172cf9bbd41479b75d63f0daf7ace3c3f09300ef7929a3d2c49fb5fa28a52",
+    "train_groups": [
+      "Batch1_3k"
+    ],
+    "checkpoint_sha": "0b9efe8fb8734470726fde20fe4a3812500ad39aa4fff455357aa9bd34372291",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 4.889178986200824,
+      "encoder.bias": 0.35925260632811734,
+      "decoder.weight": 13.520255040241803
+    },
+    "seconds": 2.818992853164673
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.012072327910217949,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010271702749060531,
+        "updates": 9
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.00891303377967072,
+        "updates": 18
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.00766663455715518,
+        "updates": 27
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.006805513035632445,
+        "updates": 36
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.006197509408553966,
+        "updates": 45
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.005726843729866059,
+        "updates": 54
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.005362486009607438,
+        "updates": 63
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.0050760347208543225,
+        "updates": 72
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.004836211604836585,
+        "updates": 81
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.004635213576844962,
+        "updates": 90
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.004454641980393994,
+        "updates": 99
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.00429954867612715,
+        "updates": 108
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.004164697877832357,
+        "updates": 117
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.004046259827438936,
+        "updates": 126
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.003939349571733778,
+        "updates": 135
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0038472551029379368,
+        "updates": 144
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.003750935788173326,
+        "updates": 153
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0036643157652707222,
+        "updates": 162
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.003592268339578849,
+        "updates": 171
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.003520172087859982,
+        "updates": 180
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 180,
+    "selected_updates": 180,
+    "valid_mse": 0.003520172087859982,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0012857982655987144,
+      "encoder.bias": 0.0005995394894853234,
+      "decoder.weight": 0.002250615507364273
+    },
+    "train_input_sha": "5ac6bfd479e41d1308569f9e2a4e7a45b2c1c5b0061efb060fd2412792d9db37",
+    "valid_input_sha": "837172cf9bbd41479b75d63f0daf7ace3c3f09300ef7929a3d2c49fb5fa28a52",
+    "train_groups": [
+      "Batch1_3k"
+    ],
+    "checkpoint_sha": "7251d8ee7b5bb1fa8290fe0be004b5736574d0f7cb2cf2e673f7a3d5d1e93d60",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 4.8816627832340656,
+      "encoder.bias": 0.36034016941627844,
+      "decoder.weight": 13.470346285554854
+    },
+    "seconds": 2.5445029735565186
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.012119624210005342,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.010304888276810842,
+        "updates": 9
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.008921424825268608,
+        "updates": 18
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.007669772747658113,
+        "updates": 27
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.006814799948511632,
+        "updates": 36
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.006189255466826138,
+        "updates": 45
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.005702159124461093,
+        "updates": 54
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.005347579483584129,
+        "updates": 63
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.005053304724495049,
+        "updates": 72
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.004814352450523996,
+        "updates": 81
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.004608598771073922,
+        "updates": 90
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.0044431585362439,
+        "updates": 99
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.004289870743191819,
+        "updates": 108
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0041592865184871776,
+        "updates": 117
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.004044914427917591,
+        "updates": 126
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.003938606260923604,
+        "updates": 135
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0038422732104400545,
+        "updates": 144
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0037461488676543016,
+        "updates": 153
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0036603998993034828,
+        "updates": 162
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.003587106738780533,
+        "updates": 171
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0035193494047804246,
+        "updates": 180
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 180,
+    "selected_updates": 180,
+    "valid_mse": 0.0035193494047804246,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0013572239549830556,
+      "encoder.bias": 0.0005602074088528752,
+      "decoder.weight": 0.0025910460390150547
+    },
+    "train_input_sha": "5ac6bfd479e41d1308569f9e2a4e7a45b2c1c5b0061efb060fd2412792d9db37",
+    "valid_input_sha": "837172cf9bbd41479b75d63f0daf7ace3c3f09300ef7929a3d2c49fb5fa28a52",
+    "train_groups": [
+      "Batch1_3k"
+    ],
+    "checkpoint_sha": "85eeae9ae8c5917673b969695a8c7dd64603e4994632474abbfd5c8ee8911176",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 4.939570939032927,
+      "encoder.bias": 0.3650708410563114,
+      "decoder.weight": 13.560227963237907
+    },
+    "seconds": 2.631375789642334
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.00954826530410414,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.008262117377433166,
+        "updates": 7
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007433577744774594,
+        "updates": 14
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006558519000202287,
+        "updates": 21
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.005870395822662639,
+        "updates": 28
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.005345914730391408,
+        "updates": 35
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004932871881313491,
+        "updates": 42
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.0046058188014644974,
+        "updates": 49
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.004330415812803183,
+        "updates": 56
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.00411860523689975,
+        "updates": 63
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003945288976339525,
+        "updates": 70
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.003782257744308219,
+        "updates": 77
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0036469861003469075,
+        "updates": 84
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0035270089549796807,
+        "updates": 91
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0034181133642470596,
+        "updates": 98
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0033332472689083102,
+        "updates": 105
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.003241028967235326,
+        "updates": 112
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0031703143373436236,
+        "updates": 119
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0031032351265686048,
+        "updates": 126
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.003044115156569149,
+        "updates": 133
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.002984355741068832,
+        "updates": 140
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 140,
+    "selected_updates": 140,
+    "valid_mse": 0.002984355741068832,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0011655857088044286,
+      "encoder.bias": 0.0005333545268513262,
+      "decoder.weight": 0.0022684186697006226
+    },
+    "train_input_sha": "a826999ce7fb70af414abc08bcd3686575fb736a98c867e2c17cc944a38f60c1",
+    "valid_input_sha": "7555acbdb6b372cebc1794bea2d0fb471aeae2ca0ff3a82b12ae0bb7efab2130",
+    "train_groups": [
+      "Batch2_68k_r"
+    ],
+    "checkpoint_sha": "9f3686940c0f1473dc44943a267c0ae94e5c645e4f682c1fa4fa26c5b93b6358",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 4.2267867498118585,
+      "encoder.bias": 0.27721209898482585,
+      "decoder.weight": 11.592421613043769
+    },
+    "seconds": 2.013099193572998
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.009625772222312973,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.00830542133102487,
+        "updates": 7
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007510822714750352,
+        "updates": 14
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006629860953011069,
+        "updates": 21
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.0059100048485137245,
+        "updates": 28
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.005366241423334508,
+        "updates": 35
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004956615146183868,
+        "updates": 42
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004614932168018984,
+        "updates": 49
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.004334729694752256,
+        "updates": 56
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.004118006412627037,
+        "updates": 63
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.003944782548498237,
+        "updates": 70
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.003784998897971143,
+        "updates": 77
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.003659699485849983,
+        "updates": 84
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.0035399027543166744,
+        "updates": 91
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.0034334203916000484,
+        "updates": 98
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0033369136718238417,
+        "updates": 105
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0032538001104136663,
+        "updates": 112
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.003179082621805534,
+        "updates": 119
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.0031024515867452617,
+        "updates": 126
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.0030400663402221505,
+        "updates": 133
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0029934695899269427,
+        "updates": 140
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 140,
+    "selected_updates": 140,
+    "valid_mse": 0.0029934695899269427,
+    "first_gradient_norms": {
+      "encoder.weight": 0.0011442573741078377,
+      "encoder.bias": 0.00049408501945436,
+      "decoder.weight": 0.002198826754465699
+    },
+    "train_input_sha": "a826999ce7fb70af414abc08bcd3686575fb736a98c867e2c17cc944a38f60c1",
+    "valid_input_sha": "7555acbdb6b372cebc1794bea2d0fb471aeae2ca0ff3a82b12ae0bb7efab2130",
+    "train_groups": [
+      "Batch2_68k_r"
+    ],
+    "checkpoint_sha": "28185e49235f4d1bc5eec03f2ff36cd28f35aedb2300788fad670e9c44b43d9c",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 4.224913339324158,
+      "encoder.bias": 0.27364398490177433,
+      "decoder.weight": 11.673525603836461
+    },
+    "seconds": 2.0065090656280518
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "history": [
+      {
+        "epoch": 0,
+        "valid_mse": 0.009556748953223696,
+        "updates": 0
+      },
+      {
+        "epoch": 1,
+        "valid_mse": 0.00828533375161954,
+        "updates": 7
+      },
+      {
+        "epoch": 2,
+        "valid_mse": 0.007479129704161495,
+        "updates": 14
+      },
+      {
+        "epoch": 3,
+        "valid_mse": 0.006600144974527328,
+        "updates": 21
+      },
+      {
+        "epoch": 4,
+        "valid_mse": 0.0058909646299417535,
+        "updates": 28
+      },
+      {
+        "epoch": 5,
+        "valid_mse": 0.00534242308257825,
+        "updates": 35
+      },
+      {
+        "epoch": 6,
+        "valid_mse": 0.004942209304162555,
+        "updates": 42
+      },
+      {
+        "epoch": 7,
+        "valid_mse": 0.004603262827758868,
+        "updates": 49
+      },
+      {
+        "epoch": 8,
+        "valid_mse": 0.004327601029275176,
+        "updates": 56
+      },
+      {
+        "epoch": 9,
+        "valid_mse": 0.00410024312381809,
+        "updates": 63
+      },
+      {
+        "epoch": 10,
+        "valid_mse": 0.0039141158470086925,
+        "updates": 70
+      },
+      {
+        "epoch": 11,
+        "valid_mse": 0.003757270961107503,
+        "updates": 77
+      },
+      {
+        "epoch": 12,
+        "valid_mse": 0.0036136915167319177,
+        "updates": 84
+      },
+      {
+        "epoch": 13,
+        "valid_mse": 0.003502910677531797,
+        "updates": 91
+      },
+      {
+        "epoch": 14,
+        "valid_mse": 0.003394649418565486,
+        "updates": 98
+      },
+      {
+        "epoch": 15,
+        "valid_mse": 0.0033053748230671863,
+        "updates": 105
+      },
+      {
+        "epoch": 16,
+        "valid_mse": 0.0032239745143545495,
+        "updates": 112
+      },
+      {
+        "epoch": 17,
+        "valid_mse": 0.0031390683366677025,
+        "updates": 119
+      },
+      {
+        "epoch": 18,
+        "valid_mse": 0.003075209206206239,
+        "updates": 126
+      },
+      {
+        "epoch": 19,
+        "valid_mse": 0.003015666382324712,
+        "updates": 133
+      },
+      {
+        "epoch": 20,
+        "valid_mse": 0.0029526342593071265,
+        "updates": 140
+      }
+    ],
+    "selected_epoch": 20,
+    "updates_executed": 140,
+    "selected_updates": 140,
+    "valid_mse": 0.0029526342593071265,
+    "first_gradient_norms": {
+      "encoder.weight": 0.001179065671749413,
+      "encoder.bias": 0.0005151083460077643,
+      "decoder.weight": 0.0022392598912119865
+    },
+    "train_input_sha": "a826999ce7fb70af414abc08bcd3686575fb736a98c867e2c17cc944a38f60c1",
+    "valid_input_sha": "7555acbdb6b372cebc1794bea2d0fb471aeae2ca0ff3a82b12ae0bb7efab2130",
+    "train_groups": [
+      "Batch2_68k_r"
+    ],
+    "checkpoint_sha": "8b130fd800c97b84f740bb45336f3566559fc01cd0f6345588e98bf9473b4523",
+    "changed_weight_norms": {
+      "mean": 0.0,
+      "encoder.weight": 4.250495483788442,
+      "encoder.bias": 0.27788483317890084,
+      "decoder.weight": 11.658134230914657
+    },
+    "seconds": 2.0245931148529053
+  }
+]

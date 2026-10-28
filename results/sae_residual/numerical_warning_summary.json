@@ -1,0 +1,19 @@
+{
+  "log_warning_counts": {
+    "divide by zero encountered in matmul": 25308,
+    "overflow encountered in matmul": 25308,
+    "invalid value encountered in matmul": 25308
+  },
+  "verification": {
+    "status": "PASS",
+    "runs_checked": 144,
+    "selected_adapters_checked": 126,
+    "metric_predictions_checked": 3382704,
+    "max_independent_score_error": 0.0,
+    "max_independent_normal_equation_relative_error": 7.45767624947198e-14,
+    "near_tie_prediction_differences": [],
+    "all_sources_and_selection_hashes_unchanged": true,
+    "scope": "input/provenance/numerical verification; not evidence of performance gain or biological mechanism"
+  },
+  "note": "NumPy/BLAS matrix-product warnings retained; all saved coefficients/scores checked finite, normal equations and independent outputs checked. Warnings are not silently discarded."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "body_trajectories": 18,
+  "checkpoint_VALID_objective_replays": 126,
+  "all18_step1000_exactly_equal_old": true,
+  "new_probe_TEST_and_selected_VALID_prediction_replays": 18,
+  "paired_initialization_and_batch_checks": 18,
+  "bounded_checkpoint_forward_roles": 54,
+  "knn_metrics_and_16query_replays": 36,
+  "baseline_metric_identity_checks": true,
+  "input_and_selection_hashes_rechecked": true,
+  "limits": "No refitting of unselected probe checkpoints; bounded manual body forward and bounded exact kNN queries. Historical exploratory TEST and reused VALID remain scope limits."
+}

@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 42,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "role": "train",
+      "reconstruction_cache_error": 0.0
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "role": "valid",
+      "reconstruction_cache_error": 0.0
+    }
+  ],
+  "no_test_scoring": true
+}

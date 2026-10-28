@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "blocks": 98,
+  "knn_metric_replays": 392,
+  "fewshot_metric_replays": 2940,
+  "IFN_metric_replays": 546,
+  "clustering_metric_replays": 294,
+  "identical_cross_method_label_masks": 2520,
+  "max_macro_f1_replay_error": 0.0,
+  "explicit_BLAS_silhouette_replays": 98,
+  "nearest_neighbor_replays": 98,
+  "raw_RNA_target_replays": 3,
+  "all_expected_methods_folds_seeds": true,
+  "source_and_completion_hashes_verified": true
+}

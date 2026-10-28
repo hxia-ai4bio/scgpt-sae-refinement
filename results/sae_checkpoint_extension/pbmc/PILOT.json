@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "TEST_scored": false,
+  "body": {
+    "selected_step": 25,
+    "selected_valid_objective": 0.6905286980975033,
+    "selected_valid_MAE": 0.2955852492535063,
+    "history": [
+      {
+        "step": 0,
+        "valid_objective": 1.0465178987527686,
+        "valid_MAE": 0.37175205976223064,
+        "entries": 46349
+      },
+      {
+        "step": 25,
+        "valid_objective": 0.6905286980975033,
+        "valid_MAE": 0.2955852492535063,
+        "entries": 46349
+      },
+      {
+        "step": 50,
+        "valid_objective": 0.6982054944310356,
+        "valid_MAE": 0.2950353553572323,
+        "entries": 46349
+      },
+      {
+        "step": 100,
+        "valid_objective": 0.7694133073981149,
+        "valid_MAE": 0.30925095234287747,
+        "entries": 46349
+      },
+      {
+        "step": 200,
+        "valid_objective": 0.9118501162221415,
+        "valid_MAE": 0.3400032893429051,
+        "entries": 46349
+      },
+      {
+        "step": 500,
+        "valid_objective": 1.0474766864329976,
+        "valid_MAE": 0.36788323646175186,
+        "entries": 46349
+      },
+      {
+        "step": 1000,
+        "valid_objective": 1.0655327116347193,
+        "valid_MAE": 0.372002310927282,
+        "entries": 46349
+      }
+    ],
+    "selection_role": "VALID",
+    "TRAIN_only_fit": true,
+    "steps_trained": 1000,
+    "seconds": 13.026907920837402,
+    "gradients": [
+      {
+        "step": 1,
+        "loss": 1.0282249450683594,
+        "norms": {
+          "network.encoder.weight": 0.004927442874759436,
+          "network.encoder.bias": 0.0015935540432110429,
+          "network.decoder.weight": 0.012319258414208889,
+          "head.weight": 0.4187236726284027,
+          "head.bias": 0.014357815496623516
+        }
+      },
+      {
+        "step": 2,
+        "loss": 1.0024337768554688,
+        "norms": {
+          "network.encoder.weight": 0.014003967866301537,
+          "network.encoder.bias": 0.00576981995254755,
+          "network.decoder.weight": 0.014199775643646717,
+          "head.weight": 0.384183406829834,
+          "head.bias": 0.014916893094778061
+        }
+      },
+      {
+        "step": 1000,
+        "loss": 0.014030005782842636,
+        "norms": {
+          "network.encoder.weight": 0.004883600398898125,
+          "network.encoder.bias": 0.0015836275415495038,
+          "network.decoder.weight": 0.024112997576594353,
+          "head.weight": 0.09600567072629929,
+          "head.bias": 0.0015488811768591404
+        }
+      }
+    ],
+    "batch_array_sha": "c0a62543b5d4a6c357a63b37dccdaf356e980d65eb171fdf2e1bde9aa1bc4630",
+    "warmup_sha": "0b9efe8fb8734470726fde20fe4a3812500ad39aa4fff455357aa9bd34372291",
+    "old1000_sha": "c93e37ecb68a2b1b5233cde7f30d8cd11e1c1c6617e1018c2c3ead1c3ea2173d",
+    "exact_old1000_replay": true,
+    "parameter_max_differences": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "network.mean": 0.0,
+      "network.encoder.weight": 0.0,
+      "network.encoder.bias": 0.0,
+      "network.decoder.weight": 0.0,
+      "head.weight": 0.0,
+      "head.bias": 0.0
+    }
+  },
+  "probe": {
+    "selected_step": 100,
+    "valid_MAE": 0.3096947954118618,
+    "history": [
+      {
+        "step": 0,
+        "valid_MAE": 0.3717080226980331
+      },
+      {
+        "step": 100,
+        "valid_MAE": 0.3096947954118618
+      },
+      {
+        "step": 250,
+        "valid_MAE": 0.3229463584088095
+      },
+      {
+        "step": 500,
+        "valid_MAE": 0.33496278744347013
+      },
+      {
+        "step": 750,
+        "valid_MAE": 0.33954994839475017
+      },
+      {
+        "step": 1000,
+        "valid_MAE": 0.34035724794470945
+      }
+    ],
+    "steps_trained": 1000,
+    "seconds": 4.204623222351074,
+    "gradients": [
+      {
+        "step": 1,
+        "loss": 1.0266307592391968,
+        "norms": {
+          "weight": 0.48309028148651123,
+          "bias": 0.014331738464534283
+        }
+      },
+      {
+        "step": 1000,
+        "loss": 0.11016149818897247,
+        "norms": {
+          "weight": 0.08607006818056107,
+          "bias": 0.004167891573160887
+        }
+      }
+    ],
+    "batch_array_sha": "c0a62543b5d4a6c357a63b37dccdaf356e980d65eb171fdf2e1bde9aa1bc4630",
+    "body_selected_step": 25,
+    "body_checkpoint_sha": "74ea559e1a286360f4c655fa7b2e697bca6d870b675b2aae1d63e951c4a8c655",
+    "refiner_frozen": true
+  }
+}

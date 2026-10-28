@@ -1,0 +1,71 @@
+{
+  "k": 32,
+  "sae_seeds": [
+    42,
+    43,
+    44
+  ],
+  "arms": [
+    "gate",
+    "rotated_gate",
+    "lowrank",
+    "mlp",
+    "gate_supcon",
+    "rotated_gate_supcon",
+    "mlp_supcon"
+  ],
+  "betas": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "gate_bound": 0.5,
+  "lowrank_rank": 16,
+  "mlp_width": 40,
+  "batch_size": 256,
+  "baseline_epochs": 100,
+  "adapter_epochs": 60,
+  "patience": 10,
+  "baseline_lr": 0.01,
+  "adapter_lr": 0.001,
+  "head_weight_decays": [
+    0.0,
+    0.001,
+    0.01
+  ],
+  "supcon_lambda": 0.1,
+  "supcon_temperature": 0.1,
+  "knn_k": 15,
+  "device": "cpu",
+  "torch_threads": 4,
+  "selection": "VALID fresh Ridge macroF1, identity wins ties; lower beta then alpha ties",
+  "checkpoint": "training head VALID macroF1; earliest tie; epoch0 eligible",
+  "sampler": "same seeded class-uniform donor-balanced replacement sampling for every arm",
+  "supcon": "positives same type different TRAIN donor; exclude same-type same-donor and duplicate cell identities from denominator; skip anchors without cross-donor positive",
+  "frozen": "scGPT, SAE encoder/decoder; full original raw h preserved in skip connection",
+  "preprocess": "raw h and signed raw TopK z; fixed TRAIN h mean/std at training head; fitted TRAIN h-prime mean/std at fresh Ridge/kNN",
+  "baseline": "original fresh Ridge plus validation-selected CE head; primary uses fresh Ridge for every arm",
+  "statistics": "six donor differences after averaging three SAE/training seeds; seeds not independent donors",
+  "primary": "gate versus original and rotated_gate, donor mean fresh-Ridge fixed8-label macroF1",
+  "parameter_matching": "gate/rotated_gate each2048; lowrank/MLP each40960; gate versus MLP is not parameter-matched",
+  "continuation": {
+    "mean_gain_pp": 1.0,
+    "positive_donors": 4,
+    "positive_seed_means": 2,
+    "pbmc_noninferiority_pp": -0.5
+  },
+  "scope": "historically explored Kang/PBMC; development, not new blind validation; K64 optional future sensitivity not executed here"
+}

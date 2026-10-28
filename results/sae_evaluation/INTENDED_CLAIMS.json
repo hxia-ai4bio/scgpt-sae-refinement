@@ -1,0 +1,10 @@
+{
+  "question": "Do fixed dataset-specific SAE reconstructions improve cross-group neighbor tasks, within-type IFN readout, or fixed-readout label efficiency?",
+  "not_supported": [
+    "Independent biological or causal validation",
+    "General improvements from geometry alone",
+    "Cross-donor PBMC validation",
+    "Blind external confirmation",
+    "Unified ctrl/stim state preservation"
+  ]
+}

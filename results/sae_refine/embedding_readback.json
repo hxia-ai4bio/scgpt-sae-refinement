@@ -1,0 +1,823 @@
+{
+  "status": "PASS",
+  "files_read_back": 102,
+  "total_bytes": 381496536,
+  "checks": [
+    {
+      "path": "embeddings/fold_0/seed_42/abs2048_k32.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_42/bag2_1024_k16.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 4035867
+    },
+    {
+      "path": "embeddings/fold_0/seed_42/boost2_1024_k16.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_42/single_raw.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_42/wide6144_k96.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 4193966
+    },
+    {
+      "path": "embeddings/fold_0/seed_43/abs2048_k32.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_43/bag2_1024_k16.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 4315402
+    },
+    {
+      "path": "embeddings/fold_0/seed_43/boost2_1024_k16.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 4630409
+    },
+    {
+      "path": "embeddings/fold_0/seed_43/single_raw.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_43/wide6144_k96.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3837327
+    },
+    {
+      "path": "embeddings/fold_0/seed_44/abs2048_k32.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3837287
+    },
+    {
+      "path": "embeddings/fold_0/seed_44/bag2_1024_k16.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_44/boost2_1024_k16.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_44/single_raw.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_44/wide6144_k96.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_ensemble/ensemble_existing3.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_0/seed_shared/original_h.npz",
+      "shape": [
+        1723,
+        512
+      ],
+      "bytes": 3842044
+    },
+    {
+      "path": "embeddings/fold_1/seed_42/abs2048_k32.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1126595
+    },
+    {
+      "path": "embeddings/fold_1/seed_42/bag2_1024_k16.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_42/boost2_1024_k16.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_42/single_raw.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_42/wide6144_k96.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_43/abs2048_k32.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_43/bag2_1024_k16.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_43/boost2_1024_k16.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_43/single_raw.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_43/wide6144_k96.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_44/abs2048_k32.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_44/bag2_1024_k16.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_44/boost2_1024_k16.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_44/single_raw.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_44/wide6144_k96.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_ensemble/ensemble_existing3.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_1/seed_shared/original_h.npz",
+      "shape": [
+        460,
+        512
+      ],
+      "bytes": 1028198
+    },
+    {
+      "path": "embeddings/fold_2/seed_42/abs2048_k32.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_42/bag2_1024_k16.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_42/boost2_1024_k16.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_42/single_raw.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6676674
+    },
+    {
+      "path": "embeddings/fold_2/seed_42/wide6144_k96.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_43/abs2048_k32.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_43/bag2_1024_k16.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_43/boost2_1024_k16.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_43/single_raw.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_43/wide6144_k96.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6669506
+    },
+    {
+      "path": "embeddings/fold_2/seed_44/abs2048_k32.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6675641
+    },
+    {
+      "path": "embeddings/fold_2/seed_44/bag2_1024_k16.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_44/boost2_1024_k16.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_44/single_raw.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_44/wide6144_k96.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_2/seed_ensemble/ensemble_existing3.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 7084770
+    },
+    {
+      "path": "embeddings/fold_2/seed_shared/original_h.npz",
+      "shape": [
+        2738,
+        512
+      ],
+      "bytes": 6104891
+    },
+    {
+      "path": "embeddings/fold_3/seed_42/abs2048_k32.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4947292
+    },
+    {
+      "path": "embeddings/fold_3/seed_42/bag2_1024_k16.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5085393
+    },
+    {
+      "path": "embeddings/fold_3/seed_42/boost2_1024_k16.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5335744
+    },
+    {
+      "path": "embeddings/fold_3/seed_42/single_raw.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4522663
+    },
+    {
+      "path": "embeddings/fold_3/seed_42/wide6144_k96.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4522714
+    },
+    {
+      "path": "embeddings/fold_3/seed_43/abs2048_k32.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4959923
+    },
+    {
+      "path": "embeddings/fold_3/seed_43/bag2_1024_k16.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5085514
+    },
+    {
+      "path": "embeddings/fold_3/seed_43/boost2_1024_k16.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5467768
+    },
+    {
+      "path": "embeddings/fold_3/seed_43/single_raw.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4788125
+    },
+    {
+      "path": "embeddings/fold_3/seed_43/wide6144_k96.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4522498
+    },
+    {
+      "path": "embeddings/fold_3/seed_44/abs2048_k32.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4786808
+    },
+    {
+      "path": "embeddings/fold_3/seed_44/bag2_1024_k16.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5084803
+    },
+    {
+      "path": "embeddings/fold_3/seed_44/boost2_1024_k16.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5465608
+    },
+    {
+      "path": "embeddings/fold_3/seed_44/single_raw.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4788411
+    },
+    {
+      "path": "embeddings/fold_3/seed_44/wide6144_k96.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4956447
+    },
+    {
+      "path": "embeddings/fold_3/seed_ensemble/ensemble_existing3.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 5246386
+    },
+    {
+      "path": "embeddings/fold_3/seed_shared/original_h.npz",
+      "shape": [
+        2031,
+        512
+      ],
+      "bytes": 4528263
+    },
+    {
+      "path": "embeddings/fold_4/seed_42/abs2048_k32.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4695292
+    },
+    {
+      "path": "embeddings/fold_4/seed_42/bag2_1024_k16.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5279214
+    },
+    {
+      "path": "embeddings/fold_4/seed_42/boost2_1024_k16.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5674560
+    },
+    {
+      "path": "embeddings/fold_4/seed_42/single_raw.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5135772
+    },
+    {
+      "path": "embeddings/fold_4/seed_42/wide6144_k96.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5142120
+    },
+    {
+      "path": "embeddings/fold_4/seed_43/abs2048_k32.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5134477
+    },
+    {
+      "path": "embeddings/fold_4/seed_43/bag2_1024_k16.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4700157
+    },
+    {
+      "path": "embeddings/fold_4/seed_43/boost2_1024_k16.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4700157
+    },
+    {
+      "path": "embeddings/fold_4/seed_43/single_raw.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4695028
+    },
+    {
+      "path": "embeddings/fold_4/seed_43/wide6144_k96.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5130333
+    },
+    {
+      "path": "embeddings/fold_4/seed_44/abs2048_k32.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4965264
+    },
+    {
+      "path": "embeddings/fold_4/seed_44/bag2_1024_k16.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4700157
+    },
+    {
+      "path": "embeddings/fold_4/seed_44/boost2_1024_k16.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4700157
+    },
+    {
+      "path": "embeddings/fold_4/seed_44/single_raw.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5136417
+    },
+    {
+      "path": "embeddings/fold_4/seed_44/wide6144_k96.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5129926
+    },
+    {
+      "path": "embeddings/fold_4/seed_ensemble/ensemble_existing3.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 5443727
+    },
+    {
+      "path": "embeddings/fold_4/seed_shared/original_h.npz",
+      "shape": [
+        2108,
+        512
+      ],
+      "bytes": 4700157
+    },
+    {
+      "path": "embeddings/fold_5/seed_42/abs2048_k32.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1260220
+    },
+    {
+      "path": "embeddings/fold_5/seed_42/bag2_1024_k16.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1259876
+    },
+    {
+      "path": "embeddings/fold_5/seed_42/boost2_1024_k16.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1154262
+    },
+    {
+      "path": "embeddings/fold_5/seed_42/single_raw.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1260621
+    },
+    {
+      "path": "embeddings/fold_5/seed_42/wide6144_k96.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1259381
+    },
+    {
+      "path": "embeddings/fold_5/seed_43/abs2048_k32.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1153048
+    },
+    {
+      "path": "embeddings/fold_5/seed_43/bag2_1024_k16.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1259904
+    },
+    {
+      "path": "embeddings/fold_5/seed_43/boost2_1024_k16.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1389632
+    },
+    {
+      "path": "embeddings/fold_5/seed_43/single_raw.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1260791
+    },
+    {
+      "path": "embeddings/fold_5/seed_43/wide6144_k96.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1217837
+    },
+    {
+      "path": "embeddings/fold_5/seed_44/abs2048_k32.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1260191
+    },
+    {
+      "path": "embeddings/fold_5/seed_44/bag2_1024_k16.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1295534
+    },
+    {
+      "path": "embeddings/fold_5/seed_44/boost2_1024_k16.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1154262
+    },
+    {
+      "path": "embeddings/fold_5/seed_44/single_raw.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1219996
+    },
+    {
+      "path": "embeddings/fold_5/seed_44/wide6144_k96.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1259516
+    },
+    {
+      "path": "embeddings/fold_5/seed_ensemble/ensemble_existing3.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1359249
+    },
+    {
+      "path": "embeddings/fold_5/seed_shared/original_h.npz",
+      "shape": [
+        517,
+        512
+      ],
+      "bytes": 1154262
+    }
+  ]
+}

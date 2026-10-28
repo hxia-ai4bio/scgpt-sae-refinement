@@ -1,0 +1,488 @@
+[
+  {
+    "fold": 0,
+    "seed": 42,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_42/continue_mse/sae.pt",
+    "checkpoint_sha": "e719e5732db7ea3799d3304650e2dd9e56d86478b0c96a8f0d0a081e7d486a4c",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_42/continue_mse/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_42/relation_weak/sae.pt",
+    "checkpoint_sha": "23d6d6b01818683b38d07c66f2eb4e48e6c7377f555464fe4702129ace9f4454",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_42/relation_weak/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_42/relation_strong/sae.pt",
+    "checkpoint_sha": "33ad81c88b38ae426055a33a82bcd76e21b6ff7ac355e51b1abf1a03d46c1220",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_42/relation_strong/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 43,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_43/continue_mse/sae.pt",
+    "checkpoint_sha": "1730c265a3b5f70a7557204d7f9d7367571090d4589c17453915f56ca1820766",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_43/continue_mse/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 43,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_43/relation_weak/sae.pt",
+    "checkpoint_sha": "98fc15136b4df47cf59ac90971a953c52adefa53fff75c4d82cb5ae0a4913938",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_43/relation_weak/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 43,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_43/relation_strong/sae.pt",
+    "checkpoint_sha": "0a7b421b08e567c727b9e67a0ed4f355d1ce23dac7835d55213fbd276af2b3e6",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_43/relation_strong/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 44,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_44/continue_mse/sae.pt",
+    "checkpoint_sha": "1b2c5b645f67962be00502fc21a810fff7ed58e2529d91ae6537fa8448b62680",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_44/continue_mse/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 44,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_44/relation_weak/sae.pt",
+    "checkpoint_sha": "d244581c55c0392eae2c3fb828b4ff871fecf6bf138f10853bd54cd305f3a281",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_44/relation_weak/reconstruction"
+  },
+  {
+    "fold": 0,
+    "seed": 44,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_0/seed_44/relation_strong/sae.pt",
+    "checkpoint_sha": "3f623cf2d7077586adab3649146380d54237f3b58ef30f76e53a02b3dc2d3027",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_0/seed_44/relation_strong/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_42/continue_mse/sae.pt",
+    "checkpoint_sha": "480e627f867ad7e985ec8f5c3d7a9c2ccb7c8f01df07b09d263a365a0280c21c",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_42/continue_mse/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_42/relation_weak/sae.pt",
+    "checkpoint_sha": "2fc0f7554c26971f74caff960c78a4bf8d09a335e70e3ddb8255c7e2a7885345",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_42/relation_weak/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_42/relation_strong/sae.pt",
+    "checkpoint_sha": "9ed274140c86854100352ee239ee34b9a652b96b2b16a0e8b0f4a35504a2fef5",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_42/relation_strong/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 43,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_43/continue_mse/sae.pt",
+    "checkpoint_sha": "57839936cadd819443b28a1082803e61bf6a02d7266b0799574d78c5201f20d3",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_43/continue_mse/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 43,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_43/relation_weak/sae.pt",
+    "checkpoint_sha": "21c219993cfa233b026fc9075cae44b721df5eef3cc9989e23053f13619265b9",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_43/relation_weak/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 43,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_43/relation_strong/sae.pt",
+    "checkpoint_sha": "eed7c8ae87273c7ba2d8cd6da7fd5a0658e99d023b8b6280b27e5438754dd0e6",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_43/relation_strong/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 44,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_44/continue_mse/sae.pt",
+    "checkpoint_sha": "248e3e09bbb4f2bdac8d94d743e5f5ed7c595d41e52c909fefc6147b3ba0078d",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_44/continue_mse/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 44,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_44/relation_weak/sae.pt",
+    "checkpoint_sha": "6923bf3b275d3ccf5f1d8beb38bf0e35b6cfb09fe8128eb992b08475314a27b7",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_44/relation_weak/reconstruction"
+  },
+  {
+    "fold": 1,
+    "seed": 44,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_1/seed_44/relation_strong/sae.pt",
+    "checkpoint_sha": "ffa952e7defefc147a7c57f185c6ef1daac7d35e521171127e4ffc076b262904",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_1/seed_44/relation_strong/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_42/continue_mse/sae.pt",
+    "checkpoint_sha": "fd1f3b4fb99af7f58be2db653190f76b76645a9796fbeedaf1a1be975b393bb0",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_42/continue_mse/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_42/relation_weak/sae.pt",
+    "checkpoint_sha": "0ad889bbf27c255cf7d288eb56f08954f7565345e42171e9aa21b8223bbf94cc",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_42/relation_weak/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_42/relation_strong/sae.pt",
+    "checkpoint_sha": "f7aa2274f5f8e7bf4976fb851390b43ed9515fa6ebcf60dc9fb67e63c135f1eb",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_42/relation_strong/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 43,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_43/continue_mse/sae.pt",
+    "checkpoint_sha": "b90493d33cedf86c7f9cb342c216f4cc3890dab131dc03744735d2efcfe2c557",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_43/continue_mse/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 43,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_43/relation_weak/sae.pt",
+    "checkpoint_sha": "63cec209d02708093c955c70a814b1b2f7c1403744b4c030edb5d526d0849212",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_43/relation_weak/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 43,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_43/relation_strong/sae.pt",
+    "checkpoint_sha": "1440fd7ff255f34ddc839b2274d3bcb0e0825da3ac9bfacbb6abf31439059cd1",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_43/relation_strong/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 44,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_44/continue_mse/sae.pt",
+    "checkpoint_sha": "9199dbb9d2b15ad53736c8ca5ea04cd15da700b6a2a4264cb8c2d7e1d2cbb38d",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_44/continue_mse/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 44,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_44/relation_weak/sae.pt",
+    "checkpoint_sha": "f16528199118f5affc466ceb7020dbd6e12df2c970753109d127de98d051696f",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_44/relation_weak/reconstruction"
+  },
+  {
+    "fold": 2,
+    "seed": 44,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_2/seed_44/relation_strong/sae.pt",
+    "checkpoint_sha": "944efc61f0c27dcd7174a9dafadbd9f88017bec1502203dab8ea68d8c5f94340",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_2/seed_44/relation_strong/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_42/continue_mse/sae.pt",
+    "checkpoint_sha": "90d21010834d75fb92517f0c40df755475d494120b42fa0a6052755896303fec",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_42/continue_mse/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_42/relation_weak/sae.pt",
+    "checkpoint_sha": "6c5714fb62aacbf7c318b4b9641f7003a671367aa98990c5789441a37aa13a69",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_42/relation_weak/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_42/relation_strong/sae.pt",
+    "checkpoint_sha": "aba047ee0a0de96fdf5c84ca135f6e835d156907377c14418334d21dd82eab5e",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_42/relation_strong/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 43,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_43/continue_mse/sae.pt",
+    "checkpoint_sha": "fe30e99ae2dc16dfab71d4e3bf9a77ba8b2724246f0b1a9c5c85dd1b05261184",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_43/continue_mse/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 43,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_43/relation_weak/sae.pt",
+    "checkpoint_sha": "12491e6f4c1d7cb7e869e411e191773633b18b875bf85045f614705f1d1c9f9b",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_43/relation_weak/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 43,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_43/relation_strong/sae.pt",
+    "checkpoint_sha": "b7d7b2fda5f83d164e127441e26d1c02808f73bf62dae3f4dd36460fcebae97c",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_43/relation_strong/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 44,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_44/continue_mse/sae.pt",
+    "checkpoint_sha": "f823bf80f547dbd3258a460898d4ff72ab7ff90570e0499c6caf729dadd663f0",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_44/continue_mse/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 44,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_44/relation_weak/sae.pt",
+    "checkpoint_sha": "445b2f859803058e7c03f7b617c15d0a2782a6efa4a47bec1a6350debe13015d",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_44/relation_weak/reconstruction"
+  },
+  {
+    "fold": 3,
+    "seed": 44,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_3/seed_44/relation_strong/sae.pt",
+    "checkpoint_sha": "5094ad8c5495f5e8cdb6dd71ae85a09de0f7f92cf5c7eaaebc7d1e1684a3c7c7",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_3/seed_44/relation_strong/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_42/continue_mse/sae.pt",
+    "checkpoint_sha": "a504cfdd868ce9d3057aa4051a2dd8250bfe6b991273d80b60e8e16acd6e8781",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_42/continue_mse/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_42/relation_weak/sae.pt",
+    "checkpoint_sha": "6c8a0b29dd29e480a7a353d25e20e01bd742ffa052791b2656aa760962081c4b",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_42/relation_weak/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_42/relation_strong/sae.pt",
+    "checkpoint_sha": "b381e0e0cb66f78f2cf9cd9ffec18c8e94723560623433304dfc6954ff463116",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_42/relation_strong/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 43,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_43/continue_mse/sae.pt",
+    "checkpoint_sha": "df5abe49f83b70e70915333db9c7046cf9aaf3e6cfdcb6d289cf574cedf6edaf",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_43/continue_mse/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 43,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_43/relation_weak/sae.pt",
+    "checkpoint_sha": "1104ba2f838b172ea2c037146b6c684f0ab3fd06a686623f6025987c3490ddd8",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_43/relation_weak/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 43,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_43/relation_strong/sae.pt",
+    "checkpoint_sha": "bc4f154dd0a6f0013d385205ae2a39dd242c34ffd12d7047cd64a315d9d1bec0",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_43/relation_strong/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 44,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_44/continue_mse/sae.pt",
+    "checkpoint_sha": "4758732034a0cece6f97227d006518e667c857da6b4e3278a872d8e9eab52c52",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_44/continue_mse/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 44,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_44/relation_weak/sae.pt",
+    "checkpoint_sha": "3f5a9dfa3c000b10fbee095aa2f1670a63b68cfc28b99060b1b984a5fd4588de",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_44/relation_weak/reconstruction"
+  },
+  {
+    "fold": 4,
+    "seed": 44,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_4/seed_44/relation_strong/sae.pt",
+    "checkpoint_sha": "255a6ad227115996f0ea552d8057f9ed86efb24887d286f3024434978e482154",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_4/seed_44/relation_strong/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_42/continue_mse/sae.pt",
+    "checkpoint_sha": "e9169896d80b5cc2465a95ea1d074e786e246f48cd9d1334250bfaa89a6167d3",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_42/continue_mse/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_42/relation_weak/sae.pt",
+    "checkpoint_sha": "a4ab79c05757e3f34a51e0b1b93dc5cba06689f9124d303880320861cc84d48f",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_42/relation_weak/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_42/relation_strong/sae.pt",
+    "checkpoint_sha": "856a90cc64a741d683566c3dd200cc47585f5c888b137a11281351728150b1f0",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_42/relation_strong/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 43,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_43/continue_mse/sae.pt",
+    "checkpoint_sha": "eee8f6721751cd0ebe596a498638d5828dc1dec1fb3f05193a5deb97251b06e7",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_43/continue_mse/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 43,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_43/relation_weak/sae.pt",
+    "checkpoint_sha": "84281ff0cb6752f8adfe3557e85d30e0814ef0181ab358700cadbc4a7969bdf2",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_43/relation_weak/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 43,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_43/relation_strong/sae.pt",
+    "checkpoint_sha": "1ca18a29a5bcf8c62d6c1c3f7a3f20cbe598e701e7591ec4d9918515d3fc55a6",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_43/relation_strong/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 44,
+    "method": "continue_mse",
+    "lambda_KL": 0.0,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_44/continue_mse/sae.pt",
+    "checkpoint_sha": "a84bb6dbfb91ec872b6e4770f9c76f384d5308d2f62f92fcd6e29b09e5f0cedb",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_44/continue_mse/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 44,
+    "method": "relation_weak",
+    "lambda_KL": 0.03,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_44/relation_weak/sae.pt",
+    "checkpoint_sha": "92269c0690441434eb9ec5227ad82ff88aa960d4a09c4fbb1fc9f3a7434d0261",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_44/relation_weak/reconstruction"
+  },
+  {
+    "fold": 5,
+    "seed": 44,
+    "method": "relation_strong",
+    "lambda_KL": 0.3,
+    "checkpoint": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/networks/fold_5/seed_44/relation_strong/sae.pt",
+    "checkpoint_sha": "9fc83377e93975cd479af95b4e08eb6fbc49cc136029f4515063f8d530978fb7",
+    "probe": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_relation/probes/fold_5/seed_44/relation_strong/reconstruction"
+  }
+]

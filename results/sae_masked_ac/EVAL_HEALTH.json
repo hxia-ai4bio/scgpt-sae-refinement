@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "roles": [
+    "VALID"
+  ],
+  "TEST_scored": false,
+  "expression_export": {
+    "entries": 1185,
+    "genes_observed": 813,
+    "MAE": 0.35449039101965757,
+    "normalized_MSE": 0.7026695872634757,
+    "gene_macro_MAE": 0.33296780920987856,
+    "gene_mean_baseline_MAE": 0.4389047664695138,
+    "gene_mean_baseline_normalized_MSE": 0.9044788576907624,
+    "gene_mean_baseline_gene_macro_MAE": 0.406634223991001
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "occlusion": "complete",
+  "aggregation": "complete",
+  "deletion": "complete",
+  "verification": "PASS",
+  "semantic_review": "WARN",
+  "scope": "F160 B cells local sensitivity; no new training, pathway tests or expert blind evaluation"
+}

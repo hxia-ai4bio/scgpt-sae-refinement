@@ -1,0 +1,68 @@
+{
+  "datasets": [
+    "ctrl",
+    "stim",
+    "pbmc"
+  ],
+  "methods": [
+    "original_h",
+    "mse",
+    "relation_0p3"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "knn_k": [
+    5,
+    15,
+    30,
+    50
+  ],
+  "knn_primary": 15,
+  "knn": "cosine after common original TRAIN mean; TRAIN references only; uniform voting; ties smallest class id; distance ties TRAIN position",
+  "IFN_genes": [
+    "IFI6",
+    "IFIT1",
+    "IFIT2",
+    "IFIT3",
+    "ISG15",
+    "MX1",
+    "OAS1",
+    "RSAD2"
+  ],
+  "IFN_source": "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/supcon_tail_20261013/extract.py",
+  "IFN_target": "same-RNA proxy: mean log1p(raw counts/library total*10000), no gene-wise global fitting",
+  "IFN_types": [
+    "B cells",
+    "CD14+ Monocytes"
+  ],
+  "IFN_min_train": 100,
+  "IFN_min_test": 30,
+  "IFN_alpha": 10.0,
+  "IFN_technical_sensitivity": "TRAIN fitted covariate-only and embedding+covariates; log1p library size, log1p detected genes, mitochondrial fraction",
+  "fewshot_fractions": [
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "fewshot_subseeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "fewshot": "fixed alpha10; original TRAIN unlabeled scaler per representation; nested class-stratified ceil(fraction*n_class) without replacement, min1 class; identical rows across methods; all TRAIN unlabeled h allowed; no VALID labels used by downstream readouts; SAE inherited VALID-MSE selection disclosed",
+  "fewshot_primary": "area under MacroF1 curve vs log(actual total labeled n), normalized within fold",
+  "clustering": "TEST-only within each fold, common original TRAIN mean, cosine 15NN union undirected graph weighted max(similarity,0); Leiden RBConfiguration resolution1 primary;0.5/2 sensitivity; fixed seed20261019",
+  "geometry": "TRAIN and TEST per-cell centered reconstruction R2 relative to original TRAIN mean; relative displacement; teacher||student KL tau0.1 on up to256 fixed TRAIN anchors; 15NN retention",
+  "statistics": "seed means within heldout group, equal group mean; PBMC two batch directions separate; same Kang donors across conditions; no cell or seed pseudo-replication; historically explored endpoints exploratory",
+  "scope": "cached evaluations only; no new SAE/scGPT training; unified ctrl+stim and UMI downsampling phase2 not run",
+  "alpha": 10.0,
+  "version": 1
+}

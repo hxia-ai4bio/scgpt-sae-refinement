@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "source_files": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_refine/summary.json": "d87c14a815c950348f2ba543e6b98a59336df5ae2ac5b3404b16c5eb90f095b7",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_refine/all_metrics.json": "c4a66cf4a221c29c5bc8ec6ea1121c18ae071c188b4d22ef84461d7578108539",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_refine/verification.json": "ff311dba17b4668ba8076fdaed852469846914b14b5543bd8d19f0d10a87947d"
+  },
+  "note": "deterministic source existence and metric recomputation; not semantic claim acceptance"
+}

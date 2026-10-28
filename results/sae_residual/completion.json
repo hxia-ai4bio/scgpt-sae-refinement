@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "runs": 144,
+  "development_fits": 378,
+  "baseline_head_fits": 18,
+  "TEST_selection": "none; all decisions locked first",
+  "scope": "historically explored Kang/PBMC; development, not new blind validation; K64 optional future sensitivity not executed here"
+}

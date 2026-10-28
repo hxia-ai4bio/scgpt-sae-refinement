@@ -1,0 +1,104 @@
+{
+  "type": "secondary exploratory same-RNA association; not input attribution or independent validation",
+  "score": "partial Pearson log1pCP10k gene expression vs feature within B cells controlling logtotalcounts,loggenes,donor; absent MT in Kang not assessable",
+  "genes": "detected>=20 TRAIN B cells and in model vocab; same gene set TEST",
+  "pathways": "no pathway tests on these secondary association rankings",
+  "diagnostics": [
+    {
+      "feature": 137,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 14.386109546452808,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 370,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 14.469930616730807,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 146,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 14.865100305960073,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1373,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 16.997165027128197,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1125,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 13.928843665197402,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1409,
+      "role": "train",
+      "n": 941,
+      "design_rank": 6,
+      "feature_residual_sum_squares": 13.713695436465237,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 137,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 1.7433868787043374,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 370,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 1.6647517695193894,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 146,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 1.871213583011991,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1373,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 2.1278259952767047,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1125,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 1.7469421181476181,
+      "degenerate_feature": false
+    },
+    {
+      "feature": 1409,
+      "role": "test",
+      "n": 125,
+      "design_rank": 3,
+      "feature_residual_sum_squares": 1.6381223611809532,
+      "degenerate_feature": false
+    }
+  ]
+}

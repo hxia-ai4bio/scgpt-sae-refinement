@@ -1,0 +1,101 @@
+{
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "arms": {
+    "continue_mse": 0.0,
+    "relation_weak": 0.03,
+    "relation_strong": 0.3,
+    "lambda_0p01": 0.01,
+    "lambda_0p1": 0.1,
+    "lambda_1": 1.0,
+    "lambda_3": 3.0
+  },
+  "additional_steps": 1000,
+  "batch_size": 256,
+  "cells_per_train_donor": 64,
+  "width": 2048,
+  "topk": 32,
+  "topk_operator": "largest raw values, selected signs retained; unchanged architecture",
+  "temperature": 0.1,
+  "mean": "fixed TRAIN mean buffer, same for original/reconstructed cosine",
+  "objective": "raw MSE / TRAIN centered mean-square + lambda * mean_query KL(P_teacher||P_student)",
+  "relations": "centered L2-normalized cosine, cross-TRAIN-donor batch anchors only,192 perquery; detached original teacher; float64 log_softmax normalized rows",
+  "optimizer": "Adam reset identically for all arms, no weight decay",
+  "lr_start": 0.0003,
+  "lr_end": 1e-05,
+  "schedule": "cosine by zero-based update step, first3e-4,last1e-5",
+  "batch_seed": "SeedSequence([20261019,fold,seed,1000]); same persisted batch indices for all arms",
+  "checkpoint": "fixed final step1000, no VALID checkpoint/model/strength selection",
+  "initialization": "same existing fold/seed raw-value TopK32 SAE checkpoint, trained fourTRAIN donors and historically VALID-MSE selected at epoch20",
+  "backbone": "frozen cached final layer signed mean512D scGPT; no new scGPT inference or optimization",
+  "reference_arms": [
+    "original_h",
+    "existing_raw20"
+  ],
+  "variants": {
+    "reconstruction": 1.0
+  },
+  "main_variant": "reconstruction",
+  "secondary_variant": null,
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "probe_selection": "TRAIN-only unweighted channel mean/std; balanced eight-class weighted Ridge with intercept and 2*onehot-1 targets; best VALID fixed8 MacroF1; ascending-alpha ties; no refit TRAIN+VALID",
+  "pilot": {
+    "use": "No new classification pilot. Existing audited runtime and measured speed reused; all new fits retain the fixed1000 budget."
+  },
+  "primary_contrasts": [
+    "Each fixed lambda vs original_h and equal-budget lambda0 MSE; full grid, no winning lambda selected"
+  ],
+  "secondary_contrasts": [
+    "Predeclared leave-one-donor-out sensitivity, all six exclusions for every lambda"
+  ],
+  "advancement": "No advance gate or best-lambda decision. Descriptive sensitivity study only.",
+  "statistics": "equal donor means after within-donor seed averaging;6 exploratory historic donors, overlapping training sets; descriptive paired donor bootstrap only; seeds/cells not independent donors",
+  "scope": "Historically explored Kang ctrl9577cells,6donors,8types. Grid motivated after prior TEST results; not a new blind test, not confirmatory evidence. VALID labels select Ridge alpha only. No PBMC or temperature search.",
+  "stop_rule": "Complete seven fixedlambda curves across sixfolds and threeseeds.72new+54reused trainings;132readouts including6original_h. No additional search based on new TEST scores.",
+  "lambda_grid": [
+    0.0,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "new_arms": {
+    "lambda_0p01": 0.01,
+    "lambda_0p1": 0.1,
+    "lambda_1": 1.0,
+    "lambda_3": 3.0
+  },
+  "reused_arms": {
+    "continue_mse": 0.0,
+    "relation_weak": 0.03,
+    "relation_strong": 0.3
+  },
+  "reuse": "Original54 final networks and54 reconstruction Ridge selections plus6original_h selections reused by verified content hashes, not retrained or treated as new replicates.",
+  "selection": "Each lambda has its own same11alpha VALID Ridge search; no lambda selection by VALID or TEST in this descriptive experiment.",
+  "sensitivity": "Equal-donor mean after within-donor three-seed averaging; show all donor and seed curves; use same bootstrap donor index draws for all contrasts. No cell-level or seed-level independent replicate claims."
+}

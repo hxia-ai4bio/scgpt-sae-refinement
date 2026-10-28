@@ -1,0 +1,5 @@
+{
+  "question": "Do gene-masked embedding reconstruction A or masked expression reconstruction C improve clean frozen scGPT cell embeddings and/or missing-input robustness?",
+  "scope": "Tests A/C dataset-specific frozen-backbone refinement, not new observed biological information, SAE concept causality or guaranteed SAE-specific benefit. C predicts positive selected tokens only; normalization targets use fullRNA but hidden values excluded from input bins verified via invariance test. IFN sameRNA proxy. DenseA not matched-initialization proof.",
+  "reference": "original_h and equal-budget clean_mse; A_dense capacity control"
+}

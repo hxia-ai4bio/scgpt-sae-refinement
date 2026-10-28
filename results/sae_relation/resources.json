@@ -1,0 +1,12 @@
+{
+  "cpu_logical": null,
+  "memory_total_GB": 25.769803776,
+  "memory_available_GB": 8.140685312,
+  "disk_free_GB": 544.823103488,
+  "machine": "arm64",
+  "torch": "2.3.1",
+  "mps_available": false,
+  "cuda_available": false,
+  "strategy": "sequential CPU,4 threads; no scGPT inference",
+  "detector_note": "portable fallback: swap and some CPU metadata are unavailable under sandbox, as verified in earlier run"
+}

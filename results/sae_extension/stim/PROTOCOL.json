@@ -1,0 +1,86 @@
+{
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "arms": {
+    "lambda_0": 0.0,
+    "lambda_0p01": 0.01,
+    "lambda_0p03": 0.03,
+    "lambda_0p1": 0.1,
+    "lambda_0p3": 0.3,
+    "lambda_1": 1.0,
+    "lambda_3": 3.0
+  },
+  "additional_steps": 1000,
+  "batch_size": 256,
+  "cells_per_train_donor": 64,
+  "width": 2048,
+  "topk": 32,
+  "topk_operator": "largest raw values, selected signs retained; unchanged architecture",
+  "temperature": 0.1,
+  "mean": "fixed TRAIN mean buffer, same for original/reconstructed cosine",
+  "objective": "raw MSE / TRAIN centered mean-square + lambda * mean_query KL(P_teacher||P_student)",
+  "relations": "Centered cosine teacher||student KL tau0.1;192 other-TRAIN-donor anchors/query; detachedteacher;float64 logsoftmax.",
+  "optimizer": "Adam reset identically for all arms, no weight decay",
+  "lr_start": 0.0003,
+  "lr_end": 1e-05,
+  "schedule": "cosine by zero-based update step, first3e-4,last1e-5",
+  "batch_seed": "SeedSequence([20261020,dataset_index,fold,seed,1000]); fixed persisted indices paired across all7lambdas",
+  "checkpoint": "Fixed continuation finalstep1000; warmup selection independently fixed by VALID MSE. No continuation checkpoint selection.",
+  "initialization": "Same dataset/fold/seed warmup checkpoint for all7lambdas; no weights or mean from Kang ctrl or the other dataset.",
+  "backbone": "frozen cached final layer signed mean512D scGPT; no new scGPT inference or optimization",
+  "reference_arms": [
+    "original_h"
+  ],
+  "variants": {
+    "reconstruction": 1.0
+  },
+  "main_variant": "reconstruction",
+  "secondary_variant": null,
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "probe_selection": "TRAIN-only unweighted channel mean/std; balanced eight-class weighted Ridge with intercept and 2*onehot-1 targets; best VALID fixed8 MacroF1; ascending-alpha ties; no refit TRAIN+VALID",
+  "pilot": {
+    "use": "Extraction replay and representative training health only; no TEST readout or adaptive budget decision"
+  },
+  "primary_contrasts": [
+    "Predeclared reference lambda0.3 vs original_h and same-dataset equal-budget lambda0"
+  ],
+  "secondary_contrasts": [
+    "lambda0.1 and complete sevenpoint sensitivity; no per-dataset winner selection"
+  ],
+  "advancement": "No bestlambda or automatic followup decision; report full fixedgrid and all heldout groups.",
+  "statistics": "Average seeds within each heldout group then equal group mean; seed variation is not biological replication. No pooled donor/batch significance or cell bootstrap.",
+  "scope": "Dataset-specific refinement on historically explored data; scGPT frozen. stim shares donors with prior ctrl and is not an independent cohort. PBMC has batch labels only, no verified donors/study independence; previous crossdataset-transfer scores not directly comparable.",
+  "stop_rule": "Complete all7fixedlambdas,3seeds,all declared splits; no TEST-driven new params, no temperature or mixture search.",
+  "dataset": "stim",
+  "warmup": "Dataset-specific MSE SAE: maximum20epochs, VALID rawMSE earliest best, epoch0 eligible, patience3; same seed/order/Adam3e-4 as ctrl initialization recipe. Four TRAIN donors for stim; source-batch TRAIN cells for PBMC.",
+  "selection": "For each fixedlambda same11Ridge alpha choices using source TRAIN scaling/classbalanced weightedRidge, VALID fixed8class MacroF1, earliest ascendingalpha ties; no refit TRAIN+VALID or selectinglambda.",
+  "split": "Six original Kang donor rotations:4TRAIN,1VALID,1TEST; stim only; original two reserved donors excluded.",
+  "group_unit": "donor",
+  "relation_anchor_count": 192,
+  "relation_mask": "cross_train_donor",
+  "validation": "One entire donor",
+  "descriptive_ci": "paired six-donor bootstrap,20000draws,seed20261020; overlapping TRAIN folds,descriptive only"
+}

@@ -1,0 +1,79 @@
+{
+  "agent_id": "/root/complementarity_audit",
+  "verdict_id": "/root/complementarity_audit:002-final",
+  "executor_model": "not independently introspected",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-10-18T18:54:53.418897+00:00",
+  "date": "2026-10-19",
+  "trace_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_complementarity/review_trace",
+  "audited_input_hashes_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_complementarity/review_trace/audited_input_hashes.json",
+  "pre_review_report_snapshot": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_complementarity/review_trace/002-input-report-snapshot",
+  "audit_skill": "result-to-claim",
+  "claim_supported": "no",
+  "confidence": "high",
+  "confidence_scope": "High for the bounded conclusion that these prespecified positive gains were not demonstrated; does not quantify confidence in a universal null.",
+  "intended_claim": "Validation-selected frozen SAE mixtures, concatenation or label-crossfit residual correction provide repeatable additive discrimination beyond original h and random/affine controls.",
+  "what_results_support": [
+    "Under this historical six-donor, three-seed protocol, fixed mixtures, SAE concatenation and SAE residual correction fail to show a stable mean improvement over original-h Ridge on TEST and PBMC.",
+    "SAE z alone with stronger regularization reaches TEST Macro-F1 83.1049% versus h 82.7540% (+0.3509 pp), but PBMC remains lower by 3.8252 pp. This is conditional readout competence and regularization sensitivity, not additive complementarity.",
+    "Class effects are heterogeneous; the rare Megakaryocyte contribution accounts arithmetically for more than the net concat decline, while several other classes improve locally."
+  ],
+  "what_results_dont_support": [
+    "Stable SAE-specific additive discrimination over h and random/linear controls.",
+    "Generalized prediction of final h-baseline score errors by the current SAE correction; mean residual Q2 is negative on both evaluation roles.",
+    "Negative Q2 of a VALID-Macro-F1-selected model does not establish that an MSE-selected model could not predict residuals or that SAE has no conditional residual information.",
+    "Universal SAE uselessness, complete absence of exploitable information, or an information-theoretic ceiling.",
+    "Information absent from h, biological-semantic validity, biological causal mechanisms, or fresh confirmatory external generalization.",
+    "A significance claim from these descriptive bootstrap intervals or independent replication from 18 PBMC fitted models.",
+    "Changing the endpoint by removing rare classes after viewing results."
+  ],
+  "missing_evidence": [
+    "Fresh independent donors/studies with a frozen selection rule are needed for a confirmatory generalization claim.",
+    "More rare-class support is needed before attributing stable class-specific benefits or harms.",
+    "More closely matched representation controls and independent biological evidence would be needed for SAE-specific semantic or mechanistic claims.",
+    "For a broad residual-predictability claim, evidence must distinguish final-model errors from three-donor crossfit errors and evaluate a prospective fixed method; current Q2 is limited to this method."
+  ],
+  "suggested_claim_revision": "在历史六供体、三个冻结 SAE 种子及预设 VALID 选择规则下，固定混合、SAE 拼接和交叉拟合分数残差修正未表现出相对原 h 的稳定平均分类增益，也未建立优于随机/仿射对照的 SAE 特异互补性。稀疏 z 的单独读出对正则化敏感，且类别效应不均一；结果不支持将其概括为 SAE 普遍无效。",
+  "next_experiments_needed": [],
+  "next_action": "Archive the bounded null result and finish reporting/packaging. No new experiments or review loop for closeout. If a future confirmatory claim is pursued, separately preregister new data, endpoint and controls.",
+  "question_judgments": [
+    {
+      "id": "Q1",
+      "claim_supported": "no",
+      "reason": "Fixed h+alpha Dz TEST/PBMC deltas are -0.3781/-1.0483 pp; reconstruction+lambda r deltas are -0.3335/-0.9692 pp. Most candidates overlap by affine equivalence."
+    },
+    {
+      "id": "Q2",
+      "claim_supported": "no",
+      "reason": "concat SAE versus h: -0.4354 pp TEST, -0.8887 pp PBMC; versus random: -0.1159/-0.4536 pp; versus linear: +0.0276/-1.0424 pp. No stable SAE-specific gain."
+    },
+    {
+      "id": "Q3",
+      "claim_supported": "no",
+      "reason": "SAE residual correction versus h: -0.3362/-0.7060 pp. Mean Q2: -0.05025 TEST, -0.07550 PBMC. Comparisons with random/linear are mixed and do not establish consistent superiority."
+    }
+  ],
+  "residual_error_aggregation": {
+    "criterion": "alpha/gamma selected by VALID Macro-F1, not MSE",
+    "TEST": {
+      "mean_corrected_MSE": 0.08984395339269441,
+      "mean_baseline_MSE": 0.08985647974513393,
+      "mean_delta_MSE": -1.2526352439500781e-05,
+      "mean_Q2": -0.05024535945159321
+    },
+    "PBMC": {
+      "mean_corrected_MSE": 0.14246495758247874,
+      "mean_baseline_MSE": 0.1352039530987844,
+      "mean_delta_MSE": 0.007261004483694319,
+      "mean_Q2": -0.0755027948450791
+    },
+    "interpretation": "Mean Q2 is one minus the mean per-model error ratio; it need not have the same sign as the improvement in mean absolute MSE."
+  },
+  "integrity_status": "warn",
+  "integrity_tag": "INTEGRITY: WARN (scope; no unrepaired substantive error)"
+}

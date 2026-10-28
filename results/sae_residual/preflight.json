@@ -1,0 +1,585 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 42,
+      "role": "train",
+      "n": 7394,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 42,
+      "role": "valid",
+      "n": 460,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 42,
+      "role": "test",
+      "n": 1723,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 42,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 43,
+      "role": "train",
+      "n": 7394,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 43,
+      "role": "valid",
+      "n": 460,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 43,
+      "role": "test",
+      "n": 1723,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 43,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 44,
+      "role": "train",
+      "n": 7394,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 44,
+      "role": "valid",
+      "n": 460,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 44,
+      "role": "test",
+      "n": 1723,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 0,
+      "test_donor": "patient_1016",
+      "seed": 44,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 42,
+      "role": "train",
+      "n": 6379,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 42,
+      "role": "valid",
+      "n": 2738,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 42,
+      "role": "test",
+      "n": 460,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 42,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 43,
+      "role": "train",
+      "n": 6379,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 43,
+      "role": "valid",
+      "n": 2738,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 43,
+      "role": "test",
+      "n": 460,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 43,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 44,
+      "role": "train",
+      "n": 6379,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 44,
+      "role": "valid",
+      "n": 2738,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 44,
+      "role": "test",
+      "n": 460,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 1,
+      "test_donor": "patient_1039",
+      "seed": 44,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 42,
+      "role": "train",
+      "n": 4808,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 42,
+      "role": "valid",
+      "n": 2031,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 42,
+      "role": "test",
+      "n": 2738,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 42,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 43,
+      "role": "train",
+      "n": 4808,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 43,
+      "role": "valid",
+      "n": 2031,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 43,
+      "role": "test",
+      "n": 2738,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 43,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 44,
+      "role": "train",
+      "n": 4808,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 44,
+      "role": "valid",
+      "n": 2031,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 44,
+      "role": "test",
+      "n": 2738,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "test_donor": "patient_1015",
+      "seed": 44,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 42,
+      "role": "train",
+      "n": 5438,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 42,
+      "role": "valid",
+      "n": 2108,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 42,
+      "role": "test",
+      "n": 2031,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 42,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 43,
+      "role": "train",
+      "n": 5438,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 43,
+      "role": "valid",
+      "n": 2108,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 43,
+      "role": "test",
+      "n": 2031,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 43,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 44,
+      "role": "train",
+      "n": 5438,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 44,
+      "role": "valid",
+      "n": 2108,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 44,
+      "role": "test",
+      "n": 2031,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "test_donor": "patient_1488",
+      "seed": 44,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 42,
+      "role": "train",
+      "n": 6952,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 42,
+      "role": "valid",
+      "n": 517,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 42,
+      "role": "test",
+      "n": 2108,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 42,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 43,
+      "role": "train",
+      "n": 6952,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 43,
+      "role": "valid",
+      "n": 517,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 43,
+      "role": "test",
+      "n": 2108,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 43,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 44,
+      "role": "train",
+      "n": 6952,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 44,
+      "role": "valid",
+      "n": 517,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 44,
+      "role": "test",
+      "n": 2108,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "test_donor": "patient_1256",
+      "seed": 44,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 42,
+      "role": "train",
+      "n": 7337,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 42,
+      "role": "valid",
+      "n": 1723,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 42,
+      "role": "test",
+      "n": 517,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 42,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 43,
+      "role": "train",
+      "n": 7337,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 43,
+      "role": "valid",
+      "n": 1723,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 43,
+      "role": "test",
+      "n": 517,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 43,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 44,
+      "role": "train",
+      "n": 7337,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 44,
+      "role": "valid",
+      "n": 1723,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 44,
+      "role": "test",
+      "n": 517,
+      "cache_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "test_donor": "patient_107",
+      "seed": 44,
+      "role": "pbmc",
+      "n": 4638,
+      "cache_max_error": 0.0
+    }
+  ],
+  "source_files": 63,
+  "input_dim": 512,
+  "dictionary_dim": 2048,
+  "k": 32
+}

@@ -1,0 +1,1064 @@
+{
+  "results": [
+    {
+      "value": "98",
+      "source": "outputs/sae_evaluation/verification.json",
+      "id": "C001_completed_blocks",
+      "status": "verified",
+      "detail": "'98' found in outputs/sae_evaluation/verification.json"
+    },
+    {
+      "value": "0.7874419169071657",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C002_knn_ctrl_macro_f1",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "macro_f1": 0.7874419169071657,
+        "purity_macro_supported": 0.7654754174116046,
+        "neighbor_retention": 0.6694559851740101
+      },
+      "status": "verified",
+      "detail": "'0.7874419169071657' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.7654754174116046",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C003_knn_ctrl_purity_macro_supported",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "macro_f1": 0.7874419169071657,
+        "purity_macro_supported": 0.7654754174116046,
+        "neighbor_retention": 0.6694559851740101
+      },
+      "status": "verified",
+      "detail": "'0.7654754174116046' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.7362164600681115",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C004_knn_pbmc_macro_f1",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "macro_f1": 0.7362164600681115,
+        "purity_macro_supported": 0.6927243975621351,
+        "neighbor_retention": 0.7406940780052227
+      },
+      "status": "verified",
+      "detail": "'0.7362164600681115' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.6927243975621351",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C005_knn_pbmc_purity_macro_supported",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "macro_f1": 0.7362164600681115,
+        "purity_macro_supported": 0.6927243975621351,
+        "neighbor_retention": 0.7406940780052227
+      },
+      "status": "verified",
+      "detail": "'0.6927243975621351' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.7349756827649695",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C006_knn_stim_macro_f1",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "macro_f1": 0.7349756827649695,
+        "purity_macro_supported": 0.7375860240467343,
+        "neighbor_retention": 0.6713762136245354
+      },
+      "status": "verified",
+      "detail": "'0.7349756827649695' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.7375860240467343",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C007_knn_stim_purity_macro_supported",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "macro_f1": 0.7349756827649695,
+        "purity_macro_supported": 0.7375860240467343,
+        "neighbor_retention": 0.6713762136245354
+      },
+      "status": "verified",
+      "detail": "'0.7375860240467343' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-0.3786289915068331",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C008_IFN_ctrl_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "covariates",
+        "r2": -0.3786289915068331,
+        "spearman": 0.14511681736671578,
+        "mae": 0.1802066861243644,
+        "target_variance": 0.058304292242973996
+      },
+      "status": "verified",
+      "detail": "'-0.3786289915068331' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.14511681736671578",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C009_IFN_ctrl_spearman",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "covariates",
+        "r2": -0.3786289915068331,
+        "spearman": 0.14511681736671578,
+        "mae": 0.1802066861243644,
+        "target_variance": 0.058304292242973996
+      },
+      "status": "verified",
+      "detail": "'0.14511681736671578' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-0.47668833190842747",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C010_IFN_ctrl_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding",
+        "r2": -0.47668833190842747,
+        "spearman": 0.2176557741063067,
+        "mae": 0.16543549997005608,
+        "target_variance": 0.058304292242973996
+      },
+      "status": "verified",
+      "detail": "'-0.47668833190842747' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.2176557741063067",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C011_IFN_ctrl_spearman",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding",
+        "r2": -0.47668833190842747,
+        "spearman": 0.2176557741063067,
+        "mae": 0.16543549997005608,
+        "target_variance": 0.058304292242973996
+      },
+      "status": "verified",
+      "detail": "'0.2176557741063067' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-0.4623926177271979",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C012_IFN_ctrl_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding_plus_covariates",
+        "r2": -0.4623926177271979,
+        "spearman": 0.22114766470268604,
+        "mae": 0.16512885927523263,
+        "target_variance": 0.058304292242973996
+      },
+      "status": "verified",
+      "detail": "'-0.4623926177271979' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.22114766470268604",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C013_IFN_ctrl_spearman",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding_plus_covariates",
+        "r2": -0.4623926177271979,
+        "spearman": 0.22114766470268604,
+        "mae": 0.16512885927523263,
+        "target_variance": 0.058304292242973996
+      },
+      "status": "verified",
+      "detail": "'0.22114766470268604' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-0.5178492033378842",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C014_IFN_ctrl_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "covariates",
+        "r2": -0.5178492033378842,
+        "spearman": 0.15936919429505528,
+        "mae": 0.2871161631575497,
+        "target_variance": 0.15384325509270028
+      },
+      "status": "verified",
+      "detail": "'-0.5178492033378842' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.15936919429505528",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C015_IFN_ctrl_spearman",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "covariates",
+        "r2": -0.5178492033378842,
+        "spearman": 0.15936919429505528,
+        "mae": 0.2871161631575497,
+        "target_variance": 0.15384325509270028
+      },
+      "status": "verified",
+      "detail": "'0.15936919429505528' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.04212376540353161",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C016_IFN_ctrl_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding",
+        "r2": 0.04212376540353161,
+        "spearman": 0.3718897405048098,
+        "mae": 0.21073860915248874,
+        "target_variance": 0.15384325509270028
+      },
+      "status": "verified",
+      "detail": "'0.04212376540353161' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.3718897405048098",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C017_IFN_ctrl_spearman",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding",
+        "r2": 0.04212376540353161,
+        "spearman": 0.3718897405048098,
+        "mae": 0.21073860915248874,
+        "target_variance": 0.15384325509270028
+      },
+      "status": "verified",
+      "detail": "'0.3718897405048098' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.03743865443815103",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C018_IFN_ctrl_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding_plus_covariates",
+        "r2": 0.03743865443815103,
+        "spearman": 0.3718241550655741,
+        "mae": 0.2109335681871776,
+        "target_variance": 0.15384325509270028
+      },
+      "status": "verified",
+      "detail": "'0.03743865443815103' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.3718241550655741",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C019_IFN_ctrl_spearman",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding_plus_covariates",
+        "r2": 0.03743865443815103,
+        "spearman": 0.3718241550655741,
+        "mae": 0.2109335681871776,
+        "target_variance": 0.15384325509270028
+      },
+      "status": "verified",
+      "detail": "'0.3718241550655741' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-0.21990413352696647",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C020_IFN_pbmc_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "covariates",
+        "r2": -0.21990413352696647,
+        "spearman": 0.21522139838284324,
+        "mae": 0.1911408339082753,
+        "target_variance": 0.06310668773949145
+      },
+      "status": "verified",
+      "detail": "'-0.21990413352696647' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.21522139838284324",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C021_IFN_pbmc_spearman",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "covariates",
+        "r2": -0.21990413352696647,
+        "spearman": 0.21522139838284324,
+        "mae": 0.1911408339082753,
+        "target_variance": 0.06310668773949145
+      },
+      "status": "verified",
+      "detail": "'0.21522139838284324' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-1.7568786438320372",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C022_IFN_pbmc_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding",
+        "r2": -1.7568786438320372,
+        "spearman": 0.2000707415371739,
+        "mae": 0.2442118221528501,
+        "target_variance": 0.06310668773949145
+      },
+      "status": "verified",
+      "detail": "'-1.7568786438320372' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.2000707415371739",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C023_IFN_pbmc_spearman",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding",
+        "r2": -1.7568786438320372,
+        "spearman": 0.2000707415371739,
+        "mae": 0.2442118221528501,
+        "target_variance": 0.06310668773949145
+      },
+      "status": "verified",
+      "detail": "'0.2000707415371739' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-1.7435019040351059",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C024_IFN_pbmc_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding_plus_covariates",
+        "r2": -1.7435019040351059,
+        "spearman": 0.20127752665187618,
+        "mae": 0.24396499087409895,
+        "target_variance": 0.06310668773949145
+      },
+      "status": "verified",
+      "detail": "'-1.7435019040351059' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.20127752665187618",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C025_IFN_pbmc_spearman",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding_plus_covariates",
+        "r2": -1.7435019040351059,
+        "spearman": 0.20127752665187618,
+        "mae": 0.24396499087409895,
+        "target_variance": 0.06310668773949145
+      },
+      "status": "verified",
+      "detail": "'0.20127752665187618' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-2.509663370125966",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C026_IFN_pbmc_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "covariates",
+        "r2": -2.509663370125966,
+        "spearman": 0.1596222164274111,
+        "mae": 0.3483391557879059,
+        "target_variance": 0.0411657989025116
+      },
+      "status": "verified",
+      "detail": "'-2.509663370125966' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.1596222164274111",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C027_IFN_pbmc_spearman",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "covariates",
+        "r2": -2.509663370125966,
+        "spearman": 0.1596222164274111,
+        "mae": 0.3483391557879059,
+        "target_variance": 0.0411657989025116
+      },
+      "status": "verified",
+      "detail": "'0.1596222164274111' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-5.19082448413593",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C028_IFN_pbmc_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding",
+        "r2": -5.19082448413593,
+        "spearman": 0.015410086070402935,
+        "mae": 0.39409478126513814,
+        "target_variance": 0.0411657989025116
+      },
+      "status": "verified",
+      "detail": "'-5.19082448413593' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.015410086070402935",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C029_IFN_pbmc_spearman",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding",
+        "r2": -5.19082448413593,
+        "spearman": 0.015410086070402935,
+        "mae": 0.39409478126513814,
+        "target_variance": 0.0411657989025116
+      },
+      "status": "verified",
+      "detail": "'0.015410086070402935' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-5.046367774026529",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C030_IFN_pbmc_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding_plus_covariates",
+        "r2": -5.046367774026529,
+        "spearman": 0.025041389864404795,
+        "mae": 0.38948376386726163,
+        "target_variance": 0.0411657989025116
+      },
+      "status": "verified",
+      "detail": "'-5.046367774026529' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.025041389864404795",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C031_IFN_pbmc_spearman",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding_plus_covariates",
+        "r2": -5.046367774026529,
+        "spearman": 0.025041389864404795,
+        "mae": 0.38948376386726163,
+        "target_variance": 0.0411657989025116
+      },
+      "status": "verified",
+      "detail": "'0.025041389864404795' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "-0.0005456608290327842",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C032_IFN_stim_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "covariates",
+        "r2": -0.0005456608290327842,
+        "spearman": 0.047487107959455904,
+        "mae": 0.46227411359376175,
+        "target_variance": 0.3387574354807536
+      },
+      "status": "verified",
+      "detail": "'-0.0005456608290327842' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.047487107959455904",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C033_IFN_stim_spearman",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "covariates",
+        "r2": -0.0005456608290327842,
+        "spearman": 0.047487107959455904,
+        "mae": 0.46227411359376175,
+        "target_variance": 0.3387574354807536
+      },
+      "status": "verified",
+      "detail": "'0.047487107959455904' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.2694770960003356",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C034_IFN_stim_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding",
+        "r2": 0.2694770960003356,
+        "spearman": 0.5017132954829931,
+        "mae": 0.3956112478092076,
+        "target_variance": 0.3387574354807536
+      },
+      "status": "verified",
+      "detail": "'0.2694770960003356' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.5017132954829931",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C035_IFN_stim_spearman",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding",
+        "r2": 0.2694770960003356,
+        "spearman": 0.5017132954829931,
+        "mae": 0.3956112478092076,
+        "target_variance": 0.3387574354807536
+      },
+      "status": "verified",
+      "detail": "'0.5017132954829931' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.2609452048321217",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C036_IFN_stim_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding_plus_covariates",
+        "r2": 0.2609452048321217,
+        "spearman": 0.5009504646708923,
+        "mae": 0.3982273571570129,
+        "target_variance": 0.3387574354807536
+      },
+      "status": "verified",
+      "detail": "'0.2609452048321217' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.5009504646708923",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C037_IFN_stim_spearman",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "B cells",
+        "variant": "embedding_plus_covariates",
+        "r2": 0.2609452048321217,
+        "spearman": 0.5009504646708923,
+        "mae": 0.3982273571570129,
+        "target_variance": 0.3387574354807536
+      },
+      "status": "verified",
+      "detail": "'0.5009504646708923' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.17164104060502813",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C038_IFN_stim_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "covariates",
+        "r2": 0.17164104060502813,
+        "spearman": 0.45438405840839424,
+        "mae": 0.3194747001106764,
+        "target_variance": 0.20828185478846228
+      },
+      "status": "verified",
+      "detail": "'0.17164104060502813' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.45438405840839424",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C039_IFN_stim_spearman",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "covariates",
+        "r2": 0.17164104060502813,
+        "spearman": 0.45438405840839424,
+        "mae": 0.3194747001106764,
+        "target_variance": 0.20828185478846228
+      },
+      "status": "verified",
+      "detail": "'0.45438405840839424' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.3410927516513902",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C040_IFN_stim_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding",
+        "r2": 0.3410927516513902,
+        "spearman": 0.5929278384969563,
+        "mae": 0.28464975382455143,
+        "target_variance": 0.20828185478846228
+      },
+      "status": "verified",
+      "detail": "'0.3410927516513902' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.5929278384969563",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C041_IFN_stim_spearman",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding",
+        "r2": 0.3410927516513902,
+        "spearman": 0.5929278384969563,
+        "mae": 0.28464975382455143,
+        "target_variance": 0.20828185478846228
+      },
+      "status": "verified",
+      "detail": "'0.5929278384969563' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.36905557029581576",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C042_IFN_stim_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding_plus_covariates",
+        "r2": 0.36905557029581576,
+        "spearman": 0.6143352518922794,
+        "mae": 0.2787296010178222,
+        "target_variance": 0.20828185478846228
+      },
+      "status": "verified",
+      "detail": "'0.36905557029581576' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.6143352518922794",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C043_IFN_stim_spearman",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "cell_type": "CD14+ Monocytes",
+        "variant": "embedding_plus_covariates",
+        "r2": 0.36905557029581576,
+        "spearman": 0.6143352518922794,
+        "mae": 0.2787296010178222,
+        "target_variance": 0.20828185478846228
+      },
+      "status": "verified",
+      "detail": "'0.6143352518922794' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.7968779078562108",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C044_fewshot_AULC_ctrl_AULC",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "AULC": 0.7968779078562108
+      },
+      "status": "verified",
+      "detail": "'0.7968779078562108' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.791223576438742",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C045_fewshot_AULC_pbmc_AULC",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "AULC": 0.791223576438742
+      },
+      "status": "verified",
+      "detail": "'0.791223576438742' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.792826160717165",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C046_fewshot_AULC_stim_AULC",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "AULC": 0.792826160717165
+      },
+      "status": "verified",
+      "detail": "'0.792826160717165' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.49574660622117755",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C047_clustering_ctrl_ARI",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "ARI": 0.49574660622117755,
+        "NMI": 0.6927693108700277,
+        "cell_type_silhouette": 0.2263872659780882
+      },
+      "status": "verified",
+      "detail": "'0.49574660622117755' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.6927693108700277",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C048_clustering_ctrl_NMI",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "ARI": 0.49574660622117755,
+        "NMI": 0.6927693108700277,
+        "cell_type_silhouette": 0.2263872659780882
+      },
+      "status": "verified",
+      "detail": "'0.6927693108700277' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.2263872659780882",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C049_clustering_ctrl_cell_type_silhouette",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "ARI": 0.49574660622117755,
+        "NMI": 0.6927693108700277,
+        "cell_type_silhouette": 0.2263872659780882
+      },
+      "status": "verified",
+      "detail": "'0.2263872659780882' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.30775012201342555",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C050_clustering_pbmc_ARI",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "ARI": 0.30775012201342555,
+        "NMI": 0.5723302303041681,
+        "cell_type_silhouette": 0.19005381168611196
+      },
+      "status": "verified",
+      "detail": "'0.30775012201342555' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.5723302303041681",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C051_clustering_pbmc_NMI",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "ARI": 0.30775012201342555,
+        "NMI": 0.5723302303041681,
+        "cell_type_silhouette": 0.19005381168611196
+      },
+      "status": "verified",
+      "detail": "'0.5723302303041681' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.19005381168611196",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C052_clustering_pbmc_cell_type_silhouette",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "ARI": 0.30775012201342555,
+        "NMI": 0.5723302303041681,
+        "cell_type_silhouette": 0.19005381168611196
+      },
+      "status": "verified",
+      "detail": "'0.19005381168611196' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.44281278912569694",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C053_clustering_stim_ARI",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "ARI": 0.44281278912569694,
+        "NMI": 0.6360788730628194,
+        "cell_type_silhouette": 0.18105412614849192
+      },
+      "status": "verified",
+      "detail": "'0.44281278912569694' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.6360788730628194",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C054_clustering_stim_NMI",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "ARI": 0.44281278912569694,
+        "NMI": 0.6360788730628194,
+        "cell_type_silhouette": 0.18105412614849192
+      },
+      "status": "verified",
+      "detail": "'0.6360788730628194' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.18105412614849192",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C055_clustering_stim_cell_type_silhouette",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "ARI": 0.44281278912569694,
+        "NMI": 0.6360788730628194,
+        "cell_type_silhouette": 0.18105412614849192
+      },
+      "status": "verified",
+      "detail": "'0.18105412614849192' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.8727319675791536",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C056_geometry_ctrl_reconstruction_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "role": "test",
+        "reconstruction_r2": 0.8727319675791536,
+        "relative_displacement": 0.05969428856743549,
+        "centered_relative_error": 0.35224758731614814,
+        "relation_KL": 0.06318399301372633
+      },
+      "status": "verified",
+      "detail": "'0.8727319675791536' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.06318399301372633",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C057_geometry_ctrl_relation_KL",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "role": "test",
+        "reconstruction_r2": 0.8727319675791536,
+        "relative_displacement": 0.05969428856743549,
+        "centered_relative_error": 0.35224758731614814,
+        "relation_KL": 0.06318399301372633
+      },
+      "status": "verified",
+      "detail": "'0.06318399301372633' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.9369062751416117",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C058_geometry_ctrl_reconstruction_r2",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "role": "train",
+        "reconstruction_r2": 0.9369062751416117,
+        "relative_displacement": 0.03968100047663558,
+        "centered_relative_error": 0.25117568166934734,
+        "relation_KL": 0.0310158361123269
+      },
+      "status": "verified",
+      "detail": "'0.9369062751416117' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.0310158361123269",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C059_geometry_ctrl_relation_KL",
+      "context": {
+        "dataset": "ctrl",
+        "method": "relation_0p3",
+        "role": "train",
+        "reconstruction_r2": 0.9369062751416117,
+        "relative_displacement": 0.03968100047663558,
+        "centered_relative_error": 0.25117568166934734,
+        "relation_KL": 0.0310158361123269
+      },
+      "status": "verified",
+      "detail": "'0.0310158361123269' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.8270202633041527",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C060_geometry_pbmc_reconstruction_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "role": "test",
+        "reconstruction_r2": 0.8270202633041527,
+        "relative_displacement": 0.06472750445688655,
+        "centered_relative_error": 0.414378923809785,
+        "relation_KL": 0.09548050417012072
+      },
+      "status": "verified",
+      "detail": "'0.8270202633041527' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.09548050417012072",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C061_geometry_pbmc_relation_KL",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "role": "test",
+        "reconstruction_r2": 0.8270202633041527,
+        "relative_displacement": 0.06472750445688655,
+        "centered_relative_error": 0.414378923809785,
+        "relation_KL": 0.09548050417012072
+      },
+      "status": "verified",
+      "detail": "'0.09548050417012072' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.9625872974941366",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C062_geometry_pbmc_reconstruction_r2",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "role": "train",
+        "reconstruction_r2": 0.9625872974941366,
+        "relative_displacement": 0.02517222945800312,
+        "centered_relative_error": 0.19316370174305386,
+        "relation_KL": 0.013637658000790434
+      },
+      "status": "verified",
+      "detail": "'0.9625872974941366' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.013637658000790434",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C063_geometry_pbmc_relation_KL",
+      "context": {
+        "dataset": "pbmc",
+        "method": "relation_0p3",
+        "role": "train",
+        "reconstruction_r2": 0.9625872974941366,
+        "relative_displacement": 0.02517222945800312,
+        "centered_relative_error": 0.19316370174305386,
+        "relation_KL": 0.013637658000790434
+      },
+      "status": "verified",
+      "detail": "'0.013637658000790434' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.8896696680603619",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C064_geometry_stim_reconstruction_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "role": "test",
+        "reconstruction_r2": 0.8896696680603619,
+        "relative_displacement": 0.057068751876891,
+        "centered_relative_error": 0.3288185604500646,
+        "relation_KL": 0.056822134307707474
+      },
+      "status": "verified",
+      "detail": "'0.8896696680603619' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.056822134307707474",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C065_geometry_stim_relation_KL",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "role": "test",
+        "reconstruction_r2": 0.8896696680603619,
+        "relative_displacement": 0.057068751876891,
+        "centered_relative_error": 0.3288185604500646,
+        "relation_KL": 0.056822134307707474
+      },
+      "status": "verified",
+      "detail": "'0.056822134307707474' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.9419737952054584",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C066_geometry_stim_reconstruction_r2",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "role": "train",
+        "reconstruction_r2": 0.9419737952054584,
+        "relative_displacement": 0.03933487378553099,
+        "centered_relative_error": 0.24087135991227382,
+        "relation_KL": 0.027951136398389167
+      },
+      "status": "verified",
+      "detail": "'0.9419737952054584' found in outputs/sae_evaluation/SUMMARY.json"
+    },
+    {
+      "value": "0.027951136398389167",
+      "source": "outputs/sae_evaluation/SUMMARY.json",
+      "id": "C067_geometry_stim_relation_KL",
+      "context": {
+        "dataset": "stim",
+        "method": "relation_0p3",
+        "role": "train",
+        "reconstruction_r2": 0.9419737952054584,
+        "relative_displacement": 0.03933487378553099,
+        "centered_relative_error": 0.24087135991227382,
+        "relation_KL": 0.027951136398389167
+      },
+      "status": "verified",
+      "detail": "'0.027951136398389167' found in outputs/sae_evaluation/SUMMARY.json"
+    }
+  ],
+  "summary": {
+    "verified": 67
+  }
+}

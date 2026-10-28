@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "pathway_hypotheses_recomputed": 6462,
+  "matched_random_sets_checked": 20000,
+  "matched_p_max_error": 1.1102230246251565e-16,
+  "hypergeom_fisher_crosscheck": true,
+  "BH_statsmodels_crosscheck": true,
+  "input_hashes_unchanged": true,
+  "scope": "arithmetic, membership, matched strata and provenance; not biological validation"
+}

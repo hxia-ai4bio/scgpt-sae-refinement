@@ -1,0 +1,33 @@
+{
+  "previous_54_selected_features_match": true,
+  "previous_54_max_AUROC_difference": 0.0,
+  "pairwise_vs_rank_AUC_verified": true,
+  "cache_rows_labels_and_sparsity_verified": true,
+  "train_test_donor_disjoint_verified": true,
+  "records": 144,
+  "seconds": 5.293332815170288,
+  "sources_sha256": {
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/data_manifest.json": "1eeb5d86e66ef463c5b8e765e66ee3da45e6fb6a6a0678449ec3acf30edbf9cd",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1016/seed_42/k_32/sae_outputs.npz": "0fb2708ae00bdbd839679db63bf81f1a266036068c66899dcc1a3d73958846d8",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1016/seed_43/k_32/sae_outputs.npz": "49ba10335ecd5058401915f0d7857085d2e562539396ccd9c23af33a2a9f5201",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1016/seed_44/k_32/sae_outputs.npz": "e57a6b13e9df8c41effb7b08391013c623ad477a1eb19d85c71f383741c017b0",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1039/seed_42/k_32/sae_outputs.npz": "fcb284c497cea42ba3e0545cbe5f5c528d0f6df9b4876480f8eee64c4ad0c1d5",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1039/seed_43/k_32/sae_outputs.npz": "eb45b8d9032287ec61d5fa9bf17a78dfce57fb439405400b6b100a8d51d0e577",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1039/seed_44/k_32/sae_outputs.npz": "7db06e1f15ebc2b6ed7c58a29d3312b0d3753f59719236435f3c8d045e9b0da5",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1015/seed_42/k_32/sae_outputs.npz": "331e2f110e4de32093280fb3680f8cda6bab5e354ec12b3aaf6b33a55f90444d",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1015/seed_43/k_32/sae_outputs.npz": "a5590eee66cafc83cfadf4b9b3c93597a8015b6237289f6337000754af8ae5fb",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1015/seed_44/k_32/sae_outputs.npz": "da25dda4be159595960dcd1f1506dea802efd448f842b55ef17f715c1f360865",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1488/seed_42/k_32/sae_outputs.npz": "fd3850bfcdd689be154eb5c34166b14ed731328312ef3ef657c7c63ed19eb4e1",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1488/seed_43/k_32/sae_outputs.npz": "92a5f134adca0f10f1e6167371a162e0842f106683d0f595d4646c4e586e45a2",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1488/seed_44/k_32/sae_outputs.npz": "760a5bbe521c10ae8d1b78b9d64ec90c4261679893577be427ddfe986c59bf11",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1256/seed_42/k_32/sae_outputs.npz": "8656eb2b3fab270a73bca0396e9ffa45954771b9e47837af329ce5dc530625eb",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1256/seed_43/k_32/sae_outputs.npz": "88d4f5abac2dbef6f35c0be4294de12e3b68d0d968f839a7b79831447b0976b1",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1256/seed_44/k_32/sae_outputs.npz": "5bced3f98281d14a6c4da64498f5d753ea86e1b13ef8dfe219b3c37d358ea180",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_107/seed_42/k_32/sae_outputs.npz": "bb379d2876f6cb3fc9be7cdcf5bcad7fb1ef1331b7e600397b21df446c114c70",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_107/seed_43/k_32/sae_outputs.npz": "73cee940fa214f0f71c2c0ad11634e511c2345f99e99d2e91b4b672786e088b8",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_107/seed_44/k_32/sae_outputs.npz": "c0ecd575c2e8c25e805d022cec240842232b72cb5cf2eed9bf11c5d0cbc650ff",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_interpretability/all_fold_single_feature_readouts.csv": "f7767d865d6aa95fb44192cc6e27f109bb788d62b3c828adf00183d4238c19c4",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/compute_all_celltypes.py": "9ced2f71bf49f31ccb5dd81be289b6738164b7a51317f10d2b8cda4091444abe"
+  }
+}

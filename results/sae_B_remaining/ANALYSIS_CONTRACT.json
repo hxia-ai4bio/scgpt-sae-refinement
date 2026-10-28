@@ -1,0 +1,32 @@
+{
+  "status": "frozen before new gene/pathway results",
+  "features": [
+    137,
+    370,
+    146,
+    1373,
+    1125,
+    1409
+  ],
+  "selection": "all previously eligible dictionary features with mean TRAIN donor B-cell AUC>=0.70 excluding already analyzed160,898,1387; flag min donor AUC<0.70 separately; no new TEST selection",
+  "prototypes": "2 highest positive B cells per 4 TRAIN donors;4 per historical TEST donor;3 nearest same-donor B cells with zero target SAE activation; no fallback",
+  "attribution": "original minus single reference-value replacement activation; fixed gene tokens and bins, no raw-count renormalization; include actual TopK and preTopK encoder; own SAE-selected prototypes, embedding/PCA controls descriptive",
+  "aggregation": "reference equal, then prototype equal, then donor equal; missing input genes contribute zero, conditional mean and coverage separately",
+  "genes": "positive TRAIN scores; all-input top40 and remove RPL/RPS then reselect top40; same background prefix removal",
+  "pathways": "GO BP/Reactome/Hallmark MSigDB2025.1.Hs;5..500 members in actually TRAIN-covered background; retain unannotated background genes; ORA upper hypergeom",
+  "null": "10000 random without-replacement sets per list, joint mean raw-count quintiles/detection quintiles from all TRAIN B cells and token coverage1-2/3-5/6-8; selected remain eligible; save full precision bins and draws",
+  "multiplicity": "BH across all SIX new features x BOTH lists x all3databases; previous3features retain old data but any all9 integrated BH is explicitly secondary",
+  "exact_sensitivity": "predeclared exact stratum-hypergeom convolution; not replacement for primary MC p; separate global BH; diagnose finite MonteCarlo resolution, retains coarse-bin assumptions",
+  "test": "no gene/pathway selection using TEST; attribution-ranked versus expression-difference and10 joint-bin matched random deletion orders on selected TEST prototypes; descriptive one donor, not independent causal evidence",
+  "interpretation": "model-input sensitivity and annotation association only; no pathway activation or causal program claim",
+  "complexity": "216 reference pairs, batched16; sequential features; same frozen models; no refit",
+  "seed": {
+    "deletion": 20261019,
+    "pathway": [
+      20261018,
+      "feature",
+      "analysis_index"
+    ]
+  },
+  "backend": "MPS float32,batch16; selected baseline/single replacement and maximal combination CPU slow parity tolerance3e-5; production GPU availability required"
+}

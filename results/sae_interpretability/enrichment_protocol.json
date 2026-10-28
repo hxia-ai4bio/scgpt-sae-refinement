@@ -1,0 +1,9 @@
+{
+  "method": "top40 positive score ORA (not paper GSEA)",
+  "background": "all genes actually tested in each attribution/association table",
+  "pathways": "Hallmark50 + Reactome1787, local2025.1 version hashes verified",
+  "eligibility": "5 to500 tested genes in a pathway; whole-pathway coverage reported",
+  "multiplicity": "BH across all four feature/pathway tests for each analysis source and split; empirical matched-null q in separate family",
+  "matched_null": "TRAIN only; 2000 random sets, without replacement, preserve joint quintile bins of TRAIN target-population gene mean expression and detection rate",
+  "inference": "conditional exploratory annotation; nominal gene-exchangeability null; same RNA; not causal evidence"
+}

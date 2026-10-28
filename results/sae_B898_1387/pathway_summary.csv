@@ -1,0 +1,13 @@
+feature,analysis,collection,tested,ora_fdr,matched_fdr,exact_sensitivity_fdr,min_matched_q
+898,all_input_top40,GO_BP,2167,13,0,0,1.0
+898,all_input_top40,Hallmark,44,0,0,0,1.0
+898,all_input_top40,Reactome,706,26,0,0,1.0
+898,nonribosomal_top40,GO_BP,2155,47,0,0,1.0
+898,nonribosomal_top40,Hallmark,44,0,0,0,1.0
+898,nonribosomal_top40,Reactome,684,4,0,0,1.0
+1387,all_input_top40,GO_BP,2466,4,0,0,1.0
+1387,all_input_top40,Hallmark,44,0,0,0,1.0
+1387,all_input_top40,Reactome,761,21,0,0,1.0
+1387,nonribosomal_top40,GO_BP,2449,0,0,0,1.0
+1387,nonribosomal_top40,Hallmark,44,0,0,0,1.0
+1387,nonribosomal_top40,Reactome,743,1,0,0,1.0

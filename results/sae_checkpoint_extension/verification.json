@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "new_body_trajectories": 24,
+  "new_fresh_heads": 24,
+  "checkpoint_VALID_replays": 168,
+  "new_expression_rows": 72,
+  "new_knn_rows": 144,
+  "dataset_verification": {
+    "stim": {
+      "sha256": "565251f9bb50769ad005f8c61051e59744235cae85a6f40195c7645ca207e6fe",
+      "body_trajectories": 18,
+      "checkpoint_VALID_objective_replays": 126
+    },
+    "pbmc": {
+      "sha256": "093d6b22000badafac7ad8dd29c00ce86ee008f5a4f3ee61f63445d9616cfedf",
+      "body_trajectories": 6,
+      "checkpoint_VALID_objective_replays": 42
+    }
+  },
+  "global_sources_rechecked": true,
+  "both_datasets_locked_before_new_TEST": true,
+  "root_aggregation_independently_recomputed": true,
+  "ctrl_context": "Old ctrl source metrics are explicit context; not counted in24newpairs or72newexpressionrows."
+}

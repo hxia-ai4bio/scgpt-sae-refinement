@@ -1,0 +1,181 @@
+{
+  "agent_id": "/root/expression_probe_audit",
+  "verdict_id": "/root/expression_probe_audit/2026-10-19/final",
+  "executor_model": "exact resolved model unavailable; GPT-6 based Codex",
+  "executor_family": "openai",
+  "requested_reviewer_model": "gpt-6-astra",
+  "requested_reviewer_reasoning": "ultra",
+  "reviewer_model": "actual resolved model unavailable",
+  "reviewer_reasoning": "requested ultra; resolved effort not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "generated_at": "2026-10-19T14:28:05.762482+00:00",
+  "date": "2026-10-19",
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "implementation_integrity": "pass",
+  "numerical_integrity": "pass",
+  "reason_code": "exploratory_fixed_recipe_scope_not_implementation_failure",
+  "summary": "No observed blocking leakage, prediction-linkage or numerical defect. Matched fresh probes support a negative superiority result under this fixed protocol; broader claims need scope qualifiers.",
+  "audited_input_hashes": {
+    ".aris/traces/experiment-audit/2026-10-19_expression_probe/reviewer_final_checks.json": "sha256:4a787a0bc1dd38f1758544310590f5c660079fc1ac25c61c6e965e2849970846",
+    ".aris/traces/experiment-audit/2026-10-19_expression_probe/reviewer_final_checks.py": "sha256:340e3116ca4a328f599b24df702a56f440769025558a2049756579d6210f0fa3",
+    ".aris/traces/experiment-audit/2026-10-19_expression_probe/reviewer_final_dependency_hashes.json": "sha256:dc0b25aab7439a2f513f6136374f497d76a674f7652411aa18c067ec30438d2f",
+    ".aris/traces/experiment-audit/2026-10-19_expression_probe/reviewer_preflight_check.json": "sha256:4278481444d32182c52d5433c37ce577d0e71e4114d7ac75dcf70285d95ae173",
+    ".aris/traces/experiment-audit/2026-10-19_expression_probe/reviewer_recomputed_metrics.csv": "sha256:9c1378559041b8f5bcba829fe2af29480e71c1589ed8b806c69790499d834e9e",
+    ".aris/traces/experiment-audit/2026-10-19_expression_probe/reviewer_reductions.json": "sha256:4e6a95556ba98160f205d84f5595d80fa75e193060b66bf57a0e0a008c160353",
+    "outputs/sae_expression_probe/EVIDENCE_CLAIMS.json": "sha256:47e3818dc7e1f38882326eecde695bc1fffdf048c80e8082c8ef523f1a71885b",
+    "outputs/sae_expression_probe/EVIDENCE_PRECHECK.json": "sha256:66d5bc6f9d973e95eaec33888a6c296e40c88174b9ec4d831d1872af4248c888",
+    "outputs/sae_expression_probe/EXPERIMENT_TRACKER.json": "sha256:cfb32f0fe444a3d6ee02ee343fa4a34d86011a9ad3ca835f9ff282f9efdf434a",
+    "outputs/sae_expression_probe/INPUT_BINDINGS.json": "sha256:184e311141dda85fa60f56fdb11e775f1f84893ac33b70b90597ad5bd516a742",
+    "outputs/sae_expression_probe/PILOT.json": "sha256:a77720ea1e2221cb6651cda40bd4700efee26b78725a897c8fa4bd7f1d530f03",
+    "outputs/sae_expression_probe/PREFLIGHT.json": "sha256:30ceea8c83fa3e0cafcbb2421b1cac3c07d040a167cdc2e2f0006933da57382e",
+    "outputs/sae_expression_probe/PRE_TEST_AMENDMENT.json": "sha256:d7ae8498e76c7b807527f8b00a2a852d213dccb6e293009b46b2085adde96a2e",
+    "outputs/sae_expression_probe/PROTOCOL.json": "sha256:70bacd191c6cbc21ee29a02bef15b90576a574418db33a77f42c25c4fde7bf3d",
+    "outputs/sae_expression_probe/REPORT.html": "sha256:999b7c3cb000673e0c9bb3c839352dda6abd09230c56f5f94bfbb02fc2482cfe",
+    "outputs/sae_expression_probe/REPRODUCIBILITY.txt": "sha256:c8df99d108ab629ca3a10e558d392c190f41427eb19b1eff2329be56592824a1",
+    "outputs/sae_expression_probe/SELECTION_LOCK.json": "sha256:fb8f12244b2553e63db8717370e346eae35687b8703a16bccbb1b8a0e23baeb3",
+    "outputs/sae_expression_probe/SUMMARY.json": "sha256:913f79c6695aa8d1dc2b9ad72edfee7700fa356d40d8a55b3963c73870c50854",
+    "outputs/sae_expression_probe/all_metrics.csv": "sha256:a796911ae99995680162fcd6513438c084e04a8775653a556ca242e6f4319c61",
+    "outputs/sae_expression_probe/all_metrics.json": "sha256:bc538eb0531abd03221fdf188cf66ef3d796d22f9f05feceb351ff5fb367c9fa",
+    "outputs/sae_expression_probe/comparison.csv": "sha256:e569b2526c47fde46e30cc6b099f6217037973bdd61de6d1042e4a400c1e3eea",
+    "outputs/sae_expression_probe/group_metrics.csv": "sha256:52d7bc8eb1a469a1fb6e058719059954ee98d63bef9ff16d2da8713106df132f",
+    "outputs/sae_expression_probe/paired_metrics.csv": "sha256:578fb5d63161d4c18238389c2c8dd0802371ed9f1c8ce6dbbcf592ce2c626a72",
+    "outputs/sae_expression_probe/resources.json": "sha256:7225f739642db6e53eeb92eb24f46098b28895476d2862d1efdc174bcf651834",
+    "outputs/sae_expression_probe/seed_metrics.csv": "sha256:72e87675bb2ab43a12e4f2deea48d7b0877d339cff1c8b7189d216d4071cd8e2",
+    "outputs/sae_expression_probe/summary.csv": "sha256:3348ff399e9e618a791de28509fe8ffcf9f3fc3999e259df528d332337ade809",
+    "outputs/sae_expression_probe/verification.json": "sha256:a1bd92ae5c14c3c7fcb4f6f1b43c92fcaec468306ca42641c92d84b82b691365",
+    "outputs/sae_masked_ac/CLAIMS_FROM_RESULTS.json": "sha256:da35860e8a28da913d0d9beda2d32119ac455ae60bfbf36bccb593bc4323e890",
+    "outputs/sae_masked_ac/EXPERIMENT_AUDIT.json": "sha256:33a44a8748dd6c922770caeac4db23162cba24c1cbd71b29fe37abfde4abebe1",
+    "outputs/sae_masked_ac/PROTOCOL.json": "sha256:e8b726c50f003b1d0e2bfeef5e562b4a72451438c3e1f74c34f42acf6b20469b",
+    "outputs/sae_masked_ac/verification.json": "sha256:2cb3b2c11698b50404f9b97deabeb2f9d119dc96caf6bdb57801052c1a696954",
+    "work/sae_expression_probe/report.py": "sha256:23ae626778086ebeb9ade5e144d34224540bff1ef5efb84243b18f7e1f437674",
+    "work/sae_expression_probe/run.py": "sha256:c3a9a25ff98721739008dd4a681f07d555746fd924596f9ecec7fb6c0867a394",
+    "work/sae_expression_probe/verify.py": "sha256:013f4a394cb21c48815f87d2ea1b01c7011f58dce65e2929c809ddea1ebdfd7a",
+    "work/sae_masked_ac/pipeline.py": "sha256:905c4fd889f745674a0420e7dc6f52e8d27eda3715de4ee82ded938f8dade74c",
+    "work/sae_masked_ac/prepare.py": "sha256:68a8944bebbcab1ddbc3ec03a97ce9dd971601b713550ada9d019a764ad7ba2e"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-10-19_expression_probe/",
+  "checks": {
+    "gt_provenance": {
+      "status": "PASS",
+      "details": "Targets are original observed RNA logCP10k, never model outputs. New TEST/VALID target arrays, gene indices and row order exactly match the bound canonical data; parent raw-RNA audit is inherited. This is same-RNA self-supervised reconstruction, not independent functional biological ground truth.",
+      "evidence": [
+        "work/sae_masked_ac/prepare.py:24",
+        "work/sae_masked_ac/pipeline.py:32",
+        "work/sae_expression_probe/run.py:150",
+        "reviewer_final_checks.json"
+      ]
+    },
+    "score_normalization": {
+      "status": "PASS",
+      "details": "Primary MAE remains in raw logCP10k units. Feature scaling and target mean/std are TRAIN-only; normalized MSE uses TRAIN gene std, not a prediction-derived denominator. All84 scalers and420 metric entries independently reproduced.",
+      "evidence": [
+        "work/sae_expression_probe/run.py:113",
+        "work/sae_expression_probe/run.py:163",
+        "reviewer_final_checks.json"
+      ]
+    },
+    "result_existence": {
+      "status": "PASS",
+      "details": "84 unique heads and84 TEST results exist, selected state/scalers are locked before evaluation, and9 primary quoted values mechanically verify. 787 input/head dependency hashes passed; all168 TEST/selected VALID target identities and bounded head prediction links passed.",
+      "evidence": [
+        "outputs/sae_expression_probe/SELECTION_LOCK.json",
+        "outputs/sae_expression_probe/verification.json",
+        "outputs/sae_expression_probe/EVIDENCE_PRECHECK.json",
+        "reviewer_final_checks.json"
+      ]
+    },
+    "dead_code": {
+      "status": "PASS",
+      "details": "metrics() is called from evaluate() for each of84 configurations; all five saved metric fields were independently recalculated from actual predictions. No result is sourced from an uncalled metric function.",
+      "evidence": [
+        "work/sae_expression_probe/run.py:163",
+        "work/sae_expression_probe/run.py:184",
+        "reviewer_final_checks.json"
+      ]
+    },
+    "scope": {
+      "status": "WARN",
+      "details": "Qualified fixed-recipe exploratory comparison only. Six shared Kang donors, two PBMC batch directions, three seeds, one positive-token mask; historical data, unequal upstream C supervision, no convergence or independent biological-causality claim.",
+      "evidence": [
+        "outputs/sae_expression_probe/PROTOCOL.json",
+        "outputs/sae_expression_probe/REPORT.html",
+        "reviewer_reductions.json"
+      ]
+    },
+    "paired_fairness_and_selection": {
+      "status": "PASS_WITH_QUALIFIERS",
+      "details": "Both arms use matching targets/masks/batches, identical new seed+400003 heads, TRAIN-only per-arm standardization, same optimizer/budget and VALID selection grid. Independent initial arrays match the new seed and differ from old C seed+2003. The initial-seed overlap was corrected and v1 artifacts archived before new TEST scoring. Same head recipe does not equal equal total upstream training.",
+      "evidence": [
+        "work/sae_expression_probe/run.py:93",
+        "work/sae_expression_probe/run.py:108",
+        "outputs/sae_expression_probe/PRE_TEST_AMENDMENT.json",
+        "reviewer_final_checks.json"
+      ]
+    },
+    "numerical_and_prediction_linkage": {
+      "status": "PASS",
+      "details": "Production verifier:84 complete TEST plus84 selected VALID head-prediction replays,84 TRAIN scalers,42 paired checks and126 bounded64-cell C forwards. Reviewer:84 exact new initializations/scalers,168 complete target identity checks,168 random1024-entry head checks,126 random32-cell C forwards,420 metric recomputations and independent grouped reductions. Maximum reviewer prediction error3.4041e-6; C forward/scaler error0; metric error5.5512e-17.",
+      "evidence": [
+        "outputs/sae_expression_probe/verification.json",
+        "reviewer_final_checks.json",
+        "reviewer_reductions.json"
+      ]
+    },
+    "eval_type": {
+      "status": "PASS",
+      "classification": "self_supervised_proxy",
+      "details": "Recovery of held-out entries from the same observed RNA; raw dataset target provenance, not model-generated pseudo-ground-truth."
+    }
+  },
+  "blocking_implementation_issues": [],
+  "resolved_preflight_issue": "Same upstream/probe initial seed replaced by independently namespaced seed+400003 for both arms before TEST; archived v1 heads excluded.",
+  "limitations": [
+    "Historical exploratory cohorts; no independent new-study confirmation or verified exclusion of scGPT pretraining overlap.",
+    "ctrl/stim share six donors, folds overlap in TRAIN, and PBMC has two batch directions. Forty-two pairs and fourteen dataset-specific contexts are not forty-two or fourteen independent biological replicates.",
+    "One fixed25pct mask on originally selected positive tokens. Expression presence/token selection is conditioned on; zero-expression and full-transcriptome imputation are outside scope.",
+    "C already received TRAIN-expression supervision; new heads have a matched recipe but total upstream supervision/compute is unequal. No SAE-specific necessity or biological causality is identified.",
+    "All84 heads select the first nonzero monitored checkpoint, step100, from the fixed0/100/250/500/750/1000 grid. Fixed Adam and this stopping grid do not establish optimal linear-readout capacity or convergence.",
+    "Current C checkpoints are fixed parent step1000. Negative results concern these representations and this probe protocol, not all possible C/SAE training methods.",
+    "Source scGPT extraction and raw-RNA provenance are inherited from the hash-bound parent audit; this review does not rerun full scGPT extraction. Production verification replays all saved TEST/selected VALID predictions, while manual C forwards and reviewer head checks are bounded; earlier unselected checkpoints were not retrained."
+  ],
+  "reviewer_verification": {
+    "status": "PASS",
+    "time": "2026-10-19T14:24:16.956169+00:00",
+    "dependency_hash_checks": 787,
+    "counts": {
+      "heads": 84,
+      "metric_checks": 420,
+      "all_target_identity_checks": 168,
+      "scaler_checks": 84,
+      "initialization_checks": 84,
+      "bounded_head_prediction_checks": 168,
+      "C_random_forward_checks": 126
+    },
+    "max_errors": {
+      "head_prediction": 3.4040237135712914e-06,
+      "C_forward": 0.0,
+      "metric": 5.551115123125783e-17,
+      "scaler": 0.0
+    },
+    "selected_step_counts": {
+      "ctrl/original_h/100": 18,
+      "ctrl/C_sae/100": 18,
+      "stim/original_h/100": 18,
+      "stim/C_sae/100": 18,
+      "pbmc/original_h/100": 6,
+      "pbmc/C_sae/100": 6
+    },
+    "scope": "All84 saved heads: exact initialization and TRAIN scaler; all168 TEST/selected VALID target identities and metric arithmetic; random1024 target-entry head replays perrole;126 C forward replays of32 random cells perrole. No training or earlier checkpoint recreation. Source backbone extraction inherited from bound parent and prior audit."
+  },
+  "actions": [
+    "Report the negative primary result and the small mixed gene-macro exception together.",
+    "Preserve all84 heads and all42 paired comparisons. No post-TEST tuning, refitting, or new experiment is required to report this fixed run."
+  ]
+}

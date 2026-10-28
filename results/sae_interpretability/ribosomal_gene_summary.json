@@ -1,0 +1,22 @@
+[
+  {
+    "feature": 440,
+    "top40_RPL_RPS_genes": 19,
+    "top_positive_genes": 40
+  },
+  {
+    "feature": 160,
+    "top40_RPL_RPS_genes": 22,
+    "top_positive_genes": 40
+  },
+  {
+    "feature": 120,
+    "top40_RPL_RPS_genes": 24,
+    "top_positive_genes": 40
+  },
+  {
+    "feature": 1724,
+    "top40_RPL_RPS_genes": 25,
+    "top_positive_genes": 40
+  }
+]

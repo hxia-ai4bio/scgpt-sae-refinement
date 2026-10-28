@@ -1,0 +1,9 @@
+feature,other_seed,initial_random_matched_feature,initial_random_matched_cosine,final_vs_own_initial_cosine,scope
+440,43,84,0.15696074324581408,0.8274383654365343,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+160,43,444,0.14597317593143172,0.6965047571053155,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+120,43,1241,0.15957815252888424,0.7365984834722559,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+1724,43,1076,0.1356885550955218,0.5469909272632835,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+440,44,1764,0.15884625728223165,0.8274383654365343,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+160,44,212,0.14877301731519368,0.6965047571053155,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+120,44,1836,0.1600889697423355,0.7365984834722559,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization
+1724,44,76,0.16215554973586657,0.5469909272632835,architecture/initialization control; final cross-fold same-seed stability may reflect shared initialization

@@ -1,0 +1,37 @@
+{
+  "scope": "descriptive decomposition of original prespecified fixed-eight-class endpoint, not removing rare classes or changing the endpoint",
+  "records": [
+    {
+      "method": "concat_SAE",
+      "total_TEST_macro_delta_pp": -0.4354130893501858,
+      "Megakaryocyte_contribution_to_total_pp": -0.6085927960927963,
+      "other_seven_classes_combined_contribution_pp": 0.17317970674260996,
+      "per_class_deltas_pp": {
+        "B cells": 0.2140592999328777,
+        "CD14+ Monocytes": 0.0946023225448634,
+        "CD4 T cells": 0.1030890302296595,
+        "CD8 T cells": -0.3681685777446239,
+        "Dendritic cells": 1.5793975745058784,
+        "FCGR3A+ Monocytes": -0.1756508848764283,
+        "Megakaryocytes": -4.86874236874237,
+        "NK cells": -0.061891110651347
+      }
+    },
+    {
+      "method": "crossfit_residual_SAE",
+      "total_TEST_macro_delta_pp": -0.3362175794520577,
+      "Megakaryocyte_contribution_to_total_pp": -0.2777777777777778,
+      "other_seven_classes_combined_contribution_pp": -0.058439801674279715,
+      "per_class_deltas_pp": {
+        "B cells": 0.1296152632141778,
+        "CD14+ Monocytes": -0.0380713426232766,
+        "CD4 T cells": 0.135380162989133,
+        "CD8 T cells": -0.2047224217892172,
+        "Dendritic cells": -0.0931890758156633,
+        "FCGR3A+ Monocytes": -0.3642301347564226,
+        "Megakaryocytes": -2.2222222222222223,
+        "NK cells": -0.0323008646129688
+      }
+    }
+  ]
+}

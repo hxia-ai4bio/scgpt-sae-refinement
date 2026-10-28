@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "scope": "deterministic evidence existence only; semantic review independent",
+  "sources": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/summary.json": "ed7167a64ec9f2b27467afec0a73263212644f4d17d0282736eb12572c91fc00",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/verification.json": "f32442c6af36d02e0368728d8390aca6995d6af9576b925e56b19dbafd986afd",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/planned_contrasts.json": "569831a0e6ba34b3a7a9f22bce5ba9aa18cf19130f1b4e7cf26196256866d919",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/final_geometry_summary.csv": "800c87993aba8498e08dc982d2612cb798bf6321540b7f9cae9ea926d73ed804"
+  }
+}

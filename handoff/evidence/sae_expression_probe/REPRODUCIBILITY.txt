@@ -1,0 +1,15 @@
+Working directory: /Users/apple/Documents/Codex/2026-10-18/wo
+Runtime: /opt/anaconda3/envs/scgpt/bin/python
+Resource detection: resources.json (CPU float32, four threads; no scGPT extraction required).
+Protocol and immutable consumed inputs: PROTOCOL.json and INPUT_BINDINGS.json.
+Preflight: python work/sae_expression_probe/run.py preflight
+Paired TRAIN/VALID-only fit: python work/sae_expression_probe/run.py develop
+TEST, only after all heads/scalers/checkpoints selected and SELECTION_LOCK.json created:
+  python work/sae_expression_probe/run.py evaluate
+Deterministic prediction, scaler, target and initialization replay:
+  python work/sae_expression_probe/verify.py
+Summary and HTML:
+  python work/sae_expression_probe/report.py
+These scripts depend on existing immutable parent data/checkpoints and original absolute workspace paths. source_snapshot is archival; execute from work/sae_expression_probe.
+Both arms use freshly initialized linear heads under seed+400003, not the original C head's seed+2003. Pre-TEST amendment and unused v1 artifacts are documented separately; no v1 models enter final results.
+Parent A/C experiment remains sealed and unmodified. New TEST data are historically explored, not an independent blind cohort. Never use this TEST to reselect/refit the C checkpoint or a favorable seed.

@@ -1,0 +1,11 @@
+{
+  "cpu_logical": null,
+  "memory_total_GB": 25.769803776,
+  "memory_available_GB": 8.609988608,
+  "disk_free_GB": 546.187927552,
+  "torch": "2.3.1",
+  "machine": "arm64",
+  "mps_available": false,
+  "cuda_available": false,
+  "swap": "unavailable under sandbox; resource detector fallback"
+}

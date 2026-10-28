@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "seconds": 5.153019189834595,
+  "train_B_cells_for_matching": 941,
+  "pathway_tests": 6462,
+  "random_sets_per_analysis": 10000,
+  "pathway_gene_links": 5500,
+  "no_model_retraining": true
+}

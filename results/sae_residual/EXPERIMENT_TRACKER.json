@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "training": "complete",
+  "evaluation": "complete",
+  "numerical_verification": "PASS",
+  "scientific_review": "WARN",
+  "scope": "historically explored data; descriptive development comparison"
+}

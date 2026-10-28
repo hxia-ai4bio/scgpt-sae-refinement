@@ -1,0 +1,7 @@
+analysis,collection,tested,ora_fdr,matched_fdr,min_matched_q
+all_input_top40,GO_BP,2447,8,0,0.35896410358964104
+all_input_top40,Hallmark,44,0,0,0.7136420686289581
+all_input_top40,Reactome,760,26,0,0.7136420686289581
+nonribosomal_top40,GO_BP,2433,6,0,0.32306769323067697
+nonribosomal_top40,Hallmark,44,0,0,0.7733273916702817
+nonribosomal_top40,Reactome,734,2,0,0.7136420686289581

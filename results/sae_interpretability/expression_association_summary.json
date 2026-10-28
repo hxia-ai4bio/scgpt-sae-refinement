@@ -1,0 +1,142 @@
+[
+  {
+    "feature": 440,
+    "target": "CD14+ Monocytes",
+    "split": "train",
+    "n": 1788,
+    "design_rank": 6,
+    "feature_residual_sum_squares": 158.0288414179738,
+    "degenerate_feature": false
+  },
+  {
+    "feature": 440,
+    "target": "CD14+ Monocytes",
+    "split": "test",
+    "n": 393,
+    "design_rank": 3,
+    "feature_residual_sum_squares": 37.84367166530334,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.33972250351654754,
+    "train_top40_present": 40,
+    "train_top40_mean_partial_r": 0.18207449938304027,
+    "train_top40_positive_fraction": 0.975
+  },
+  {
+    "feature": 440,
+    "target": "CD14+ Monocytes",
+    "split": "pbmc",
+    "n": 564,
+    "design_rank": 5,
+    "feature_residual_sum_squares": 0.8506081988928645,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.05535260518434789,
+    "train_top40_present": 39,
+    "train_top40_mean_partial_r": -0.002076459709396017,
+    "train_top40_positive_fraction": 0.46153846153846156
+  },
+  {
+    "feature": 160,
+    "target": "B cells",
+    "split": "train",
+    "n": 941,
+    "design_rank": 6,
+    "feature_residual_sum_squares": 27.80934216598982,
+    "degenerate_feature": false
+  },
+  {
+    "feature": 160,
+    "target": "B cells",
+    "split": "test",
+    "n": 125,
+    "design_rank": 3,
+    "feature_residual_sum_squares": 2.4275066374482317,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.2572735593333181,
+    "train_top40_present": 40,
+    "train_top40_mean_partial_r": 0.10157413439151868,
+    "train_top40_positive_fraction": 0.9
+  },
+  {
+    "feature": 160,
+    "target": "B cells",
+    "split": "pbmc",
+    "n": 476,
+    "design_rank": 5,
+    "feature_residual_sum_squares": 15.593946379712445,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.14193064793131085,
+    "train_top40_present": 40,
+    "train_top40_mean_partial_r": 0.13322851584318138,
+    "train_top40_positive_fraction": 0.8
+  },
+  {
+    "feature": 120,
+    "target": "NK cells",
+    "split": "train",
+    "n": 577,
+    "design_rank": 6,
+    "feature_residual_sum_squares": 11.788739722269455,
+    "degenerate_feature": false
+  },
+  {
+    "feature": 120,
+    "target": "NK cells",
+    "split": "test",
+    "n": 90,
+    "design_rank": 3,
+    "feature_residual_sum_squares": 1.519601564896051,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.12212246854229959,
+    "train_top40_present": 40,
+    "train_top40_mean_partial_r": 0.10010489098664185,
+    "train_top40_positive_fraction": 0.75
+  },
+  {
+    "feature": 120,
+    "target": "NK cells",
+    "split": "pbmc",
+    "n": 276,
+    "design_rank": 5,
+    "feature_residual_sum_squares": 5.596265621776357,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.18391596950242112,
+    "train_top40_present": 39,
+    "train_top40_mean_partial_r": 0.11386599333485169,
+    "train_top40_positive_fraction": 0.8461538461538461
+  },
+  {
+    "feature": 1724,
+    "target": "all",
+    "split": "train",
+    "n": 7394,
+    "design_rank": 13,
+    "feature_residual_sum_squares": 118.2150503143578,
+    "degenerate_feature": false
+  },
+  {
+    "feature": 1724,
+    "target": "all",
+    "split": "test",
+    "n": 1723,
+    "design_rank": 10,
+    "feature_residual_sum_squares": 24.621624321913963,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.13862819969072568,
+    "train_top40_present": 40,
+    "train_top40_mean_partial_r": 0.06968091123441239,
+    "train_top40_positive_fraction": 1.0
+  },
+  {
+    "feature": 1724,
+    "target": "all",
+    "split": "pbmc",
+    "n": 4638,
+    "design_rank": 12,
+    "feature_residual_sum_squares": 113.33158591453957,
+    "degenerate_feature": false,
+    "train_gene_ranking_spearman": 0.09733182351084672,
+    "train_top40_present": 40,
+    "train_top40_mean_partial_r": 0.050321590376144185,
+    "train_top40_positive_fraction": 1.0
+  }
+]

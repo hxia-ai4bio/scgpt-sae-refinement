@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "primary_atlas": "complete",
+  "all18_readouts": "complete",
+  "expression_proxy": "complete",
+  "occlusion": "complete",
+  "deletion_controls": "complete",
+  "enrichment": "complete",
+  "deterministic_verification": "PASS",
+  "semantic_audit": "WARN",
+  "scope": "bounded exploratory pilot; no scGPT/SAE retraining or stimulation analysis"
+}

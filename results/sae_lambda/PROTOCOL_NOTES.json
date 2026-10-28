@@ -1,0 +1,3 @@
+{
+  "note": "Inherited reference_arms field lists existing_raw20 from the previous experiment. In this fixed sensitivity grid, existing_raw20 is initialization provenance only, not an evaluated reference arm. Actual evaluated reference is original_h and paired control is lambda0 continue_mse. Selections() and INTENDED_CLAIMS specify the132evaluated models; no change to runs, budget or selection. Frozen protocol and runner are preserved."
+}

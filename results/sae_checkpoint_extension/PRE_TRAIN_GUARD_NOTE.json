@@ -1,0 +1,7 @@
+{
+  "reason": "Strengthen global-lock check inside direct evaluate entrypoint, in addition to bound coordinator guard.",
+  "training_started": false,
+  "TEST_scored": false,
+  "scientific_rules_changed": false,
+  "archived_old_bindings": "Each dataset PRE_GUARD_INPUT_BINDINGS.json; old run source archived in work only."
+}

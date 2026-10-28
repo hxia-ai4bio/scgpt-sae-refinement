@@ -1,0 +1,10 @@
+{
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_gene_attribution_v2/gene_evidence_combined.csv": "1c1d5a4b247124e70095e41930bd1573592b0645de8a4e8f99848a11e247283f",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/data_manifest.json": "1eeb5d86e66ef463c5b8e765e66ee3da45e6fb6a6a0678449ec3acf30edbf9cd",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d",
+  "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad": "e6a5adac64dcdeb36eaba27db49b63e0c64bb0ed4a64c6705971506b41c39830",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/run.py": "cc2c9bb4a62ef82e6334b157f67aba1267e022eabc1013b5b207756bae3cd5a7",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/h.all.v2025.1.Hs.symbols.gmt": "f22066af72e215ccb7b89d88e492c07e1eef17534c2ca7b0f9902cfecbbdd8e9",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/c2.cp.reactome.v2025.1.Hs.symbols.gmt": "53b9b506bf3be87700cbb3cbbbb7a6faa847fbe62e65421541b14a2b763bab6b",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_pathways_v3/gene_sets/c5.go.bp.v2025.1.Hs.symbols.gmt": "7fb5d2513caf56cc35b810f4ae39b6e075e5140e6cc14bf89de3bceae79b34e2"
+}

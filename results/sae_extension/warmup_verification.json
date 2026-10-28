@@ -1,0 +1,194 @@
+[
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 600,
+    "checkpoint_sha": "6afdf0956cf25f22cf6c019b0cc9374829a5f2efa13eb11022700a3bfabc9bc8"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 600,
+    "checkpoint_sha": "e4e5fbc27a6dbab3cfb064b7fd9438daa292eb8bfca6e0ac9f3a726530bd47fa"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 600,
+    "checkpoint_sha": "fdc923e3d19e7226dcf26c65de81bf88d27a562728daa37e14fb3e9341f10946"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 540,
+    "checkpoint_sha": "dd407f54bc54b2e4f6fbfddb9ef2066136a9abf70debef610452d0f8556b70f6"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 540,
+    "checkpoint_sha": "1d3ac3b4a1d391682098719dd340dc74538bf740b48a06234f00802af619c75c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 540,
+    "checkpoint_sha": "6711a76d76f98ef8918909ca0ff741fa25eae7c807dce5031c2faff894e052a1"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 380,
+    "checkpoint_sha": "7a629173b99d15f3cea8c807e3045235cbcf25ad87d968a135d82719c9ecd947"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 380,
+    "checkpoint_sha": "e6e10c7d0948ed21b764b5809a5be00fd0a05cf9e8da02a308d3530c7632456c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 380,
+    "checkpoint_sha": "65a4d8a2ed08679bc06eea2036acde84b75995f63c53045ec036f7ed5e7933f7"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 420,
+    "checkpoint_sha": "c6f88c04e65166b33598544f3963a54a15fec6dff1e99795995b5033c51a194c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 420,
+    "checkpoint_sha": "4982048c4ac74ada2a69f7990eda73180977ba55539f0eec60e4d70d692bf416"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 420,
+    "checkpoint_sha": "d6e2bbbf7a8a1b0569f24a7e081f9ba8511111fc8877097c66dcf9d742b45651"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 580,
+    "checkpoint_sha": "db1017b47d16d5fab34c8e5ebea1c6bc92149e1c3bb1ca04ba986dbac68ca4fb"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 580,
+    "checkpoint_sha": "1f3f928fef42168b255466a4ec6a1c3fb49f73e7cbe31040f3abd40d7a228064"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 580,
+    "checkpoint_sha": "81c6e01fde86b3d0effb1c3cd4cba1c5ef633f66dd52ce80d9feabb80b1e7be7"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 600,
+    "checkpoint_sha": "eeed7b3b9e19195dae424d2dbefb3a984546ccfdc0151a067c8381d1c2a0f09f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 600,
+    "checkpoint_sha": "7a092e758a5ae7dadf4379847b7b59e8a7ffeca219c1b93c3ba5c57a74688838"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 600,
+    "checkpoint_sha": "85c4bbe1934021d7c343e0476691de9251e37a7ce8fa06511594f9dfad993ed6"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 180,
+    "checkpoint_sha": "0b9efe8fb8734470726fde20fe4a3812500ad39aa4fff455357aa9bd34372291"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 180,
+    "checkpoint_sha": "7251d8ee7b5bb1fa8290fe0be004b5736574d0f7cb2cf2e673f7a3d5d1e93d60"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 180,
+    "checkpoint_sha": "85eeae9ae8c5917673b969695a8c7dd64603e4994632474abbfd5c8ee8911176"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "selected_epoch": 20,
+    "selected_updates": 140,
+    "checkpoint_sha": "9f3686940c0f1473dc44943a267c0ae94e5c645e4f682c1fa4fa26c5b93b6358"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "selected_epoch": 20,
+    "selected_updates": 140,
+    "checkpoint_sha": "28185e49235f4d1bc5eec03f2ff36cd28f35aedb2300788fad670e9c44b43d9c"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "selected_epoch": 20,
+    "selected_updates": 140,
+    "checkpoint_sha": "8b130fd800c97b84f740bb45336f3566559fc01cd0f6345588e98bf9473b4523"
+  }
+]

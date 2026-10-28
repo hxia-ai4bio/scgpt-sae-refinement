@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "new_fits_done": 126,
+  "new_fits_total": 126,
+  "test_readouts": 364,
+  "completed_at": "2026-10-19T13:08:39.837494+00:00",
+  "verification_status": "PASS",
+  "integrity_status": "warn",
+  "claim_supported": "partial",
+  "review_acceptance": "provisional"
+}

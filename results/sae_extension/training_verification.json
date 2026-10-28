@@ -1,0 +1,2186 @@
+[
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.027670501332997,
+      "encoder.bias": 0.759695308251525,
+      "decoder.weight": 20.952983451115433
+    },
+    "checkpoint_sha": "e193e5dbee392a4ee710dfa731a5afb36ced371cbaba43bed0c11523847ac4ba"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.034708242669236,
+      "encoder.bias": 0.7586114106924043,
+      "decoder.weight": 20.999815368899636
+    },
+    "checkpoint_sha": "10a8f1823c17d42445638cb42b3b080b60d32c4d87f0c959d429c1cf26ecd67a"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.037098378205009,
+      "encoder.bias": 0.7557991885606002,
+      "decoder.weight": 21.042447810155306
+    },
+    "checkpoint_sha": "fc3c74e099bffa666f9328e0db6e2265ba03fcf8d00a7c23e3977f5ab5edfc32"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.906887841799085,
+      "encoder.bias": 0.7195488933344342,
+      "decoder.weight": 20.833782858532786
+    },
+    "checkpoint_sha": "e87458788e9b6cf69b49c64ceaae625252029d3797e1d1da48912cfabb99dc93"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.401446159562223,
+      "encoder.bias": 0.6302437719334512,
+      "decoder.weight": 19.25262589735526
+    },
+    "checkpoint_sha": "bc607ca3106e9a6e27e1391b7ce87c74cc6e7331fa147910506d6044d3ddc6a2"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.64980192395099,
+      "encoder.bias": 0.49907231451521045,
+      "decoder.weight": 14.844904763427618
+    },
+    "checkpoint_sha": "1989199fecfb66cad577f86505f8922941b7c7c9ece4fcfab7b5dd958a6242e5"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.382111740735368,
+      "encoder.bias": 0.41546424087389067,
+      "decoder.weight": 10.855494696466256
+    },
+    "checkpoint_sha": "f44d09f44d7c8f6c0c67f3c7956f35a06f2426d691601c1653ae7a9fc3e6105b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.1097043852188975,
+      "encoder.bias": 0.7578207025042831,
+      "decoder.weight": 21.054059487614673
+    },
+    "checkpoint_sha": "8ec1589c8805eb09db2c288deca00ad45b95cda9efb5458cea510eb9c24062eb"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.10713938859584,
+      "encoder.bias": 0.7560380397177846,
+      "decoder.weight": 21.099552156382032
+    },
+    "checkpoint_sha": "2ff80339804a7f3fe49d25b22100bc9961fdeab30d1186afca6b72aa668dea75"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.08644187057488,
+      "encoder.bias": 0.7509674369230174,
+      "decoder.weight": 21.051667024454193
+    },
+    "checkpoint_sha": "c6f63c1946a92807dcd83cb80e781fa8985dc2957faa22ddcab9b515ff6d8c20"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.945331031377001,
+      "encoder.bias": 0.7202035223980788,
+      "decoder.weight": 20.892205428097284
+    },
+    "checkpoint_sha": "661ca9fdbe3d4f93c8992bb2a960ec69ccd5b8bcd54a325788cc2f6845486fa8"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.419399146327061,
+      "encoder.bias": 0.6280352145540713,
+      "decoder.weight": 19.28496639593743
+    },
+    "checkpoint_sha": "c136148ae183196df402a8a0ac0fba1a1eeaffd4725b6f785da3debda8bc84d6"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.637034707144886,
+      "encoder.bias": 0.4985613360217933,
+      "decoder.weight": 14.77121501418102
+    },
+    "checkpoint_sha": "28b5217f11d44746281358e106ec77a5f3577425d2e705177331cb0d1080b383"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.404271439674253,
+      "encoder.bias": 0.4193004847765422,
+      "decoder.weight": 10.858351080301352
+    },
+    "checkpoint_sha": "7b511da549b73b9b48a5125246904f73af435d4ac96ae1268923571cd5f1083b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.058474226645589,
+      "encoder.bias": 0.7571920730831639,
+      "decoder.weight": 21.031699006328044
+    },
+    "checkpoint_sha": "726f2678038f4be7ddb27d4ea886274998a0408fedd1f11e59574c4b25fd6c0c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.046055288159005,
+      "encoder.bias": 0.7539561478808531,
+      "decoder.weight": 20.964005085601084
+    },
+    "checkpoint_sha": "fcf570d23d88e164e3f6db40a0b967e094e61b1030628db54e5f9ace007feaee"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.032568663332104,
+      "encoder.bias": 0.7466115729576825,
+      "decoder.weight": 20.973423951472537
+    },
+    "checkpoint_sha": "8cae33094232beb732ad2938fe949c3452011cd07faaf27f71d0fbf18d46f9dd"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.902082865879463,
+      "encoder.bias": 0.7157576218448223,
+      "decoder.weight": 20.727418110451683
+    },
+    "checkpoint_sha": "b2d5ea7574443f53f95ec8080ce8d2396e8231a94e48108300f8c0ef078c4951"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.403819235466688,
+      "encoder.bias": 0.6288985983699763,
+      "decoder.weight": 19.2190926104737
+    },
+    "checkpoint_sha": "0117d844f578b3f5864b92c3c467c0d14c1d771686fd9410f9e74e1a5d40524c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.627592678946145,
+      "encoder.bias": 0.5043968421469748,
+      "decoder.weight": 14.71249419086412
+    },
+    "checkpoint_sha": "e286b78a2d9fe6a3f665d7dc185567274faf8e740ce57cb1d1a75991c83fdb37"
+  },
+  {
+    "dataset": "stim",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.379490996521524,
+      "encoder.bias": 0.41694781146508963,
+      "decoder.weight": 10.774666132735947
+    },
+    "checkpoint_sha": "2b49b97d1efc08e37a52760b821912f083c09db8bcdfdef7e6d9d4d6eee47043"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.2890239289618055,
+      "encoder.bias": 0.7729097591118409,
+      "decoder.weight": 21.800001371358302
+    },
+    "checkpoint_sha": "bdef1ca1d18c7263badf885a2206ffe9365f74ee8b682a60d23bc65080ad645d"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.280738013631381,
+      "encoder.bias": 0.7705218735992924,
+      "decoder.weight": 21.81272945429042
+    },
+    "checkpoint_sha": "53160ad921d44bd399e1c322a1e39d94e1823721323d3da8b20f5a1068f0e9b4"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.2635008749580265,
+      "encoder.bias": 0.760375407927248,
+      "decoder.weight": 21.80928682417009
+    },
+    "checkpoint_sha": "5c8a902a30e6951cbe63c9535ce82669f10c0e618fe6b19ad2395d812dd43c6b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.109954049763207,
+      "encoder.bias": 0.7167478995505278,
+      "decoder.weight": 21.52221981160808
+    },
+    "checkpoint_sha": "4a05e42ed6d8b349fc8a2ec013451df898fd1ebdee02525ca878fed08390b8b6"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.5491852785810485,
+      "encoder.bias": 0.6128909978057895,
+      "decoder.weight": 19.658662113023926
+    },
+    "checkpoint_sha": "bb0e61e42a83c51b3e059f7daf1a6cb84c9df4c4f72e9a72ac5702914ec55108"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.758646224180063,
+      "encoder.bias": 0.4735770806319059,
+      "decoder.weight": 14.796930007312467
+    },
+    "checkpoint_sha": "2482c53ad0a31693941b8e335a1e65522a98b62ae06257b9ef610450d9074a3b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.462860075189403,
+      "encoder.bias": 0.3936986448987485,
+      "decoder.weight": 10.823225624375615
+    },
+    "checkpoint_sha": "cddb8a4083f7de26e0964d018cec9b83fc1e28699fcbf750f80501144c11dad6"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.275259513975859,
+      "encoder.bias": 0.7817952038691676,
+      "decoder.weight": 21.764900841238656
+    },
+    "checkpoint_sha": "c6e16264ebabf51c8eee00a74590b1702620dc91ea43054bf33ab5923aaed99d"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.293295564329204,
+      "encoder.bias": 0.777638441570855,
+      "decoder.weight": 21.799660653998213
+    },
+    "checkpoint_sha": "3c33e61275441bea661c98674608bb7cc98da81722493075945a2ffee1610212"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.281494162043719,
+      "encoder.bias": 0.7737127881171576,
+      "decoder.weight": 21.766018057811227
+    },
+    "checkpoint_sha": "c0d89e9da539122408ef8af14097734f2b867ea84512e90b402443e4236b4d6c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.098206350261053,
+      "encoder.bias": 0.7280960201730193,
+      "decoder.weight": 21.484823900990907
+    },
+    "checkpoint_sha": "bbf68c5ea1d8552f3ab62ff5c0ed4c3cd67de8525a9756556696d341eeafe6e2"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.515797529053068,
+      "encoder.bias": 0.624837364331796,
+      "decoder.weight": 19.54224074189074
+    },
+    "checkpoint_sha": "fdedd60cda53e8f81934630f1f5f531d9eac0904cb25cf14a424dcf103d4cf01"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.707667872470771,
+      "encoder.bias": 0.48067388372189285,
+      "decoder.weight": 14.710355540622318
+    },
+    "checkpoint_sha": "fb15309ead47178bb3a2ee8282e2f09285780050b5beb15bd77dddac8b8fd305"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.456593663677063,
+      "encoder.bias": 0.394952409735122,
+      "decoder.weight": 10.72778416165274
+    },
+    "checkpoint_sha": "7a11265d7ddbe38f45ee43b75d61780efaddd9569b5f4dc0f3b438d7d07769f5"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.239041527486022,
+      "encoder.bias": 0.7803409000327637,
+      "decoder.weight": 21.58446595990961
+    },
+    "checkpoint_sha": "e751f4a96e00de5d00811cd66bdd46b2f5c88caabe8d896bb9c17f6ab9813e20"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.236253222014408,
+      "encoder.bias": 0.7738684720575406,
+      "decoder.weight": 21.63267765679893
+    },
+    "checkpoint_sha": "9d342b8d28931e5050a7be58fe2683231e72e1d47aa1c8e1ac9503558f1b9a9d"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.200665235913599,
+      "encoder.bias": 0.765006889118251,
+      "decoder.weight": 21.57645677413121
+    },
+    "checkpoint_sha": "061d17e08d2cde8d8416375b0bbff868d6ba3a24c40fffc8eabb56ce1fd3bf32"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.050011883582147,
+      "encoder.bias": 0.7258193383893482,
+      "decoder.weight": 21.257571418932606
+    },
+    "checkpoint_sha": "cb27a3c49998ca9b4567b01d593acdf1c5df4ff7939a5bb14f939408b98026e7"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.498028717506406,
+      "encoder.bias": 0.6251071767543533,
+      "decoder.weight": 19.458513331537258
+    },
+    "checkpoint_sha": "773de8527fff3c0a05cd560b2137749bf94d2166493af7190642a9b9c027d042"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.696097394584023,
+      "encoder.bias": 0.4870095088603002,
+      "decoder.weight": 14.626675703040478
+    },
+    "checkpoint_sha": "24781d16e59a5d867e9bda83307b5c50fc3bdb48aca8a17e68eaea859a483d86"
+  },
+  {
+    "dataset": "stim",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.459827659120747,
+      "encoder.bias": 0.4044146420882327,
+      "decoder.weight": 10.702853503520936
+    },
+    "checkpoint_sha": "d05061b0910206a61af6f7e1aad8bc2d43c0c058e90b5ba06e681a1c1f495f13"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.024931986871179,
+      "encoder.bias": 0.9392653034658539,
+      "decoder.weight": 23.591325628419646
+    },
+    "checkpoint_sha": "08d03e1b91dc77f57e8e06a810d56f5d3444348880dc166e7353c2ae00bf824d"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.987521390398801,
+      "encoder.bias": 0.9332445517508813,
+      "decoder.weight": 23.542921525689515
+    },
+    "checkpoint_sha": "06f53a1d9785a2e1ad804a47ec8ef97c32c96b4d1c1242e63691e5656b3581a5"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.986115405028918,
+      "encoder.bias": 0.9252177026678757,
+      "decoder.weight": 23.597108394429416
+    },
+    "checkpoint_sha": "2a914914b10d47e3df89343eb2717caae137ebabc0bd2231e9960dc3551dea4f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.774592255406028,
+      "encoder.bias": 0.8706704758463045,
+      "decoder.weight": 23.243858053092907
+    },
+    "checkpoint_sha": "a7526509380186d02da843ea5f58d60f052f43ed3c37352383045057647d177f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.129780077898987,
+      "encoder.bias": 0.7421525729328352,
+      "decoder.weight": 21.383266457329306
+    },
+    "checkpoint_sha": "4c60cd8d9e1a367e2ce06ca931e3767b712887b54325b46ea9228fade3472d40"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.09885319218682,
+      "encoder.bias": 0.5553903487705255,
+      "decoder.weight": 16.37108913932322
+    },
+    "checkpoint_sha": "5604087d185599fac8eb8cb5de1ad834a4a3c77fc9f11adfdb0568049e3eb524"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.599176849245385,
+      "encoder.bias": 0.43882930913882456,
+      "decoder.weight": 11.647523021509956
+    },
+    "checkpoint_sha": "4583e3ad0f8404facac471eccf5f2c362a6c73b77d14c35cf2eabd3c4951da35"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.980127269036769,
+      "encoder.bias": 0.9312342219322657,
+      "decoder.weight": 23.671559576528324
+    },
+    "checkpoint_sha": "08dc8f8f2bf54cf84ab06ed0d36f14c6fedde19da7acc373ef79e644b52afbe7"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.985019976626005,
+      "encoder.bias": 0.9299770847590939,
+      "decoder.weight": 23.704143912744303
+    },
+    "checkpoint_sha": "67835d19abe5da1dfd500f29dda99e158afd99dc83a87a2d7f90b479a0e47de8"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.957419100484813,
+      "encoder.bias": 0.9191405342685655,
+      "decoder.weight": 23.69279927145817
+    },
+    "checkpoint_sha": "8db876511144b30b7fa3808ae5b5bb7efcaa273c0e936ebd83b8f3d982f7228a"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.759830444598068,
+      "encoder.bias": 0.8692752962258156,
+      "decoder.weight": 23.31931633015561
+    },
+    "checkpoint_sha": "0c3870503176daf0291c53691c0be442a36f873f23ad3099389a982046cf362f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.169957522835004,
+      "encoder.bias": 0.7422250575319693,
+      "decoder.weight": 21.640915846758286
+    },
+    "checkpoint_sha": "7a39f7e426b764255a95597efd91be0451f2b4aefe1308854dfc123751c2d6df"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.1137871369326025,
+      "encoder.bias": 0.5544084504242229,
+      "decoder.weight": 16.535336407968884
+    },
+    "checkpoint_sha": "3967e9da7d247fe12dd30e00ead58184d5b7277373bc26a184f0c83be153e4d3"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.587026155202424,
+      "encoder.bias": 0.4326863476009911,
+      "decoder.weight": 11.743233352176812
+    },
+    "checkpoint_sha": "49b5f5ccefa178aa5e3b70066cd80745aa123b4133db616a4d2fe26a055413d0"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.073158886087725,
+      "encoder.bias": 0.9333473055243475,
+      "decoder.weight": 23.750197443340834
+    },
+    "checkpoint_sha": "0bf7a6e210f280d33a805dcf02764a76845f1818c8e7850e2c51af7a7e2da796"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.06821675863627,
+      "encoder.bias": 0.9264826896545189,
+      "decoder.weight": 23.794306672768005
+    },
+    "checkpoint_sha": "fe7d93d36a2970621a60e839346b7dc074144cde1a2960a310d88a095c9c35d2"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.039244584597808,
+      "encoder.bias": 0.9189726807490242,
+      "decoder.weight": 23.800223099652705
+    },
+    "checkpoint_sha": "ddf4119d84c8be02fc955914a347bf5fd6764b5c0f43db9638a343bc460888ea"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.852214521606273,
+      "encoder.bias": 0.8699064405758815,
+      "decoder.weight": 23.46508439916183
+    },
+    "checkpoint_sha": "ba52b36ebf3f9816525e44b37107dd332d05079bc4bd0a2aee20c40d4c9739a0"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.195485750616602,
+      "encoder.bias": 0.7418137364794078,
+      "decoder.weight": 21.654588496019155
+    },
+    "checkpoint_sha": "31e535a5911d30f026ec31bc9ca5b01c83d25f70e15669b777924b6206d9b493"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.169891090059172,
+      "encoder.bias": 0.5550849371263065,
+      "decoder.weight": 16.620765802376653
+    },
+    "checkpoint_sha": "9c58da736e38a0f444bbeda1f7f266d74b3095ead9f7caef1dff8a49f64393d0"
+  },
+  {
+    "dataset": "stim",
+    "fold": 2,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.644274040589159,
+      "encoder.bias": 0.4397113837111758,
+      "decoder.weight": 11.855501701999357
+    },
+    "checkpoint_sha": "f60e85ded480bfd639841840a4c55592a1954c2eb3048ea388a29b43736d807e"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.962370191322009,
+      "encoder.bias": 0.9213528648722015,
+      "decoder.weight": 23.47365895070284
+    },
+    "checkpoint_sha": "48f04e52a93de5475f5a18f8be7964a9ea526d77ab814ef5f8de309d192870d9"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.949371251857369,
+      "encoder.bias": 0.9173455774465228,
+      "decoder.weight": 23.444815752904358
+    },
+    "checkpoint_sha": "fdb3d1750dc81757d0edccfd29c4df46a2192c1c30abec00a4d27767452d350b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.924144562675089,
+      "encoder.bias": 0.906789158088436,
+      "decoder.weight": 23.446505556612262
+    },
+    "checkpoint_sha": "69c89a745d6a3727469f52efe03546f2fc3f62d3eca10844cf41d38d2f73fce5"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.7826921698691445,
+      "encoder.bias": 0.8673622803359373,
+      "decoder.weight": 23.26530291012031
+    },
+    "checkpoint_sha": "bf286a01feb1e7b0239ab434fdd18608b27597d09e5eafca9792b8946b7e9591"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.16800044236558,
+      "encoder.bias": 0.7468791919379638,
+      "decoder.weight": 21.688968191633926
+    },
+    "checkpoint_sha": "ccaabe48df006f18c7bade7aac4b734380ad126612815d9449b93aed4c8fcdf5"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.16440599654812,
+      "encoder.bias": 0.5737880715458892,
+      "decoder.weight": 16.87329786171031
+    },
+    "checkpoint_sha": "aa093407fdc371049713762966efa91dff4c2e5b342f23e0dd9d0d096b8e84c5"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.599284407670949,
+      "encoder.bias": 0.4515878390924844,
+      "decoder.weight": 11.922328579691635
+    },
+    "checkpoint_sha": "5a1c2a712d3eb90a090bbdf225545673957b923df42413ecb86dc2b1ca749e89"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.019615880298064,
+      "encoder.bias": 0.9392429672023288,
+      "decoder.weight": 23.6196705941037
+    },
+    "checkpoint_sha": "bb78d45339045a3b76d8d040d3a6c47d1de9aedf11102bf2a3d0cdfa91ce8d0b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.997947936554401,
+      "encoder.bias": 0.931478508723911,
+      "decoder.weight": 23.640655255320024
+    },
+    "checkpoint_sha": "cb2c914c2fc3e5e759f581962d49f2a4bc3919e601f35a9c5bfbd4c9d51f2439"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.970772544995285,
+      "encoder.bias": 0.9196332693887036,
+      "decoder.weight": 23.586111782289308
+    },
+    "checkpoint_sha": "6ca5823f600b7d6efc8d000e431cb06b760784742f3272c9e27245077d24af86"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.819501249912919,
+      "encoder.bias": 0.8794587502751833,
+      "decoder.weight": 23.378893606293865
+    },
+    "checkpoint_sha": "622b251b03b7ad95527c3fbe26600076ae0031beee513019821e257ae20ac394"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.237109919639759,
+      "encoder.bias": 0.7649961491508791,
+      "decoder.weight": 21.76293520785401
+    },
+    "checkpoint_sha": "049c2e3c2aad3c0db341dae998b33d0dcfbee0a65f2198885b5ead2a320fd07f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.19558027001882,
+      "encoder.bias": 0.5811128934391642,
+      "decoder.weight": 16.91413464417808
+    },
+    "checkpoint_sha": "738038a431b86001e134a5b565dca173c747a947879221890a4c3fab54150773"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.66894043848474,
+      "encoder.bias": 0.45663462469841626,
+      "decoder.weight": 12.08996195106276
+    },
+    "checkpoint_sha": "43f85a20124e31751fb82e9a51b83b865c1a17a65494e0f3b8921e318867f3ad"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.974241525925094,
+      "encoder.bias": 0.9145638783251533,
+      "decoder.weight": 23.424487746489124
+    },
+    "checkpoint_sha": "7150f81c8279ce6b08ab1886f714dad2642e3b0a7f56681075635ede8606667c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.989348262173673,
+      "encoder.bias": 0.912953612390279,
+      "decoder.weight": 23.50715685536952
+    },
+    "checkpoint_sha": "942121c85b83b062df8a0306933942c84966bd0d02f956458c615f99d0b1db98"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.944932500365838,
+      "encoder.bias": 0.9031296336175635,
+      "decoder.weight": 23.43295848695522
+    },
+    "checkpoint_sha": "d0397f78d7ef25cb5a198389ccfb40a8fc70f9837721e08d3a753c60fd7bcbed"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.784767615818052,
+      "encoder.bias": 0.8595044388715732,
+      "decoder.weight": 23.193715338002583
+    },
+    "checkpoint_sha": "f2575e58c2fd2b8832fa70255475a1e4b0f8909a2fbf249601a72c0e665035e7"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.19980301644142,
+      "encoder.bias": 0.7465915319369056,
+      "decoder.weight": 21.74183913078979
+    },
+    "checkpoint_sha": "e15d6d532d5c82f9e6cfbb04e001f7543826e42b5b69012d5974af51535c64f8"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.169735535382629,
+      "encoder.bias": 0.5686281328595346,
+      "decoder.weight": 16.89399160248878
+    },
+    "checkpoint_sha": "72b0b3341e077c42dfef4fe1d93caa40a1e04f799e66df547694628cf0b40993"
+  },
+  {
+    "dataset": "stim",
+    "fold": 3,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.633586603451155,
+      "encoder.bias": 0.456253298969492,
+      "decoder.weight": 11.989957965965173
+    },
+    "checkpoint_sha": "17edbc8751082ee8657002512f9f007e3ba966e4484a74225b4da6eaa433953d"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.178170663382716,
+      "encoder.bias": 0.8051604139542501,
+      "decoder.weight": 21.069675893477662
+    },
+    "checkpoint_sha": "9f38e7745c886bfa5f891206ded5022bc106c1e9ef716cf26dbc61b621708437"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.1704361946489446,
+      "encoder.bias": 0.797894390318328,
+      "decoder.weight": 21.097922260597638
+    },
+    "checkpoint_sha": "b339a39ce79124693782667ee727fc3e7b68c1ef3b5f0fb1f37bca5222724b25"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.155057504133189,
+      "encoder.bias": 0.7907700872800137,
+      "decoder.weight": 21.098354767311356
+    },
+    "checkpoint_sha": "8cae957d8a7991e19bf1d58732f9ceb5c0f43791c9b4ff59d70e00033c4dce6e"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.011184055113592,
+      "encoder.bias": 0.7465074008446813,
+      "decoder.weight": 20.874718000429855
+    },
+    "checkpoint_sha": "2a2c02a52bf7fed2f2296014628cdc2cfbd55939b675684cc8bbfbb62e445a72"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.505678184619268,
+      "encoder.bias": 0.6436133657430678,
+      "decoder.weight": 19.15369102563049
+    },
+    "checkpoint_sha": "ca4dd0faf24d22a27799809c64f8bad9159825ed0fd1298a105294e15d83e261"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.772066431516416,
+      "encoder.bias": 0.5044511787687423,
+      "decoder.weight": 14.572860697280229
+    },
+    "checkpoint_sha": "3cb2b5714a013cc3e237f16a370f4e90cb78eb598885b3e44bdad2c45daebce8"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.542048340482055,
+      "encoder.bias": 0.40996509303401657,
+      "decoder.weight": 10.863982353858887
+    },
+    "checkpoint_sha": "70ac991b07edcf48e36ce7c1b17fb4f8ae86efcf35571d3c53df4b516175ce13"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.221935520840453,
+      "encoder.bias": 0.8167730482053167,
+      "decoder.weight": 21.224863625840865
+    },
+    "checkpoint_sha": "e3fe6a68d5a1f6e1d2d24e7e3e71ca983b6dfddb08a9f1e163f1e02ba54e72de"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.2376627740424215,
+      "encoder.bias": 0.8177792801551106,
+      "decoder.weight": 21.29930218435748
+    },
+    "checkpoint_sha": "fc8daa3a4a299baedfb76dd9661b4da64a071ce5a8c25306d553eb41663db5af"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.210044465953907,
+      "encoder.bias": 0.8063733786928465,
+      "decoder.weight": 21.26790104084301
+    },
+    "checkpoint_sha": "68c5b598174064ef154629852896b210ba6d716bb378e659a98ab24b21445068"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.071469869129792,
+      "encoder.bias": 0.7688600954263236,
+      "decoder.weight": 21.00945730248672
+    },
+    "checkpoint_sha": "8d659d60e408086b10c21dd05f74532f769906d19bae3253f417148707036624"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.540351387640826,
+      "encoder.bias": 0.6646186086949798,
+      "decoder.weight": 19.19903414524025
+    },
+    "checkpoint_sha": "11e0c8c88e5807f20ffdeaa3d27afb050f40b0854c723279c2832bfb30836a7c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.80719210171873,
+      "encoder.bias": 0.5133621634613662,
+      "decoder.weight": 14.661197078678585
+    },
+    "checkpoint_sha": "1db30037e8041698c56dd837d68bab5785ae19c9e5d90e89e3db6c576724a73f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.531559764200566,
+      "encoder.bias": 0.41553157929407625,
+      "decoder.weight": 10.831019160050623
+    },
+    "checkpoint_sha": "e17b22be18220c1bf1d9fd98915f91368089864de4e6af737f1c541518a6e335"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.200716744836882,
+      "encoder.bias": 0.8163978532694073,
+      "decoder.weight": 21.084179260810206
+    },
+    "checkpoint_sha": "88cde53a834eac84ba1018a7f7b6da2eed03aa6f45054e208a95479eb72989d2"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.1995424521779325,
+      "encoder.bias": 0.8157194358954941,
+      "decoder.weight": 21.077269248931408
+    },
+    "checkpoint_sha": "de25800ed2a60ba81eabe4352b4a2114721d5e224f541b96c00e6556d5d403eb"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.192811335532673,
+      "encoder.bias": 0.8068873254668422,
+      "decoder.weight": 21.132908428460567
+    },
+    "checkpoint_sha": "49ab99a13935bf2bbd0bf789ed3ad8c7ae3bae87499b2b183d55ba906c9d031f"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.044307554344417,
+      "encoder.bias": 0.7687361054856472,
+      "decoder.weight": 20.85195107515958
+    },
+    "checkpoint_sha": "ec6d60c3a97ddee78cd3d391fb99571890642c575d1e791c585586ac72997b37"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.532922626733042,
+      "encoder.bias": 0.6635349140321477,
+      "decoder.weight": 19.195525329119523
+    },
+    "checkpoint_sha": "9db5f3cbdb60af777f3a7be651ac384fb328865c4bbb8440da6ce6515ca5febf"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.80987064570775,
+      "encoder.bias": 0.5163582916803583,
+      "decoder.weight": 14.732069596682406
+    },
+    "checkpoint_sha": "a2b80da027e83da895a3c7518d5e59f8381bb34a1663569636807d79b762b947"
+  },
+  {
+    "dataset": "stim",
+    "fold": 4,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.559129080781605,
+      "encoder.bias": 0.4259115740077562,
+      "decoder.weight": 10.94693347536819
+    },
+    "checkpoint_sha": "6d93721be28e227b257ef14bd3e3d6b4e57ec5f9e1f6437d4b40da557300e3b0"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.971010485878967,
+      "encoder.bias": 0.7815753357163737,
+      "decoder.weight": 20.359157070363214
+    },
+    "checkpoint_sha": "5f0161b1ca0c8971dbfb0a77afa6fd3897e317a7ee08cc2c277cc4507fa6d37b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.984051479497032,
+      "encoder.bias": 0.7796355999844696,
+      "decoder.weight": 20.395464098931487
+    },
+    "checkpoint_sha": "e5cc1a0e476420ec52da6f2db440963a337439920d9c6cf12d2ce31aa2d017c9"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.978519502370459,
+      "encoder.bias": 0.7718440501221124,
+      "decoder.weight": 20.465783417631478
+    },
+    "checkpoint_sha": "528e3646fa77f70ceaea5d5a809bc33326fe7c7727b6d8cd32011cb9e74ffc01"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.84899472699604,
+      "encoder.bias": 0.7387838297348007,
+      "decoder.weight": 20.176048316651364
+    },
+    "checkpoint_sha": "a26f276c8befdbe5316acb5fbd01ba6f574bad4d2941a7fb82c02b0fa45ac543"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.43376661283445,
+      "encoder.bias": 0.6529047270688783,
+      "decoder.weight": 18.738766813758936
+    },
+    "checkpoint_sha": "5bd38e0de7890f68588398027b7dfea44b760578528bbafd290eb4ee194cdb5b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.7016970253138375,
+      "encoder.bias": 0.5131986119727097,
+      "decoder.weight": 14.428190245381302
+    },
+    "checkpoint_sha": "2d3840a0b659eb3f6d1f5cce12363da63334d678dff77e45e96617f10587cd97"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.455351686060315,
+      "encoder.bias": 0.41942116732684936,
+      "decoder.weight": 10.723482997570962
+    },
+    "checkpoint_sha": "2fbe1a6a24cbea4101b313fd0335a90a8d53dff71b2f2b8d19296d9c15e8c083"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.08504666136507,
+      "encoder.bias": 0.7795687926503019,
+      "decoder.weight": 20.876656485054625
+    },
+    "checkpoint_sha": "86f24ac405c41ef8e48efe94b3aaf1eafe134a4fee4f6e5f06bbc7e6680336af"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.089096128222757,
+      "encoder.bias": 0.781929176464165,
+      "decoder.weight": 20.86301605604733
+    },
+    "checkpoint_sha": "6aa50f140d709f96bc02f665fd90b1c3428b3cdab2244bd83c8f5bee26badf99"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.068893119599642,
+      "encoder.bias": 0.7737358803808069,
+      "decoder.weight": 20.88609798085376
+    },
+    "checkpoint_sha": "d1b55934ce51c42852f7c4983d14286e50bd4716d1896a002571652ee1fc03b6"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.962816100412398,
+      "encoder.bias": 0.7379984253533445,
+      "decoder.weight": 20.72913356490618
+    },
+    "checkpoint_sha": "17eb652acaaf516ca664fe9433a12844ee7da80ba18f6568e1323355e994cf67"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.457230298375795,
+      "encoder.bias": 0.6438922688343154,
+      "decoder.weight": 19.033194589455608
+    },
+    "checkpoint_sha": "0737174c28f840b913a2bde3f83c307ff7cec17ff61586421ce731536a6af9d0"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.72827005066284,
+      "encoder.bias": 0.5097689848393858,
+      "decoder.weight": 14.542853172603257
+    },
+    "checkpoint_sha": "e8d41b1a985cd60738231fc5cd5b6d752d566fdd87720e4189d6cfca6c4741ad"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.443067556186938,
+      "encoder.bias": 0.4153675786223252,
+      "decoder.weight": 10.829983749175465
+    },
+    "checkpoint_sha": "0255b995f90a0e96ffbe7d54589a5916cd81cca6ffe6b9d298b9022a7b997a2b"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.024272228052388,
+      "encoder.bias": 0.7755840612591797,
+      "decoder.weight": 20.603133708506242
+    },
+    "checkpoint_sha": "625f7c5621de662bc9f7ea841d9bb4641e3e617c27a89d86170629cc183e0c1d"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.040988324775366,
+      "encoder.bias": 0.774476744443581,
+      "decoder.weight": 20.656969162036752
+    },
+    "checkpoint_sha": "e13c0491750ce50a5ae736504dd7b34688250067a8492f7af20e702b4c39f57c"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.020298160247572,
+      "encoder.bias": 0.7691809300435558,
+      "decoder.weight": 20.628967199499424
+    },
+    "checkpoint_sha": "3ea890eab304e5afaa1dab2533ee75770aeb2224f71eff83af2bddd96f3f49d7"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.915426988082968,
+      "encoder.bias": 0.7391743712339635,
+      "decoder.weight": 20.458137225778078
+    },
+    "checkpoint_sha": "a3d3d17392fc2a5ec71f55866702906ba2d9624808387c0077e370e4d2067e9e"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.4355603217814,
+      "encoder.bias": 0.6456702272715323,
+      "decoder.weight": 18.926164555311164
+    },
+    "checkpoint_sha": "32a138d4aa5f103ec1632a93b43cc2a0d8b837303189d3e1e4850a8ea2f3f6d2"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.735031132163014,
+      "encoder.bias": 0.5065744086215047,
+      "decoder.weight": 14.564312130372576
+    },
+    "checkpoint_sha": "3284ee7297a0318d9d64e222e0da73dd7bcdc8b7f257801ea80da10a481b2bca"
+  },
+  {
+    "dataset": "stim",
+    "fold": 5,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.513487955795604,
+      "encoder.bias": 0.42092929628858705,
+      "decoder.weight": 10.924663886961559
+    },
+    "checkpoint_sha": "e1184c0a0dbfe60b64d2f44a86be8816afb89dcac331740f365dd78340ec6fbc"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.258554324660812,
+      "encoder.bias": 1.0976839015416977,
+      "decoder.weight": 27.11162686906218
+    },
+    "checkpoint_sha": "209019f0f3938bc04c54f099447637249c55128cf6677deba947327799d866c8"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.246482647754439,
+      "encoder.bias": 1.0891093373357208,
+      "decoder.weight": 27.079071536056635
+    },
+    "checkpoint_sha": "82bb39cf8e752d857d77c51b5447f0120e93cebe30c0d58b883ff6df889ea7ad"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.21922474815094,
+      "encoder.bias": 1.0795139529666695,
+      "decoder.weight": 27.02379060281858
+    },
+    "checkpoint_sha": "7d120884603fee638809b2f75652bb8f77e16c2fc6b098509e0cf8e18efc38ad"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.995060192564877,
+      "encoder.bias": 1.0245684754548052,
+      "decoder.weight": 26.739845755277248
+    },
+    "checkpoint_sha": "bd8dac349bf11cb7b2cae2492aa4d0e4e629109d1578feb4efd855279b6a280c"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.308319260200134,
+      "encoder.bias": 0.8824541634985951,
+      "decoder.weight": 25.21979578115457
+    },
+    "checkpoint_sha": "d470e6bf894cf4b976e00b5e80fc428f7425c30db6094725026549393e7dcf55"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.9198586988803505,
+      "encoder.bias": 0.6498528928137787,
+      "decoder.weight": 19.911035805442346
+    },
+    "checkpoint_sha": "ad508af07dbbd20dad885f4a65493a1626b4f6558915ab96fcfc83289beb2082"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.9984874759895215,
+      "encoder.bias": 0.4966453484654236,
+      "decoder.weight": 13.918947133787148
+    },
+    "checkpoint_sha": "cd93e7d82a70bfd5b53608621052f5795e70c2f0aa56fa4309c19b5096ec2dcc"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.23575851289247,
+      "encoder.bias": 1.104266873366388,
+      "decoder.weight": 27.10286402310061
+    },
+    "checkpoint_sha": "78a5923a759c15f21cef0ef04482d0d46531b784d8a1da85e281b109c8cad469"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.211569050410997,
+      "encoder.bias": 1.0999995674355643,
+      "decoder.weight": 27.05552670213722
+    },
+    "checkpoint_sha": "9c4346e3a5d0b419d4afe2c9d18887911d6cfcb1d1736be2fc0de48a7c93576c"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.189502132334741,
+      "encoder.bias": 1.0889097374750039,
+      "decoder.weight": 27.01379799437663
+    },
+    "checkpoint_sha": "31ef06642f095a5f0ada794f96aa8ba065ce5c90d8d029737e726d93958715bf"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.971946331812715,
+      "encoder.bias": 1.0377104130142856,
+      "decoder.weight": 26.724934687071524
+    },
+    "checkpoint_sha": "aed8ebb0184ecb4f11cd2a6747dc666319cc8985e84c8d900bccb8e42ea32ee6"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.217262642955063,
+      "encoder.bias": 0.8910224109217157,
+      "decoder.weight": 25.012297059605594
+    },
+    "checkpoint_sha": "feb605fa4756a06ec878bf673e030e30128cdd1c1f7cb29bba90c3f05f03130a"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.867975609156896,
+      "encoder.bias": 0.6581565223289858,
+      "decoder.weight": 19.824948079927363
+    },
+    "checkpoint_sha": "9423ebbe7683a84a6c244aa14d11d742f66d24973879bd13d35edbf3b2c37b7f"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.991755303767174,
+      "encoder.bias": 0.5018546082740899,
+      "decoder.weight": 13.832175714425693
+    },
+    "checkpoint_sha": "55d5d0c2ed16c48ede0199c5d2e1528aeb09afcaa425235011a71205db5bb77d"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.222308653364184,
+      "encoder.bias": 1.0979189169053207,
+      "decoder.weight": 27.142431380194385
+    },
+    "checkpoint_sha": "5c7ced186efadff149832a876b6c15dddae0156b3fd1c594775db24d935e0f2d"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.225555899750745,
+      "encoder.bias": 1.0930705660601496,
+      "decoder.weight": 27.201004511654656
+    },
+    "checkpoint_sha": "9beb3000af8aae9d1e397261c7713e61ce13d5c6c57040d1c6494c070f0d81f3"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.195943696915524,
+      "encoder.bias": 1.0794567363405512,
+      "decoder.weight": 27.144251801942254
+    },
+    "checkpoint_sha": "6c489e3d85a17a32185def61438148fcd38b38bfd05e55a069857bf843dfc425"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.975773727511832,
+      "encoder.bias": 1.026121192287694,
+      "decoder.weight": 26.791878205872823
+    },
+    "checkpoint_sha": "88691409a624590fa2950bd54f2dc8d3b7db990bd96e02c21e94829fdece49b2"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.229137188841289,
+      "encoder.bias": 0.8829512519979147,
+      "decoder.weight": 25.164451693464805
+    },
+    "checkpoint_sha": "a690bc3d580348b815453b9d806ea4ebf9374441a31c51fedab1e42e45b74470"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.845527195234858,
+      "encoder.bias": 0.6515379081479061,
+      "decoder.weight": 19.961614812983456
+    },
+    "checkpoint_sha": "4cd7afd10d070a11c8952de41ef719272d92d0e6b0cabeadc87a6976066fd226"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 0,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 5.942426594825604,
+      "encoder.bias": 0.4955546516611353,
+      "decoder.weight": 13.869110253249524
+    },
+    "checkpoint_sha": "a767a838d9e82e1f0c9b0a3b482e293121823ee62c918dc36c2997e56068110f"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.754695066575344,
+      "encoder.bias": 1.1328886120498907,
+      "decoder.weight": 27.759702185242684
+    },
+    "checkpoint_sha": "992e262f8503ff410700de1342bcc992d8b128ce0ae6f5c2d5737d23007af99b"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.763862037539207,
+      "encoder.bias": 1.1261879080187114,
+      "decoder.weight": 27.771530390369755
+    },
+    "checkpoint_sha": "5dfb7acfd6718e3042654c4dca8bc3c59c84b5759de9d8dc2f33d32165a76b54"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.671323684558855,
+      "encoder.bias": 1.1046784402674348,
+      "decoder.weight": 27.6389589341676
+    },
+    "checkpoint_sha": "3aa63700b1bb8cb5666349f5687505e30bce806f47489ca81a981f670929879f"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.398365768317653,
+      "encoder.bias": 1.046725059770585,
+      "decoder.weight": 27.27179158749424
+    },
+    "checkpoint_sha": "8205a1a8eeb50b6587fedcd6faf3e8d1026a41f43791b151261af8e8cf7dfa9e"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.593598020008963,
+      "encoder.bias": 0.8858778639194995,
+      "decoder.weight": 25.49720390934824
+    },
+    "checkpoint_sha": "0cc0fe4cab55d552dc6c66fd6a2ff7cc2cf407a773d3ae5a612a0d6d53c42e58"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.156367792941146,
+      "encoder.bias": 0.6451776985241504,
+      "decoder.weight": 19.931767013316136
+    },
+    "checkpoint_sha": "01835a227831b5f15d3c290f5802dac9aea707afcbd6b3ae3cee26997f640e24"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 42,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.199895358654261,
+      "encoder.bias": 0.4952576644289248,
+      "decoder.weight": 14.034879347288733
+    },
+    "checkpoint_sha": "b285dcee51685d87a49e33d84eea994adeea882f9beaea2cb4fdc75f12b984c2"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.757800007825907,
+      "encoder.bias": 1.1396137234521004,
+      "decoder.weight": 27.604787347378274
+    },
+    "checkpoint_sha": "04609fd28e6a5ade7cc9baa26912c55ba8ecf91f12e9f94100d3ae9dbc1da5c4"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.771481030332687,
+      "encoder.bias": 1.137157408798055,
+      "decoder.weight": 27.665615823632006
+    },
+    "checkpoint_sha": "d426423873aea304d21386dff311c3ebf76cf385175c3cd1aaf64290f3352b96"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.71762142732259,
+      "encoder.bias": 1.1216331167193272,
+      "decoder.weight": 27.60238380751895
+    },
+    "checkpoint_sha": "5e647ce30d817fc988dcbde4148039e768205fd61daa34de411e5b27f9502f64"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.440638007175023,
+      "encoder.bias": 1.0551342946431352,
+      "decoder.weight": 27.19629718247098
+    },
+    "checkpoint_sha": "e71ee38b83f557aa7b435abb04b76628e29fff6307e132d2f7113a13c1435ae2"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.600931894647546,
+      "encoder.bias": 0.8985401271448225,
+      "decoder.weight": 25.352839711989922
+    },
+    "checkpoint_sha": "af0ea35467091e91281b4d159bf5c9f8742156ae033e21f694c1ebd6f1eb63c0"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.137033850431566,
+      "encoder.bias": 0.6513669053429506,
+      "decoder.weight": 19.909981821734263
+    },
+    "checkpoint_sha": "946f348d3362f6cf4d9b99686e950258ba18a9c1539702cc1bd3cc7035b5496c"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 43,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.144732069585507,
+      "encoder.bias": 0.4927721976553933,
+      "decoder.weight": 13.984602214467015
+    },
+    "checkpoint_sha": "7f441f0c3308ec474af6c068d0a4650af118bb6f48d864a91dd52fc9f0dc61d0"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.781063541592292,
+      "encoder.bias": 1.1367491055847965,
+      "decoder.weight": 27.758381960981076
+    },
+    "checkpoint_sha": "c30789fe9403f4414825effaf914dbaa0f639f0abe0441d4c118db035d7b026a"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p01",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.76760418578783,
+      "encoder.bias": 1.1304475033413222,
+      "decoder.weight": 27.727159192725562
+    },
+    "checkpoint_sha": "a71430967f5be9e01340f4f5b2c2c2fe0b2672e33954fdda0d1ed02c061a3a4f"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p03",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.693722157998614,
+      "encoder.bias": 1.1142476684224627,
+      "decoder.weight": 27.588000224823112
+    },
+    "checkpoint_sha": "c91d7aa1a6dff65e8899a696dee9fc7bff0e563f7889508ce5861799aff362cf"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 9.41845321419314,
+      "encoder.bias": 1.049167929807704,
+      "decoder.weight": 27.23503225595327
+    },
+    "checkpoint_sha": "07f1355eba841008b0beffea49c6fa677ea87e4c61087a771a8bda9f8c73647d"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_0p3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 8.63092810244818,
+      "encoder.bias": 0.8909720265767028,
+      "decoder.weight": 25.46356961128846
+    },
+    "checkpoint_sha": "c244457d31534a94c51121f7f9fd69816172bdabff75516582888968d05f23ea"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_1",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 7.189732466775764,
+      "encoder.bias": 0.6542261499579201,
+      "decoder.weight": 19.933585967773386
+    },
+    "checkpoint_sha": "422112cef4090dd9137832afacf4a8ff387414e5be1fe072d18939a2c57a5b75"
+  },
+  {
+    "dataset": "pbmc",
+    "fold": 1,
+    "seed": 44,
+    "method": "lambda_3",
+    "weight_delta_norms": {
+      "mean": 0.0,
+      "encoder.weight": 6.195666720612895,
+      "encoder.bias": 0.496007482025411,
+      "decoder.weight": 13.99478177127812
+    },
+    "checkpoint_sha": "f88ddd0cf41b373a943fe668b5e7bcb6bae0438d8af8961969f3dd67f06af261"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checkpoint_load": {
+    "checkpoint_tensors": 163,
+    "checkpoint_parameters": 51330049,
+    "strict_load": true
+  },
+  "embedding_replay_max_error": 2.86102294921875e-06,
+  "full_bins_matches_tokenizer": true,
+  "no_op_max_error": 0.0,
+  "seconds_8_original_cells": 1.39404296875,
+  "seconds_8_perturbed_cells": 1.293133020401001,
+  "seconds_per_forward": 0.16164162755012512,
+  "estimated_full_12288_forwards_minutes": 33.10420532226563,
+  "cpu_threads": 4,
+  "mps_available": false,
+  "intervention": "fixed-token value substitution in binned model input; model sensitivity, not raw-count causal intervention"
+}

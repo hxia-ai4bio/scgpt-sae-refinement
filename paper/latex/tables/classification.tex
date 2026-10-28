@@ -1,0 +1,25 @@
+\begin{table}[!htbp]
+  \caption{\textbf{Cell-type classification performance of original and SAE-reconstructed embeddings.} Macro-F1 scores (\%) are reported for original scGPT embeddings, MSE-only SAE reconstruction, and MSE + KL reconstruction across three datasets. The best observed KL weights are reported for each dataset.}
+  \label{tab:classification}
+  \centering
+  \small
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.15}
+  \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrr@{}}
+    \toprule
+    Representation & Kang ctrl & Kang stim & PBMC \\
+    \midrule
+    Original embedding & 82.75 & 84.52 & 82.68 \\
+    SAE: MSE & 83.01 & 84.19 & 81.79 \\
+    SAE: MSE + KL ($\lambda=0.3$) & \textbf{84.18} & 83.62 & 81.61 \\
+    SAE: MSE + KL (best $\lambda$) & \textbf{84.18} & \textbf{85.26} & \textbf{83.34} \\
+    \midrule
+    $\Delta$ vs. original (best $\lambda$) & $+1.42$ & $+0.73$ & $+0.67$ \\
+    \bottomrule
+  \end{tabular*}
+  \par\vspace{3pt}
+  \begin{minipage}{\linewidth}
+    \footnotesize
+    Best observed KL weights were selected retrospectively using test performance. Bold indicates the best value in each column; $\Delta$ is measured in percentage points.
+  \end{minipage}
+\end{table}

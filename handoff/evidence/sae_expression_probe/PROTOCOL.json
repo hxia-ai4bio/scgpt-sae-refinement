@@ -1,0 +1,45 @@
+{
+  "datasets": [
+    "ctrl",
+    "stim",
+    "pbmc"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "arms": [
+    "original_h",
+    "C_sae"
+  ],
+  "head": "Linear512->2048; no refiner/backbone gradients",
+  "question": "Does frozen C-refined masked embedding support lower masked-positive expression MAE than original masked scGPT with an identically trained fresh linear head?",
+  "scope": "Exploratory historical cohorts; C is already supervised on TRAIN expression. Compares task-specific frozen representations, not equal total upstream training or SAE necessity.",
+  "mask": "Reuse fixed25pct originally selected expressed tokens, same panel/target/hidden positions as sealed parent. Positive tokens only; not zeros or full-transcriptome imputation.",
+  "input": "Masked input for both TRAIN/VALID/TEST; C checkpoint fixed at parent step1000; discard original jointly trained C head.",
+  "scaling": "Separate per-representation TRAIN-masked coordinate mean/std, floor1e-6; targets use identical inherited TRAIN-positive gene mean/std.",
+  "training": {
+    "steps": 1000,
+    "batch_size": 256,
+    "optimizer": "Adam",
+    "initial_lr": 0.001,
+    "final_lr": 1e-05,
+    "weight_decay": 0,
+    "objective": "Mean squared error of standardized masked-positive expression entries",
+    "initialization": "paired torch.manual_seed(seed+400003), Normal(0,.002) weights and zero bias; identical initial heads per arm",
+    "batches": "Reuse identical parent1000x256 TRAIN-balanced minibatch indices for paired arms",
+    "selection": "Full VALID raw-logCP10k token MAE at steps0,100,250,500,750,1000; earliest minimum; no TRAIN+VALID refit"
+  },
+  "primary": "Paired TEST raw-logCP10k masked-positive token MAE, C_sae minus original_h",
+  "secondary": [
+    "gene-macro MAE",
+    "normalized MSE",
+    "TRAIN-positive gene-mean baseline"
+  ],
+  "aggregation": "Mean3 paired seeds within fold then equal heldout groups; Kang6donors per condition, PBMC2batch directions; ctrl/stim share donors",
+  "count_heads": 84,
+  "historical_TEST_explored": true,
+  "no_new_TEST_based_selection": true,
+  "limits": "Single fixed mask, single1000-step probe budget, fixed prior C checkpoint; C has upstream expression supervision, original has none."
+}

@@ -1,0 +1,53 @@
+{
+  "datasets": [
+    "ctrl",
+    "stim",
+    "pbmc"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "mask_fraction": 0.25,
+  "masking": "One fixed per-cell mask, SeedSequence20261021/rawrow/250; hide floor25pct of originally selected expressed tokens, min1; no resampling/refilling. Pad hidden slots; recompute binning and visible library totals after excluding hidden gene counts. Same mask across arms/seeds. Gene presence/selected token identities remain known from original expressed-token sampling.",
+  "backbone": "Frozen scGPT same512token final-layer signed masked mean; float32 extraction MPS; no scGPT gradients or finetuning.",
+  "methods": [
+    "original_h",
+    "clean_mse",
+    "A_sae",
+    "C_sae",
+    "A_dense"
+  ],
+  "init": "A/C same fold/seed historical MSE warmup SAE checkpoint as clean-MSE continuation. Width2048/rawTopK32, signed selected values, fixed clean TRAIN mean, decoder column unit norms. A_dense 512->2048 GELU->512 residual MLP, zero final-layer weights/identity init; similar parameter count but different init/activation, descriptive capacity control.",
+  "A_loss": "MSE(SAE(masked_h),stopgrad(clean_h)) / cleanTRAIN centered mean square; no clean loss mixing.",
+  "C_loss": "Masked-positive-token logCP10k expression reconstruction through512D SAE output only; gene-wise TRAIN positive-expression mean/std(floor0.1) standardized MSE.2048 genes selected by TRAIN-only logCP10k variance, vocabulary matched, >=20 positive TRAIN cells. No embedding reconstruction loss, no direct token path to gene head.",
+  "C_head": "Linear512->2048, receives (SAEout-cleanTRAINmean)/cleanTRAINstd fixed; trainable with SAE. Same readout bottleneck at evaluation; no classifier gradients.",
+  "A_dense_loss": "Same A target, input, batch indices, steps, optimizer and LR schedule; residual dense initialization differs from SAE warmup.",
+  "steps": 1000,
+  "batch_size": 256,
+  "optimizer": "Adam reset, no weight decay; lr cosine3e-4->1e-5; paired inherited TRAIN minibatches across all newarms; fixed finalstep1000, no checkpoint selection.",
+  "continuation_new_fits": 126,
+  "clean_mse_reuse_fits": 42,
+  "downstream_selection": "TRAIN-clean transformed features; channel scaling fitTRAIN only; same11 Ridge alpha1e-4..1e6 selected on clean VALID fixed8class MacroF1, ascending-alpha ties; no refit or fallback. Same fitted readout predicts clean and masked TEST.",
+  "primary": [
+    "Clean TEST Ridge MacroF1 change vs original_h and clean_mse",
+    "Masked TEST Ridge MacroF1 and clean-minus-masked degradation using same clean-fit readout"
+  ],
+  "secondary": [
+    "15NN clean TRAIN reference / clean or masked TEST query; common original TRAIN mean centered cosine",
+    "Within-type B/CD14 IFN fixedalpha10 TRAIN-clean fitted; all3 technical covariate variants; minTRAIN100/minTEST30",
+    "A normalized embedding reconstruction error on clean/masked TEST; C raw log-expression masked-token MAE and normalized MSE vs TRAIN gene-mean predictor",
+    "Teacher geometry fidelity metrics on both views"
+  ],
+  "not_run": [
+    "B maskedSAEfeature objective",
+    "Fresh lambda or maskratio search",
+    "New fewshot/clustering sweeps for A/C"
+  ],
+  "split": "Same6 Kang rotations4TRAIN/1VALID/1TEST separately percondition; PBMC2direction batchholdout with fixed source20pctVALID. Same as sealed prior evaluations.",
+  "budget": "One masked view percell. Clean+masked evaluations separate. No TEST-based model/method/seed selection or adaptive training length.",
+  "statistics": "Average3seeds within heldout group, then equal group average; Kang donors6 eachcondition not independentcohorts; PBMC2batches not donors; historical exploratory data.",
+  "scope": "Tests A/C dataset-specific frozen-backbone refinement, not new observed biological information, SAE concept causality or guaranteed SAE-specific benefit. C predicts positive selected tokens only; normalization targets use fullRNA but hidden values excluded from input bins verified via invariance test. IFN sameRNA proxy. DenseA not matched-initialization proof.",
+  "review": "Independent experiment-audit and result-to-claim before broad claims"
+}

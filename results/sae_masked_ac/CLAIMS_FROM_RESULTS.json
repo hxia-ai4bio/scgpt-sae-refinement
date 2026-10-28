@@ -1,0 +1,305 @@
+{
+  "agent_id": "/root/masked_ac_audit",
+  "verdict_id": "/root/masked_ac_audit/2026-10-19/final",
+  "executor_model": "exact model ID not exposed; GPT-6 based Codex",
+  "executor_family": "openai",
+  "reviewer_model": "exact resolved model not exposed",
+  "requested_reviewer_model": "gpt-6-astra",
+  "requested_reviewer_reasoning": "ultra",
+  "reviewer_reasoning": "requested ultra; resolved setting not independently exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "fresh_context": true,
+  "fork_turns": "none",
+  "generated_at": "2026-10-19T12:04:25.981409+00:00",
+  "date": "2026-10-19",
+  "audit_skill": "result-to-claim",
+  "verdict": "PARTIAL",
+  "claim_supported": "partial",
+  "integrity_status": "warn",
+  "reason_code": "task_specific_expression_and_knn_gains_without_general_clean_embedding_gain",
+  "confidence": "high",
+  "confidence_scope": "High for the observed fixed-run arithmetic and narrowed descriptive interpretation; low for external generalization or biological mechanism.",
+  "audited_input_hashes": {
+    "outputs/sae_masked_ac/PROTOCOL.json": "e8b726c50f003b1d0e2bfeef5e562b4a72451438c3e1f74c34f42acf6b20469b",
+    "outputs/sae_masked_ac/PROTOCOL_NOTES.json": "900265feee3846b48482d1cf2c45546ec11e40cf3d195f7dfadcd610a45dd053",
+    "outputs/sae_masked_ac/INTENDED_CLAIMS.json": "331c15d485d907beaf243fac76761ed981e2fe646a3e2f30b0512cc66cd4d26a",
+    "outputs/sae_masked_ac/SELECTION_LOCK.json": "eb376c89839744d9051dec7d724741c07dcc9479cebbae350cc62a32a48d825b",
+    "outputs/sae_masked_ac/SUPPLEMENT_BINDINGS.json": "41d575152d3019f6ca808cf92ae487c702006b394e33e1afa89bc625a087f160",
+    "outputs/sae_masked_ac/TRAINING_HEALTH.json": "12208998717b04b783b229936c833077f0671c43695f01b272297e7e36a55c1d",
+    "outputs/sae_masked_ac/training_health.csv": "91a9f956926a9e210352cfd00abc4c918fed4d203f2aec8df96d47c6466521ea",
+    "outputs/sae_masked_ac/EXTRACTION_BENCHMARK.json": "faadea4f39d21e6f1e4959bc0a8efa751ed059198a2489b07f49219ccf1ca14d",
+    "outputs/sae_masked_ac/PREFLIGHT.json": "a8d9b067968bb202ee90af64108bed72521553a756b9db99d280a59b0ba7f1ac",
+    "outputs/sae_masked_ac/PILOT.json": "d32be7229d76a820313c03aa1b9e393dea1e8d04e3dd9e689dff37c9533b08bd",
+    "outputs/sae_masked_ac/EVAL_HEALTH.json": "8498ecb64845a1d070787de84d8aa6d49896c5c63d98a34f7db9d06315dc51f9",
+    "outputs/sae_masked_ac/ENVIRONMENT.json": "1564ed20e6114408915b702f60162334ed46870002a3b5126c2c5dce90db0649",
+    "outputs/sae_masked_ac/verification.json": "2cb3b2c11698b50404f9b97deabeb2f9d119dc96caf6bdb57801052c1a696954",
+    "outputs/sae_masked_ac/all_metrics.csv": "ebb25d25ae03baba13a16e3cfbc26ea5c5a57b86e5f86179787b56a32f762853",
+    "outputs/sae_masked_ac/all_metrics.json": "559fdbf6de6725e76826228da2e550d7e3f83f494220e91908757f700779a853",
+    "outputs/sae_masked_ac/per_class_metrics.csv": "c7202f2d3cd43104d20a02172d3ed4d86fd6e0b011cbc916658dd4cce3facbbe",
+    "outputs/sae_masked_ac/summary.csv": "8df7219cce53fbe51845b5a58920d33c18a9c3f2aec0c53a2f83712d7f3eb826",
+    "outputs/sae_masked_ac/paired_group_metrics.csv": "55baa75a085ce2e6d2795591bd0af8bd285a85e68fb292e49d6de8cde402bd34",
+    "outputs/sae_masked_ac/seed_metrics.csv": "029cbe82b8f87174c1e0ba4345309e1c45f260c29dc8103a217d3bab913a71c9",
+    "outputs/sae_masked_ac/planned_contrasts.csv": "3617376c151b379c126e9260929002edfefdd2c87b3fa47f7bfe14e2a463d842",
+    "outputs/sae_masked_ac/paired_degradation.csv": "fb739a503ce4a447594185e2329a71affb53ce7391d40d46692744c521ca08c4",
+    "outputs/sae_masked_ac/degradation_seed_metrics.csv": "6bdb3e3a0f42f72205c1ddccaf254b98d5f78b87653007fc39538ade23984999",
+    "outputs/sae_masked_ac/IFN_all.csv": "85c38b4ddddd1932ec6aad15b5d2bbf3d1185301c0d5405a2a968f2b734787e4",
+    "outputs/sae_masked_ac/IFN_summary.csv": "8fed1f6dd92f91d45947b91c298343076dd942ab310589480321031b12ad4669",
+    "outputs/sae_masked_ac/expression_all.csv": "82137c75cbea73a69688a0d3c3fd39c1ae3caed76bff8d355dacc7091d91cabb",
+    "outputs/sae_masked_ac/expression_summary.csv": "1ea30072f4d8ae19be51a2a919ad95843af970ba4ad3ddb3cf169fc72173b16a",
+    "outputs/sae_masked_ac/geometry_all.csv": "0193303f218ea32dccde6433f2ae04e9f79137ded31800421f34a07d9110aff2",
+    "outputs/sae_masked_ac/geometry_summary.csv": "b9287abe8aa763a65c7cae608ab87eb46edd50c9755d7761f90af698844690dc",
+    "outputs/sae_masked_ac/SUMMARY.json": "c31a038af8a3918d083c08d4021962dd61751616fcb90b4cf7764c90bc102834",
+    "outputs/sae_masked_ac/REPORT.html": "b9e44628e2e204b22f5fc58a124288230cfc76449c07c86ffa70a78ecff627ce",
+    "outputs/sae_masked_ac/EVIDENCE_CLAIMS.json": "3072b073d1b17a1a6a7ba2be06c743966697119a26a98e6b9e22f6040b095fe8",
+    "outputs/sae_masked_ac/EVIDENCE_PRECHECK.json": "6c6b188a20bba52a83685dd0f173da535fe41dff5a4ab6c747380542caaf7409",
+    "outputs/sae_masked_ac/ctrl_DATA_MANIFEST.json": "de8df89aee912f7edc6ed5560645ffccb5a3dfeac6cc80f8ff6498c5e70d5f2c",
+    "outputs/sae_masked_ac/stim_DATA_MANIFEST.json": "87c666d140a3a03c5c98860a123b98c6d1beb5c9525049c1bf2c3765fcaa0592",
+    "outputs/sae_masked_ac/pbmc_DATA_MANIFEST.json": "9ee208751c1d821ab3b161a0dcdc318925a7b36ee81e0b6a2f11f036995861ba",
+    "work/sae_masked_ac/prepare.py": "68a8944bebbcab1ddbc3ec03a97ce9dd971601b713550ada9d019a764ad7ba2e",
+    "work/sae_masked_ac/pipeline.py": "905c4fd889f745674a0420e7dc6f52e8d27eda3715de4ee82ded938f8dade74c",
+    "work/sae_masked_ac/verify.py": "1c43468675b0a123ba573caccc5b7d62129d24c86055677b5c0eabe43ba7ef84",
+    "work/sae_masked_ac/report.py": "e5f22c4994cc0dd190f465fefb468e407f5f12ddc85fb3d8215558a54a26a660",
+    "work/sae_masked_ac/execute.py": "e670e28160104795f31ee0d0c99c01878e90c64ac0effa8ec5debd040dfce5a0",
+    "work/sae_masked_ac/sources.json": "44cfad68386d936e030f08a332b8542a20571cb222e0fbcbf8714ca5f28113c9",
+    "work/sae_masked_ac/extraction_sources.json": "d3b7e76ceacf0e383ef51a78baf600253f7de97f852c8d85f987a45f02d2d91d",
+    "work/sae_complementarity/core.py": "9f327908ea442ea482f6b517528ab699e8ee10b867cc3a757c90d5ca1ebe28f2",
+    "work/sae_refine/run.py": "19d1757066309cf96590befdc479eb431f81b98dba1bde2a8ed8852e57109831",
+    "work/sae_relation/run.py": "e4a708407fbb31078ee18c6871b123a59357b86561232c849fe66db2b9e1eaee",
+    "work/sae_extension/run.py": "f9ba4c950bb412269cb35d29a9accd72714853bbe7e8d773f8e97b8d269af4ca",
+    "work/sae_extension/prepare.py": "12f43a3de5d60090ad604291737af3f182e1da6baa0c43c00f731fbc3bfd9f28",
+    "work/sae_evaluation/run.py": "e842231a61d2483003ccc1724cc86f88d340340e6b675f9ca808e8d5e282af9f",
+    ".aris/traces/experiment-audit/2026-10-19_sae_masked_ac/reviewer_data_precheck.json": "7d2235116d862e16021f3aee957e2d6d2d87f56b6281cff1277b5303a1b5e3fc",
+    ".aris/traces/experiment-audit/2026-10-19_sae_masked_ac/reviewer_result_reductions.json": "f45224d0af81fa50afa9b13539d8964e8e8c141d808e9dbec013bcec289bdfee",
+    ".aris/traces/experiment-audit/2026-10-19_sae_masked_ac/reviewer_prediction_checks.py": "2b2bbeaa5f76804a3de4ef96db1aaa86d4401791003f1f6e2bfdb65d6c65c07a",
+    ".aris/traces/experiment-audit/2026-10-19_sae_masked_ac/reviewer_prediction_checks.json": "d5b2bf4bfbd31c980221add29fbfb62a5cc815c49e3dd96085ad12bd0befde0a",
+    ".aris/traces/experiment-audit/2026-10-19_sae_masked_ac/reviewer_extra_integrity.json": "9fc83c9a2e9fe7ce8e7f32a74470e041f64e1ec5772d52d483f830262f849572",
+    ".aris/traces/experiment-audit/2026-10-19_sae_masked_ac/reviewer_final_dependency_hashes.json": "87f4812db9f834b2a25daf21afbd8ff7e75ce7e547e7e31152e5bc7580765ab3",
+    "outputs/sae_masked_ac/EXPERIMENT_AUDIT.json": "33a44a8748dd6c922770caeac4db23162cba24c1cbd71b29fe37abfde4abebe1"
+  },
+  "trace_path": ".aris/traces/result-to-claim/2026-10-19_sae_masked_ac/",
+  "what_results_support": [
+    "C improves same-RNA masked-positive-expression reconstruction versus the TRAIN gene-mean baseline on all14 heldout groups.",
+    "C consistently improves the predefined Kang centered-cosine15NN readout, while other readouts can worsen.",
+    "A has context-specific improvements over the reused clean-MSE continuation, including PBMC, without consistent superiority to original-h."
+  ],
+  "what_results_dont_support": [
+    "Universal improvement of clean frozen scGPT embeddings, general missing-input robustness, or state preservation.",
+    "Successful A_sae denoising relative to directly passing through masked_h.",
+    "SAE-specific biological causality, all-gene/zero-expression imputation, independent new-study confirmation, or convergence of the fixed training recipe."
+  ],
+  "missing_evidence": [
+    "Independent new biological units or study with a prespecified primary endpoint.",
+    "For C attribution: direct frozen-masked-h gene head and matched dense-C/head controls.",
+    "For robustness: prespecified multiple masks or real depth perturbation, with clean performance and absolute masked performance jointly reported.",
+    "For training-objective conclusions: a separate VALID-chosen stopping protocol and fair controls, evaluated without further selection on these TEST results."
+  ],
+  "suggested_claim_revision": "在历史Kang/PBMC的固定1000步、单一25%阳性token遮蔽协议中，C降低了遮蔽表达恢复误差，并改善了Kang固定15NN读出；A/C未显示跨条件、跨读出的普遍clean-embedding质量或缺失输入鲁棒性提升。",
+  "next_experiments_needed": [
+    "No additional experiment is required to report this fixed-run result honestly. For a stronger future claim, preregister the missing controls and external endpoint before examining new TEST data."
+  ],
+  "routing_action": "REVISE_CLAIM_AND_CLOSE_FIXED_RUN",
+  "automatic_retraining_authorized": false,
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "A/C普遍改善clean scGPT embedding的下游质量",
+      "claim_supported": "no",
+      "impact": "unsupported",
+      "reason": "A相对original-h clean Ridge变化为ctrl -0.033pp、stim -1.058pp、PBMC +0.469pp；PBMC仅1/2方向与2/3种子均值为正，accuracy下降。C分别-0.085、-2.675、-3.546pp。A/C的embedding-only IFN也没有普遍收益。",
+      "evidence": [
+        "summary.csv",
+        "planned_contrasts.csv",
+        "IFN_summary.csv",
+        "reviewer_result_reductions.json"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "A相对相同warmup和续训预算的clean-MSE存在任务特定收益",
+      "claim_supported": "partial",
+      "impact": "needs_qualifier",
+      "reason": "A clean Ridge相对MSE分别+0.014、+0.311、+3.129pp；masked分别-0.457、+0.510、+2.171pp。这包含从MSE退化中恢复，不能等同超过原始h；PBMC超原始h的clean均值很小且方向/种子不一致。",
+      "evidence": [
+        "planned_contrasts.csv",
+        "reviewer_data_precheck.json"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "C通过512D输出预测本协议中的masked-positive表达，优于TRAIN逐基因均值",
+      "claim_supported": "yes",
+      "impact": "supported_with_scope",
+      "reason": "原logCP10k MAE：ctrl0.350756 vs0.436179、stim0.361680 vs0.452138、PBMC0.409972 vs0.475337；组均值相对降幅19.58%、20.01%、13.75%，14/14组方向为正。仅为同RNA阳性token恢复，缺少直接masked_h线性头/容量匹配C控制以证明SAE必要性。",
+      "evidence": [
+        "expression_summary.csv",
+        "expression_all.csv",
+        "reviewer_prediction_checks.json"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "C改善Kang的固定centered-cosine 15NN标签读出",
+      "claim_supported": "yes",
+      "impact": "supported_with_scope",
+      "reason": "clean 15NN相对h：ctrl+4.907pp、stim+4.381pp，两条件均6/6供体组、3/3种子均值为正；masked+5.379、+3.998pp。ctrl/stim共享供体，PBMC masked为-0.043pp且方向混合；不推出一般鲁棒性或Ridge/状态保真度改善。",
+      "evidence": [
+        "planned_contrasts.csv",
+        "seed_metrics.csv"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "A/C提供普遍的missing-input robustness",
+      "claim_supported": "no",
+      "impact": "unsupported",
+      "reason": "A/C masked Ridge在ctrl分别+0.487/+0.341pp，但都低于clean-MSE；stim为-1.022/-2.804pp，PBMC为-0.426/-4.096pp。较小clean-minus-masked差值可能伴随clean性能下降；必须同时看绝对masked性能。只有一种固定遮蔽条件。",
+      "evidence": [
+        "planned_contrasts.csv",
+        "paired_degradation.csv",
+        "degradation_seed_metrics.csv"
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "A_sae相对直接使用masked_h改善clean-h重建",
+      "claim_supported": "no",
+      "impact": "unsupported",
+      "reason": "masked normalized embedding MSE A_sae vs直接masked_h：ctrl0.224563 vs0.140615、stim0.203776 vs0.134960、PBMC0.272130 vs0.113540。相对clean-MSE在Kang略低，但不是超越直接输入的去噪收益。",
+      "evidence": [
+        "geometry_summary.csv"
+      ]
+    },
+    {
+      "id": "C7",
+      "claim": "这些收益证明SAE特有生物学机制、独立新信息或因果功能",
+      "claim_supported": "no",
+      "impact": "unsupported",
+      "reason": "没有等初始化/等训练头控制、独立功能或干预证据。A/几何是模型教师保真度，C/IFN是同RNA代理；冻结输入的确定性重映射不能凭这些指标被命名为新的因果生物学模块。",
+      "evidence": [
+        "PROTOCOL.json",
+        "PROTOCOL_NOTES.json",
+        "IFN_summary.csv"
+      ]
+    }
+  ],
+  "primary_results": [
+    {
+      "dataset": "ctrl",
+      "method": "A_sae",
+      "clean_macro_f1": 0.8272141693424873,
+      "masked_macro_f1": 0.8188519084520803,
+      "clean_delta_vs_original_pp": -0.03254309841587144,
+      "masked_delta_vs_original_pp": 0.4871781847370582,
+      "clean_delta_vs_clean_mse_pp": 0.013698093905467612,
+      "masked_delta_vs_clean_mse_pp": -0.45698397822130365,
+      "clean_minus_masked_pp": 0.8362260890406925
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_sae",
+      "clean_macro_f1": 0.8266945820159375,
+      "masked_macro_f1": 0.8173935008749967,
+      "clean_delta_vs_original_pp": -0.08450183107084897,
+      "masked_delta_vs_original_pp": 0.3413374270286984,
+      "clean_delta_vs_clean_mse_pp": -0.03826063874950991,
+      "masked_delta_vs_clean_mse_pp": -0.6028247359296635,
+      "clean_minus_masked_pp": 0.9301081140940748
+    },
+    {
+      "dataset": "stim",
+      "method": "A_sae",
+      "clean_macro_f1": 0.8346650923130126,
+      "masked_macro_f1": 0.8159437459830742,
+      "clean_delta_vs_original_pp": -1.0584500746018133,
+      "masked_delta_vs_original_pp": -1.021930169351748,
+      "clean_delta_vs_clean_mse_pp": 0.3106985030903453,
+      "masked_delta_vs_clean_mse_pp": 0.5102438548445498,
+      "clean_minus_masked_pp": 1.8721346329938382
+    },
+    {
+      "dataset": "stim",
+      "method": "C_sae",
+      "clean_macro_f1": 0.8184990243849101,
+      "masked_macro_f1": 0.7981263998539587,
+      "clean_delta_vs_original_pp": -2.6750568674120623,
+      "masked_delta_vs_original_pp": -2.803664782263293,
+      "clean_delta_vs_clean_mse_pp": -1.3059082897199037,
+      "masked_delta_vs_clean_mse_pp": -1.2714907580669954,
+      "clean_minus_masked_pp": 2.0372624530951344
+    },
+    {
+      "dataset": "pbmc",
+      "method": "A_sae",
+      "clean_macro_f1": 0.8314549033376557,
+      "masked_macro_f1": 0.8199412283587106,
+      "clean_delta_vs_original_pp": 0.4694197323344085,
+      "masked_delta_vs_original_pp": -0.4256378605077549,
+      "clean_delta_vs_clean_mse_pp": 3.1293722743745978,
+      "masked_delta_vs_clean_mse_pp": 2.17070767371883,
+      "clean_minus_masked_pp": 1.1513674978945065
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_sae",
+      "clean_macro_f1": 0.7912964699582041,
+      "masked_macro_f1": 0.7832411416665424,
+      "clean_delta_vs_original_pp": -3.546423605610749,
+      "masked_delta_vs_original_pp": -4.095646529724584,
+      "clean_delta_vs_clean_mse_pp": -0.8864710635705597,
+      "masked_delta_vs_clean_mse_pp": -1.4993009954979986,
+      "clean_minus_masked_pp": 0.8055328291661779
+    }
+  ],
+  "expression_results": [
+    {
+      "dataset": "ctrl",
+      "mean_MAE": 0.3507555872241161,
+      "mean_baseline_MAE": 0.43617897017360585,
+      "relative_MAE_reduction": 0.19584479947643962,
+      "positive_groups": 6,
+      "n_groups": 6,
+      "normalized_MSE": 0.6851775263401615,
+      "baseline_normalized_MSE": 0.9653041064633913
+    },
+    {
+      "dataset": "pbmc",
+      "mean_MAE": 0.4099722579718862,
+      "mean_baseline_MAE": 0.47533745562930363,
+      "relative_MAE_reduction": 0.13751324850022573,
+      "positive_groups": 2,
+      "n_groups": 2,
+      "normalized_MSE": 1.2760925731949906,
+      "baseline_normalized_MSE": 1.6711344232511889
+    },
+    {
+      "dataset": "stim",
+      "mean_MAE": 0.3616796549283585,
+      "mean_baseline_MAE": 0.45213800833629986,
+      "relative_MAE_reduction": 0.20006801405790797,
+      "positive_groups": 6,
+      "n_groups": 6,
+      "normalized_MSE": 0.6969835461743802,
+      "baseline_normalized_MSE": 0.9819045317002737
+    }
+  ],
+  "limitations": [
+    "Historically explored data; no independent new-study confirmation or verified absence of scGPT pretraining overlap.",
+    "ctrl and stim share six donors; overlapping training folds, three seeds and many cells do not create additional biological replicates.",
+    "PBMC has two batch directions, not verified donor holdout; CD14 IFN passes sample thresholds in only one direction.",
+    "One fixed 25% mask over originally selected positive tokens; original presence/token selection is conditioned on; C excludes zero-expression and unselected genes.",
+    "Neural refinement is trained on masked inputs, while readouts are fitted on clean refined inputs; this distribution shift is part of the fixed protocol.",
+    "Full-RNA covariates in masked IFN sensitivity variants are oracle covariates; strict masked-input claims use embedding-only.",
+    "C adds a training head; A_dense differs in initialization/activation. Neither comparison isolates sparse/SAE-specific biological mechanism.",
+    "All42 C runs,41/42 A_sae runs and14/42 A_dense runs had a lower monitored VALID objective before step1000. Fixed-budget conclusions do not establish convergence or rule out other prespecified training recipes.",
+    "No p-value or independent-study statistical confirmation; group/seed consistency is descriptive. Fixed-eight-class Macro-F1 and supported-class metrics differ when classes are absent.",
+    "Forward/head/NN replays are bounded as stated; original scGPT mask extraction has source binding and16-cell clean replay plus hidden-magnitude invariance, not an independent full-cohort extraction replay."
+  ],
+  "evidence_precheck": {
+    "status": "verified",
+    "values": 36,
+    "path": "outputs/sae_masked_ac/EVIDENCE_PRECHECK.json",
+    "interpretation": "Mechanical evidence existence only; independent semantic judgment remains same-family provisional."
+  }
+}

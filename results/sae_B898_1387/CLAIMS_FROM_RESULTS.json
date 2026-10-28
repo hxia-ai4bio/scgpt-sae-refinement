@@ -1,0 +1,81 @@
+{
+  "skills": [
+    "experiment-audit",
+    "result-to-claim"
+  ],
+  "backend": "collaboration.spawn_agent",
+  "agent_id": "/root/b898_1387_audit",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "fork_turns": "none",
+  "executor_model": "unknown",
+  "executor_family": "openai",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "model_metadata_source": "parent confirmed exact spawn arguments in follow-up message",
+  "recorded_at": "2026-10-18T13:53:35.863075+00:00",
+  "initial_started_at": "not available in reviewer context",
+  "status": "complete",
+  "completed_at": "2026-10-18T14:09:19.406678+00:00",
+  "verdict_id": "/root/b898_1387_audit/2026-10-18-final",
+  "skill": "result-to-claim",
+  "claim_supported": "yes",
+  "verdict": "yes",
+  "integrity_status": "warn",
+  "scope": "完成F898/F1387候选基因贡献和GO/pathway注释任务；yes不代表功能模块成立",
+  "confidence": "high",
+  "summary": "支持限定范围的候选输入贡献与普通ORA注释；不支持匹配校正后的通路富集、独立稳定模块或因果机制。",
+  "what_results_support": [
+    "已得到两冻结特征在指定高激活B细胞原型中的可追溯基因输入贡献排序。 固定gene tokens和离散bin替换；为模型敏感性。F898前列YBX1/TPT1/NACA，F1387非RPL/RPS前列TMSB4X/BTG1/NPM1/SH3BGRL3。",
+    "部分TRAIN排名在同一历史TEST供体的所选细胞中保留正向贡献。 F898 top40覆盖36、正向34；F1387覆盖38、正向29。不是盲测或所有基因稳定。",
+    "普通ORA提供抗原加工呈递等候选注释。 12307项中普通ORA显著116项；主匹配与精确敏感性全局显著均0；不能声称通过匹配背景的通路富集。"
+  ],
+  "what_results_dont_support": [
+    "这些特征是已验证的B细胞功能模块、通路激活或因果机制。 当前无独立功能干预、因果或通路活性真值。",
+    "SAE/TopK整体可解释性优于embedding或PCA，或F898/F1387与F160构成公平配对比较。 控制在SAE所选原型上；特征原型/参照及旧富集检验家族不同；目标TopK门控未发生。"
+  ],
+  "missing_evidence": [
+    "本任务限定目标无需补充实验。",
+    "若未来主张一般化稳定性，需要更多独立供体、预锁定外部验证及合适参照。",
+    "若未来主张功能或机制，需要独立功能干预/救援证据，而非同RNA偏相关。"
+  ],
+  "suggested_claim_revision": "在冻结模型的指定高激活B细胞原型上，F898与F1387呈现不同的候选输入基因敏感性，并与若干普通ORA通路注释重叠；匹配背景及精确条件检验均未检出全局显著通路。",
+  "next_experiments_needed": [],
+  "routing_action": "confirm_scoped_deliverable_with_warn; no new experiment, no publication-readiness or causal endorsement",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "已得到两冻结特征在指定高激活B细胞原型中的可追溯基因输入贡献排序。",
+      "impact": "supported",
+      "qualification": "固定gene tokens和离散bin替换；为模型敏感性。F898前列YBX1/TPT1/NACA，F1387非RPL/RPS前列TMSB4X/BTG1/NPM1/SH3BGRL3。"
+    },
+    {
+      "id": "C2",
+      "claim": "部分TRAIN排名在同一历史TEST供体的所选细胞中保留正向贡献。",
+      "impact": "needs_qualifier",
+      "qualification": "F898 top40覆盖36、正向34；F1387覆盖38、正向29。不是盲测或所有基因稳定。"
+    },
+    {
+      "id": "C3",
+      "claim": "普通ORA提供抗原加工呈递等候选注释。",
+      "impact": "supported",
+      "qualification": "12307项中普通ORA显著116项；主匹配与精确敏感性全局显著均0；不能声称通过匹配背景的通路富集。"
+    },
+    {
+      "id": "C4",
+      "claim": "这些特征是已验证的B细胞功能模块、通路激活或因果机制。",
+      "impact": "unsupported",
+      "qualification": "当前无独立功能干预、因果或通路活性真值。"
+    },
+    {
+      "id": "C5",
+      "claim": "SAE/TopK整体可解释性优于embedding或PCA，或F898/F1387与F160构成公平配对比较。",
+      "impact": "unsupported",
+      "qualification": "控制在SAE所选原型上；特征原型/参照及旧富集检验家族不同；目标TopK门控未发生。"
+    }
+  ],
+  "trace_path": "work/sae_B898_1387/review_trace",
+  "audited_input_hashes_path": "work/sae_B898_1387/review_trace/audited_input_hashes.json",
+  "generated_at": "2026-10-18T14:09:19.406678+00:00"
+}

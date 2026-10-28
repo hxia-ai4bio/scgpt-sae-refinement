@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "datasets": [
+    "stim",
+    "pbmc"
+  ],
+  "new_body_trajectories": 24,
+  "new_fresh_heads": 24,
+  "new_expression_results": 72,
+  "new_knn_results": 144,
+  "integrity_status": "warn",
+  "claim_supported": "yes",
+  "review_acceptance": "provisional",
+  "completed_at": "2026-10-19T17:40:21.292391+00:00",
+  "note": "Audited per-dataset trackers preserved byte-for-byte; this is final completion status. Ctrl is reused context."
+}

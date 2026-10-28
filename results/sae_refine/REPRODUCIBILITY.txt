@@ -1,0 +1,18 @@
+本轮是已探索Kang数据上的开发比较，非新盲测。scGPT冻结，所有新SAE仅使用各折四个训练供体；验证供体用于MSE checkpoint及分类超参数选择。
+
+运行环境：/opt/anaconda3/envs/scgpt/bin/python，torch2.3.1，CPU4线程。
+固定协议：PROTOCOL.json。划分和原始行编号：SPLITS.json。选型锁：SELECTION_LOCK.json。
+
+复现入口（保留原始缓存路径，见脚本与source manifest）：
+python work/sae_refine/run.py preflight
+python work/sae_refine/run.py develop
+python work/sae_refine/run.py lock
+python work/sae_refine/run.py evaluate
+python work/sae_refine/verify.py
+python work/sae_refine/report.py
+
+新训练checkpoint与线性读出保存在work/sae_refine/，不覆盖任何旧实验。公开输出含全部测试预测、逐供体/类别指标、选中的512维测试embedding。
+embedding_manifest.json列出的每份embedding仅含该折留出测试供体，带原始rows和labels；不同fold的SAE由不同训练供体拟合，不能称为全数据同一个SAE。
+identity为true意味着验证选中了alpha=0，应视为原始embedding回退。forced_reconstruction是alpha=1的独立验证选型。
+三seed集成在每折只有1个集成模型；不将成员或seed作为独立供体。
+最大预算容量匹配，实际early stopping训练量见training_summary.json。

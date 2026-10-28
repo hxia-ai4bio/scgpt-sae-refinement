@@ -1,0 +1,18 @@
+{
+  "questions": [
+    {"id": "Q1", "question": "Can a validation-selected fixed SAE decomposition mixture improve original-h Ridge classification on the historical held-out donor rotations and PBMC file?", "evidence": ["summary.csv", "paired_donor_metrics.csv", "selected_models.csv"]},
+    {"id": "Q2", "question": "Does jointly reading [h, SAE z] offer repeatable incremental discrimination relative to original h, random TopK, and the same encoder without TopK?", "evidence": ["planned_contrasts.csv", "paired_donor_metrics.csv", "seed_means.csv", "per_class_summary.csv"]},
+    {"id": "Q3", "question": "Can SAE z predict honest label-crossfit classification residuals and improve final outer-donor scores beyond matched random and linear correction controls?", "evidence": ["summary.csv", "planned_contrasts.csv", "all_metrics.csv", "selected_models.csv"]}
+  ],
+  "forbidden_inferences": [
+    "z introduces information not contained in h",
+    "two affine-equivalent fixed-mixture grids are independent corroboration",
+    "PBMC file is a confirmed independent study or free of pretraining overlap",
+    "18 PBMC model fits are 18 independent external datasets",
+    "same historical donors and PBMC constitute a new blind confirmatory test",
+    "positive h-plus-z readout alone proves nonlinear or biological-semantic feature benefit",
+    "negative results establish intrinsic SAE uselessness",
+    "label/readout cross-fitting means SAE was retrained in every inner split",
+    "classification success proves biological causality"
+  ]
+}

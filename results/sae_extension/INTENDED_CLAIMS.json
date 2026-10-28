@@ -1,0 +1,14 @@
+{
+  "question": "Does fixed relation reconstruction show same-dataset refinement gains on Kang stim and PBMC?",
+  "reference": "lambda0.3 frozen from prior ctrl; also reportlambda0.1 and entiregrid without choosing per-dataset winner",
+  "scope": "stim same historical donors/newcondition, not independentcohort; PBMC dataset-specific bidirectional batchholdout and withinTRAIN nonself relation variant, not donor-generalization or SAE transfer",
+  "not_supported_by_design": [
+    "Universal SAE-specific benefit versus nonSAE nonlinear controls",
+    "Causal biological mechanism",
+    "Best lambda selection from TEST",
+    "Crossdonor PBMC validation"
+  ],
+  "new_warmup_fits": 24,
+  "new_continuation_fits": 168,
+  "new_TEST_readouts": 176
+}

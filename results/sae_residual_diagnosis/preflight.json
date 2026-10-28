@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "six_train_valid_splits_checked": true,
+  "no_TEST_or_PBMC_scoring": true,
+  "original_frozen_sources_unchanged": true
+}

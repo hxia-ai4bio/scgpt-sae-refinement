@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "pairs": 24,
+  "features": 4,
+  "single_gene_changed_forwards": 10781,
+  "deletion_forwards": 576,
+  "seconds": 510.4187457561493,
+  "independent_test_donors": 1,
+  "references_per_prototype": 1,
+  "not_paper_exact": "four train donor-stratified prototypes, two test prototypes, one matched reference; fixed token/bin perturbation; ORA annotation instead of GSEA"
+}

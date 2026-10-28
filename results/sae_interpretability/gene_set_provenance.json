@@ -1,0 +1,18 @@
+[
+  {
+    "file": "h.all.v2025.1.Hs.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Hs/h.all.v2025.1.Hs.symbols.gmt",
+    "sha256": "f22066af72e215ccb7b89d88e492c07e1eef17534c2ca7b0f9902cfecbbdd8e9",
+    "bytes": 48689,
+    "gene_sets": 50,
+    "retrieved_unix": 1791301367.053152
+  },
+  {
+    "file": "c2.cp.reactome.v2025.1.Hs.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Hs/c2.cp.reactome.v2025.1.Hs.symbols.gmt",
+    "sha256": "53b9b506bf3be87700cbb3cbbbb7a6faa847fbe62e65421541b14a2b763bab6b",
+    "bytes": 861211,
+    "gene_sets": 1787,
+    "retrieved_unix": 1791301369.865191
+  }
+]

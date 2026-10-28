@@ -1,0 +1,16 @@
+{
+  "python": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 18:02:02) \n[Clang 18.1.8 ]",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "torch": "2.3.1",
+    "torchtext": "0.18.0",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.9.4",
+    "h5py": "3.14.0",
+    "anndata": "0.10.9",
+    "scanpy": "1.10.3",
+    "numba": "0.60.0"
+  }
+}

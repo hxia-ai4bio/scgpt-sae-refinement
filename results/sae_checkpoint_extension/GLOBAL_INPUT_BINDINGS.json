@@ -1,0 +1,16 @@
+{
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_extension/run.py": "c5db8bc0fa13548182e33002df9aa4ceee1ff1a204dc28d47394bbe3413107ef",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_extension/execute.py": "a2db2767504c95c343867580a80a28d6337619106b7d542e2e533d4d8d1459eb",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_extension/build_sources.py": "1f29ead2d5e9b0059f60f271fb21e28d994d2fffa6e0f975aa3b02ce31855520",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_extension/initialize.py": "0b5a154f80aa463e2da724ed89d96961d35fd61831ee93008c1a6ca244052454",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/GLOBAL_PROTOCOL.json": "b8bc61d32cd435aea37859ac28069ba67cd0019c2f52e72d2eec49a207fcd3f0",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/stim/PROTOCOL.json": "d64af0038872bfc2e2431454ae45aa29c75bdd521d5b1559c1b1cf3624ffca8a",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/stim/INPUT_BINDINGS.json": "29ba331c84c41a042341c47396088f09cb39110b0a2092832143c3f977d263ae",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/pbmc/PROTOCOL.json": "c07b7d7a2d682b453a0e0541593aa73f0b34ab42649cc4caf49b38d86014eaab",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_extension/pbmc/INPUT_BINDINGS.json": "09516ab43fc5935a3f72e7e74bd95b1a5c400b71d9a85a0a8e45f9f1039783bb",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/all_metrics.csv": "dd7a9f78202624e3f1b2a2d8ce3f7a4e80b8b4ee3ba34e462b6495f704039b03",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/knn_metrics.csv": "ce280f69b3dfada8050f7868d6434fc12887ec6ced4203cbcc697947256c43be",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/selected_checkpoints.csv": "4912dd3817b09d23612cdf333801ffd3b090d60ac658189192494ed5573bd2fb",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/SUMMARY.json": "a65f76c1403f00ee5853ae02ae7c0edf268a50a9954a2cde12d76eed8d9dce67",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_checkpoint_selection/FINAL_MANIFEST.json": "ee294a935fb39e6a10736fa1b9207d44280d9fc07cc92912ab09a465024b3e6c"
+}

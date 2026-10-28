@@ -1,0 +1,56 @@
+[
+  {
+    "feature": 440,
+    "target": "CD14+ Monocytes",
+    "kind": "embedding",
+    "dimension": 293,
+    "sign": 1,
+    "train_min_donor_auc": 0.9746285921040159,
+    "test_auc": 0.9848246570625036
+  },
+  {
+    "feature": 440,
+    "target": "CD14+ Monocytes",
+    "kind": "pca",
+    "dimension": 0,
+    "sign": -1,
+    "train_min_donor_auc": 0.9715636521791927,
+    "test_auc": 0.9824350953720178
+  },
+  {
+    "feature": 160,
+    "target": "B cells",
+    "kind": "embedding",
+    "dimension": 201,
+    "sign": -1,
+    "train_min_donor_auc": 0.9387961122726113,
+    "test_auc": 0.9589637046307885
+  },
+  {
+    "feature": 160,
+    "target": "B cells",
+    "kind": "pca",
+    "dimension": 3,
+    "sign": 1,
+    "train_min_donor_auc": 0.8899192773399962,
+    "test_auc": 0.8704080100125157
+  },
+  {
+    "feature": 120,
+    "target": "NK cells",
+    "kind": "embedding",
+    "dimension": 498,
+    "sign": 1,
+    "train_min_donor_auc": 0.9430687179218489,
+    "test_auc": 0.8657004830917875
+  },
+  {
+    "feature": 120,
+    "target": "NK cells",
+    "kind": "pca",
+    "dimension": 1,
+    "sign": 1,
+    "train_min_donor_auc": 0.9040258830155808,
+    "test_auc": 0.805320813771518
+  }
+]

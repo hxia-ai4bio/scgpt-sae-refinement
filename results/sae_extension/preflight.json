@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "datasets_ready": [
+    "pbmc",
+    "stim"
+  ],
+  "splits": [
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "test_group": "Batch2_68k_r",
+      "counts": {
+        "train": 2111,
+        "valid": 527,
+        "test": 2000
+      },
+      "class_counts": {
+        "train": [
+          274,
+          384,
+          915,
+          253,
+          30,
+          120,
+          12,
+          123
+        ],
+        "valid": [
+          68,
+          96,
+          229,
+          63,
+          7,
+          30,
+          3,
+          31
+        ],
+        "test": [
+          134,
+          84,
+          1240,
+          349,
+          24,
+          45,
+          2,
+          122
+        ]
+      },
+      "groups": {
+        "train": [
+          "Batch1_3k"
+        ],
+        "valid": [
+          "Batch1_3k"
+        ],
+        "test": [
+          "Batch2_68k_r"
+        ]
+      }
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "test_group": "Batch1_3k",
+      "counts": {
+        "train": 1599,
+        "valid": 401,
+        "test": 2638
+      },
+      "class_counts": {
+        "train": [
+          107,
+          67,
+          992,
+          279,
+          19,
+          36,
+          1,
+          98
+        ],
+        "valid": [
+          27,
+          17,
+          248,
+          70,
+          5,
+          9,
+          1,
+          24
+        ],
+        "test": [
+          342,
+          480,
+          1144,
+          316,
+          37,
+          150,
+          15,
+          154
+        ]
+      },
+      "groups": {
+        "train": [
+          "Batch2_68k_r"
+        ],
+        "valid": [
+          "Batch2_68k_r"
+        ],
+        "test": [
+          "Batch1_3k"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "test_group": "patient_1016",
+      "counts": {
+        "train": 7452,
+        "valid": 641,
+        "test": 1635
+      },
+      "class_counts": {
+        "train": [
+          934,
+          1677,
+          3556,
+          244,
+          157,
+          326,
+          8,
+          550
+        ],
+        "valid": [
+          41,
+          164,
+          302,
+          11,
+          18,
+          25,
+          58,
+          22
+        ],
+        "test": [
+          123,
+          355,
+          461,
+          489,
+          20,
+          89,
+          0,
+          98
+        ]
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_107",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1039"
+        ],
+        "test": [
+          "patient_1016"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "test_group": "patient_1039",
+      "counts": {
+        "train": 6735,
+        "valid": 2352,
+        "test": 641
+      },
+      "class_counts": {
+        "train": [
+          691,
+          1314,
+          3182,
+          673,
+          141,
+          256,
+          5,
+          473
+        ],
+        "valid": [
+          366,
+          718,
+          835,
+          60,
+          36,
+          159,
+          3,
+          175
+        ],
+        "test": [
+          41,
+          164,
+          302,
+          11,
+          18,
+          25,
+          58,
+          22
+        ]
+      },
+      "groups": {
+        "train": [
+          "patient_1016",
+          "patient_107",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1015"
+        ],
+        "test": [
+          "patient_1039"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "test_group": "patient_1015",
+      "counts": {
+        "train": 4827,
+        "valid": 2549,
+        "test": 2352
+      },
+      "class_counts": {
+        "train": [
+          443,
+          1085,
+          1955,
+          642,
+          102,
+          191,
+          63,
+          346
+        ],
+        "valid": [
+          289,
+          393,
+          1529,
+          42,
+          57,
+          90,
+          0,
+          149
+        ],
+        "test": [
+          366,
+          718,
+          835,
+          60,
+          36,
+          159,
+          3,
+          175
+        ]
+      },
+      "groups": {
+        "train": [
+          "patient_1016",
+          "patient_1039",
+          "patient_107",
+          "patient_1256"
+        ],
+        "valid": [
+          "patient_1488"
+        ],
+        "test": [
+          "patient_1015"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "test_group": "patient_1488",
+      "counts": {
+        "train": 5153,
+        "valid": 2026,
+        "test": 2549
+      },
+      "class_counts": {
+        "train": [
+          590,
+          1416,
+          1797,
+          570,
+          90,
+          293,
+          62,
+          335
+        ],
+        "valid": [
+          219,
+          387,
+          993,
+          132,
+          48,
+          57,
+          4,
+          186
+        ],
+        "test": [
+          289,
+          393,
+          1529,
+          42,
+          57,
+          90,
+          0,
+          149
+        ]
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1016",
+          "patient_1039",
+          "patient_107"
+        ],
+        "valid": [
+          "patient_1256"
+        ],
+        "test": [
+          "patient_1488"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "test_group": "patient_1256",
+      "counts": {
+        "train": 7177,
+        "valid": 525,
+        "test": 2026
+      },
+      "class_counts": {
+        "train": [
+          819,
+          1630,
+          3127,
+          602,
+          131,
+          363,
+          61,
+          444
+        ],
+        "valid": [
+          60,
+          179,
+          199,
+          10,
+          16,
+          20,
+          1,
+          40
+        ],
+        "test": [
+          219,
+          387,
+          993,
+          132,
+          48,
+          57,
+          4,
+          186
+        ]
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1016",
+          "patient_1039",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_107"
+        ],
+        "test": [
+          "patient_1256"
+        ]
+      }
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "test_group": "patient_107",
+      "counts": {
+        "train": 7568,
+        "valid": 1635,
+        "test": 525
+      },
+      "class_counts": {
+        "train": [
+          915,
+          1662,
+          3659,
+          245,
+          159,
+          331,
+          65,
+          532
+        ],
+        "valid": [
+          123,
+          355,
+          461,
+          489,
+          20,
+          89,
+          0,
+          98
+        ],
+        "test": [
+          60,
+          179,
+          199,
+          10,
+          16,
+          20,
+          1,
+          40
+        ]
+      },
+      "groups": {
+        "train": [
+          "patient_1015",
+          "patient_1039",
+          "patient_1256",
+          "patient_1488"
+        ],
+        "valid": [
+          "patient_1016"
+        ],
+        "test": [
+          "patient_107"
+        ]
+      }
+    }
+  ],
+  "continuation_fits": 168,
+  "warmup_fits": 24,
+  "selected_readouts": 176,
+  "VALID_candidates": 1936,
+  "no_TEST_score": true
+}

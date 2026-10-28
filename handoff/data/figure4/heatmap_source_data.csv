@@ -1,0 +1,201 @@
+row,gene,display_group,contribution,input_prototypes,total_prototypes,not_tokenized
+patient_1015,RPS24,Ribosomal proteins,0.00914671023686727,2,2,False
+patient_1015,RPLP2,Ribosomal proteins,0.00490190585454305,2,2,False
+patient_1015,RPL35,Ribosomal proteins,-0.000533759593963623,2,2,False
+patient_1015,RPS23,Ribosomal proteins,0.006888290246327718,2,2,False
+patient_1015,RPL37A,Ribosomal proteins,-0.008036613464355469,1,2,False
+patient_1015,RPL30,Ribosomal proteins,0.007121741771697998,2,2,False
+patient_1015,RPL27,Ribosomal proteins,0.005975604057312012,1,2,False
+patient_1015,RPL31,Ribosomal proteins,-0.0017183621724446614,2,2,False
+patient_1015,RPLP1,Ribosomal proteins,0.0014528632164001465,2,2,False
+patient_1015,RPS10,Ribosomal proteins,0.0,0,2,True
+patient_1015,RPL26,Ribosomal proteins,0.007218897342681885,2,2,False
+patient_1015,RPL23A,Ribosomal proteins,0.0025593042373657227,2,2,False
+patient_1015,RPSA,Ribosomal proteins,0.004308124383290609,2,2,False
+patient_1015,RPL12,Ribosomal proteins,0.008606433868408203,2,2,False
+patient_1015,RPL38,Ribosomal proteins,0.003009100755055745,2,2,False
+patient_1015,RPL14,Ribosomal proteins,0.010358373324076334,2,2,False
+patient_1015,RPS21,Ribosomal proteins,0.0073019663492838545,1,2,False
+patient_1015,RPS27,Ribosomal proteins,0.003345151742299398,2,2,False
+patient_1015,RPL27A,Ribosomal proteins,0.005505224068959555,2,2,False
+patient_1015,RPL7A,Ribosomal proteins,0.007415970166524251,2,2,False
+patient_1015,RPS25,Ribosomal proteins,0.004614591598510742,2,2,False
+patient_1015,RPL34,Ribosomal proteins,-0.008574446042378742,2,2,False
+patient_1015,YBX1,RNA / translation,0.015202422936757406,2,2,False
+patient_1015,NPM1,RNA / translation,0.0024365385373433432,2,2,False
+patient_1015,NACA,RNA / translation,0.009891907374064127,2,2,False
+patient_1015,MIR142,RNA / translation,0.0,0,2,True
+patient_1015,EIF4A1,RNA / translation,0.00567096471786499,2,2,False
+patient_1015,CD74,Antigen presentation,0.015892724196116127,2,2,False
+patient_1015,HLA-B,Antigen presentation,0.0018366773923238118,2,2,False
+patient_1015,HLA-A,Antigen presentation,0.0026319026947021484,2,2,False
+patient_1015,VIM,Cytoskeleton,0.014886717001597086,1,2,False
+patient_1015,ACTB,Cytoskeleton,0.007859726746877035,1,2,False
+patient_1015,PFN1,Cytoskeleton,0.00255433718363444,1,2,False
+patient_1015,ACTG1,Cytoskeleton,0.0,0,2,True
+patient_1015,LDHA,Metabolism,0.007669071356455485,1,2,False
+patient_1015,ENO1,Metabolism,0.0032629569371541343,1,2,False
+patient_1015,GAPDH,Metabolism,0.0,0,2,True
+patient_1015,TPT1,Other,0.015444457530975342,2,2,False
+patient_1015,SERF2,Other,0.002010643482208252,2,2,False
+patient_1015,JUN,Other,0.005446791648864746,2,2,False
+patient_107,RPS24,Ribosomal proteins,0.01798918843269348,2,2,False
+patient_107,RPLP2,Ribosomal proteins,0.014692872762680054,2,2,False
+patient_107,RPL35,Ribosomal proteins,-0.0005312561988830566,1,2,False
+patient_107,RPS23,Ribosomal proteins,0.012514472007751465,2,2,False
+patient_107,RPL37A,Ribosomal proteins,0.02402597665786743,2,2,False
+patient_107,RPL30,Ribosomal proteins,0.016907840967178345,2,2,False
+patient_107,RPL27,Ribosomal proteins,0.0009368956089019775,2,2,False
+patient_107,RPL31,Ribosomal proteins,0.009300053119659424,2,2,False
+patient_107,RPLP1,Ribosomal proteins,0.0181923508644104,2,2,False
+patient_107,RPS10,Ribosomal proteins,0.001241922378540039,1,2,False
+patient_107,RPL26,Ribosomal proteins,0.010226964950561523,1,2,False
+patient_107,RPL23A,Ribosomal proteins,0.005013078451156616,2,2,False
+patient_107,RPSA,Ribosomal proteins,0.009880870580673218,2,2,False
+patient_107,RPL12,Ribosomal proteins,0.007970571517944336,2,2,False
+patient_107,RPL38,Ribosomal proteins,0.004859447479248047,2,2,False
+patient_107,RPL14,Ribosomal proteins,0.006410121917724609,2,2,False
+patient_107,RPS21,Ribosomal proteins,0.0015159845352172852,1,2,False
+patient_107,RPS27,Ribosomal proteins,-7.915496826171875e-05,2,2,False
+patient_107,RPL27A,Ribosomal proteins,0.013535410165786743,2,2,False
+patient_107,RPL7A,Ribosomal proteins,-0.00037232041358947754,1,2,False
+patient_107,RPS25,Ribosomal proteins,0.010973840951919556,2,2,False
+patient_107,RPL34,Ribosomal proteins,0.002619415521621704,2,2,False
+patient_107,YBX1,RNA / translation,0.024717479944229126,2,2,False
+patient_107,NPM1,RNA / translation,0.005854308605194092,1,2,False
+patient_107,NACA,RNA / translation,0.0022124648094177246,1,2,False
+patient_107,MIR142,RNA / translation,0.0,0,2,True
+patient_107,EIF4A1,RNA / translation,0.0011873245239257812,1,2,False
+patient_107,CD74,Antigen presentation,0.009676158428192139,2,2,False
+patient_107,HLA-B,Antigen presentation,0.009886682033538818,2,2,False
+patient_107,HLA-A,Antigen presentation,0.0026209652423858643,1,2,False
+patient_107,VIM,Cytoskeleton,0.026327282190322876,1,2,False
+patient_107,ACTB,Cytoskeleton,-0.005700588226318359,2,2,False
+patient_107,PFN1,Cytoskeleton,0.006774723529815674,2,2,False
+patient_107,ACTG1,Cytoskeleton,0.011706441640853882,1,2,False
+patient_107,LDHA,Metabolism,0.0,0,2,True
+patient_107,ENO1,Metabolism,0.0027875900268554688,1,2,False
+patient_107,GAPDH,Metabolism,0.015719398856163025,1,2,False
+patient_107,TPT1,Other,0.020480990409851074,2,2,False
+patient_107,SERF2,Other,0.019571363925933838,2,2,False
+patient_107,JUN,Other,0.0007261037826538086,1,2,False
+patient_1256,RPS24,Ribosomal proteins,0.020615498224894203,2,2,False
+patient_1256,RPLP2,Ribosomal proteins,0.013668735822041828,2,2,False
+patient_1256,RPL35,Ribosomal proteins,0.03670771916707356,2,2,False
+patient_1256,RPS23,Ribosomal proteins,0.009143451849619549,2,2,False
+patient_1256,RPL37A,Ribosomal proteins,0.009028156598409016,2,2,False
+patient_1256,RPL30,Ribosomal proteins,0.011947234471638998,2,2,False
+patient_1256,RPL27,Ribosomal proteins,0.014381666978200276,2,2,False
+patient_1256,RPL31,Ribosomal proteins,0.00930537780125936,2,2,False
+patient_1256,RPLP1,Ribosomal proteins,0.008597910404205322,2,2,False
+patient_1256,RPS10,Ribosomal proteins,0.017817517121632896,2,2,False
+patient_1256,RPL26,Ribosomal proteins,0.0029620130856831866,2,2,False
+patient_1256,RPL23A,Ribosomal proteins,0.013504604498545328,2,2,False
+patient_1256,RPSA,Ribosomal proteins,0.007621248563130696,2,2,False
+patient_1256,RPL12,Ribosomal proteins,0.0015023152033487956,2,2,False
+patient_1256,RPL38,Ribosomal proteins,0.015498042106628418,1,2,False
+patient_1256,RPL14,Ribosomal proteins,-0.0020020405451456704,1,2,False
+patient_1256,RPS21,Ribosomal proteins,0.0,0,2,True
+patient_1256,RPS27,Ribosomal proteins,0.0059242844581604,2,2,False
+patient_1256,RPL27A,Ribosomal proteins,-0.0037740667661031084,2,2,False
+patient_1256,RPL7A,Ribosomal proteins,0.0011654098828633626,1,2,False
+patient_1256,RPS25,Ribosomal proteins,0.0033658544222513833,1,2,False
+patient_1256,RPL34,Ribosomal proteins,0.006200234095255534,2,2,False
+patient_1256,YBX1,RNA / translation,0.017799079418182373,2,2,False
+patient_1256,NPM1,RNA / translation,0.021997789541880287,2,2,False
+patient_1256,NACA,RNA / translation,0.0035179853439331055,2,2,False
+patient_1256,MIR142,RNA / translation,0.02129809061686198,1,2,False
+patient_1256,EIF4A1,RNA / translation,0.0,0,2,True
+patient_1256,CD74,Antigen presentation,0.011496444543202717,2,2,False
+patient_1256,HLA-B,Antigen presentation,0.00203929344813029,2,2,False
+patient_1256,HLA-A,Antigen presentation,0.0046227773030598955,1,2,False
+patient_1256,VIM,Cytoskeleton,0.0,0,2,True
+patient_1256,ACTB,Cytoskeleton,0.014385541280110676,2,2,False
+patient_1256,PFN1,Cytoskeleton,0.0025832056999206543,1,2,False
+patient_1256,ACTG1,Cytoskeleton,0.0,0,2,True
+patient_1256,LDHA,Metabolism,0.0,0,2,True
+patient_1256,ENO1,Metabolism,-0.000205079714457194,1,2,False
+patient_1256,GAPDH,Metabolism,0.0,0,2,True
+patient_1256,TPT1,Other,0.010232349236806234,2,2,False
+patient_1256,SERF2,Other,0.010429739952087402,1,2,False
+patient_1256,JUN,Other,0.010768592357635498,1,2,False
+patient_1488,RPS24,Ribosomal proteins,0.008480389912923178,2,2,False
+patient_1488,RPLP2,Ribosomal proteins,0.021475712458292644,2,2,False
+patient_1488,RPL35,Ribosomal proteins,0.015061100323994953,2,2,False
+patient_1488,RPS23,Ribosomal proteins,0.012149989604949951,2,2,False
+patient_1488,RPL37A,Ribosomal proteins,0.013431032498677572,2,2,False
+patient_1488,RPL30,Ribosomal proteins,0.00032401084899902344,2,2,False
+patient_1488,RPL27,Ribosomal proteins,0.01396264632542928,2,2,False
+patient_1488,RPL31,Ribosomal proteins,0.01481113831202189,2,2,False
+patient_1488,RPLP1,Ribosomal proteins,0.0018292268117268882,2,2,False
+patient_1488,RPS10,Ribosomal proteins,0.008756101131439209,2,2,False
+patient_1488,RPL26,Ribosomal proteins,0.007192512353261312,2,2,False
+patient_1488,RPL23A,Ribosomal proteins,0.00374301274617513,2,2,False
+patient_1488,RPSA,Ribosomal proteins,0.002681891123453776,1,2,False
+patient_1488,RPL12,Ribosomal proteins,0.005942940711975098,2,2,False
+patient_1488,RPL38,Ribosomal proteins,0.0,0,2,True
+patient_1488,RPL14,Ribosomal proteins,0.007894515991210938,2,2,False
+patient_1488,RPS21,Ribosomal proteins,0.013229091962178549,1,2,False
+patient_1488,RPS27,Ribosomal proteins,0.01010038455327352,2,2,False
+patient_1488,RPL27A,Ribosomal proteins,0.00286183754603068,1,2,False
+patient_1488,RPL7A,Ribosomal proteins,0.007066051165262858,2,2,False
+patient_1488,RPS25,Ribosomal proteins,-0.0037621061007181806,2,2,False
+patient_1488,RPL34,Ribosomal proteins,0.014212071895599365,2,2,False
+patient_1488,YBX1,RNA / translation,0.007683197657267253,1,2,False
+patient_1488,NPM1,RNA / translation,0.0,0,2,True
+patient_1488,NACA,RNA / translation,0.008118927478790283,2,2,False
+patient_1488,MIR142,RNA / translation,0.0,0,2,True
+patient_1488,EIF4A1,RNA / translation,0.010258098443349203,2,2,False
+patient_1488,CD74,Antigen presentation,0.01786396900812785,2,2,False
+patient_1488,HLA-B,Antigen presentation,0.002699613571166992,2,2,False
+patient_1488,HLA-A,Antigen presentation,0.0050965150197347,1,2,False
+patient_1488,VIM,Cytoskeleton,0.0023752649625142417,1,2,False
+patient_1488,ACTB,Cytoskeleton,0.015613476435343426,2,2,False
+patient_1488,PFN1,Cytoskeleton,0.00766839583714803,1,2,False
+patient_1488,ACTG1,Cytoskeleton,0.006611824035644531,1,2,False
+patient_1488,LDHA,Metabolism,0.021838883558909096,2,2,False
+patient_1488,ENO1,Metabolism,0.011369129021962484,1,2,False
+patient_1488,GAPDH,Metabolism,0.0,0,2,True
+patient_1488,TPT1,Other,0.016516506671905518,2,2,False
+patient_1488,SERF2,Other,0.007922053337097168,2,2,False
+patient_1488,JUN,Other,0.008769512176513672,2,2,False
+Mean,RPS24,Ribosomal proteins,0.014057946701844534,8,8,False
+Mean,RPLP2,Ribosomal proteins,0.013684806724389393,8,8,False
+Mean,RPL35,Ribosomal proteins,0.012675950924555458,7,8,False
+Mean,RPS23,Ribosomal proteins,0.01017405092716217,8,8,False
+Mean,RPL37A,Ribosomal proteins,0.009612138072649637,7,8,False
+Mean,RPL30,Ribosomal proteins,0.009075207014878591,8,8,False
+Mean,RPL27,Ribosomal proteins,0.008814203242460886,7,8,False
+Mean,RPL31,Ribosomal proteins,0.007924551765124003,8,8,False
+Mean,RPLP1,Ribosomal proteins,0.007518087824185689,8,8,False
+Mean,RPS10,Ribosomal proteins,0.006953885157903036,5,8,False
+Mean,RPL26,Ribosomal proteins,0.006900096933046976,7,8,False
+Mean,RPL23A,Ribosomal proteins,0.006204999983310699,8,8,False
+Mean,RPSA,Ribosomal proteins,0.006123033662637075,7,8,False
+Mean,RPL12,Ribosomal proteins,0.006005565325419108,8,8,False
+Mean,RPL38,Ribosomal proteins,0.005841647585233052,5,8,False
+Mean,RPL14,Ribosomal proteins,0.005665242671966553,7,8,False
+Mean,RPS21,Ribosomal proteins,0.005511760711669922,3,8,False
+Mean,RPS27,Ribosomal proteins,0.0048226664463679,8,8,False
+Mean,RPL27A,Ribosomal proteins,0.004532101253668468,7,8,False
+Mean,RPL7A,Ribosomal proteins,0.0038187777002652483,6,8,False
+Mean,RPS25,Ribosomal proteins,0.0037980452179908752,7,8,False
+Mean,RPL34,Ribosomal proteins,0.0036143188675244655,8,8,False
+Mean,YBX1,RNA / translation,0.01635054498910904,7,8,False
+Mean,NPM1,RNA / translation,0.007572159171104431,5,8,False
+Mean,NACA,RNA / translation,0.00593532125155131,7,8,False
+Mean,MIR142,RNA / translation,0.005324522654215495,1,8,False
+Mean,EIF4A1,RNA / translation,0.004279096921284994,5,8,False
+Mean,CD74,Antigen presentation,0.01373232404390971,8,8,False
+Mean,HLA-B,Antigen presentation,0.004115566611289978,8,8,False
+Mean,HLA-A,Antigen presentation,0.0037430400649706517,5,8,False
+Mean,VIM,Cytoskeleton,0.010897316038608551,3,8,False
+Mean,ACTB,Cytoskeleton,0.008039539059003193,7,8,False
+Mean,PFN1,Cytoskeleton,0.0048951655626297,5,8,False
+Mean,ACTG1,Cytoskeleton,0.004579566419124603,2,8,False
+Mean,LDHA,Metabolism,0.0073769887288411455,3,8,False
+Mean,ENO1,Metabolism,0.004303649067878723,4,8,False
+Mean,GAPDH,Metabolism,0.003929849714040756,1,8,False
+Mean,TPT1,Other,0.015668575962384544,8,8,False
+Mean,SERF2,Other,0.009983450174331665,7,8,False
+Mean,JUN,Other,0.006427749991416931,6,8,False

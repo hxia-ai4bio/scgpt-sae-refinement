@@ -1,0 +1,496 @@
+{
+  "new_datasets": [
+    "stim",
+    "pbmc"
+  ],
+  "new_body_trajectories": 24,
+  "new_heads": 24,
+  "new_expression_results": 72,
+  "new_knn_results": 144,
+  "ctrl_context": "Previously sealed ctrl results, not new or independent replication.",
+  "expression": [
+    {
+      "dataset": "ctrl",
+      "method": "C_1000",
+      "source_phase": "prior_ctrl_context",
+      "MAE": 0.33461017169279744,
+      "normalized_MSE": 0.6363938180579171,
+      "gene_macro_MAE": 0.2741759403470895,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_selected",
+      "source_phase": "prior_ctrl_context",
+      "MAE": 0.3207723170833228,
+      "normalized_MSE": 0.5890282147902582,
+      "gene_macro_MAE": 0.26725306573038904,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "source_phase": "prior_ctrl_context",
+      "MAE": 0.32595499122624333,
+      "normalized_MSE": 0.6050673822083864,
+      "gene_macro_MAE": 0.2749012252647122,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_1000",
+      "source_phase": "current_replication",
+      "MAE": 0.386179286767002,
+      "normalized_MSE": 1.151477955338677,
+      "gene_macro_MAE": 0.32458108487516657,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_selected",
+      "source_phase": "current_replication",
+      "MAE": 0.344114508643686,
+      "normalized_MSE": 0.959626674912145,
+      "gene_macro_MAE": 0.2849672345524298,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "source_phase": "current_replication",
+      "MAE": 0.36272204162867183,
+      "normalized_MSE": 1.0572423419328478,
+      "gene_macro_MAE": 0.3092787291144675,
+      "gene_mean_baseline_MAE": 0.47533745562930363
+    },
+    {
+      "dataset": "stim",
+      "method": "C_1000",
+      "source_phase": "current_replication",
+      "MAE": 0.3465485648768731,
+      "normalized_MSE": 0.6461921279405584,
+      "gene_macro_MAE": 0.2828360733940839,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "C_selected",
+      "source_phase": "current_replication",
+      "MAE": 0.3343683093023093,
+      "normalized_MSE": 0.602872676950178,
+      "gene_macro_MAE": 0.27656670818900625,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "source_phase": "current_replication",
+      "MAE": 0.33869703291738057,
+      "normalized_MSE": 0.6162568394766742,
+      "gene_macro_MAE": 0.2835750151604625,
+      "gene_mean_baseline_MAE": 0.45213800833629986
+    }
+  ],
+  "knn": [
+    {
+      "dataset": "ctrl",
+      "method": "C_1000",
+      "view": "clean",
+      "source_phase": "prior_ctrl_context",
+      "knn_macro_f1": 0.8300731886385234
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_1000",
+      "view": "masked",
+      "source_phase": "prior_ctrl_context",
+      "knn_macro_f1": 0.81459836711864
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_selected",
+      "view": "clean",
+      "source_phase": "prior_ctrl_context",
+      "knn_macro_f1": 0.8186701834796434
+    },
+    {
+      "dataset": "ctrl",
+      "method": "C_selected",
+      "view": "masked",
+      "source_phase": "prior_ctrl_context",
+      "knn_macro_f1": 0.809919432330322
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "view": "clean",
+      "source_phase": "prior_ctrl_context",
+      "knn_macro_f1": 0.781000729633678
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "view": "masked",
+      "source_phase": "prior_ctrl_context",
+      "knn_macro_f1": 0.7608079928730795
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_1000",
+      "view": "clean",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7503318498712033
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_1000",
+      "view": "masked",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7378161910372856
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_selected",
+      "view": "clean",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7022764183903144
+    },
+    {
+      "dataset": "pbmc",
+      "method": "C_selected",
+      "view": "masked",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.6872101601957389
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "view": "clean",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7409104592281712
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "view": "masked",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7382424234271703
+    },
+    {
+      "dataset": "stim",
+      "method": "C_1000",
+      "view": "clean",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7856014921651256
+    },
+    {
+      "dataset": "stim",
+      "method": "C_1000",
+      "view": "masked",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7646856528437734
+    },
+    {
+      "dataset": "stim",
+      "method": "C_selected",
+      "view": "clean",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7818263102939439
+    },
+    {
+      "dataset": "stim",
+      "method": "C_selected",
+      "view": "masked",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7586165775240623
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "view": "clean",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7417944144683308
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "view": "masked",
+      "source_phase": "current_replication",
+      "knn_macro_f1": 0.7247052316122615
+    }
+  ],
+  "contrasts": [
+    {
+      "dataset": "ctrl",
+      "reference": "original_h",
+      "selected_MAE": 0.3207723170833228,
+      "reference_MAE": 0.32595499122624333,
+      "delta_MAE": -0.005182674142920507,
+      "MAE_reduction_pct": 1.5899968653412144,
+      "improved_pairs": 18,
+      "pairs": 18,
+      "improved_groups": 6,
+      "groups": 6,
+      "source_phase": "prior_ctrl_context"
+    },
+    {
+      "dataset": "ctrl",
+      "reference": "C_1000",
+      "selected_MAE": 0.3207723170833228,
+      "reference_MAE": 0.33461017169279744,
+      "delta_MAE": -0.01383785460947462,
+      "MAE_reduction_pct": 4.135515229399256,
+      "improved_pairs": 18,
+      "pairs": 18,
+      "improved_groups": 6,
+      "groups": 6,
+      "source_phase": "prior_ctrl_context"
+    },
+    {
+      "dataset": "pbmc",
+      "reference": "original_h",
+      "selected_MAE": 0.344114508643686,
+      "reference_MAE": 0.36272204162867183,
+      "delta_MAE": -0.018607532984985853,
+      "MAE_reduction_pct": 5.129970293902042,
+      "improved_pairs": 6,
+      "pairs": 6,
+      "improved_groups": 2,
+      "groups": 2,
+      "source_phase": "current_replication"
+    },
+    {
+      "dataset": "pbmc",
+      "reference": "C_1000",
+      "selected_MAE": 0.344114508643686,
+      "reference_MAE": 0.386179286767002,
+      "delta_MAE": -0.04206477812331599,
+      "MAE_reduction_pct": 10.892551611318147,
+      "improved_pairs": 6,
+      "pairs": 6,
+      "improved_groups": 2,
+      "groups": 2,
+      "source_phase": "current_replication"
+    },
+    {
+      "dataset": "stim",
+      "reference": "original_h",
+      "selected_MAE": 0.3343683093023093,
+      "reference_MAE": 0.33869703291738057,
+      "delta_MAE": -0.0043287236150712505,
+      "MAE_reduction_pct": 1.2780518263728502,
+      "improved_pairs": 18,
+      "pairs": 18,
+      "improved_groups": 6,
+      "groups": 6,
+      "source_phase": "current_replication"
+    },
+    {
+      "dataset": "stim",
+      "reference": "C_1000",
+      "selected_MAE": 0.3343683093023093,
+      "reference_MAE": 0.3465485648768731,
+      "delta_MAE": -0.012180255574563759,
+      "MAE_reduction_pct": 3.514732654827568,
+      "improved_pairs": 18,
+      "pairs": 18,
+      "improved_groups": 6,
+      "groups": 6,
+      "source_phase": "current_replication"
+    }
+  ],
+  "selected_checkpoints": [
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 42,
+      "selected_step": 100,
+      "valid_objective": 0.6125177447312917,
+      "valid_MAE": 0.3361332333842634
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 43,
+      "selected_step": 100,
+      "valid_objective": 0.6006554069818428,
+      "valid_MAE": 0.3339003239608235
+    },
+    {
+      "dataset": "stim",
+      "fold": 0,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.6101944685307618,
+      "valid_MAE": 0.33764865961875307
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5708777661276391,
+      "valid_MAE": 0.32626996001275793
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.5705056071560345,
+      "valid_MAE": 0.3257459020427526
+    },
+    {
+      "dataset": "stim",
+      "fold": 1,
+      "seed": 44,
+      "selected_step": 50,
+      "valid_objective": 0.5715609582244434,
+      "valid_MAE": 0.32675764549118974
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5022428056750563,
+      "valid_MAE": 0.3101402119618628
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.5021103950879858,
+      "valid_MAE": 0.31135677053675276
+    },
+    {
+      "dataset": "stim",
+      "fold": 2,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.5027699268832581,
+      "valid_MAE": 0.30730507986900807
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5141621111033364,
+      "valid_MAE": 0.31784764172813607
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.5143608037922608,
+      "valid_MAE": 0.3180108442789103
+    },
+    {
+      "dataset": "stim",
+      "fold": 3,
+      "seed": 44,
+      "selected_step": 50,
+      "valid_objective": 0.5112083402173103,
+      "valid_MAE": 0.3164780930702978
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 42,
+      "selected_step": 100,
+      "valid_objective": 0.5652758677971803,
+      "valid_MAE": 0.3267278885299087
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 43,
+      "selected_step": 100,
+      "valid_objective": 0.5637532915641458,
+      "valid_MAE": 0.3265578935493911
+    },
+    {
+      "dataset": "stim",
+      "fold": 4,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.5648264562247709,
+      "valid_MAE": 0.3257437402522716
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 42,
+      "selected_step": 100,
+      "valid_objective": 0.5106687243002478,
+      "valid_MAE": 0.30956665480288426
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 43,
+      "selected_step": 100,
+      "valid_objective": 0.5078433889588891,
+      "valid_MAE": 0.3085022319951239
+    },
+    {
+      "dataset": "stim",
+      "fold": 5,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.5096886489875585,
+      "valid_MAE": 0.3109337445518136
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 42,
+      "selected_step": 25,
+      "valid_objective": 0.6905286980975033,
+      "valid_MAE": 0.2955852492535063
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 43,
+      "selected_step": 25,
+      "valid_objective": 0.6942401489050937,
+      "valid_MAE": 0.29590177492330416
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 0,
+      "seed": 44,
+      "selected_step": 25,
+      "valid_objective": 0.6897619563327196,
+      "valid_MAE": 0.29296979293395886
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 42,
+      "selected_step": 25,
+      "valid_objective": 0.6617166022443282,
+      "valid_MAE": 0.28470124840523703
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 43,
+      "selected_step": 25,
+      "valid_objective": 0.6634735075958437,
+      "valid_MAE": 0.2852305211217305
+    },
+    {
+      "dataset": "pbmc",
+      "fold": 1,
+      "seed": 44,
+      "selected_step": 25,
+      "valid_objective": 0.6642960054737792,
+      "valid_MAE": 0.2865426075540112
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+B-cell SAE F898 and F1387 gene contribution and pathways
+Start at REPORT.html; top40_gene_contributions.csv and candidate_pathway_genes.csv give gene-level evidence.
+all_pathway_results.csv retains every tested term; significant_pathways.csv contains ordinary-ORA-only rows as well as any matched discoveries. Interpret the evidence column and both adjusted q-values.
+
+Full rerun requires external historical checkpoint and datasets at absolute paths in work/sae_interpretability/common.py and the original data_manifest.json. Original models/raw data are not bundled. Frozen sources and exact input hashes are retained. No model training occurs.
+Python environment: ENVIRONMENT.json.
+From extracted root (run sequentially):
+  python work/sae_B898_1387/context.py
+  python work/sae_B898_1387/expression_bcells.py
+  for each F898 and F1387: run.py -> analyze.py -> pairs_qc.py -> verify.py
+  python work/sae_B898_1387/pathways.py
+  python work/sae_B898_1387/verify_pathways.py
+  python work/sae_B898_1387/report.py
+Set OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=8 for model inference; model code sets Torch CPU threads8, max16perturbations perbatch. Saved pair caches bind inputs, script, checkpoint hashes and output hashes. Do not delete completion flags for a partial run without inspecting the corresponding cache state.
+Full-precision null strata and indices are in each feature null_*.npz. Replay them directly for existing random tests; do not recreate strata using CSV float round trips.
+The main matched test is10,000random sets plus-one p. Exact stratum-conditional convolution is a separate prespecified sensitivity analysis. Global BH spans both new features, both gene lists and allthree libraries; F160 prior q-values use a different family.
+Archived local helper sources, frozen activations, PCA and prior metadata are included. The original historical project module dependencies and original checkpoint/data remain external. Prior F160 gene table is included only to reproduce descriptive cross-feature overlap. Different feature-selected prototypes/references limit paired comparisons.
+Audit is a same-family provisional reviewer assessment; numerical PASS is not biological validation.

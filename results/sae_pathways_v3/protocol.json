@@ -1,0 +1,16 @@
+{
+  "scope": "frozen F160 TRAIN positive attribution; historical TEST gene effects only descriptive; no test-based gene selection",
+  "analyses": [
+    "all_input_top40",
+    "nonribosomal_top40"
+  ],
+  "selection": "top40 positive TRAIN attribution; second analysis removes RPL/RPS prefixes from both background and selected genes before ranking",
+  "universe": "all 1838 genes actually covered by TRAIN prototypes; remove RPL/RPS only in nonribosomal analysis; unannotated genes retained",
+  "libraries": "MSigDB 2025.1.Hs GO BP, Reactome, Hallmark",
+  "pathway_filter": "5<=number of pathway genes in actual background<=500",
+  "statistic": "upper-tail hypergeometric overrepresentation and observed/expected overlap",
+  "matched_null": "10000 sets per analysis; without replacement within each set; joint quintiles of mean raw count/detection rate across all TRAIN B cells, plus prototype-token coverage bins1-2/3-5/6-8; selected genes remain eligible",
+  "multiplicity": "BH across all tested terms in both analyses and all3 collections, separately for hypergeometric and matched p; also within-analysis q as explicitly secondary",
+  "seed": 20261018,
+  "claims": "pathway association of positive model sensitivity; no pathway activation direction or biological causality; overlapping GO/Reactome entries are not independent mechanisms"
+}

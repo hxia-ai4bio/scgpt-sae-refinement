@@ -1,0 +1,9 @@
+{
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_gene_attribution_v2/run.py": "1eaa162a3d5af3bb5ea74983aa4ea535b6d5ad61a27bceeda8d365954b605d2d",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/common.py": "7ff3d6cdfc55a46a4415f3ebbde294118e699fa1e46f045b2a097fee61a7f883",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/02_forward.py": "7a90b269af13b38606597c6e9388a93daa72a673e3abd6022445b601cbbd1b83",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1016/seed_42/k_32/sae.pt": "5391620c151706d9e6b0c0a5037aacf9ad9726bf9d827b43abde22d4361e1207",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/primary_activations.npz": "6bf82fae80be08b5e1717b0ef3ae598092112a8b7afc6ae3bea57c989042676b",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_interpretability/pca.npz": "f8ad1580a75f88196458d1d0c78cdb8a2945bee40ac500063b2e7dffefb6bf41",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_interpretability/input_manifest.json": "82c75eae45aef49b3b15c0e922785bedc2d68fcb2f700e7b29b5a9cc84272899"
+}

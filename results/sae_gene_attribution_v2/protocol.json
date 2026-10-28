@@ -1,0 +1,21 @@
+{
+  "feature": 160,
+  "target": "B cells",
+  "models": "frozen historical primary SAE K32/scGPT",
+  "prototype_rule": "top2 active B cells per 4 TRAIN donors; top4 per single TEST donor",
+  "reference_rule": "up to3 nearest same-donor same-type zero-SAE cells; no fallback, no replacement",
+  "averaging": "reference equal within prototype, prototype equal within donor, donor equal within split",
+  "intervention": "fixed original gene tokens/padding; replace a single binned value from reference full-cell bins; 0 when absent; no raw-count causal interpretation",
+  "score_names": [
+    "sae_F160",
+    "encoder_F160",
+    "embedding_neg201",
+    "pca3"
+  ],
+  "comparison": "same prototypes/references selected by SAE; raw coordinates are diagnostic controls, not unbiased global interpretability comparison",
+  "gene_absence": "zero contribution when not tokenized; report coverage and conditional score separately",
+  "test": "freeze gene rankings from TRAIN; selected high-activation prototypes, one donor; reused references are not independent samples",
+  "deletion": "0,1,5,10,20,40; own TRAIN coordinate ranking, TRAIN expression difference,10 joint-matched random sets, SAE nonribosomal ranking",
+  "random_match": "original bin//10, sign(reference-original), absolute difference//5; without replacement within order; attribution genes may overlap; report overlap",
+  "seed": 20261019
+}

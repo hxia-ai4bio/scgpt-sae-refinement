@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "dataset": "ctrl",
+  "fold": 0,
+  "seed": 42,
+  "roles_seen": [
+    "TRAIN",
+    "VALID"
+  ],
+  "TEST_scored": false,
+  "training": [
+    {
+      "arm": "A_sae",
+      "seconds": 52.50616502761841,
+      "history": [
+        {
+          "step": 0,
+          "valid_objective": 0.5680814385414124,
+          "valid_clean_normalized_embedding_MSE": 0.4299394516495995
+        },
+        {
+          "step": 100,
+          "valid_objective": 0.5526657700538635,
+          "valid_clean_normalized_embedding_MSE": 0.45455115547739305
+        },
+        {
+          "step": 250,
+          "valid_objective": 0.5490027666091919,
+          "valid_clean_normalized_embedding_MSE": 0.44756832777353395
+        },
+        {
+          "step": 500,
+          "valid_objective": 0.5485588312149048,
+          "valid_clean_normalized_embedding_MSE": 0.44891776704277186
+        },
+        {
+          "step": 750,
+          "valid_objective": 0.5533486008644104,
+          "valid_clean_normalized_embedding_MSE": 0.45235719840535366
+        },
+        {
+          "step": 1000,
+          "valid_objective": 0.5548439025878906,
+          "valid_clean_normalized_embedding_MSE": 0.45287396687394754
+        }
+      ],
+      "parameters": 2099200,
+      "gradient_step2": {
+        "step": 2,
+        "norms": {
+          "network.encoder.weight": 0.07097223401069641,
+          "network.encoder.bias": 0.03020416386425495,
+          "network.decoder.weight": 0.04211409017443657
+        },
+        "loss": 0.20247234404087067
+      }
+    },
+    {
+      "arm": "C_sae",
+      "seconds": 78.38871097564697,
+      "history": [
+        {
+          "step": 0,
+          "valid_objective": 1.0154244899749756,
+          "valid_clean_normalized_embedding_MSE": 0.4299394516495995
+        },
+        {
+          "step": 100,
+          "valid_objective": 0.5552802085876465,
+          "valid_clean_normalized_embedding_MSE": 1.0512500694761207
+        },
+        {
+          "step": 250,
+          "valid_objective": 0.5880220532417297,
+          "valid_clean_normalized_embedding_MSE": 1.794771309781791
+        },
+        {
+          "step": 500,
+          "valid_objective": 0.6450167298316956,
+          "valid_clean_normalized_embedding_MSE": 2.5696267342465213
+        },
+        {
+          "step": 750,
+          "valid_objective": 0.6754435896873474,
+          "valid_clean_normalized_embedding_MSE": 3.0244840507645416
+        },
+        {
+          "step": 1000,
+          "valid_objective": 0.6851187348365784,
+          "valid_clean_normalized_embedding_MSE": 3.1749376716866267
+        }
+      ],
+      "parameters": 3149824,
+      "gradient_step2": {
+        "step": 2,
+        "norms": {
+          "network.encoder.weight": 0.027740033343434334,
+          "network.encoder.bias": 0.00978493969887495,
+          "network.decoder.weight": 0.022199146449565887,
+          "head.weight": 0.49473828077316284,
+          "head.bias": 0.013167478144168854
+        },
+        "loss": 0.9143376350402832
+      }
+    },
+    {
+      "arm": "A_dense",
+      "seconds": 71.02219295501709,
+      "history": [
+        {
+          "step": 0,
+          "valid_objective": 0.20626303553581238,
+          "valid_clean_normalized_embedding_MSE": 0.0
+        },
+        {
+          "step": 100,
+          "valid_objective": 0.1949526071548462,
+          "valid_clean_normalized_embedding_MSE": 0.047692387133699506
+        },
+        {
+          "step": 250,
+          "valid_objective": 0.20117305219173431,
+          "valid_clean_normalized_embedding_MSE": 0.05974794516536225
+        },
+        {
+          "step": 500,
+          "valid_objective": 0.20844469964504242,
+          "valid_clean_normalized_embedding_MSE": 0.07128041885607314
+        },
+        {
+          "step": 750,
+          "valid_objective": 0.21576832234859467,
+          "valid_clean_normalized_embedding_MSE": 0.0798487173635047
+        },
+        {
+          "step": 1000,
+          "valid_objective": 0.21492214500904083,
+          "valid_clean_normalized_embedding_MSE": 0.07946058499785849
+        }
+      ],
+      "parameters": 2099712,
+      "gradient_step2": {
+        "step": 2,
+        "norms": {
+          "network.0.weight": 0.003619492519646883,
+          "network.0.bias": 0.0005520214908756316,
+          "network.2.weight": 0.04833914712071419,
+          "network.2.bias": 0.020287705585360527
+        },
+        "loss": 0.1435360610485077
+      }
+    }
+  ]
+}

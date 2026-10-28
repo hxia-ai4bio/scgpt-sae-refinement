@@ -1,0 +1,7 @@
+method,view,knn_macro_f1
+C_1000,clean,0.8300731886385234
+C_1000,masked,0.81459836711864
+C_selected,clean,0.8186701834796434
+C_selected,masked,0.809919432330322
+original_h,clean,0.781000729633678
+original_h,masked,0.7608079928730795

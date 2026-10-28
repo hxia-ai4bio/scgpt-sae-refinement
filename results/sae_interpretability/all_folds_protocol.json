@@ -1,0 +1,17 @@
+{
+  "targets": [
+    "CD14+ Monocytes",
+    "B cells",
+    "NK cells"
+  ],
+  "folds": 6,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "same primary TRAIN-only eligibility and minimum donor AUC rule, separately in each fold/seed",
+  "baselines": "original512 coordinates and TRAIN512 PCA directions; sign chosen in TRAIN only",
+  "scope": "label-guided single-feature diagnostic; unequal candidate dimensions 2048 vs512; historical donors/PBMC; not an interpretability benchmark or 18 independent datasets",
+  "summary": "average three seeds per held-out donor first; report six donor values"
+}

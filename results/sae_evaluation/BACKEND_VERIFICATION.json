@@ -1,0 +1,7 @@
+{
+  "explicit_blas_silhouette": 0.23426969668289158,
+  "sklearn_silhouette": 0.2342696966828916,
+  "absolute_error": 2.7755575615628914e-17,
+  "implementation": "No implementation change: full run retains sklearn cosine silhouette. Explicit-BLAS precomputed distances independently reproduce its pilot value; warnings did not change the verified pilot result.",
+  "correction": "Initial note described an unimplemented replacement. Corrected description only; run.py and numeric evidence unchanged."
+}

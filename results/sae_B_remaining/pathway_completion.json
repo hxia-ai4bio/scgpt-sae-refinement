@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "seconds": 37.64049983024597,
+  "tests": 39911,
+  "TRAIN_B_cells_for_matching": 941,
+  "random_sets": 120000,
+  "global_family": "all SIX features, both gene lists, all 3 databases",
+  "primary_matched_test": "MonteCarlo10000 with add-one correction; global BH",
+  "exact_sensitivity": "convolution of stratum-conditioned hypergeometric distributions; separate global BH; same coarse-bin assumptions"
+}

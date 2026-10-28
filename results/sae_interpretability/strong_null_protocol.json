@@ -1,0 +1,9 @@
+{
+  "status": "post-hoc audit-motivated control",
+  "candidate_selection": "unchanged",
+  "rankings": "unchanged frozen TRAIN attribution",
+  "prototypes": "same two TEST cells per feature",
+  "strata": "original expression bin//10, sign(reference-original), abs(reference-original)//5",
+  "randomization": "sample without replacement within joint stratum; 10 deterministic random orders per prototype",
+  "caveat": "exact stratum matching may reuse many attribution genes; overlap and actual magnitude reported; one donor pilot, no significance claim"
+}

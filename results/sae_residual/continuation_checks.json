@@ -1,0 +1,12 @@
+{
+  "target": "predeclared primary SAE gate",
+  "criteria": {
+    "mean_gain_at_least_1pp": false,
+    "at_least_4_positive_donors": false,
+    "at_least_2_positive_seed_means": false,
+    "PBMC_loss_no_more_than_0_5pp": true,
+    "better_than_rotated_control": false
+  },
+  "all_met": false,
+  "scope": "development continuation threshold, not significance or confirmation"
+}

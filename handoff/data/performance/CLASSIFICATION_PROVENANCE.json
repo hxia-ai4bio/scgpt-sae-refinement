@@ -1,0 +1,38 @@
+{
+  "sources_sha256": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/all_metrics.csv": "6d5609d34bdc8a1a43bda9fc762afbab278a338979bf93cfbcafcd10b23e0ef7",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/all_metrics.csv": "963faa103c508c26cab58ac202f18b8a8b1d077af5c24731b48b8138374a0c27",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_lambda/seed_metrics.csv": "3c06dfbad0d37a566a6bc32ab86c3abb81255518e867a1ca865fe0419e0ce095",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/seed_metrics.csv": "b98444ca854c861594edf28112c5f85379bbabe9a42aef0f0f86e4366f1abe0b",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_performance_table.py": "8a9423e29f4d4bb1a87fa645a63f7094ac8f42592505ec2ea16dc50c129ca709"
+  },
+  "table": [
+    {
+      "dataset": "ctrl",
+      "Original": 82.7539600326646,
+      "MSE": 83.00705141686308,
+      "KL_fixed_0p3": 84.17806046372041,
+      "KL_best": 84.17806046372041,
+      "best_lambda": 0.3,
+      "delta_best_pp": 1.4241004310558196
+    },
+    {
+      "dataset": "stim",
+      "Original": 84.52495930590307,
+      "MSE": 84.19160586588183,
+      "KL_fixed_0p3": 83.61846085257127,
+      "KL_best": 85.25524536670149,
+      "best_lambda": 0.03,
+      "delta_best_pp": 0.7302860607984201
+    },
+    {
+      "dataset": "pbmc",
+      "Original": 82.67607060143116,
+      "MSE": 81.78800237994564,
+      "KL_fixed_0p3": 81.61212576904188,
+      "KL_best": 83.34467088221933,
+      "best_lambda": 0.03,
+      "delta_best_pp": 0.6686002807881692
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+display_row,dataset,lambda_KL,seed,macro_f1_percent,n_groups,method
+MSE,ctrl,0,42,83.00705141686308,6,continue_mse
+MSE + KL (lambda=0.3),ctrl,0.3,42,84.17806046372041,6,relation_strong
+MSE + KL (best lambda),ctrl,0.3,42,84.17806046372041,6,relation_strong
+MSE,stim,0,43,84.19160586588183,6,lambda_0
+MSE + KL (lambda=0.3),stim,0.3,42,83.61846085257127,6,lambda_0p3
+MSE + KL (best lambda),stim,0.03,43,85.25524536670149,6,lambda_0p03
+MSE,pbmc,0,43,81.78800237994564,2,lambda_0
+MSE + KL (lambda=0.3),pbmc,0.3,43,81.61212576904188,2,lambda_0p3
+MSE + KL (best lambda),pbmc,0.03,43,83.34467088221933,2,lambda_0p03

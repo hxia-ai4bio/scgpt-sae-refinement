@@ -1,0 +1,13 @@
+{
+  "layout": "a activation top left; b replacement top right; c full-width grouped heatmap below",
+  "changes": "layout and typography only; original data, gene set, donor weighting and raw contribution scale retained",
+  "sources_sha256": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/bcell_clean/panel_A_activation_all_cells.csv": "77e4e248c6bb724a2bfec63a685227971bfe1c02419577c5d7341e001ba1c8c7",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/bcell_clean/panel_C_per_cell_replacement.csv": "7b1c5db5358a01eb97d730da16632d4a23e65d439e12b44dcf5caea4d4b09e16",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/bcell_clean/panel_C_mean_replacement.csv": "bc223abbaaa42ba6fb0a487d9389d9fde3d757a69de11ffdce33c79802e3e485",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/bcell_functional_heatmap_v2/heatmap_source_data.csv": "a5599a5122f834cbe944e0a55e21866efa18add0db655b96d19619bb2d7db102",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_figures/bcell_functional_heatmap_v2/gene_groups_and_evidence.csv": "5441cf367c45c9ab427a0f685a2abf8bd12381a928422f9ceedfca419f0ee344",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_figures/draw_figure4_complete.py": "fa3495cfd8f2c1461f338be84ec6fc46e4f9363de6ffc893366f277ae2f8d09b"
+  },
+  "checks": "donor mean identities and replacement averages verified to 1e-12"
+}

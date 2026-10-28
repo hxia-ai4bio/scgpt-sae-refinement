@@ -1,0 +1,325 @@
+task,control,metric,delta_mean,positive_groups,n_groups,dataset,method,cell_type,variant
+knn,original_h,macro_f1,0.011486222693064652,2,6,ctrl,mse,,
+knn,original_h,macro_f1,0.0,0,6,ctrl,original_h,,
+knn,original_h,macro_f1,0.0064411872734877655,2,6,ctrl,relation_0p3,,
+knn,original_h,macro_f1,-0.008836083478510504,1,2,pbmc,mse,,
+knn,original_h,macro_f1,0.0,0,2,pbmc,original_h,,
+knn,original_h,macro_f1,-0.0046939991600597475,1,2,pbmc,relation_0p3,,
+knn,original_h,macro_f1,-0.00381942466838379,3,6,stim,mse,,
+knn,original_h,macro_f1,0.0,0,6,stim,original_h,,
+knn,original_h,macro_f1,-0.006818731703361354,2,6,stim,relation_0p3,,
+knn,original_h,purity_macro_supported,0.004045079620039489,5,6,ctrl,mse,,
+knn,original_h,purity_macro_supported,0.0,0,6,ctrl,original_h,,
+knn,original_h,purity_macro_supported,0.002118644009170075,4,6,ctrl,relation_0p3,,
+knn,original_h,purity_macro_supported,0.0009138907501410332,1,2,pbmc,mse,,
+knn,original_h,purity_macro_supported,0.0,0,2,pbmc,original_h,,
+knn,original_h,purity_macro_supported,-0.0015105068505733565,1,2,pbmc,relation_0p3,,
+knn,original_h,purity_macro_supported,0.002439298122612584,5,6,stim,mse,,
+knn,original_h,purity_macro_supported,0.0,0,6,stim,original_h,,
+knn,original_h,purity_macro_supported,-0.00011425393810438056,4,6,stim,relation_0p3,,
+knn,mse,macro_f1,0.0,0,6,ctrl,mse,,
+knn,mse,macro_f1,-0.011486222693064652,4,6,ctrl,original_h,,
+knn,mse,macro_f1,-0.005045035419576886,2,6,ctrl,relation_0p3,,
+knn,mse,macro_f1,0.0,0,2,pbmc,mse,,
+knn,mse,macro_f1,0.008836083478510504,1,2,pbmc,original_h,,
+knn,mse,macro_f1,0.004142084318450756,2,2,pbmc,relation_0p3,,
+knn,mse,macro_f1,0.0,0,6,stim,mse,,
+knn,mse,macro_f1,0.00381942466838379,3,6,stim,original_h,,
+knn,mse,macro_f1,-0.0029993070349775643,1,6,stim,relation_0p3,,
+knn,mse,purity_macro_supported,0.0,0,6,ctrl,mse,,
+knn,mse,purity_macro_supported,-0.004045079620039489,1,6,ctrl,original_h,,
+knn,mse,purity_macro_supported,-0.0019264356108694147,2,6,ctrl,relation_0p3,,
+knn,mse,purity_macro_supported,0.0,0,2,pbmc,mse,,
+knn,mse,purity_macro_supported,-0.0009138907501410332,1,2,pbmc,original_h,,
+knn,mse,purity_macro_supported,-0.0024243976007143897,0,2,pbmc,relation_0p3,,
+knn,mse,purity_macro_supported,0.0,0,6,stim,mse,,
+knn,mse,purity_macro_supported,-0.002439298122612584,1,6,stim,original_h,,
+knn,mse,purity_macro_supported,-0.0025535520607169646,0,6,stim,relation_0p3,,
+IFN,original_h,r2,-1.7347234759768072e-19,0,5,ctrl,mse,B cells,covariates
+IFN,original_h,r2,-0.18585766120232278,0,5,ctrl,mse,B cells,embedding
+IFN,original_h,r2,-0.17502724292399327,0,5,ctrl,mse,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,6,ctrl,mse,CD14+ Monocytes,covariates
+IFN,original_h,r2,-0.27609305214291485,0,6,ctrl,mse,CD14+ Monocytes,embedding
+IFN,original_h,r2,-0.27968694184539983,0,6,ctrl,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,5,ctrl,original_h,B cells,covariates
+IFN,original_h,r2,0.0,0,5,ctrl,original_h,B cells,embedding
+IFN,original_h,r2,0.0,0,5,ctrl,original_h,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,6,ctrl,original_h,CD14+ Monocytes,covariates
+IFN,original_h,r2,0.0,0,6,ctrl,original_h,CD14+ Monocytes,embedding
+IFN,original_h,r2,0.0,0,6,ctrl,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,-1.7347234759768072e-19,0,5,ctrl,relation_0p3,B cells,covariates
+IFN,original_h,r2,-0.245331744904762,0,5,ctrl,relation_0p3,B cells,embedding
+IFN,original_h,r2,-0.22387623403436002,0,5,ctrl,relation_0p3,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,6,ctrl,relation_0p3,CD14+ Monocytes,covariates
+IFN,original_h,r2,-0.28143217545833593,0,6,ctrl,relation_0p3,CD14+ Monocytes,embedding
+IFN,original_h,r2,-0.2836743035790898,0,6,ctrl,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,2,pbmc,mse,B cells,covariates
+IFN,original_h,r2,-0.684008171613426,0,2,pbmc,mse,B cells,embedding
+IFN,original_h,r2,-0.7069885033210787,0,2,pbmc,mse,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,1,pbmc,mse,CD14+ Monocytes,covariates
+IFN,original_h,r2,-4.146959675578234,0,1,pbmc,mse,CD14+ Monocytes,embedding
+IFN,original_h,r2,-4.186427359834342,0,1,pbmc,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,2,pbmc,original_h,B cells,covariates
+IFN,original_h,r2,0.0,0,2,pbmc,original_h,B cells,embedding
+IFN,original_h,r2,0.0,0,2,pbmc,original_h,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,1,pbmc,original_h,CD14+ Monocytes,covariates
+IFN,original_h,r2,0.0,0,1,pbmc,original_h,CD14+ Monocytes,embedding
+IFN,original_h,r2,0.0,0,1,pbmc,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,2,pbmc,relation_0p3,B cells,covariates
+IFN,original_h,r2,-0.6318204180147433,0,2,pbmc,relation_0p3,B cells,embedding
+IFN,original_h,r2,-0.6433147806269146,0,2,pbmc,relation_0p3,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,1,pbmc,relation_0p3,CD14+ Monocytes,covariates
+IFN,original_h,r2,-2.891175097127246,0,1,pbmc,relation_0p3,CD14+ Monocytes,embedding
+IFN,original_h,r2,-2.6574820548903935,0,1,pbmc,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,-5.782411586589357e-19,0,6,stim,mse,B cells,covariates
+IFN,original_h,r2,-0.0951435207500652,1,6,stim,mse,B cells,embedding
+IFN,original_h,r2,-0.10406595663321809,1,6,stim,mse,B cells,embedding_plus_covariates
+IFN,original_h,r2,-3.469446951953614e-18,0,6,stim,mse,CD14+ Monocytes,covariates
+IFN,original_h,r2,-0.15103822809136344,0,6,stim,mse,CD14+ Monocytes,embedding
+IFN,original_h,r2,-0.1455811698846826,0,6,stim,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,6,stim,original_h,B cells,covariates
+IFN,original_h,r2,0.0,0,6,stim,original_h,B cells,embedding
+IFN,original_h,r2,0.0,0,6,stim,original_h,B cells,embedding_plus_covariates
+IFN,original_h,r2,0.0,0,6,stim,original_h,CD14+ Monocytes,covariates
+IFN,original_h,r2,0.0,0,6,stim,original_h,CD14+ Monocytes,embedding
+IFN,original_h,r2,0.0,0,6,stim,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,r2,-5.782411586589357e-19,0,6,stim,relation_0p3,B cells,covariates
+IFN,original_h,r2,-0.1321566725244341,0,6,stim,relation_0p3,B cells,embedding
+IFN,original_h,r2,-0.14218466650896794,0,6,stim,relation_0p3,B cells,embedding_plus_covariates
+IFN,original_h,r2,-3.469446951953614e-18,0,6,stim,relation_0p3,CD14+ Monocytes,covariates
+IFN,original_h,r2,-0.15910691350176984,0,6,stim,relation_0p3,CD14+ Monocytes,embedding
+IFN,original_h,r2,-0.14917123233459828,0,6,stim,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,-5.551115123125783e-18,0,5,ctrl,mse,B cells,covariates
+IFN,original_h,spearman,-0.07887681088494101,0,5,ctrl,mse,B cells,embedding
+IFN,original_h,spearman,-0.07599717848271317,0,5,ctrl,mse,B cells,embedding_plus_covariates
+IFN,original_h,spearman,-1.1564823173178714e-17,0,6,ctrl,mse,CD14+ Monocytes,covariates
+IFN,original_h,spearman,-0.0787773795615579,0,6,ctrl,mse,CD14+ Monocytes,embedding
+IFN,original_h,spearman,-0.0791257365423101,0,6,ctrl,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,5,ctrl,original_h,B cells,covariates
+IFN,original_h,spearman,0.0,0,5,ctrl,original_h,B cells,embedding
+IFN,original_h,spearman,0.0,0,5,ctrl,original_h,B cells,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,6,ctrl,original_h,CD14+ Monocytes,covariates
+IFN,original_h,spearman,0.0,0,6,ctrl,original_h,CD14+ Monocytes,embedding
+IFN,original_h,spearman,0.0,0,6,ctrl,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,-5.551115123125783e-18,0,5,ctrl,relation_0p3,B cells,covariates
+IFN,original_h,spearman,-0.09760205219298015,0,5,ctrl,relation_0p3,B cells,embedding
+IFN,original_h,spearman,-0.09273241124323901,0,5,ctrl,relation_0p3,B cells,embedding_plus_covariates
+IFN,original_h,spearman,-1.1564823173178714e-17,0,6,ctrl,relation_0p3,CD14+ Monocytes,covariates
+IFN,original_h,spearman,-0.09387052861578848,0,6,ctrl,relation_0p3,CD14+ Monocytes,embedding
+IFN,original_h,spearman,-0.09315268424880822,0,6,ctrl,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,-1.3877787807814457e-17,0,2,pbmc,mse,B cells,covariates
+IFN,original_h,spearman,-0.0012187467240174568,1,2,pbmc,mse,B cells,embedding
+IFN,original_h,spearman,-0.003624781870569853,1,2,pbmc,mse,B cells,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,1,pbmc,mse,CD14+ Monocytes,covariates
+IFN,original_h,spearman,-0.21475588266201512,0,1,pbmc,mse,CD14+ Monocytes,embedding
+IFN,original_h,spearman,-0.21362853189534398,0,1,pbmc,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,2,pbmc,original_h,B cells,covariates
+IFN,original_h,spearman,0.0,0,2,pbmc,original_h,B cells,embedding
+IFN,original_h,spearman,0.0,0,2,pbmc,original_h,B cells,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,1,pbmc,original_h,CD14+ Monocytes,covariates
+IFN,original_h,spearman,0.0,0,1,pbmc,original_h,CD14+ Monocytes,embedding
+IFN,original_h,spearman,0.0,0,1,pbmc,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,-1.3877787807814457e-17,0,2,pbmc,relation_0p3,B cells,covariates
+IFN,original_h,spearman,-0.03070633764066196,1,2,pbmc,relation_0p3,B cells,embedding
+IFN,original_h,spearman,-0.03137131638904827,1,2,pbmc,relation_0p3,B cells,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,1,pbmc,relation_0p3,CD14+ Monocytes,covariates
+IFN,original_h,spearman,-0.11411985398680886,0,1,pbmc,relation_0p3,CD14+ Monocytes,embedding
+IFN,original_h,spearman,-0.1119716737857504,0,1,pbmc,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,6,stim,mse,B cells,covariates
+IFN,original_h,spearman,-0.09041881702646082,0,6,stim,mse,B cells,embedding
+IFN,original_h,spearman,-0.08783385132031148,1,6,stim,mse,B cells,embedding_plus_covariates
+IFN,original_h,spearman,2.7755575615628914e-17,0,6,stim,mse,CD14+ Monocytes,covariates
+IFN,original_h,spearman,-0.10443929010914521,0,6,stim,mse,CD14+ Monocytes,embedding
+IFN,original_h,spearman,-0.09881267302270207,0,6,stim,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,6,stim,original_h,B cells,covariates
+IFN,original_h,spearman,0.0,0,6,stim,original_h,B cells,embedding
+IFN,original_h,spearman,0.0,0,6,stim,original_h,B cells,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,6,stim,original_h,CD14+ Monocytes,covariates
+IFN,original_h,spearman,0.0,0,6,stim,original_h,CD14+ Monocytes,embedding
+IFN,original_h,spearman,0.0,0,6,stim,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,original_h,spearman,0.0,0,6,stim,relation_0p3,B cells,covariates
+IFN,original_h,spearman,-0.11225758889584986,0,6,stim,relation_0p3,B cells,embedding
+IFN,original_h,spearman,-0.10952872011793606,0,6,stim,relation_0p3,B cells,embedding_plus_covariates
+IFN,original_h,spearman,2.7755575615628914e-17,0,6,stim,relation_0p3,CD14+ Monocytes,covariates
+IFN,original_h,spearman,-0.10414340367788621,0,6,stim,relation_0p3,CD14+ Monocytes,embedding
+IFN,original_h,spearman,-0.09516698160223315,0,6,stim,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,5,ctrl,mse,B cells,covariates
+IFN,mse,r2,0.0,0,5,ctrl,mse,B cells,embedding
+IFN,mse,r2,0.0,0,5,ctrl,mse,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,ctrl,mse,CD14+ Monocytes,covariates
+IFN,mse,r2,0.0,0,6,ctrl,mse,CD14+ Monocytes,embedding
+IFN,mse,r2,0.0,0,6,ctrl,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,1.7347234759768072e-19,0,5,ctrl,original_h,B cells,covariates
+IFN,mse,r2,0.18585766120232278,5,5,ctrl,original_h,B cells,embedding
+IFN,mse,r2,0.17502724292399327,5,5,ctrl,original_h,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,ctrl,original_h,CD14+ Monocytes,covariates
+IFN,mse,r2,0.27609305214291485,6,6,ctrl,original_h,CD14+ Monocytes,embedding
+IFN,mse,r2,0.27968694184539983,6,6,ctrl,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,5,ctrl,relation_0p3,B cells,covariates
+IFN,mse,r2,-0.05947408370243925,2,5,ctrl,relation_0p3,B cells,embedding
+IFN,mse,r2,-0.04884899111036677,2,5,ctrl,relation_0p3,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,ctrl,relation_0p3,CD14+ Monocytes,covariates
+IFN,mse,r2,-0.005339123315421079,4,6,ctrl,relation_0p3,CD14+ Monocytes,embedding
+IFN,mse,r2,-0.003987361733689937,4,6,ctrl,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,2,pbmc,mse,B cells,covariates
+IFN,mse,r2,0.0,0,2,pbmc,mse,B cells,embedding
+IFN,mse,r2,0.0,0,2,pbmc,mse,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,1,pbmc,mse,CD14+ Monocytes,covariates
+IFN,mse,r2,0.0,0,1,pbmc,mse,CD14+ Monocytes,embedding
+IFN,mse,r2,0.0,0,1,pbmc,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,2,pbmc,original_h,B cells,covariates
+IFN,mse,r2,0.684008171613426,2,2,pbmc,original_h,B cells,embedding
+IFN,mse,r2,0.7069885033210787,2,2,pbmc,original_h,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,1,pbmc,original_h,CD14+ Monocytes,covariates
+IFN,mse,r2,4.146959675578234,1,1,pbmc,original_h,CD14+ Monocytes,embedding
+IFN,mse,r2,4.186427359834342,1,1,pbmc,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,2,pbmc,relation_0p3,B cells,covariates
+IFN,mse,r2,0.05218775359868272,1,2,pbmc,relation_0p3,B cells,embedding
+IFN,mse,r2,0.06367372269416413,1,2,pbmc,relation_0p3,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,1,pbmc,relation_0p3,CD14+ Monocytes,covariates
+IFN,mse,r2,1.2557845784509887,1,1,pbmc,relation_0p3,CD14+ Monocytes,embedding
+IFN,mse,r2,1.5289453049439485,1,1,pbmc,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,stim,mse,B cells,covariates
+IFN,mse,r2,0.0,0,6,stim,mse,B cells,embedding
+IFN,mse,r2,0.0,0,6,stim,mse,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,stim,mse,CD14+ Monocytes,covariates
+IFN,mse,r2,0.0,0,6,stim,mse,CD14+ Monocytes,embedding
+IFN,mse,r2,0.0,0,6,stim,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,5.782411586589357e-19,0,6,stim,original_h,B cells,covariates
+IFN,mse,r2,0.0951435207500652,5,6,stim,original_h,B cells,embedding
+IFN,mse,r2,0.10406595663321809,5,6,stim,original_h,B cells,embedding_plus_covariates
+IFN,mse,r2,3.469446951953614e-18,0,6,stim,original_h,CD14+ Monocytes,covariates
+IFN,mse,r2,0.15103822809136344,6,6,stim,original_h,CD14+ Monocytes,embedding
+IFN,mse,r2,0.1455811698846826,6,6,stim,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,stim,relation_0p3,B cells,covariates
+IFN,mse,r2,-0.0370131517743689,1,6,stim,relation_0p3,B cells,embedding
+IFN,mse,r2,-0.038118709875749855,1,6,stim,relation_0p3,B cells,embedding_plus_covariates
+IFN,mse,r2,0.0,0,6,stim,relation_0p3,CD14+ Monocytes,covariates
+IFN,mse,r2,-0.008068685410406415,3,6,stim,relation_0p3,CD14+ Monocytes,embedding
+IFN,mse,r2,-0.003590062449915693,2,6,stim,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,5,ctrl,mse,B cells,covariates
+IFN,mse,spearman,0.0,0,5,ctrl,mse,B cells,embedding
+IFN,mse,spearman,0.0,0,5,ctrl,mse,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,ctrl,mse,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.0,0,6,ctrl,mse,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.0,0,6,ctrl,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,5.551115123125783e-18,0,5,ctrl,original_h,B cells,covariates
+IFN,mse,spearman,0.07887681088494101,5,5,ctrl,original_h,B cells,embedding
+IFN,mse,spearman,0.07599717848271317,5,5,ctrl,original_h,B cells,embedding_plus_covariates
+IFN,mse,spearman,1.1564823173178714e-17,0,6,ctrl,original_h,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.0787773795615579,6,6,ctrl,original_h,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.0791257365423101,6,6,ctrl,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,5,ctrl,relation_0p3,B cells,covariates
+IFN,mse,spearman,-0.018725241308039136,1,5,ctrl,relation_0p3,B cells,embedding
+IFN,mse,spearman,-0.016735232760525846,1,5,ctrl,relation_0p3,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,ctrl,relation_0p3,CD14+ Monocytes,covariates
+IFN,mse,spearman,-0.015093149054230577,2,6,ctrl,relation_0p3,CD14+ Monocytes,embedding
+IFN,mse,spearman,-0.01402694770649811,2,6,ctrl,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,2,pbmc,mse,B cells,covariates
+IFN,mse,spearman,0.0,0,2,pbmc,mse,B cells,embedding
+IFN,mse,spearman,0.0,0,2,pbmc,mse,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,1,pbmc,mse,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.0,0,1,pbmc,mse,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.0,0,1,pbmc,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,1.3877787807814457e-17,0,2,pbmc,original_h,B cells,covariates
+IFN,mse,spearman,0.0012187467240174568,1,2,pbmc,original_h,B cells,embedding
+IFN,mse,spearman,0.003624781870569853,1,2,pbmc,original_h,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,1,pbmc,original_h,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.21475588266201512,1,1,pbmc,original_h,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.21362853189534398,1,1,pbmc,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,2,pbmc,relation_0p3,B cells,covariates
+IFN,mse,spearman,-0.029487590916644504,0,2,pbmc,relation_0p3,B cells,embedding
+IFN,mse,spearman,-0.027746534518478416,0,2,pbmc,relation_0p3,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,1,pbmc,relation_0p3,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.10063602867520625,1,1,pbmc,relation_0p3,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.10165685810959356,1,1,pbmc,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,stim,mse,B cells,covariates
+IFN,mse,spearman,0.0,0,6,stim,mse,B cells,embedding
+IFN,mse,spearman,0.0,0,6,stim,mse,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,stim,mse,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.0,0,6,stim,mse,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.0,0,6,stim,mse,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,stim,original_h,B cells,covariates
+IFN,mse,spearman,0.09041881702646082,6,6,stim,original_h,B cells,embedding
+IFN,mse,spearman,0.08783385132031148,5,6,stim,original_h,B cells,embedding_plus_covariates
+IFN,mse,spearman,-2.7755575615628914e-17,0,6,stim,original_h,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.10443929010914521,6,6,stim,original_h,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.09881267302270207,6,6,stim,original_h,CD14+ Monocytes,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,stim,relation_0p3,B cells,covariates
+IFN,mse,spearman,-0.02183877186938903,1,6,stim,relation_0p3,B cells,embedding
+IFN,mse,spearman,-0.021694868797624594,1,6,stim,relation_0p3,B cells,embedding_plus_covariates
+IFN,mse,spearman,0.0,0,6,stim,relation_0p3,CD14+ Monocytes,covariates
+IFN,mse,spearman,0.00029588643125899594,3,6,stim,relation_0p3,CD14+ Monocytes,embedding
+IFN,mse,spearman,0.003645691420468907,3,6,stim,relation_0p3,CD14+ Monocytes,embedding_plus_covariates
+fewshot_AULC,original_h,AULC,-0.0009611629592876092,2,6,ctrl,mse,,
+fewshot_AULC,original_h,AULC,0.0,0,6,ctrl,original_h,,
+fewshot_AULC,original_h,AULC,-0.0023018167366189077,2,6,ctrl,relation_0p3,,
+fewshot_AULC,original_h,AULC,-0.02070958423369912,1,2,pbmc,mse,,
+fewshot_AULC,original_h,AULC,0.0,0,2,pbmc,original_h,,
+fewshot_AULC,original_h,AULC,-0.026370872948023594,0,2,pbmc,relation_0p3,,
+fewshot_AULC,original_h,AULC,-0.008350811113013798,1,6,stim,mse,,
+fewshot_AULC,original_h,AULC,0.0,0,6,stim,original_h,,
+fewshot_AULC,original_h,AULC,-0.009558782328669968,1,6,stim,relation_0p3,,
+fewshot_AULC,mse,AULC,0.0,0,6,ctrl,mse,,
+fewshot_AULC,mse,AULC,0.0009611629592876092,4,6,ctrl,original_h,,
+fewshot_AULC,mse,AULC,-0.0013406537773312983,3,6,ctrl,relation_0p3,,
+fewshot_AULC,mse,AULC,0.0,0,2,pbmc,mse,,
+fewshot_AULC,mse,AULC,0.02070958423369912,1,2,pbmc,original_h,,
+fewshot_AULC,mse,AULC,-0.005661288714324475,0,2,pbmc,relation_0p3,,
+fewshot_AULC,mse,AULC,0.0,0,6,stim,mse,,
+fewshot_AULC,mse,AULC,0.008350811113013798,5,6,stim,original_h,,
+fewshot_AULC,mse,AULC,-0.001207971215656171,2,6,stim,relation_0p3,,
+clustering,original_h,ARI,-0.031622503239453315,1,6,ctrl,mse,,
+clustering,original_h,ARI,0.0,0,6,ctrl,original_h,,
+clustering,original_h,ARI,-0.022053462536955632,1,6,ctrl,relation_0p3,,
+clustering,original_h,ARI,-0.03344924558820138,0,2,pbmc,mse,,
+clustering,original_h,ARI,0.0,0,2,pbmc,original_h,,
+clustering,original_h,ARI,-0.043240209804651486,0,2,pbmc,relation_0p3,,
+clustering,original_h,ARI,-0.021295698380680694,1,6,stim,mse,,
+clustering,original_h,ARI,0.0,0,6,stim,original_h,,
+clustering,original_h,ARI,-0.018396320117974495,1,6,stim,relation_0p3,,
+clustering,original_h,NMI,-0.012716380834814892,1,6,ctrl,mse,,
+clustering,original_h,NMI,0.0,0,6,ctrl,original_h,,
+clustering,original_h,NMI,-0.012273272162900676,1,6,ctrl,relation_0p3,,
+clustering,original_h,NMI,-0.037722674944712875,0,2,pbmc,mse,,
+clustering,original_h,NMI,0.0,0,2,pbmc,original_h,,
+clustering,original_h,NMI,-0.04177079465427452,0,2,pbmc,relation_0p3,,
+clustering,original_h,NMI,-0.01863374723915732,1,6,stim,mse,,
+clustering,original_h,NMI,0.0,0,6,stim,original_h,,
+clustering,original_h,NMI,-0.020149888440735435,1,6,stim,relation_0p3,,
+clustering,original_h,cell_type_silhouette,0.019983753786498176,6,6,ctrl,mse,,
+clustering,original_h,cell_type_silhouette,0.0,0,6,ctrl,original_h,,
+clustering,original_h,cell_type_silhouette,0.01607218273950553,6,6,ctrl,relation_0p3,,
+clustering,original_h,cell_type_silhouette,-0.012540820463136315,0,2,pbmc,mse,,
+clustering,original_h,cell_type_silhouette,0.0,0,2,pbmc,original_h,,
+clustering,original_h,cell_type_silhouette,-0.014267166004392137,0,2,pbmc,relation_0p3,,
+clustering,original_h,cell_type_silhouette,0.013543961134539026,6,6,stim,mse,,
+clustering,original_h,cell_type_silhouette,0.0,0,6,stim,original_h,,
+clustering,original_h,cell_type_silhouette,0.010485182423751781,6,6,stim,relation_0p3,,
+clustering,mse,ARI,0.0,0,6,ctrl,mse,,
+clustering,mse,ARI,0.031622503239453315,5,6,ctrl,original_h,,
+clustering,mse,ARI,0.00956904070249768,4,6,ctrl,relation_0p3,,
+clustering,mse,ARI,0.0,0,2,pbmc,mse,,
+clustering,mse,ARI,0.03344924558820138,2,2,pbmc,original_h,,
+clustering,mse,ARI,-0.009790964216450107,1,2,pbmc,relation_0p3,,
+clustering,mse,ARI,0.0,0,6,stim,mse,,
+clustering,mse,ARI,0.021295698380680694,5,6,stim,original_h,,
+clustering,mse,ARI,0.002899378262706198,3,6,stim,relation_0p3,,
+clustering,mse,NMI,0.0,0,6,ctrl,mse,,
+clustering,mse,NMI,0.012716380834814892,5,6,ctrl,original_h,,
+clustering,mse,NMI,0.0004431086719142163,4,6,ctrl,relation_0p3,,
+clustering,mse,NMI,0.0,0,2,pbmc,mse,,
+clustering,mse,NMI,0.037722674944712875,2,2,pbmc,original_h,,
+clustering,mse,NMI,-0.004048119709561648,0,2,pbmc,relation_0p3,,
+clustering,mse,NMI,0.0,0,6,stim,mse,,
+clustering,mse,NMI,0.01863374723915732,5,6,stim,original_h,,
+clustering,mse,NMI,-0.001516141201578114,3,6,stim,relation_0p3,,
+clustering,mse,cell_type_silhouette,0.0,0,6,ctrl,mse,,
+clustering,mse,cell_type_silhouette,-0.019983753786498176,0,6,ctrl,original_h,,
+clustering,mse,cell_type_silhouette,-0.003911571046992644,0,6,ctrl,relation_0p3,,
+clustering,mse,cell_type_silhouette,0.0,0,2,pbmc,mse,,
+clustering,mse,cell_type_silhouette,0.012540820463136315,2,2,pbmc,original_h,,
+clustering,mse,cell_type_silhouette,-0.001726345541255822,1,2,pbmc,relation_0p3,,
+clustering,mse,cell_type_silhouette,0.0,0,6,stim,mse,,
+clustering,mse,cell_type_silhouette,-0.013543961134539026,0,6,stim,original_h,,
+clustering,mse,cell_type_silhouette,-0.0030587787107872444,0,6,stim,relation_0p3,,

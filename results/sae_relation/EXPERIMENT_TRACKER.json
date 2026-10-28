@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "pilot": "complete",
+  "development": "complete",
+  "evaluation": "complete",
+  "review": "same-family / provisional",
+  "selection_lock_sha": "0292a22a7635865566e8864c8eefbeea33bf6478110bdcf436f3c83c68eafc3f",
+  "verification": "PASS",
+  "report": "complete"
+}

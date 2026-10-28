@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "deletion_forwards": 1152,
+  "deletion_seconds": 95.98563981056213,
+  "slow_backend_replays": 12,
+  "max_replay_error": 1.1324882507324219e-06,
+  "scope": "one historical test donor;4 selected B cells;3 reused references; raw scores not comparable across representations"
+}

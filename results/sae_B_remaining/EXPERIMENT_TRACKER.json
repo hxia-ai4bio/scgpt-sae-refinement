@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "features": [
+    137,
+    370,
+    146,
+    1373,
+    1125,
+    1409
+  ],
+  "attribution": "complete",
+  "deletion": "complete",
+  "pathways": "complete",
+  "source_numeric_verification": "PASS",
+  "scientific_review": "WARN",
+  "scope": "frozen B-cell prototypes; input sensitivity/annotation association, not causal biology"
+}

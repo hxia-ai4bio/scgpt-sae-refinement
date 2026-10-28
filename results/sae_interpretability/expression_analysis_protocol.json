@@ -1,0 +1,9 @@
+{
+  "source": "same input RNA; exploratory proxy",
+  "score": "Pearson correlation of log1pCP10K expression and feature after residualizing intercept/log total counts/log detected genes/donor; mt if variable; within preselected target type (technical comparator adjusts all types)",
+  "genes": "model vocabulary genes detected >=20 TRAIN cells in target population; same gene set mapped to TEST/PBMC",
+  "outputs": "raw partial correlations; no cell-level inferential p values; train top40 carried forward descriptively",
+  "mt_gene_count_kang": 0,
+  "mt_gene_count_pbmc": 13,
+  "mt_note": "No variation/absent genes means mitochondrial confounding cannot be assessed, not zero biological effect"
+}

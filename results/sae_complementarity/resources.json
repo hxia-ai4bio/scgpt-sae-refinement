@@ -1,0 +1,12 @@
+{
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "cpu_logical": null,
+  "cpu_physical": 14,
+  "memory_total_gb": 24.0,
+  "memory_available_gb": 8.052963256835938,
+  "disk_free_gb": 510.2363510131836,
+  "cuda": false,
+  "mps": false,
+  "swap": "unavailable: sandbox permission; resource script failed only at swap query",
+  "strategy": "CPU float64 sequential BLAS1, Torch4; reuse frozen SAE; no neural training"
+}

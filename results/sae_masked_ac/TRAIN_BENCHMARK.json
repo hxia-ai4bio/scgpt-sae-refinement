@@ -1,0 +1,26 @@
+[
+  {
+    "threads": 1,
+    "arm": "A_sae",
+    "steps": 100,
+    "seconds": 1.1883859634399414
+  },
+  {
+    "threads": 1,
+    "arm": "C_sae",
+    "steps": 100,
+    "seconds": 1.711709976196289
+  },
+  {
+    "threads": 4,
+    "arm": "A_sae",
+    "steps": 100,
+    "seconds": 0.7200629711151123
+  },
+  {
+    "threads": 4,
+    "arm": "C_sae",
+    "steps": 100,
+    "seconds": 1.0889439582824707
+  }
+]

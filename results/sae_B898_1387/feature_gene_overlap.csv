@@ -1,0 +1,7 @@
+feature_a,feature_b,list,top40_overlap,top40_jaccard,shared_genes,common_background_genes,rank_Spearman_common,scope
+160,898,all,16,0.25,CD74;GAPDH;HLA-A;HLA-B;NACA;PFN1;RPL14;RPL27;RPL35;RPL37A;RPLP1;RPLP2;RPS24;RPSA;TPT1;YBX1,997,0.34390750836069917,"different feature-selected prototypes/references; descriptive, not paired feature effect"
+160,898,non_RPL_RPS,17,0.2698412698412698,ACTG1;CD74;EIF4A1;ENO1;FAU;GAPDH;HLA-A;HLA-B;NACA;NPM1;PFN1;PTMA;PTPRCAP;SERBP1;SERF2;TPT1;YBX1,918,0.31082327718113123,"different feature-selected prototypes/references; descriptive, not paired feature effect"
+160,1387,all,5,0.06666666666666667,NPM1;RPL14;RPL31;RPL7A;RPLP2,878,0.12013845590563994,"different feature-selected prototypes/references; descriptive, not paired feature effect"
+160,1387,non_RPL_RPS,7,0.0958904109589041,ACTB;BTG1;CD79A;COX4I1;NPM1;PTMA;YBX1,801,0.084978577490947,"different feature-selected prototypes/references; descriptive, not paired feature effect"
+898,1387,all,8,0.1111111111111111,EEF1A1;PTMA;RPL14;RPL29;RPL5;RPLP0;RPLP2;RPS3A,768,0.09767193929365252,"different feature-selected prototypes/references; descriptive, not paired feature effect"
+898,1387,non_RPL_RPS,6,0.08108108108108109,ARL6IP4;EEF1A1;HLA-DQB1;NPM1;PTMA;YBX1,691,0.04302184878717464,"different feature-selected prototypes/references; descriptive, not paired feature effect"

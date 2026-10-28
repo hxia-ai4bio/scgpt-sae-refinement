@@ -1,0 +1,128 @@
+[
+  {
+    "fold": 0,
+    "seed": 42,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 0,
+    "seed": 43,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 0,
+    "seed": 44,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 1,
+    "seed": 43,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 1,
+    "seed": 44,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "all_beta_checkpoints_epoch0": false,
+    "identity_selected": false,
+    "rejection_stage": "retained"
+  },
+  {
+    "fold": 2,
+    "seed": 43,
+    "all_beta_checkpoints_epoch0": false,
+    "identity_selected": true,
+    "rejection_stage": "fresh_Ridge"
+  },
+  {
+    "fold": 2,
+    "seed": 44,
+    "all_beta_checkpoints_epoch0": false,
+    "identity_selected": true,
+    "rejection_stage": "fresh_Ridge"
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 3,
+    "seed": 43,
+    "all_beta_checkpoints_epoch0": false,
+    "identity_selected": true,
+    "rejection_stage": "fresh_Ridge"
+  },
+  {
+    "fold": 3,
+    "seed": 44,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 4,
+    "seed": 43,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 4,
+    "seed": 44,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  },
+  {
+    "fold": 5,
+    "seed": 43,
+    "all_beta_checkpoints_epoch0": false,
+    "identity_selected": false,
+    "rejection_stage": "retained"
+  },
+  {
+    "fold": 5,
+    "seed": 44,
+    "all_beta_checkpoints_epoch0": true,
+    "identity_selected": true,
+    "rejection_stage": "checkpoint_epoch0"
+  }
+]

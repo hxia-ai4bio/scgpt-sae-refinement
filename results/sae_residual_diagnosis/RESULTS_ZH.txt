@@ -1,0 +1,34 @@
+SAE残差未保留的原因诊断
+
+历史淘汰漏斗：{"checkpoint_epoch0": 13, "fresh_Ridge": 3, "retained": 2}
+
+轨迹诊断：
+         arm head_mode  mean_best_VALID_gain_pp  mean_selector_gap_pp  selector_gap_positive_folds  before_stop_better_than_original_joint_folds  mean_raw_residual  mean_whitened_residual  mean_linear_Q2
+        gate    frozen                 0.409722              0.353097                            4                                             4           0.009491                0.062923        0.660136
+        gate     joint                 0.198412              0.150680                            5                                             3           0.005947                0.040287        0.482437
+rotated_gate    frozen                 0.531768              0.202283                            5                                             4           0.010601                0.073996        0.686486
+rotated_gate     joint                 0.182671              0.167541                            4                                             4           0.006020                0.042747        0.496361
+
+条件读出（VALID选择）：
+ fold  valid_donor      latent  gain_pp  selected_eta  identity_selected
+    0 patient_1039 learned_SAE 0.643928          1.00              False
+    0 patient_1039 random_TopK 0.235570          0.01              False
+    1 patient_1015 learned_SAE 0.867174          1.00              False
+    1 patient_1015 random_TopK 0.000000           NaN               True
+    2 patient_1488 learned_SAE 0.000000           NaN               True
+    2 patient_1488 random_TopK 0.000000           NaN               True
+    3 patient_1256 learned_SAE 2.040281          1.00              False
+    3 patient_1256 random_TopK 2.054211          1.00              False
+    4  patient_107 learned_SAE 0.766720          0.10              False
+    4  patient_107 random_TopK 0.766720          0.10              False
+    5 patient_1016 learned_SAE 0.135886          0.01              False
+    5 patient_1016 random_TopK 0.086072          0.01              False
+
+方法与边界：
+原主实验和归档不修改。本轮为看到先前TEST结果后提出的解释性诊断，仅计算六个历史TRAIN/VALID划分，SAE/训练种子固定42，绝不评分TEST或PBMC。原始Kang缓存含全部细胞，按既定供体掩码仅提取TRAIN/VALID；SAE缓存也只读这两种角色。训练头按类均匀并在类内平衡供体采样；最终Ridge按全局类别平衡但类内细胞等权，两者目标与权重不同。该差异不是数据泄漏，但也未被单因素隔离成性能损失的原因。
+固定40轮门控轨迹：正确/正交旋转字典×联合训练/冻结同一初始CE头，beta0.1、lr0.001、原采样与clip5不变。每2轮及原best/stop轮重新拟合TRAIN Ridge，以VALID选择alpha；原历史前缀VALID F1一致，原选中检查点逐张量完全一致，没有原始全部前缀状态可供逐张量比较。比较head规则和Ridge规则时限同一组探测checkpoint。图中的固定epoch均值不选峰；selector_gap和best指标都是同一VALID上最大化的探索性上界，有多次比较及选择乐观性，不能当新的泛化收益。冻结头与联合训练的对照只改变该头是否更新，未检验其他学习率、采样或训练目标。
+条件读出为[TRAIN标准化h, eta×TRAIN标准化z]的扩展线性分类器，eta=0.01/0.1/1，11个Ridge alpha，含identity并优先平局。eta后不再标准化，否则会消除分支正则差异。它有最多2560个输入坐标，不能等同于2048参数门控残差。随机TopK对照匹配名义字典维度2048/K32及正则搜索预算，但不匹配激活频率、相关性或实际非恒定特征数量。其最佳VALID表现不等于独立测试提升，也不能单独证明SAE语义特异优势；本轮未证明SAE特征有用或无用。
+输入raw范数主要含共有均值，约为中心化范数的7倍；故同时报告中心化和标准化后的残差相对范数。历史max_batch_RMS_relative_residual指最大批次RMS比例，不是单细胞最大值。惩罚损失小不必然说明梯度小，本轮在同一个固定、按原规则采样的TRAIN批次上记录CE和惩罚对theta的梯度范数，不能代表所有批次。线性Q2为TRAIN拟合线性映射预测VALID修正量的诊断，alpha固定1；高Q2不构成全局线性、可逆或无信息损失证明。before_stop_better_than_original_joint_folds对joint可用于计算原轨迹漏选，对frozen只是新冻结头轨迹相对原joint的比较，不能称原历史轨迹遗漏。所有固定8类F1均保留缺失类别计0规则；VALID类别支持数另存，历史metadata的排除类型字段不代表当前8类实际组成。
+数值告警被保留于阶段warnings.json，源文件/模型/预测hash、全部保存VALID分数与指标重算通过；同模型家族独立审查仍为provisional。诊断不支持把阴性结果归因于单一机制，也不支持根据这些VALID最大值宣布新性能结果。
+
+数值核验PASS；独立审查WARN。

@@ -1,0 +1,331 @@
+{
+  "config": {
+    "input_dim": 512,
+    "dictionary_dim": 2048,
+    "ks": [
+      32,
+      16,
+      64
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 20,
+    "patience": 3,
+    "batch_size": 256,
+    "lr": 0.0003,
+    "optimizer": "Adam",
+    "objective": "raw mean squared embedding reconstruction",
+    "topk": "largest raw activation VALUES; no absolute ranking/ReLU/L1; keep original signed values",
+    "decoder_bias": false,
+    "decoder_columns": "unit norm after each Adam update",
+    "initialization": "unit random decoder columns; encoder weight=decoder.T initially, encoder bias0; untied training",
+    "preprocess_sae": "subtract fixed TRAIN mean only; no input channel scaling",
+    "probe": "TRAIN StandardScaler + balanced eight-class RidgeClassifier-equivalent exact eigensolve; linear only",
+    "probe_alphas": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "probe_selection": "best VALID macroF1; first ascending-alpha tie; fit TRAIN only, no refit TRAIN+VALID",
+    "sae_selection": "lowest VALID raw MSE, earliest tie; epoch0 eligible",
+    "baseline": "deterministic Ridge; reused across K/seeds, not independent optimizer replicates",
+    "dtype": "CPU float32 SAE; float64 probe",
+    "threads": 4,
+    "train_rows": "all eligible cells in four TRAIN donors; original donor roles; no class cap",
+    "macro_f1": "fixed eight labels, zero_division=0; absent TEST class contributes0; supported-type macro diagnostic separately",
+    "pbmc": "full eligible PBMC368k_raw4638cell local dataset; no fitting/selection",
+    "r2": "1-SSE/sum||h-mean_of_evaluation_split||\u00b2; metric denominator only, not fitted preprocessing",
+    "q2": "supplement 1-SSE/sum||h-TRAIN_mean||\u00b2",
+    "scope": "historically explored donor and PBMC data; independent file not confirmed independent study/pretraining",
+    "no_mcr2": true,
+    "no_scgpt_training": true,
+    "no_mlp_classifier": true
+  },
+  "classes": [
+    "B cells",
+    "CD14+ Monocytes",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Dendritic cells",
+    "FCGR3A+ Monocytes",
+    "Megakaryocytes",
+    "NK cells"
+  ],
+  "source_hashes": {
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/run.py": "ac89cab397f45018f6fdf026d3771fcf0c613f621127e80c66f7352d8ae16bb3",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/sae.py": "b97e6bfac00a77238cea61a8755b1c9893289764159e5ac40063b559c289931d",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/core.py": "1e1adc49ed5a39bfe3ccff376944d6471155b5151432e29783386f37d64b4032",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/multilayer_readout_20261012/protocol.json": "61c93e9137439d8f48f7ca80adf29ab3add2229aa6085110767674a26b960b35",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/metadata_inventory.json": "0e968cf12794229aa6b8691b4cbc29106473b540a85a80f92f1b9f89f8c7e3c2",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/preflight.json": "02aa296f9151f97b342209df546c472819674b76fc50fed7eeda7d1750a35957"
+  },
+  "folds": [
+    {
+      "fold": {
+        "test": "patient_1016",
+        "valid": "patient_1039"
+      },
+      "counts": {
+        "train": 7394,
+        "valid": 460,
+        "test": 1723
+      },
+      "class_counts": {
+        "train": [
+          941,
+          1788,
+          3396,
+          240,
+          134,
+          311,
+          7,
+          577
+        ],
+        "valid": [
+          26,
+          126,
+          201,
+          9,
+          10,
+          15,
+          52,
+          21
+        ],
+        "test": [
+          125,
+          393,
+          502,
+          504,
+          27,
+          81,
+          1,
+          90
+        ]
+      }
+    },
+    {
+      "fold": {
+        "test": "patient_1039",
+        "valid": "patient_1015"
+      },
+      "counts": {
+        "train": 6379,
+        "valid": 2738,
+        "test": 460
+      },
+      "class_counts": {
+        "train": [
+          607,
+          1322,
+          2947,
+          659,
+          121,
+          228,
+          7,
+          488
+        ],
+        "valid": [
+          459,
+          859,
+          951,
+          85,
+          40,
+          164,
+          1,
+          179
+        ],
+        "test": [
+          26,
+          126,
+          201,
+          9,
+          10,
+          15,
+          52,
+          21
+        ]
+      }
+    },
+    {
+      "fold": {
+        "test": "patient_1015",
+        "valid": "patient_1488"
+      },
+      "counts": {
+        "train": 4808,
+        "valid": 2031,
+        "test": 2738
+      },
+      "class_counts": {
+        "train": [
+          413,
+          1131,
+          1932,
+          635,
+          85,
+          167,
+          55,
+          390
+        ],
+        "valid": [
+          220,
+          317,
+          1216,
+          33,
+          46,
+          76,
+          4,
+          119
+        ],
+        "test": [
+          459,
+          859,
+          951,
+          85,
+          40,
+          164,
+          1,
+          179
+        ]
+      }
+    },
+    {
+      "fold": {
+        "test": "patient_1488",
+        "valid": "patient_1256"
+      },
+      "counts": {
+        "train": 5438,
+        "valid": 2108,
+        "test": 2031
+      },
+      "class_counts": {
+        "train": [
+          654,
+          1588,
+          1834,
+          606,
+          91,
+          284,
+          54,
+          327
+        ],
+        "valid": [
+          218,
+          402,
+          1049,
+          114,
+          34,
+          47,
+          2,
+          242
+        ],
+        "test": [
+          220,
+          317,
+          1216,
+          33,
+          46,
+          76,
+          4,
+          119
+        ]
+      }
+    },
+    {
+      "fold": {
+        "test": "patient_1256",
+        "valid": "patient_107"
+      },
+      "counts": {
+        "train": 6952,
+        "valid": 517,
+        "test": 2108
+      },
+      "class_counts": {
+        "train": [
+          830,
+          1695,
+          2870,
+          631,
+          123,
+          336,
+          58,
+          409
+        ],
+        "valid": [
+          44,
+          210,
+          180,
+          8,
+          14,
+          24,
+          0,
+          37
+        ],
+        "test": [
+          218,
+          402,
+          1049,
+          114,
+          34,
+          47,
+          2,
+          242
+        ]
+      }
+    },
+    {
+      "fold": {
+        "test": "patient_107",
+        "valid": "patient_1016"
+      },
+      "counts": {
+        "train": 7337,
+        "valid": 1723,
+        "test": 517
+      },
+      "class_counts": {
+        "train": [
+          923,
+          1704,
+          3417,
+          241,
+          130,
+          302,
+          59,
+          561
+        ],
+        "valid": [
+          125,
+          393,
+          502,
+          504,
+          27,
+          81,
+          1,
+          90
+        ],
+        "test": [
+          44,
+          210,
+          180,
+          8,
+          14,
+          24,
+          0,
+          37
+        ]
+      }
+    }
+  ],
+  "total_sae": 54,
+  "core_k32_sae": 18,
+  "planned_linear_representations": "original6fits +54SAE\u00d73arms=168linear families; fivealphas per family"
+}

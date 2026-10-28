@@ -1,0 +1,13 @@
+Working directory: /Users/apple/Documents/Codex/2026-10-18/wo
+Runtime: /opt/anaconda3/envs/scgpt/bin/python; two CPU processes,4threads each.
+Per-dataset preflight: python work/sae_checkpoint_extension/run.py preflight stim (or pbmc)
+Bind fixed replication/context sources: python work/sae_checkpoint_extension/initialize.py
+Full staged run: python work/sae_checkpoint_extension/execute.py
+Both develop stages finish before GLOBAL_SELECTION_LOCK and either evaluate stage. Direct evaluate also checks both dataset locks internally. All sources and checkpoints remain sealed; no edits to previous ctrl or baseline experiments.
+Verify: python work/sae_checkpoint_extension/verify.py stim
+Verify: python work/sae_checkpoint_extension/verify.py pbmc
+Report: python work/sae_checkpoint_extension/report.py
+Seven body checkpoints0/25/50/100/200/500/1000; full VALID normalized expression MSE selects earliest minimum. Same K32, warmups, original joint-head seed+2003, inherited minibatches, Adam and decoder normalization as original per-dataset C experiment. All step1000 tensors must exactly match old C1000.
+Fresh linear head uses independent seed+400003, same TRAIN-only feature scaling and1000step budget, VALID raw-MAE checkpoint selection as sealed ctrl protocol. Same-dataset original/C1000 references reused; no TEST-based fallback or rule adaptation.
+Main target: masked positive-token logCP10k expression, not embedding-coordinate reconstruction or zero/all-gene imputation. One fixed25% mask. Stim and ctrl share six donors; PBMC is two batch directions, not verified donors. Ctrl table rows are explicitly prior context, not newly rerun.
+Scripts depend on original absolute source/cache paths. Source snapshots are archival; run originals from work paths. build_sources.py documents mechanical dataset/path generalization from sealed ctrl code; it is not a training step.

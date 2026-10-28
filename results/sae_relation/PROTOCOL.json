@@ -1,0 +1,88 @@
+{
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "arms": {
+    "continue_mse": 0.0,
+    "relation_weak": 0.03,
+    "relation_strong": 0.3
+  },
+  "additional_steps": 1000,
+  "batch_size": 256,
+  "cells_per_train_donor": 64,
+  "width": 2048,
+  "topk": 32,
+  "topk_operator": "largest raw values, selected signs retained; unchanged architecture",
+  "temperature": 0.1,
+  "mean": "fixed TRAIN mean buffer, same for original/reconstructed cosine",
+  "objective": "raw MSE / TRAIN centered mean-square + lambda * mean_query KL(P_teacher||P_student)",
+  "relations": "centered L2-normalized cosine, cross-TRAIN-donor batch anchors only,192 perquery; detached original teacher; float64 log_softmax normalized rows",
+  "optimizer": "Adam reset identically for all arms, no weight decay",
+  "lr_start": 0.0003,
+  "lr_end": 1e-05,
+  "schedule": "cosine by zero-based update step, first3e-4,last1e-5",
+  "batch_seed": "SeedSequence([20261019,fold,seed,1000]); same persisted batch indices for all arms",
+  "checkpoint": "fixed final step1000, no VALID checkpoint/model/strength selection",
+  "initialization": "same existing fold/seed raw-value TopK32 SAE checkpoint, trained fourTRAIN donors and historically VALID-MSE selected at epoch20",
+  "backbone": "frozen cached final layer signed mean512D scGPT; no new scGPT inference or optimization",
+  "reference_arms": [
+    "original_h",
+    "existing_raw20"
+  ],
+  "variants": {
+    "reconstruction": 1.0,
+    "fixed_half": 0.5
+  },
+  "main_variant": "reconstruction",
+  "secondary_variant": "fixed_half; fixed in advance, no mixture or identity search",
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0,
+    1000000.0
+  ],
+  "probe_selection": "TRAIN-only unweighted channel mean/std; balanced eight-class weighted Ridge with intercept and 2*onehot-1 targets; best VALID fixed8 MacroF1; ascending-alpha ties; no refit TRAIN+VALID",
+  "pilot": {
+    "folds": [
+      0,
+      2
+    ],
+    "seed": 42,
+    "arms": [
+      "continue_mse",
+      "relation_weak",
+      "relation_strong"
+    ],
+    "use": "training health, no pilot readout or TEST score; completed pilot models reused in full run"
+  },
+  "primary_contrasts": [
+    "relation_weak vs original_h",
+    "relation_weak vs continue_mse"
+  ],
+  "secondary_contrasts": [
+    "relation_strong vs controls",
+    "continue_mse vs existing_raw20",
+    "fixed_half variants"
+  ],
+  "advancement": "weak main: >=0.5pp vsoriginal_h, >=4/6 positive donors and>=2/3 positive seed means; additionally positive average vs matchedMSE, report donor/seed consistency for both. Descriptive engineering gate, not a significance test.",
+  "statistics": "equal donor means after within-donor seed averaging;6 exploratory historic donors, overlapping training sets; descriptive paired donor bootstrap only; seeds/cells not independent donors",
+  "scope": "historically explored Kang ctrl9577cells,6donors,8types; not a new blind test; no PBMC, no supervised feature ranking; relational geometry is a self-supervised proxy, not ground-truth biology",
+  "stop_rule": "complete all54 continuation fits and fixed readout grids; do not retune from TEST or promote secondary arm posthoc"
+}

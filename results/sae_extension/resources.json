@@ -1,0 +1,24 @@
+{
+  "timestamp": 1792393795.714439,
+  "os": "macOS-26.5-arm64-arm-64bit",
+  "memory": {
+    "total": 25769803776,
+    "available": 8374042624,
+    "percent": 67.5,
+    "used": 10194829312,
+    "free": 895811584,
+    "active": 7156203520,
+    "inactive": 7363461120,
+    "wired": 3038625792
+  },
+  "disk": {
+    "total": 994662584320,
+    "used": 452247310336,
+    "free": 542415273984
+  },
+  "cuda_available": false,
+  "mps_available": false,
+  "threads": 4,
+  "strategy": "sequentialfits CPU4; no dense rawRNA expansion",
+  "resource_detector_fallback": "prior detected swap-memory PermissionError; collect permitted memory/disk/backend fields"
+}

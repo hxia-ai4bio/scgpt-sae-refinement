@@ -1,0 +1,939 @@
+{
+  "knn": [
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "macro_f1": 0.7924869523267426,
+      "purity_macro_supported": 0.7674018530224741,
+      "neighbor_retention": 0.6591593589593483
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "macro_f1": 0.781000729633678,
+      "purity_macro_supported": 0.7633567734024346,
+      "neighbor_retention": 1.0
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "macro_f1": 0.7874419169071657,
+      "purity_macro_supported": 0.7654754174116046,
+      "neighbor_retention": 0.6694559851740101
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "macro_f1": 0.7320743757496607,
+      "purity_macro_supported": 0.6951487951628494,
+      "neighbor_retention": 0.7324826299385057
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "macro_f1": 0.7409104592281712,
+      "purity_macro_supported": 0.6942349044127084,
+      "neighbor_retention": 1.0
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "macro_f1": 0.7362164600681115,
+      "purity_macro_supported": 0.6927243975621351,
+      "neighbor_retention": 0.7406940780052227
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "macro_f1": 0.7379749897999471,
+      "purity_macro_supported": 0.7401395761074513,
+      "neighbor_retention": 0.6614485091856152
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "macro_f1": 0.7417944144683308,
+      "purity_macro_supported": 0.7377002779848386,
+      "neighbor_retention": 1.0
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "macro_f1": 0.7349756827649695,
+      "purity_macro_supported": 0.7375860240467343,
+      "neighbor_retention": 0.6713762136245354
+    }
+  ],
+  "IFN": [
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.3786289915068331,
+      "spearman": 0.14511681736671578,
+      "mae": 0.1802066861243644,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": -0.4172142482059883,
+      "spearman": 0.2363810154143459,
+      "mae": 0.16230951073739952,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": -0.4135436266168311,
+      "spearman": 0.2378828974632119,
+      "mae": 0.16230069762843272,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": -0.5178492033378842,
+      "spearman": 0.15936919429505528,
+      "mae": 0.2871161631575497,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": 0.04746288871895269,
+      "spearman": 0.38698288955904037,
+      "mae": 0.20966829453178068,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.041426016171840975,
+      "spearman": 0.3858511027720722,
+      "mae": 0.2100115626991799,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.3786289915068331,
+      "spearman": 0.14511681736671578,
+      "mae": 0.1802066861243644,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": -0.2313565870036655,
+      "spearman": 0.3152578262992869,
+      "mae": 0.14793709593622956,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": -0.23851638369283784,
+      "spearman": 0.3138800759459251,
+      "mae": 0.14806457889999058,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": -0.5178492033378842,
+      "spearman": 0.15936919429505528,
+      "mae": 0.2871161631575497,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": 0.32355594086186756,
+      "spearman": 0.46576026912059826,
+      "mae": 0.17815026421098037,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.3211129580172408,
+      "spearman": 0.46497683931438233,
+      "mae": 0.17823207346629313,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.3786289915068331,
+      "spearman": 0.14511681736671578,
+      "mae": 0.1802066861243644,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": -0.47668833190842747,
+      "spearman": 0.2176557741063067,
+      "mae": 0.16543549997005608,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": -0.4623926177271979,
+      "spearman": 0.22114766470268604,
+      "mae": 0.16512885927523263,
+      "target_variance": 0.058304292242973996,
+      "n_groups": 5
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": -0.5178492033378842,
+      "spearman": 0.15936919429505528,
+      "mae": 0.2871161631575497,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": 0.04212376540353161,
+      "spearman": 0.3718897405048098,
+      "mae": 0.21073860915248874,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.03743865443815103,
+      "spearman": 0.3718241550655741,
+      "mae": 0.2109335681871776,
+      "target_variance": 0.15384325509270028,
+      "n_groups": 6
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.21990413352696647,
+      "spearman": 0.21522139838284324,
+      "mae": 0.1911408339082753,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": -1.80906639743072,
+      "spearman": 0.2295583324538184,
+      "mae": 0.2377892832584985,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": -1.80717562672927,
+      "spearman": 0.2290240611703546,
+      "mae": 0.2378728214938114,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": -2.509663370125966,
+      "spearman": 0.1596222164274111,
+      "mae": 0.3483391557879059,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": -6.446609062586918,
+      "spearman": -0.08522594260480332,
+      "mae": 0.44983207735873126,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": -6.575313078970478,
+      "spearman": -0.07661546824518876,
+      "mae": 0.45224165170495495,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.21990413352696647,
+      "spearman": 0.21522139838284327,
+      "mae": 0.1911408339082753,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": -1.125058225817294,
+      "spearman": 0.23077707917783585,
+      "mae": 0.22217891858315925,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": -1.1001871234081912,
+      "spearman": 0.23264884304092445,
+      "mae": 0.22184514969004993,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": -2.509663370125966,
+      "spearman": 0.1596222164274111,
+      "mae": 0.3483391557879059,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": -2.299649387008684,
+      "spearman": 0.1295299400572118,
+      "mae": 0.2998266512038658,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": -2.3888857191361357,
+      "spearman": 0.1370130636501552,
+      "mae": 0.3043063632766481,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.21990413352696647,
+      "spearman": 0.21522139838284324,
+      "mae": 0.1911408339082753,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": -1.7568786438320372,
+      "spearman": 0.2000707415371739,
+      "mae": 0.2442118221528501,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": -1.7435019040351059,
+      "spearman": 0.20127752665187618,
+      "mae": 0.24396499087409895,
+      "target_variance": 0.06310668773949145,
+      "n_groups": 2
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": -2.509663370125966,
+      "spearman": 0.1596222164274111,
+      "mae": 0.3483391557879059,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": -5.19082448413593,
+      "spearman": 0.015410086070402935,
+      "mae": 0.39409478126513814,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": -5.046367774026529,
+      "spearman": 0.025041389864404795,
+      "mae": 0.38948376386726163,
+      "target_variance": 0.0411657989025116,
+      "n_groups": 1
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.0005456608290327842,
+      "spearman": 0.047487107959455904,
+      "mae": 0.46227411359376175,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": 0.3064902477747045,
+      "spearman": 0.5235520673523822,
+      "mae": 0.38621447368872425,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.2990639147078715,
+      "spearman": 0.5226453334685169,
+      "mae": 0.3870253917328738,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": 0.17164104060502813,
+      "spearman": 0.45438405840839424,
+      "mae": 0.3194747001106764,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": 0.3491614370617966,
+      "spearman": 0.5926319520656973,
+      "mae": 0.2830348283039938,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.3726456327457314,
+      "spearman": 0.6106895604718104,
+      "mae": 0.27867788673854393,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.0005456608290327836,
+      "spearman": 0.047487107959455904,
+      "mae": 0.46227411359376175,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": 0.40163376852476973,
+      "spearman": 0.6139708843788431,
+      "mae": 0.35405275685901855,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.40312987134108963,
+      "spearman": 0.6104791847888283,
+      "mae": 0.3536915444534679,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": 0.17164104060502813,
+      "spearman": 0.45438405840839424,
+      "mae": 0.3194747001106764,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": 0.5001996651531601,
+      "spearman": 0.6970712421748425,
+      "mae": 0.2506564101602717,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.518226802630414,
+      "spearman": 0.7095022334945126,
+      "mae": 0.24648546768752425,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "covariates",
+      "r2": -0.0005456608290327842,
+      "spearman": 0.047487107959455904,
+      "mae": 0.46227411359376175,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "embedding",
+      "r2": 0.2694770960003356,
+      "spearman": 0.5017132954829931,
+      "mae": 0.3956112478092076,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "cell_type": "B cells",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.2609452048321217,
+      "spearman": 0.5009504646708923,
+      "mae": 0.3982273571570129,
+      "target_variance": 0.3387574354807536,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "covariates",
+      "r2": 0.17164104060502813,
+      "spearman": 0.45438405840839424,
+      "mae": 0.3194747001106764,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding",
+      "r2": 0.3410927516513902,
+      "spearman": 0.5929278384969563,
+      "mae": 0.28464975382455143,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "cell_type": "CD14+ Monocytes",
+      "variant": "embedding_plus_covariates",
+      "r2": 0.36905557029581576,
+      "spearman": 0.6143352518922794,
+      "mae": 0.2787296010178222,
+      "target_variance": 0.20828185478846228,
+      "n_groups": 6
+    }
+  ],
+  "fewshot_AULC": [
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "AULC": 0.7982185616335421
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "AULC": 0.7991797245928297
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "AULC": 0.7968779078562108
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "AULC": 0.7968848651530664
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "AULC": 0.8175944493867655
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "AULC": 0.791223576438742
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "AULC": 0.7940341319328211
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "AULC": 0.8023849430458349
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "AULC": 0.792826160717165
+    }
+  ],
+  "clustering": [
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "ARI": 0.4861775655186799,
+      "NMI": 0.6923262021981135,
+      "cell_type_silhouette": 0.23029883702508083
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "ARI": 0.5178000687581332,
+      "NMI": 0.7050425830329283,
+      "cell_type_silhouette": 0.21031508323858264
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "ARI": 0.49574660622117755,
+      "NMI": 0.6927693108700277,
+      "cell_type_silhouette": 0.2263872659780882
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "ARI": 0.31754108622987565,
+      "NMI": 0.5763783500137297,
+      "cell_type_silhouette": 0.1917801572273678
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "ARI": 0.35099033181807704,
+      "NMI": 0.6141010249584427,
+      "cell_type_silhouette": 0.2043209776905041
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "ARI": 0.30775012201342555,
+      "NMI": 0.5723302303041681,
+      "cell_type_silhouette": 0.19005381168611196
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "ARI": 0.43991341086299074,
+      "NMI": 0.6375950142643976,
+      "cell_type_silhouette": 0.1841129048592792
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "ARI": 0.4612091092436714,
+      "NMI": 0.6562287615035549,
+      "cell_type_silhouette": 0.17056894372474016
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "ARI": 0.44281278912569694,
+      "NMI": 0.6360788730628194,
+      "cell_type_silhouette": 0.18105412614849192
+    }
+  ],
+  "geometry": [
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "role": "test",
+      "reconstruction_r2": 0.8752504637620521,
+      "relative_displacement": 0.05908807937637591,
+      "centered_relative_error": 0.34845854347864624,
+      "relation_KL": 0.07126873559813425
+    },
+    {
+      "dataset": "ctrl",
+      "method": "mse",
+      "role": "train",
+      "reconstruction_r2": 0.9406163698291784,
+      "relative_displacement": 0.0384952298913448,
+      "centered_relative_error": 0.24367253995750796,
+      "relation_KL": 0.04257440604511062
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "role": "test",
+      "reconstruction_r2": 1.0,
+      "relative_displacement": 0.0,
+      "centered_relative_error": 0.0,
+      "relation_KL": 0.0
+    },
+    {
+      "dataset": "ctrl",
+      "method": "original_h",
+      "role": "train",
+      "reconstruction_r2": 1.0,
+      "relative_displacement": 0.0,
+      "centered_relative_error": 0.0,
+      "relation_KL": 0.0
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "role": "test",
+      "reconstruction_r2": 0.8727319675791536,
+      "relative_displacement": 0.05969428856743549,
+      "centered_relative_error": 0.35224758731614814,
+      "relation_KL": 0.06318399301372633
+    },
+    {
+      "dataset": "ctrl",
+      "method": "relation_0p3",
+      "role": "train",
+      "reconstruction_r2": 0.9369062751416117,
+      "relative_displacement": 0.03968100047663558,
+      "centered_relative_error": 0.25117568166934734,
+      "relation_KL": 0.0310158361123269
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "role": "test",
+      "reconstruction_r2": 0.8291212086871917,
+      "relative_displacement": 0.06432368527163639,
+      "centered_relative_error": 0.4117407338269806,
+      "relation_KL": 0.10386504857664125
+    },
+    {
+      "dataset": "pbmc",
+      "method": "mse",
+      "role": "train",
+      "reconstruction_r2": 0.9676604507992976,
+      "relative_displacement": 0.02340337503965978,
+      "centered_relative_error": 0.17948083235744258,
+      "relation_KL": 0.021008548481795
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "role": "test",
+      "reconstruction_r2": 1.0,
+      "relative_displacement": 0.0,
+      "centered_relative_error": 0.0,
+      "relation_KL": 0.0
+    },
+    {
+      "dataset": "pbmc",
+      "method": "original_h",
+      "role": "train",
+      "reconstruction_r2": 1.0,
+      "relative_displacement": 0.0,
+      "centered_relative_error": 0.0,
+      "relation_KL": 0.0
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "role": "test",
+      "reconstruction_r2": 0.8270202633041527,
+      "relative_displacement": 0.06472750445688655,
+      "centered_relative_error": 0.414378923809785,
+      "relation_KL": 0.09548050417012072
+    },
+    {
+      "dataset": "pbmc",
+      "method": "relation_0p3",
+      "role": "train",
+      "reconstruction_r2": 0.9625872974941366,
+      "relative_displacement": 0.02517222945800312,
+      "centered_relative_error": 0.19316370174305386,
+      "relation_KL": 0.013637658000790434
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "role": "test",
+      "reconstruction_r2": 0.8924657280269909,
+      "relative_displacement": 0.05634431059265721,
+      "centered_relative_error": 0.3245955047518616,
+      "relation_KL": 0.06421503483395033
+    },
+    {
+      "dataset": "stim",
+      "method": "mse",
+      "role": "train",
+      "reconstruction_r2": 0.9454451850863977,
+      "relative_displacement": 0.03814000507059656,
+      "centered_relative_error": 0.23355348556409436,
+      "relation_KL": 0.03919692565150447
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "role": "test",
+      "reconstruction_r2": 1.0,
+      "relative_displacement": 0.0,
+      "centered_relative_error": 0.0,
+      "relation_KL": 0.0
+    },
+    {
+      "dataset": "stim",
+      "method": "original_h",
+      "role": "train",
+      "reconstruction_r2": 1.0,
+      "relative_displacement": 0.0,
+      "centered_relative_error": 0.0,
+      "relation_KL": 0.0
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "role": "test",
+      "reconstruction_r2": 0.8896696680603619,
+      "relative_displacement": 0.057068751876891,
+      "centered_relative_error": 0.3288185604500646,
+      "relation_KL": 0.056822134307707474
+    },
+    {
+      "dataset": "stim",
+      "method": "relation_0p3",
+      "role": "train",
+      "reconstruction_r2": 0.9419737952054584,
+      "relative_displacement": 0.03933487378553099,
+      "centered_relative_error": 0.24087135991227382,
+      "relation_KL": 0.027951136398389167
+    }
+  ]
+}

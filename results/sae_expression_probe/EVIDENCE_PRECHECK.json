@@ -1,0 +1,70 @@
+{
+  "results": [
+    {
+      "id": "ctrl_original_MAE",
+      "value": "0.32595499122624333",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.32595499122624333' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "ctrl_C_frozen_MAE",
+      "value": "0.33461017169279744",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.33461017169279744' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "ctrl_delta_C_minus_original",
+      "value": "0.008655180466554113",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.008655180466554113' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "pbmc_original_MAE",
+      "value": "0.36272204162867183",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.36272204162867183' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "pbmc_C_frozen_MAE",
+      "value": "0.386179286767002",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.386179286767002' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "pbmc_delta_C_minus_original",
+      "value": "0.02345724513833014",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.02345724513833014' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "stim_original_MAE",
+      "value": "0.33869703291738057",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.33869703291738057' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "stim_C_frozen_MAE",
+      "value": "0.3465485648768731",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.3465485648768731' found in outputs/sae_expression_probe/SUMMARY.json"
+    },
+    {
+      "id": "stim_delta_C_minus_original",
+      "value": "0.007851531959492508",
+      "source": "outputs/sae_expression_probe/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.007851531959492508' found in outputs/sae_expression_probe/SUMMARY.json"
+    }
+  ],
+  "summary": {
+    "verified": 9
+  }
+}

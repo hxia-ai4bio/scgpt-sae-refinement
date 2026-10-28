@@ -1,0 +1,654 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "role": "train",
+      "n": 7394,
+      "cache_activation_error": 7.00221463922901e-07,
+      "cache_reconstruction_error": 7.090816360744157e-07,
+      "classes": [
+        941,
+        1788,
+        3396,
+        240,
+        134,
+        311,
+        7,
+        577
+      ]
+    },
+    {
+      "fold": 0,
+      "seed": 42,
+      "role": "valid",
+      "n": 460,
+      "cache_activation_error": 6.205665242786651e-07,
+      "cache_reconstruction_error": 7.952981952996652e-07,
+      "classes": [
+        26,
+        126,
+        201,
+        9,
+        10,
+        15,
+        52,
+        21
+      ]
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "role": "train",
+      "n": 7394,
+      "cache_activation_error": 4.0903895515143063e-07,
+      "cache_reconstruction_error": 6.796491422988993e-07,
+      "classes": [
+        941,
+        1788,
+        3396,
+        240,
+        134,
+        311,
+        7,
+        577
+      ]
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "role": "valid",
+      "n": 460,
+      "cache_activation_error": 9.201534160174774e-07,
+      "cache_reconstruction_error": 6.047817464605032e-07,
+      "classes": [
+        26,
+        126,
+        201,
+        9,
+        10,
+        15,
+        52,
+        21
+      ]
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "role": "train",
+      "n": 7394,
+      "cache_activation_error": 7.053313912930292e-07,
+      "cache_reconstruction_error": 6.309859532649398e-07,
+      "classes": [
+        941,
+        1788,
+        3396,
+        240,
+        134,
+        311,
+        7,
+        577
+      ]
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "role": "valid",
+      "n": 460,
+      "cache_activation_error": 9.7368123519459e-07,
+      "cache_reconstruction_error": 5.720686075960657e-07,
+      "classes": [
+        26,
+        126,
+        201,
+        9,
+        10,
+        15,
+        52,
+        21
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "role": "train",
+      "n": 6379,
+      "cache_activation_error": 5.179226315599195e-07,
+      "cache_reconstruction_error": 6.365283127252042e-07,
+      "classes": [
+        607,
+        1322,
+        2947,
+        659,
+        121,
+        228,
+        7,
+        488
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "role": "valid",
+      "n": 2738,
+      "cache_activation_error": 9.242704839262927e-07,
+      "cache_reconstruction_error": 7.035704072677618e-07,
+      "classes": [
+        459,
+        859,
+        951,
+        85,
+        40,
+        164,
+        1,
+        179
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "role": "train",
+      "n": 6379,
+      "cache_activation_error": 5.305846344505483e-07,
+      "cache_reconstruction_error": 6.740816171912911e-07,
+      "classes": [
+        607,
+        1322,
+        2947,
+        659,
+        121,
+        228,
+        7,
+        488
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "role": "valid",
+      "n": 2738,
+      "cache_activation_error": 7.720275163602963e-07,
+      "cache_reconstruction_error": 6.219816572894388e-07,
+      "classes": [
+        459,
+        859,
+        951,
+        85,
+        40,
+        164,
+        1,
+        179
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "role": "train",
+      "n": 6379,
+      "cache_activation_error": 6.490575036321999e-07,
+      "cache_reconstruction_error": 6.645113472814046e-07,
+      "classes": [
+        607,
+        1322,
+        2947,
+        659,
+        121,
+        228,
+        7,
+        488
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "role": "valid",
+      "n": 2738,
+      "cache_activation_error": 6.973262933751556e-07,
+      "cache_reconstruction_error": 6.550324496146231e-07,
+      "classes": [
+        459,
+        859,
+        951,
+        85,
+        40,
+        164,
+        1,
+        179
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "role": "train",
+      "n": 4808,
+      "cache_activation_error": 6.78575343471266e-07,
+      "cache_reconstruction_error": 6.759785424748088e-07,
+      "classes": [
+        413,
+        1131,
+        1932,
+        635,
+        85,
+        167,
+        55,
+        390
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "role": "valid",
+      "n": 2031,
+      "cache_activation_error": 4.651489228235661e-07,
+      "cache_reconstruction_error": 5.912709859501319e-07,
+      "classes": [
+        220,
+        317,
+        1216,
+        33,
+        46,
+        76,
+        4,
+        119
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "role": "train",
+      "n": 4808,
+      "cache_activation_error": 6.334533407814646e-07,
+      "cache_reconstruction_error": 6.395861174013362e-07,
+      "classes": [
+        413,
+        1131,
+        1932,
+        635,
+        85,
+        167,
+        55,
+        390
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "role": "valid",
+      "n": 2031,
+      "cache_activation_error": 6.713889473264345e-07,
+      "cache_reconstruction_error": 5.716592426097122e-07,
+      "classes": [
+        220,
+        317,
+        1216,
+        33,
+        46,
+        76,
+        4,
+        119
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "role": "train",
+      "n": 4808,
+      "cache_activation_error": 4.75498728058632e-07,
+      "cache_reconstruction_error": 6.686172735470564e-07,
+      "classes": [
+        413,
+        1131,
+        1932,
+        635,
+        85,
+        167,
+        55,
+        390
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "role": "valid",
+      "n": 2031,
+      "cache_activation_error": 4.3853478692845727e-07,
+      "cache_reconstruction_error": 5.817164403509878e-07,
+      "classes": [
+        220,
+        317,
+        1216,
+        33,
+        46,
+        76,
+        4,
+        119
+      ]
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "role": "train",
+      "n": 5438,
+      "cache_activation_error": 1.4250202666765688e-06,
+      "cache_reconstruction_error": 6.258021940652725e-07,
+      "classes": [
+        654,
+        1588,
+        1834,
+        606,
+        91,
+        284,
+        54,
+        327
+      ]
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "role": "valid",
+      "n": 2108,
+      "cache_activation_error": 4.6926398655777746e-07,
+      "cache_reconstruction_error": 5.486224914363902e-07,
+      "classes": [
+        218,
+        402,
+        1049,
+        114,
+        34,
+        47,
+        2,
+        242
+      ]
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "role": "train",
+      "n": 5438,
+      "cache_activation_error": 1.226024287870331e-06,
+      "cache_reconstruction_error": 8.581409289831754e-07,
+      "classes": [
+        654,
+        1588,
+        1834,
+        606,
+        91,
+        284,
+        54,
+        327
+      ]
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "role": "valid",
+      "n": 2108,
+      "cache_activation_error": 6.188298997678032e-07,
+      "cache_reconstruction_error": 6.136724746141908e-07,
+      "classes": [
+        218,
+        402,
+        1049,
+        114,
+        34,
+        47,
+        2,
+        242
+      ]
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "role": "train",
+      "n": 5438,
+      "cache_activation_error": 1.1038656997364171e-06,
+      "cache_reconstruction_error": 6.711008211368608e-07,
+      "classes": [
+        654,
+        1588,
+        1834,
+        606,
+        91,
+        284,
+        54,
+        327
+      ]
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "role": "valid",
+      "n": 2108,
+      "cache_activation_error": 6.752022079226094e-07,
+      "cache_reconstruction_error": 5.798444941973457e-07,
+      "classes": [
+        218,
+        402,
+        1049,
+        114,
+        34,
+        47,
+        2,
+        242
+      ]
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "role": "train",
+      "n": 6952,
+      "cache_activation_error": 4.974299565585483e-07,
+      "cache_reconstruction_error": 6.566431736132472e-07,
+      "classes": [
+        830,
+        1695,
+        2870,
+        631,
+        123,
+        336,
+        58,
+        409
+      ]
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "role": "valid",
+      "n": 517,
+      "cache_activation_error": 9.912583798232788e-07,
+      "cache_reconstruction_error": 6.191209269701403e-07,
+      "classes": [
+        44,
+        210,
+        180,
+        8,
+        14,
+        24,
+        0,
+        37
+      ]
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "role": "train",
+      "n": 6952,
+      "cache_activation_error": 6.600826042424401e-07,
+      "cache_reconstruction_error": 6.156149332525729e-07,
+      "classes": [
+        830,
+        1695,
+        2870,
+        631,
+        123,
+        336,
+        58,
+        409
+      ]
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "role": "valid",
+      "n": 517,
+      "cache_activation_error": 6.531592703362676e-07,
+      "cache_reconstruction_error": 5.543261707430247e-07,
+      "classes": [
+        44,
+        210,
+        180,
+        8,
+        14,
+        24,
+        0,
+        37
+      ]
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "role": "train",
+      "n": 6952,
+      "cache_activation_error": 3.77476643165231e-07,
+      "cache_reconstruction_error": 9.508834537541588e-07,
+      "classes": [
+        830,
+        1695,
+        2870,
+        631,
+        123,
+        336,
+        58,
+        409
+      ]
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "role": "valid",
+      "n": 517,
+      "cache_activation_error": 9.138857657298161e-07,
+      "cache_reconstruction_error": 5.641440576908963e-07,
+      "classes": [
+        44,
+        210,
+        180,
+        8,
+        14,
+        24,
+        0,
+        37
+      ]
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "role": "train",
+      "n": 7337,
+      "cache_activation_error": 6.621847472576547e-07,
+      "cache_reconstruction_error": 6.905123832723348e-07,
+      "classes": [
+        923,
+        1704,
+        3417,
+        241,
+        130,
+        302,
+        59,
+        561
+      ]
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "role": "valid",
+      "n": 1723,
+      "cache_activation_error": 5.479302142008535e-07,
+      "cache_reconstruction_error": 6.478327438941278e-07,
+      "classes": [
+        125,
+        393,
+        502,
+        504,
+        27,
+        81,
+        1,
+        90
+      ]
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "role": "train",
+      "n": 7337,
+      "cache_activation_error": 5.39530814247513e-07,
+      "cache_reconstruction_error": 7.912477570926058e-07,
+      "classes": [
+        923,
+        1704,
+        3417,
+        241,
+        130,
+        302,
+        59,
+        561
+      ]
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "role": "valid",
+      "n": 1723,
+      "cache_activation_error": 4.284307726365455e-07,
+      "cache_reconstruction_error": 5.983266184728109e-07,
+      "classes": [
+        125,
+        393,
+        502,
+        504,
+        27,
+        81,
+        1,
+        90
+      ]
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "role": "train",
+      "n": 7337,
+      "cache_activation_error": 5.799915716586668e-07,
+      "cache_reconstruction_error": 7.334918041834726e-07,
+      "classes": [
+        923,
+        1704,
+        3417,
+        241,
+        130,
+        302,
+        59,
+        561
+      ]
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "role": "valid",
+      "n": 1723,
+      "cache_activation_error": 3.8317378603380803e-07,
+      "cache_reconstruction_error": 5.800275175715797e-07,
+      "classes": [
+        125,
+        393,
+        502,
+        504,
+        27,
+        81,
+        1,
+        90
+      ]
+    }
+  ],
+  "no_TEST_PBMC_scoring": true
+}

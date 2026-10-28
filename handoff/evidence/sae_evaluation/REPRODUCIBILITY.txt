@@ -1,0 +1,14 @@
+工作目录 /Users/apple/Documents/Codex/2026-10-18/wo
+Python /opt/anaconda3/envs/scgpt/bin/python
+资源：work/sae_evaluation/resources.json；环境：ENVIRONMENT.json
+首次预检查（已完成）：python work/sae_evaluation/run.py preflight
+校验后运行/续跑：python work/sae_evaluation/run_checked.py run
+预测与指标独立重算：python work/sae_evaluation/verify.py
+生成图表及报告：python work/sae_evaluation/report.py
+不要修改已经绑定的模型、原始数据、代码或目标缓存；若修改则另建实验目录。
+当前 run.py 和所有块使用同一版本。DEPENDENCY/TARGET 增补绑定在全量运行期间捕获，独立 verification 再从原始 RNA 重建三个目标缓存并核验所有绑定，避免仅凭捕获时间认定完整性。后续入口 run_checked.py 在运行前核验全部三份绑定。
+本轮仅98组：ctrl6折/stim6折/PBMC2折 × (原始h一次+MSE三种子+固定lambda0.3三种子)。不含统一ctrl+stim或UMI下采样。
+每组输出原始预测、标签子集、邻居行号、聚类、IFN分数与预测，原始RNA和完整模型位于来源绑定中。
+
+统一比较矩阵：python work/sae_evaluation/matrix.py
+图中少标签百分比是目标分层采样比例，稀有类型取整且每类至少1个；实际标签数和逐类计数见 fewshot_all.csv。

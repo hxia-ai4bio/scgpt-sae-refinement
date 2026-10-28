@@ -1,0 +1,14 @@
+{
+  "primary_question": "Can TRAIN-fitted unsupervised SAE refinement improve the fixed 512D frozen-scGPT embedding under held-out donor evaluation?",
+  "claim_C1": "A specific mixed512 method shows reproducible within-Kang downstream improvement over original_h under the pre-specified exploratory development protocol.",
+  "claim_C2": "Any improvement of an ensemble, AbsTopK, or Boosting is beyond the matched single-SAE or independent-bagging capacity control.",
+  "claim_C3": "Improvement of sparse z-only readout is diagnostic and does not establish improvement of 512D embeddings.",
+  "forbidden_claims": [
+    "universal or independently confirmed improvement",
+    "18 independent donors",
+    "unsupervised mixture hyperparameter selection (VALID labels select alpha)",
+    "DIAL has been evaluated",
+    "all datasets SAE transfer",
+    "improved reconstruction alone proves improved classification"
+  ]
+}

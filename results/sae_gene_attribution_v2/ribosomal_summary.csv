@@ -1,0 +1,9 @@
+role,score,positive_top_n,ribosomal_top_n
+train,sae_F160,40,22
+train,encoder_F160,40,22
+train,embedding_neg201,40,6
+train,pca3,40,23
+test,sae_F160,40,23
+test,encoder_F160,40,23
+test,embedding_neg201,40,11
+test,pca3,40,18

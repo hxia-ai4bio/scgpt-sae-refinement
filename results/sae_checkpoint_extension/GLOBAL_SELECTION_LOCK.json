@@ -1,0 +1,12 @@
+{
+  "dataset_lock_hashes": {
+    "stim": "12b7e8f4607f9080b839cc95d1f25b8555b26e5f7bd27f1ba1254cc9aedd0251",
+    "pbmc": "210953c74410f58f3f14b176fb899f009b6379193b42aa6b4be3be660566aecc"
+  },
+  "source_sha": "c5db8bc0fa13548182e33002df9aa4ceee1ff1a204dc28d47394bbe3413107ef",
+  "all_new_datasets_selected_before_TEST": true,
+  "roles_seen": [
+    "TRAIN",
+    "VALID"
+  ]
+}

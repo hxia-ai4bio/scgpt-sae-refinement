@@ -1,0 +1,19 @@
+{
+  "cpu": 14,
+  "ram": {
+    "total": 25769803776,
+    "available": 7884914688,
+    "percent": 69.4,
+    "used": 10960977920,
+    "free": 214368256,
+    "active": 7589953536,
+    "inactive": 7640711168,
+    "wired": 3371024384
+  },
+  "disk": {
+    "total": 994662584320,
+    "used": 454925008896,
+    "free": 539737575424
+  },
+  "restricted_swap_query": true
+}

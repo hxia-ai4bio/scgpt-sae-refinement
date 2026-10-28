@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "kind": "synthetic numeric derivative check only, not performance ground truth",
+  "torch_gradcheck": true,
+  "verify_import_runtime_correct": true
+}

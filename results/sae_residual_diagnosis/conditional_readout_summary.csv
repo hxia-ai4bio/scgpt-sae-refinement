@@ -1,0 +1,13 @@
+fold,valid_donor,latent,identity_VALID_F1,best_VALID_F1,selected_eta,selected_alpha,identity_selected,scope,gain_pp
+0,patient_1039,learned_SAE,0.8814089098879261,0.8878481921404064,1.0,100000.0,False,"validation-selected exploratory signal, not held-out performance improvement",0.6439282252480361
+0,patient_1039,random_TopK,0.8814089098879261,0.8837646092692677,0.01,0.1,False,"validation-selected exploratory signal, not held-out performance improvement",0.23556993813416138
+1,patient_1015,learned_SAE,0.7997008666168943,0.8083726088405789,1.0,100000.0,False,"validation-selected exploratory signal, not held-out performance improvement",0.8671742223684609
+1,patient_1015,random_TopK,0.7997008666168943,0.7997008666168943,,1000.0,True,"validation-selected exploratory signal, not held-out performance improvement",0.0
+2,patient_1488,learned_SAE,0.9231453119824067,0.9231453119824067,,0.0001,True,"validation-selected exploratory signal, not held-out performance improvement",0.0
+2,patient_1488,random_TopK,0.9231453119824067,0.9231453119824067,,0.0001,True,"validation-selected exploratory signal, not held-out performance improvement",0.0
+3,patient_1256,learned_SAE,0.8755582580694158,0.8959610674331191,1.0,10000.0,False,"validation-selected exploratory signal, not held-out performance improvement",2.040280936370331
+3,patient_1256,random_TopK,0.8755582580694158,0.8961003666516814,1.0,10000.0,False,"validation-selected exploratory signal, not held-out performance improvement",2.0542108582265572
+4,patient_107,learned_SAE,0.7670839234433714,0.7747511264079552,0.1,1000.0,False,"validation-selected exploratory signal, not held-out performance improvement",0.7667202964583786
+4,patient_107,random_TopK,0.7670839234433714,0.7747511264079552,0.1,1000.0,False,"validation-selected exploratory signal, not held-out performance improvement",0.7667202964583786
+5,patient_1016,learned_SAE,0.8014406540018066,0.8027995171076224,0.01,10.0,False,"validation-selected exploratory signal, not held-out performance improvement",0.13588631058157885
+5,patient_1016,random_TopK,0.8014406540018066,0.8023013694860921,0.01,10.0,False,"validation-selected exploratory signal, not held-out performance improvement",0.0860715484285457

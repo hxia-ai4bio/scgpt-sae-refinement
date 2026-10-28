@@ -1,0 +1,12 @@
+第一轮固定lambda敏感性，非最优lambda选型或独立确认实验。
+环境 /opt/anaconda3/envs/scgpt/bin/python；CPU4线程。
+python work/sae_lambda/run.py preflight
+python work/sae_lambda/run.py develop
+python work/sae_lambda/run.py lock
+python work/sae_lambda/run.py evaluate
+python work/sae_lambda/verify.py
+python work/sae_lambda/report.py
+原始缓存、旧checkpoint及冻结运行时不修改；复用路径在REUSE_MANIFEST和SELECTION_LOCK。
+新增72个网络在work/sae_lambda/networks；旧54个网络在work/sae_relation/networks。
+数据9577细胞6供体8类，每个测试embedding文件仅为该折留出供体，不能拼成单一全数据拟合模型。
+复杂度：每fit训练O(S*(B*d*m+B^2*d))，内存O(N*d+B*m+B^2+d*m)，S1000,B256,d512,m2048。Ridge O(N*d^2+d^3)。

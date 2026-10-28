@@ -1,0 +1,16 @@
+冻结scGPT；历史Kang ctrl9577细胞/6供体/8类，512维最后层有符号均值embedding。每折四TRAIN、一VALID、一TEST。全部新选择锁定后统一测试；这是历史数据复用的探索性结果。
+
+运行环境 /opt/anaconda3/envs/scgpt/bin/python，torch2.3.1，CPU4线程。
+入口：
+python work/sae_relation/run.py preflight
+python work/sae_relation/run.py pilot
+python work/sae_relation/run.py develop
+python work/sae_relation/run.py lock
+python work/sae_relation/run.py evaluate
+python work/sae_relation/verify.py
+python work/sae_relation/report.py
+
+协议PROTOCOL.json；来源哈希work/sae_relation/sources.json；选型锁SELECTION_LOCK.json；batch索引与模型/Adam恢复文件在work/sae_relation/。进度checkpoint每250次更新保存；完成后删除临时优化器恢复文件，保留最终网络。
+SAE全部为2048宽、raw-value TopK32、无decoder bias、单位范数decoder列；从对应旧checkpoint继续训练1000步，所有组配对批次、初始化和lr。
+主输出为直接重建；固定一半混合为次要输出，未搜索混合系数、未回退到h、未按TEST选择lambda或checkpoint。
+embedding_manifest.json中每份向量仅含该折留出供体，含原始rows、labels和donor；并非全数据拟合同一个SAE。

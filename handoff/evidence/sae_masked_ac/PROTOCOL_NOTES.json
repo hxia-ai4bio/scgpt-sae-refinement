@@ -1,0 +1,11 @@
+{
+  "masked_IFN_primary": "embedding-only input; clean-trained fixed Ridge evaluated on masked TEST embedding",
+  "masked_IFN_covariates": "covariates and embedding_plus_covariates retain FULL unmasked RNA covariates. Oracle/full-RNA sensitivity only; not masked-input-only robustness.",
+  "parameter_counts": {
+    "A_sae": 2099200,
+    "C_sae_with_expression_head": 3149824,
+    "A_dense": 2099712
+  },
+  "capacity": "C extra expression training head is discarded for512D downstream readout. DenseA has comparable refinement parameter count but different activation/initialization; no matched-initialization SAE-specific causal claim.",
+  "timing": "Clarifications documented during extraction/TRAIN-only pilot, before any new TEST scoring."
+}

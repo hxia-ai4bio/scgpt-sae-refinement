@@ -1,0 +1,49 @@
+donor,cell_type,n_cells
+patient_1015,B cells,459
+patient_1015,CD14+ Monocytes,859
+patient_1015,CD4 T cells,951
+patient_1015,CD8 T cells,85
+patient_1015,Dendritic cells,40
+patient_1015,FCGR3A+ Monocytes,164
+patient_1015,Megakaryocytes,1
+patient_1015,NK cells,179
+patient_1016,B cells,125
+patient_1016,CD14+ Monocytes,393
+patient_1016,CD4 T cells,502
+patient_1016,CD8 T cells,504
+patient_1016,Dendritic cells,27
+patient_1016,FCGR3A+ Monocytes,81
+patient_1016,Megakaryocytes,1
+patient_1016,NK cells,90
+patient_1039,B cells,26
+patient_1039,CD14+ Monocytes,126
+patient_1039,CD4 T cells,201
+patient_1039,CD8 T cells,9
+patient_1039,Dendritic cells,10
+patient_1039,FCGR3A+ Monocytes,15
+patient_1039,Megakaryocytes,52
+patient_1039,NK cells,21
+patient_107,B cells,44
+patient_107,CD14+ Monocytes,210
+patient_107,CD4 T cells,180
+patient_107,CD8 T cells,8
+patient_107,Dendritic cells,14
+patient_107,FCGR3A+ Monocytes,24
+patient_107,Megakaryocytes,0
+patient_107,NK cells,37
+patient_1256,B cells,218
+patient_1256,CD14+ Monocytes,402
+patient_1256,CD4 T cells,1049
+patient_1256,CD8 T cells,114
+patient_1256,Dendritic cells,34
+patient_1256,FCGR3A+ Monocytes,47
+patient_1256,Megakaryocytes,2
+patient_1256,NK cells,242
+patient_1488,B cells,220
+patient_1488,CD14+ Monocytes,317
+patient_1488,CD4 T cells,1216
+patient_1488,CD8 T cells,33
+patient_1488,Dendritic cells,46
+patient_1488,FCGR3A+ Monocytes,76
+patient_1488,Megakaryocytes,4
+patient_1488,NK cells,119

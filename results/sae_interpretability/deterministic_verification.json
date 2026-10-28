@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "source_sha256_unchanged": true,
+  "primary_auc_checks": 24,
+  "auc_max_error": 2.220446049250313e-16,
+  "attribution_aggregate_max_error": 9.990923019453923e-17,
+  "independent_slow_forward_replays": 32,
+  "forward_replay_max_error": 1.1324882507324219e-06,
+  "bound_cache_pairs": 24,
+  "strong_null_exact_input_stratum_checks": 480,
+  "strong_null_slow_forward_replays": 8,
+  "strong_null_replay_max_error": 1.1920928955078125e-06,
+  "deletion_rows": 576,
+  "enrichment_hypergeom_max_error": 1.1102230246251565e-16,
+  "scope": "arithmetic/provenance/replay checks, not independent biological validation",
+  "code_sha256": {
+    "05_all_folds.py": "6eda129d074fa7e94f53faae46eaf5f31b0ba60a54f1ca3eb30be70bc47d5ae6",
+    "01_atlas.py": "70b5a124816ae36ef85914a239c214b64314bed950974c54b28929086cb3ca5e",
+    "03_occlusion.py": "152435bead1702a32855f415eb1367634ec602e829aecb2050097f80c2162f76",
+    "04_expression.py": "d10ae6554c6f35e1c5d366b1c906308f7d384632f00d0bce7535bdea37f166df",
+    "09_verify.py": "84a369ead05fce90976978b7ff9ba7225c617d49b0b3cbe7dee14648f815de8f",
+    "10_report.py": "bb457c77128c846f6c7e4cd8f2469d307bfb7b341730adb0e1a814fc71208755",
+    "08_dictionary_controls.py": "f00a1400539c107032685c6487b0fcaf3ae5ebc3af586a639bdc5b7c167935da",
+    "06_enrichment.py": "3a9a6094774af9c348ac612ed55d431eb727d1a6a28a146fc5bf938b8eee4f67",
+    "07_gate_diagnostics.py": "8fd6d000200e583671942b7f5480f549c0f620b79b1127eed1688c2af89b1f25",
+    "11_stronger_null.py": "3147cc8085e1de8a619023928dafc43ea25b9e370233190ca02255fbdd7b87a7",
+    "02_forward.py": "7a90b269af13b38606597c6e9388a93daa72a673e3abd6022445b601cbbd1b83",
+    "common.py": "7ff3d6cdfc55a46a4415f3ebbde294118e699fa1e46f045b2a097fee61a7f883"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "mean_entries_verified_against_sealed_summaries": 351,
+  "max_mean_error": 8.881784197001252e-16,
+  "total_seed_metric_rows": 1218,
+  "configuration_metric_method_rows": 522,
+  "primary_dataset_metric_rows": 54,
+  "source_hashes_match_sealed_manifest": true,
+  "scope": "Descriptive aggregation only; no new model training or checkpoint replacement"
+}

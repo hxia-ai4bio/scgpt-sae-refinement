@@ -1,0 +1,13 @@
+Working directory: /Users/apple/Documents/Codex/2026-10-18/wo
+Runtime: /opt/anaconda3/envs/scgpt/bin/python; CPU float32,4threads.
+Preflight: python work/sae_checkpoint_selection/run.py preflight
+Full execution: python work/sae_checkpoint_selection/execute.py
+The stage wrapper verifies SUPPLEMENT_BINDINGS before develop/evaluate. INPUT_BINDINGS are checked in both stages. Source data/checkpoints and both previous sealed experiments remain unchanged.
+Evaluation runs only after all18 body selections and18 fresh probes are complete and SELECTION_LOCK is created.
+Verification: python work/sae_checkpoint_selection/verify.py
+Report: python work/sae_checkpoint_selection/report.py
+Body checkpoint grid0/25/50/100/200/500/1000; full VALID standardized expression MSE selects earliest minimum. Step0 is the inherited, previously VALID-selected warmup SAE, not random/untrained.
+Training trajectory is unchanged and every step1000 state must exactly equal the old C1000 state. Joint expression head discarded for the frozen fresh-probe comparison.
+Probe recipe identical to sealed expression-probe experiment: paired independent seed+400003,1000steps Adam cosine1e-3->1e-5, TRAIN-only feature scaling, VALID raw MAE selects from fixed monitored steps.
+Only Kang ctrl historical6donors x3seeds; no stim/PBMC extension or K/loss sweep in this run. No automatic continuation based on TEST.
+Scripts depend on original absolute parent paths. source_snapshot, when created, is archival; execute original work paths.

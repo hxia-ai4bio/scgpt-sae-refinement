@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "copied_source_hashes",
+      "files": 130,
+      "status": "PASS"
+    },
+    {
+      "check": "table_and_lambda_recomputed_from_group_records",
+      "status": "PASS"
+    },
+    {
+      "check": "figure3_all_types_donor_and_seed_aggregation",
+      "status": "PASS"
+    },
+    {
+      "check": "figure5_group_means",
+      "status": "PASS"
+    },
+    {
+      "check": "markdown_relative_file_links_and_figures",
+      "links": 30,
+      "status": "PASS"
+    }
+  ],
+  "document_sha256": "d9e92709da243d5ffab8092572510a136d384bfe5181c67befb34a09200b1836",
+  "scope": "Copied-source integrity and reported summary arithmetic only; no model refitting, no raw-RNA reanalysis, no independent biological validation."
+}

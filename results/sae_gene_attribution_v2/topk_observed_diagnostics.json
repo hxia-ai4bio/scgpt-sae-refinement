@@ -1,0 +1,8 @@
+{
+  "single_gene_topk_exits": 0,
+  "single_gene_sae_vs_encoder_effect_max_difference": 0.0,
+  "combination_topk_exits": 0,
+  "nonzero_combination_inputs": 960,
+  "combination_sae_vs_encoder_score_max_difference": 0.0,
+  "scope": "observed selected local inputs only"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "pathway_hypotheses": 39911,
+  "null_sets_checked": 120000,
+  "matched_p_max_error": 1.1102230246251565e-16,
+  "exact_DP_sample_checked": 419,
+  "exact_DP_max_error": 4.440892098500626e-16,
+  "Fisher_crosscheck": true,
+  "BH_global_crosscheck": true,
+  "membership_family_and_source_genes_checked": true,
+  "hashes_unchanged": true,
+  "scope": "numerical/provenance/membership; not biological validation"
+}

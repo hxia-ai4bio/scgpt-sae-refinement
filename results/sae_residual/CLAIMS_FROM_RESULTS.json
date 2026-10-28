@@ -1,0 +1,72 @@
+{
+  "agent_id": "/root/residual_audit",
+  "verdict_id": "2026-10-19-sae-residual-final",
+  "executor_model": "unknown",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "reviewer_model_metadata": "Requested fresh-agent route; runtime identity is not independently introspectable.",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-10-18T17:31:36.207094+00:00",
+  "date": "2026-10-19",
+  "trace_path": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_residual/review_trace",
+  "audited_input_hashes": {
+    "manifest": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_residual/review_trace/audited_input_hashes.json",
+    "manifest_sha256": "sha256:9d9af24a90c1211c3bd9fdc2e04895722a42a1c5c01272ba205f297fdc9dbd56",
+    "count": 1485
+  },
+  "hash_scope": "Review snapshot; status/index-only report refresh is allowed. Executor FINAL_MANIFEST binds final delivered bytes.",
+  "pending_external_review": true,
+  "skill": "result-to-claim",
+  "verdict": "NO",
+  "claim_supported": "no",
+  "integrity_status": "warn",
+  "confidence": "high",
+  "confidence_scope": "High for the bounded recorded recipe and its primary endpoint; no conclusion about all alternative training recipes.",
+  "intended_claim": "The specified frozen-SAE supervised residual gate improves held-out-donor fresh-Ridge macro-F1 and demonstrates advantage over an orthogonally rotated dictionary control.",
+  "what_results_support": [
+    "The specified gate recipe yields essentially unchanged primary performance: -0.0019830824993658266 pp versus original, no positive donor or seed mean, and no advantage over rotation.",
+    "All 378 candidates have logged gradient flow, but 262 select epoch0; gate chooses identity in 16/18 runs and retains only tiny average residuals.",
+    "Dense MLP+SupCon shows a readout-specific secondary kNN change (+1.1968072730186747 pp), while its primary Ridge gain is only +0.01582942067551533 pp with 1/6 positive donors."
+  ],
+  "what_results_dont_support": [
+    "Stable or material primary improvement from SAE gate or gate+SupCon.",
+    "A representation gain specific to semantically aligned SAE decoder directions.",
+    "General ineffectiveness of all SAE residual methods, or superiority after optimal tuning.",
+    "Independent blind external validation, biological functional modules or causal mechanisms."
+  ],
+  "missing_evidence": [
+    "A fresh donor/study endpoint with frozen development choices.",
+    "A genuinely retained, meaningfully sized adaptation selected by a prespecified checkpoint objective aligned with the target readout.",
+    "Evidence separating SAE seed variability from adapter seed variability if stability becomes a claim.",
+    "Independent perturbation/functional validation for any biological mechanism claim."
+  ],
+  "suggested_claim_revision": "在六个历史开发供体、三种子及预设训练/选择方案下，冻结SAE残差门控未提高新Ridge分类表现；大多数运行回退至原始表征，少数保留更新也很小。加入跨供体SupCon未改变这一主要结论。",
+  "next_experiments_needed": [
+    "None are required to finish this negative-result task. Stop expansion under the failed continuation rule.",
+    "Only if a new study is explicitly chosen: predeclare a revised checkpoint/optimization hypothesis using TRAIN/VALID alone, then evaluate once on genuinely fresh held-out donors or a new study; do not retune on current TEST/PBMC results."
+  ],
+  "routing_action": "record bounded negative result; do not advance positive gate-improvement or biological claims; complete archive without additional experiments",
+  "primary_numbers": {
+    "original_test_ridge_percent": 82.7539600326646,
+    "gate_test_ridge_percent": 82.75197695016523,
+    "gate_delta_pp": -0.0019830824993658266,
+    "gate_positive_donors": 0,
+    "gate_positive_seed_means": 0,
+    "gate_identity_fallbacks": 16,
+    "runs_per_arm": 18,
+    "gate_pbmc_delta_pp": 0.000668945374711812,
+    "all_continuation_criteria_met": false
+  },
+  "evidence_precheck": "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_residual/review_trace/evidence_precheck.json",
+  "limitations": [
+    "same-family/provisional reviewer",
+    "historically explored cohorts",
+    "six donors with overlapping training folds",
+    "three coupled SAE/adapter seeds",
+    "identity fallback and tiny retained residuals",
+    "checkpoint selected by training-head metric before fresh-probe beta selection"
+  ]
+}

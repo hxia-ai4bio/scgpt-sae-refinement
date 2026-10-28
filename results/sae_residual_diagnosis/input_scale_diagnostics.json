@@ -1,0 +1,56 @@
+[
+  {
+    "fold": 0,
+    "raw_norm_median": 21.0732421875,
+    "centered_norm_median": 2.986598253250122,
+    "raw_to_centered_norm_median": 7.056541919708252,
+    "TRAIN_donors": 4,
+    "TRAIN_cells": 7394,
+    "VALID_cells": 460
+  },
+  {
+    "fold": 1,
+    "raw_norm_median": 21.0805721282959,
+    "centered_norm_median": 2.8496510982513428,
+    "raw_to_centered_norm_median": 7.401695251464844,
+    "TRAIN_donors": 4,
+    "TRAIN_cells": 6379,
+    "VALID_cells": 2738
+  },
+  {
+    "fold": 2,
+    "raw_norm_median": 21.071653366088867,
+    "centered_norm_median": 2.950242280960083,
+    "raw_to_centered_norm_median": 7.147441864013672,
+    "TRAIN_donors": 4,
+    "TRAIN_cells": 4808,
+    "VALID_cells": 2031
+  },
+  {
+    "fold": 3,
+    "raw_norm_median": 21.05318832397461,
+    "centered_norm_median": 3.10718035697937,
+    "raw_to_centered_norm_median": 6.7623066902160645,
+    "TRAIN_donors": 4,
+    "TRAIN_cells": 5438,
+    "VALID_cells": 2108
+  },
+  {
+    "fold": 4,
+    "raw_norm_median": 21.06939697265625,
+    "centered_norm_median": 2.9877214431762695,
+    "raw_to_centered_norm_median": 7.052653789520264,
+    "TRAIN_donors": 4,
+    "TRAIN_cells": 6952,
+    "VALID_cells": 517
+  },
+  {
+    "fold": 5,
+    "raw_norm_median": 21.07520294189453,
+    "centered_norm_median": 2.9611082077026367,
+    "raw_to_centered_norm_median": 7.116978168487549,
+    "TRAIN_donors": 4,
+    "TRAIN_cells": 7337,
+    "VALID_cells": 1723
+  }
+]

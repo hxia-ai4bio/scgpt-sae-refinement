@@ -1,0 +1,10 @@
+{
+  "logical_cores_os": 14,
+  "memory_available_at_audit_GB": 8.06,
+  "extraction_threads": 4,
+  "training_threads": 4,
+  "strategy": "PBMC training overlaps frozen stim extraction; at most8threads across14CPUcores. Then sequential4thread fits. No extra model-training parallelism.",
+  "new_warmup_fits": 24,
+  "new_continuation_fits": 168,
+  "readouts": 176
+}

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "completed": 98,
+  "total": 98,
+  "verification": "PASS",
+  "integrity": "WARN",
+  "claim_supported": "no",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "phase2": "NOT_RUN",
+  "finished_utc": "2026-10-19T10:36:10Z"
+}

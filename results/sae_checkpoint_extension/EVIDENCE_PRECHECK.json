@@ -1,0 +1,70 @@
+{
+  "results": [
+    {
+      "id": "ctrl_C_1000_MAE",
+      "value": "0.33461017169279744",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.33461017169279744' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "ctrl_C_selected_MAE",
+      "value": "0.3207723170833228",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.3207723170833228' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "ctrl_original_h_MAE",
+      "value": "0.32595499122624333",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.32595499122624333' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "pbmc_C_1000_MAE",
+      "value": "0.386179286767002",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.386179286767002' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "pbmc_C_selected_MAE",
+      "value": "0.344114508643686",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.344114508643686' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "pbmc_original_h_MAE",
+      "value": "0.36272204162867183",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.36272204162867183' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "stim_C_1000_MAE",
+      "value": "0.3465485648768731",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.3465485648768731' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "stim_C_selected_MAE",
+      "value": "0.3343683093023093",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.3343683093023093' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    },
+    {
+      "id": "stim_original_h_MAE",
+      "value": "0.33869703291738057",
+      "source": "outputs/sae_checkpoint_extension/SUMMARY.json",
+      "status": "verified",
+      "detail": "'0.33869703291738057' found in outputs/sae_checkpoint_extension/SUMMARY.json"
+    }
+  ],
+  "summary": {
+    "verified": 9
+  }
+}

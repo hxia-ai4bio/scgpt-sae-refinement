@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "ORA": "complete",
+  "matched_null": "complete",
+  "gene_mapping": "complete",
+  "verification": "PASS",
+  "semantic_review": "WARN",
+  "scope": "positive attribution ORA, two prespecified gene lists; no GSEA/model inference"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "historical_gate_funnel": {
+    "checkpoint_epoch0": 13,
+    "fresh_Ridge": 3,
+    "retained": 2
+  },
+  "gate_candidates_epoch0": 39,
+  "gate_beta0_positive_Ridge_candidates": 2,
+  "gate_beta0_candidates": 18,
+  "trajectory_completions": 24,
+  "original_joint_prefix_replays": 12,
+  "conditional_readout_fits": 396,
+  "trajectory_epoch_records": 984,
+  "VALID_score_rows_rechecked": 1436550,
+  "no_TEST_or_PBMC_scoring": true,
+  "scope": "posthoc validation-only diagnostic; validation maxima are selected and optimistic, not held-out improvement",
+  "source_and_output_hashes_unchanged": true
+}

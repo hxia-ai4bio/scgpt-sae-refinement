@@ -1,0 +1,24 @@
+{
+  "timestamp": 1792391553.6346948,
+  "os": "macOS-26.5-arm64-arm-64bit",
+  "memory": {
+    "total": 25769803776,
+    "available": 7014023168,
+    "percent": 72.8,
+    "used": 10811916288,
+    "free": 159973376,
+    "active": 6864338944,
+    "inactive": 6779813888,
+    "wired": 3947577344
+  },
+  "disk": {
+    "total": 994662584320,
+    "used": 451078070272,
+    "free": 543584514048
+  },
+  "cuda_available": false,
+  "mps_available": false,
+  "threads": 4,
+  "strategy": "Sequential model fits, CPU4, same runtime as previous study",
+  "detector_fallback_reason": "Bundled detector cannot read macOS swap due to sandbox PermissionError; no need for elevated access"
+}

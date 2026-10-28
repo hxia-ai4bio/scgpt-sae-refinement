@@ -1,0 +1,209 @@
+{
+  "expression": [
+    {
+      "method": "C_1000",
+      "MAE": 0.33461017169279744,
+      "normalized_MSE": 0.6363938180579171,
+      "gene_macro_MAE": 0.2741759403470895,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "method": "C_selected",
+      "MAE": 0.3207723170833228,
+      "normalized_MSE": 0.5890282147902582,
+      "gene_macro_MAE": 0.26725306573038904,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    },
+    {
+      "method": "original_h",
+      "MAE": 0.32595499122624333,
+      "normalized_MSE": 0.6050673822083864,
+      "gene_macro_MAE": 0.2749012252647122,
+      "gene_mean_baseline_MAE": 0.43617897017360585
+    }
+  ],
+  "knn": [
+    {
+      "method": "C_1000",
+      "view": "clean",
+      "knn_macro_f1": 0.8300731886385234
+    },
+    {
+      "method": "C_1000",
+      "view": "masked",
+      "knn_macro_f1": 0.81459836711864
+    },
+    {
+      "method": "C_selected",
+      "view": "clean",
+      "knn_macro_f1": 0.8186701834796434
+    },
+    {
+      "method": "C_selected",
+      "view": "masked",
+      "knn_macro_f1": 0.809919432330322
+    },
+    {
+      "method": "original_h",
+      "view": "clean",
+      "knn_macro_f1": 0.781000729633678
+    },
+    {
+      "method": "original_h",
+      "view": "masked",
+      "knn_macro_f1": 0.7608079928730795
+    }
+  ],
+  "contrasts": [
+    {
+      "reference": "original_h",
+      "selected_MAE": 0.3207723170833228,
+      "reference_MAE": 0.32595499122624333,
+      "delta_MAE": -0.005182674142920507,
+      "MAE_reduction_pct": 1.5899968653412144,
+      "improved_pairs": 18,
+      "pairs": 18,
+      "improved_donors": 6,
+      "donors": 6
+    },
+    {
+      "reference": "C_1000",
+      "selected_MAE": 0.3207723170833228,
+      "reference_MAE": 0.33461017169279744,
+      "delta_MAE": -0.01383785460947462,
+      "MAE_reduction_pct": 4.135515229399256,
+      "improved_pairs": 18,
+      "pairs": 18,
+      "improved_donors": 6,
+      "donors": 6
+    }
+  ],
+  "selected_checkpoints": [
+    {
+      "fold": 0,
+      "seed": 42,
+      "selected_step": 100,
+      "valid_objective": 0.5552801551285905,
+      "valid_MAE": 0.3146497793985883
+    },
+    {
+      "fold": 0,
+      "seed": 43,
+      "selected_step": 100,
+      "valid_objective": 0.5530926067640874,
+      "valid_MAE": 0.31295978784024897
+    },
+    {
+      "fold": 0,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.5528212981399715,
+      "valid_MAE": 0.3160637628780776
+    },
+    {
+      "fold": 1,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5404966659269177,
+      "valid_MAE": 0.3103467674680333
+    },
+    {
+      "fold": 1,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.5388422910224339,
+      "valid_MAE": 0.3116671520404294
+    },
+    {
+      "fold": 1,
+      "seed": 44,
+      "selected_step": 50,
+      "valid_objective": 0.5413737125448799,
+      "valid_MAE": 0.3125989405150162
+    },
+    {
+      "fold": 2,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.4950357067190858,
+      "valid_MAE": 0.2995656834353363
+    },
+    {
+      "fold": 2,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.49401025638945206,
+      "valid_MAE": 0.29914248170131474
+    },
+    {
+      "fold": 2,
+      "seed": 44,
+      "selected_step": 50,
+      "valid_objective": 0.4955002035948144,
+      "valid_MAE": 0.30077889931523355
+    },
+    {
+      "fold": 3,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5074257867940768,
+      "valid_MAE": 0.3018860838385938
+    },
+    {
+      "fold": 3,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.5077782764074467,
+      "valid_MAE": 0.3021726367039014
+    },
+    {
+      "fold": 3,
+      "seed": 44,
+      "selected_step": 50,
+      "valid_objective": 0.5088264375684658,
+      "valid_MAE": 0.30345766373072197
+    },
+    {
+      "fold": 4,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5574506500141384,
+      "valid_MAE": 0.31641975990793486
+    },
+    {
+      "fold": 4,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.558457442695622,
+      "valid_MAE": 0.31530019098683254
+    },
+    {
+      "fold": 4,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.5609156158193559,
+      "valid_MAE": 0.31510671719730937
+    },
+    {
+      "fold": 5,
+      "seed": 42,
+      "selected_step": 50,
+      "valid_objective": 0.5194213005980973,
+      "valid_MAE": 0.30392718146102704
+    },
+    {
+      "fold": 5,
+      "seed": 43,
+      "selected_step": 50,
+      "valid_objective": 0.5165678753571907,
+      "valid_MAE": 0.3040745911838404
+    },
+    {
+      "fold": 5,
+      "seed": 44,
+      "selected_step": 100,
+      "valid_objective": 0.517429259134177,
+      "valid_MAE": 0.30128600850722204
+    }
+  ]
+}

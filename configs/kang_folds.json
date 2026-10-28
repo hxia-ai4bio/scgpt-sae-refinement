@@ -1,0 +1,39 @@
+{
+  "classes": [
+    "B cells",
+    "CD14+ Monocytes",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Dendritic cells",
+    "FCGR3A+ Monocytes",
+    "Megakaryocytes",
+    "NK cells"
+  ],
+  "folds": [
+    {
+      "test": "patient_1016",
+      "valid": "patient_1039"
+    },
+    {
+      "test": "patient_1039",
+      "valid": "patient_1015"
+    },
+    {
+      "test": "patient_1015",
+      "valid": "patient_1488"
+    },
+    {
+      "test": "patient_1488",
+      "valid": "patient_1256"
+    },
+    {
+      "test": "patient_1256",
+      "valid": "patient_107"
+    },
+    {
+      "test": "patient_107",
+      "valid": "patient_1016"
+    }
+  ],
+  "note": "Fold group names, not NPZ row indices. Only the six development donors are eligible."
+}

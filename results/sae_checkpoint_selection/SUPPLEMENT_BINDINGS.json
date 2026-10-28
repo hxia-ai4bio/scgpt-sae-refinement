@@ -1,0 +1,14 @@
+{
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_masked_ac/data/ctrl/binding.json": "0538bd23e089f6ec3cadc1765096b427e696fa0932385412f2421555e1858151",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_masked_ac/ctrl_DATA_MANIFEST.json": "de8df89aee912f7edc6ed5560645ffccb5a3dfeac6cc80f8ff6498c5e70d5f2c",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_checkpoint_selection/execute.py": "f760c9e540e25d48cbdbbb46733c1b104c10eb4b9fc612cd06bd674a3cf3528d",
+  "/Users/apple/Documents/Codex/2026-10-18/wo/work/sae_masked_ac/prepare.py": "68a8944bebbcab1ddbc3ec03a97ce9dd971601b713550ada9d019a764ad7ba2e",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/prepare.py": "19c57a2dcd720ecbfe5e5b5ae253cc43ee06422c14f0dd693275e9af1bf2c79e",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/kang_error_atlas_20261012/run_error_atlas.py": "522d1058e98071d3e7aeec5467c9bf515b0298ff0f8b6ee8a1c6b8a06d6aafac",
+  "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/kang_error_atlas_20261012/config.json": "233affe2e949d55375fed161c46bfaea6d76f9ef57bfcd40da441c8f24649246",
+  "/Users/apple/Desktop/scGPT/scGPT_human/best_model.pt": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922",
+  "/Users/apple/Desktop/scGPT/scGPT_human/args.json": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60",
+  "/Users/apple/Desktop/scGPT/scGPT_human/vocab.json": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f",
+  "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad": "e6a5adac64dcdeb36eaba27db49b63e0c64bb0ed4a64c6705971506b41c39830"
+}

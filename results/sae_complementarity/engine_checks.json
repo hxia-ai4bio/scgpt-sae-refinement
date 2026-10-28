@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "n": 70,
+      "p": 13,
+      "target": "classification",
+      "alpha": 0.0001,
+      "independent_score_max_error": 1.3322676295501878e-15,
+      "normal_equation_error": 1.2798785191756842e-15
+    },
+    {
+      "n": 70,
+      "p": 13,
+      "target": "classification",
+      "alpha": 1.0,
+      "independent_score_max_error": 1.27675647831893e-15,
+      "normal_equation_error": 1.4026065963569143e-15
+    },
+    {
+      "n": 70,
+      "p": 13,
+      "target": "classification",
+      "alpha": 100.0,
+      "independent_score_max_error": 4.440892098500626e-16,
+      "normal_equation_error": 1.2448133542667615e-15
+    },
+    {
+      "n": 70,
+      "p": 13,
+      "target": "residual",
+      "alpha": 0.0001,
+      "independent_score_max_error": 1.6653345369377348e-15,
+      "normal_equation_error": 9.384170136259297e-16
+    },
+    {
+      "n": 70,
+      "p": 13,
+      "target": "residual",
+      "alpha": 1.0,
+      "independent_score_max_error": 1.5543122344752192e-15,
+      "normal_equation_error": 8.832160128244043e-16
+    },
+    {
+      "n": 70,
+      "p": 13,
+      "target": "residual",
+      "alpha": 100.0,
+      "independent_score_max_error": 6.453171330633722e-16,
+      "normal_equation_error": 7.360133440203369e-16
+    },
+    {
+      "n": 40,
+      "p": 65,
+      "target": "classification",
+      "alpha": 0.0001,
+      "independent_score_max_error": 4.9960036108132044e-15,
+      "normal_equation_error": 2.4808500248505066e-15
+    },
+    {
+      "n": 40,
+      "p": 65,
+      "target": "classification",
+      "alpha": 1.0,
+      "independent_score_max_error": 4.218847493575595e-15,
+      "normal_equation_error": 2.249304022531126e-15
+    },
+    {
+      "n": 40,
+      "p": 65,
+      "target": "classification",
+      "alpha": 100.0,
+      "independent_score_max_error": 8.881784197001252e-16,
+      "normal_equation_error": 1.4554320145789637e-15
+    },
+    {
+      "n": 40,
+      "p": 65,
+      "target": "residual",
+      "alpha": 0.0001,
+      "independent_score_max_error": 1.2601031329495527e-14,
+      "normal_equation_error": 2.895627898908463e-15
+    },
+    {
+      "n": 40,
+      "p": 65,
+      "target": "residual",
+      "alpha": 1.0,
+      "independent_score_max_error": 9.325873406851315e-15,
+      "normal_equation_error": 2.3057777713530355e-15
+    },
+    {
+      "n": 40,
+      "p": 65,
+      "target": "residual",
+      "alpha": 100.0,
+      "independent_score_max_error": 1.7763568394002505e-15,
+      "normal_equation_error": 1.6086821660602574e-15
+    }
+  ]
+}

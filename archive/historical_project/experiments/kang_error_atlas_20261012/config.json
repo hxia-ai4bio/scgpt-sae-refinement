@@ -1,0 +1,28 @@
+{
+  "dataset": "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad",
+  "checkpoint_dir": "/Users/apple/Desktop/scGPT/scGPT_human",
+  "development_donors": [
+    "patient_1016",
+    "patient_1039",
+    "patient_1015",
+    "patient_1488",
+    "patient_1256",
+    "patient_107"
+  ],
+  "untouched_donors": ["patient_1244", "patient_101"],
+  "condition": "ctrl",
+  "excluded_cell_types": ["Megakaryocytes"],
+  "seq_len": 512,
+  "n_bins": 51,
+  "min_expressed_vocab_genes": 16,
+  "feature_batch_size": 8,
+  "cpu_threads": 6,
+  "seed": 20261012,
+  "knn_neighbors": 15,
+  "logistic_c": 1.0,
+  "ridge_alpha": 10.0,
+  "sparse_ffn_c": 0.05,
+  "sparse_neuron_budget": 64,
+  "random_control_repeats": 10,
+  "device": "auto"
+}

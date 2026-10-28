@@ -1,0 +1,10 @@
+{
+  "backbone_note": "Inherited backbone text no new scGPT inference is stale for stim. Actual stim extraction is new frozen forward inference; no scGPT weights are optimized. PBMC embeddings reused after frozen replay validation. Preserve bound protocol/run.py.",
+  "split_binding_note": "Source/completion bindings do not include SPLITS.json or upstream protocol directly. Snapshot hashes here and in independent audit, and regenerate all splits for final review; per-fit TRAIN/VALID input hashes and immutable preflight splits provide additional checks.",
+  "snapshot_hashes": {
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/pbmc/SPLITS.json": "ebc68fcef0d36c08e6c2da532b19a43a7c68e94d5350dd74bdb5e560d72d8583",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/protocol.json": "ea1707b7f5b2c5f6ce77bf7ecdad1d9e33b0b7e12e4b4c4f7299d83a28837a78",
+    "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_extension/stim/SPLITS.json": "5042f39747d5e8528780a3bbc11a3a24f7b0aaab6face145aed8869f219285d5"
+  },
+  "pbmc_rare_class_note": "Batch2 has2megakaryocytes total. Reverse source-batch split has1TRAIN/1VALID. All8classes retained; report perclass supports and avoid stable generalization claims from2batches."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "readout_views": 364,
+  "new_model_checks": 126,
+  "raw_input_counts": {
+    "ctrl": 9577,
+    "stim": 9728,
+    "pbmc": 4638
+  },
+  "raw_target_row_replays": 192,
+  "TRAIN_gene_panel_replays": 14,
+  "classification_and_NN_metric_replays": 364,
+  "exact_neighbor_query_block_replays": 364,
+  "IFN_metric_replays": 2028,
+  "expression_metric_replays": 42,
+  "original_ctrl_Ridge_reproduces_sealed_baseline": true,
+  "no_new_TEST_selection": true,
+  "TRAIN_scaler_checks": 182,
+  "VALID_alpha_grid_replays": 182,
+  "weighted_normal_equation_checks": 182,
+  "readout_score_replays": 364,
+  "checkpoint_embedding_replays": 364,
+  "bounded_gene_head_prediction_replays": 42,
+  "IFN_prediction_replay_scope": "Saved IFN targets and metric arithmetic fully replayed; fitted IFN predictions not independently refit in this script, see independent reviewer bounded checks."
+}

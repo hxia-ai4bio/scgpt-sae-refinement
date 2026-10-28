@@ -1,0 +1,38 @@
+{
+  "sha256": {
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/data_manifest.json": "1eeb5d86e66ef463c5b8e765e66ee3da45e6fb6a6a0678449ec3acf30edbf9cd",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/kang_embeddings.npz": "b13ac209bbde4381d8fbfef826702c19f578a8f12e7bfcb629d7a0823f09952d",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/pbmc_embeddings.npz": "585e2648a407b5f0004247742b98f11df3f5771032c0b961c0f76f9c869e00c7",
+    "/Users/apple/.codex/.chatgpt-projects/g-p-6abd227c77ec8191b96f942248d505b7/experiments/sae_topk_20261014/test_patient_1016/seed_42/k_32/sae.pt": "5391620c151706d9e6b0c0a5037aacf9ad9726bf9d827b43abde22d4361e1207",
+    "/Users/apple/Desktop/Llava-Cell/dataset/kang.h5ad": "e6a5adac64dcdeb36eaba27db49b63e0c64bb0ed4a64c6705971506b41c39830",
+    "/Users/apple/Desktop/Llava-Cell/dataset/PBMC368k_raw.h5ad": "211b06d897f35bb8590aed649173d5f44b6e6986c468d8e8dc0dc78646fee2aa"
+  },
+  "classes": [
+    "B cells",
+    "CD14+ Monocytes",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Dendritic cells",
+    "FCGR3A+ Monocytes",
+    "Megakaryocytes",
+    "NK cells"
+  ],
+  "cache_replay_max_error": {
+    "train": 0.0,
+    "valid": 0.0,
+    "test": 0.0
+  },
+  "kang_n": 9577,
+  "pbmc_n": 4638,
+  "train_donors": [
+    "patient_1015",
+    "patient_1488",
+    "patient_1256",
+    "patient_107"
+  ],
+  "valid_donor": "patient_1039",
+  "test_donor": "patient_1016",
+  "negative_retained_fraction": 0.0,
+  "eligible_features": 645,
+  "seconds": 15.486778974533081
+}

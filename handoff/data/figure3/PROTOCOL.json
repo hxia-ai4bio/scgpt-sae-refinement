@@ -1,0 +1,23 @@
+{
+  "dataset": "Kang ctrl",
+  "targets": [
+    "B cells",
+    "CD14+ Monocytes",
+    "CD4 T cells",
+    "CD8 T cells",
+    "Dendritic cells",
+    "FCGR3A+ Monocytes",
+    "Megakaryocytes",
+    "NK cells"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selection": "TRAIN only; nonzero >=20, frequency <=0.5, nonzero >=3 in every TRAIN donor; maximize minimum donor AUROC, then mean donor AUROC, then lower feature index. Signed activation retained, positive direction only.",
+  "rare_class_extension": "An undefined TRAIN donor AUROC (no positives or negatives) is excluded from the min/mean; all valid TRAIN donors are used. Coverage rule still includes EVERY TRAIN donor. No valid TRAIN donor or no eligible feature => no selection. Undefined TEST AUROC is missing, never replaced with 0.5.",
+  "summary": "Average seeds 42/43/44 within each held-out donor, then equal-weight valid donor means; sample SD across donors. Report valid donor count and TEST positive counts; <5 positives flagged as very sparse.",
+  "limitations": "Historical exploratory analysis; feature IDs differ across SAE fits. TRAIN sets overlap. Not independent external cohorts. No significance tests.",
+  "source": "Frozen saved sae_outputs.npz; no retraining, no VALID/TEST-driven selection."
+}

@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-19T22:13:39.183919",
+  "reason": "Independent review found fresh probe random initialization matched original upstream C head initialization. Replace seed+2003 with seed+400003 for BOTH arms before any new TEST evaluation.",
+  "prior_run_stopped": true,
+  "prior_SELECTION_LOCK_exists": false,
+  "prior_TEST_metrics_exist": false,
+  "discarded_head_artifacts_preserved": "work/sae_expression_probe/pre_TEST_initialization_amendment",
+  "old_parent_untouched": true
+}

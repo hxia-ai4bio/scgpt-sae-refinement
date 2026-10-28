@@ -1,0 +1,130 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reason_code": "qualified_exploratory_scope",
+  "summary": "No detected integrity defect. The scoped checkpoint-selection diagnosis passes deterministic checks; interpretation remains exploratory.",
+  "trace_path": ".aris/traces/experiment-audit/2026-10-20_checkpoint_selection/",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "Observed Kang ctrl raw-count logCP10k targets and dataset cell-type annotations; no model-generated targets. Independently checked all9,577 cell IDs/donors/condition/labels,32cells/13,608 raw expression entries (exact), and all6 TRAIN-only gene panels/scalers.",
+      "evidence": [
+        "work/sae_masked_ac/prepare.py:24-37",
+        "work/sae_masked_ac/pipeline.py:32-40",
+        ".aris/traces/experiment-audit/2026-10-20_checkpoint_selection/003-independent-raw-check.json"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Primary raw logCP10k MAE is unnormalized. Secondary standardized MSE uses TRAIN-positive per-gene std. Relative improvement divides by reference MAE, not self-prediction statistics.",
+      "evidence": [
+        "work/sae_expression_probe/run.py:163-167",
+        "work/sae_checkpoint_selection/report.py:19-24"
+      ]
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "All54 expression metric rows independently recomputed from saved prediction arrays,36 selected kNN F1 rows independently recomputed. 18 step1000 states exactly match sealed parents;18 selected-body/head links and493+12input/288selection hashes checked. Six-donor equal aggregation reproduces published summary;3 deterministic evidence claims verified.",
+      "evidence": [
+        "outputs/sae_checkpoint_selection/verification.json",
+        ".aris/traces/experiment-audit/2026-10-20_checkpoint_selection/004-independent-final-check.json",
+        "outputs/sae_checkpoint_selection/EVIDENCE_PRECHECK.json"
+      ]
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Training, VALID selection, expression metrics and fixed15NN paths are invoked and represented in completed artifacts; no claimed metric was found only in unused code.",
+      "evidence": [
+        "work/sae_checkpoint_selection/run.py:129-167"
+      ]
+    },
+    "scope": {
+      "status": "warn",
+      "details": "Qualified diagnostic only: historical repeatedly explored Kang ctrl,6donors/3paired seeds,overlapping training folds,one fixed positive-token mask,VALID reused for warmup/body/probe selection,finite probe budget and coarse checkpoint grid. No blind confirmation or independent18-donor inference.",
+      "evidence": [
+        "outputs/sae_checkpoint_selection/PROTOCOL.json",
+        "outputs/sae_checkpoint_selection/REPRODUCIBILITY.txt",
+        "work/sae_checkpoint_selection/report.py:28-32"
+      ]
+    },
+    "eval_type": {
+      "expression": "real_gt: observed dataset expression transformed to masked reconstruction targets; a proxy endpoint for expression-readout quality",
+      "knn": "real_gt: dataset cell-type annotations; no independent causal biological validation"
+    }
+  },
+  "action_items": [
+    "Preserve historical TEST/reused VALID and finite-budget qualifiers.",
+    "Report expression benefit together with the 15NN reduction relative to C1000."
+  ],
+  "resolved_findings": [
+    "Missing consumed external canonical cache binding was repaired with supplementary immutable source bindings before the full run."
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "VALID-selected checkpoints reduce same-protocol frozen expression MAE versus original_h and C1000 in this run",
+      "impact": "supported"
+    },
+    {
+      "id": "C2",
+      "claim": "Selected checkpoint improves every downstream task versus C1000",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C3",
+      "claim": "SAE sparsity is necessary or yields independent biological/causal mechanisms",
+      "impact": "unsupported"
+    }
+  ],
+  "date": "2026-10-20",
+  "generated_at": "2026-10-19T16:43:35.455857+00:00",
+  "agent_id": "/root/checkpoint_selection_audit",
+  "verdict_id": "/root/checkpoint_selection_audit",
+  "executor_model": "not_exposed",
+  "executor_family": "openai",
+  "reviewer_model_requested": "gpt-6-astra",
+  "reviewer_reasoning_requested": "ultra",
+  "reviewer_model_actual": "not_exposed",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "audited_input_hashes": {
+    "outputs/sae_checkpoint_selection/PROTOCOL.json": "sha256:d9d1a7ed2b47d8758872d4e8aa97f40e1da163cb288c0fa2823def6c96444615",
+    "outputs/sae_checkpoint_selection/INPUT_BINDINGS.json": "sha256:4ea8ea33f99fcb62f05ebd63a4b3dfe5d4b33999515095c13bc9f50bdb84b28d",
+    "outputs/sae_checkpoint_selection/SUPPLEMENT_BINDINGS.json": "sha256:91afcdaf57b750cf8161d78b387be6c9b2e7550df87ae71099bb742e7ab6983a",
+    "outputs/sae_checkpoint_selection/PREFLIGHT.json": "sha256:cc7dff57e72b9594e2ba5428fdae207264410b1fa61a0894e79a319c8965d610",
+    "outputs/sae_checkpoint_selection/SUPPLEMENT_PREFLIGHT.json": "sha256:da8227a0823464d57fa3279f37424ec024527a13932d6bc2106a08404e909d9b",
+    "outputs/sae_checkpoint_selection/PILOT.json": "sha256:afe1d262470fb46e6b260a854ac3efa2c98055b3c089b2e642078a175cf7d407",
+    "outputs/sae_checkpoint_selection/SELECTION_LOCK.json": "sha256:10f1215e9d407fdd153288ae612c846c56b1a6f9c0d5c95745e1679eaa42e529",
+    "outputs/sae_checkpoint_selection/all_metrics.csv": "sha256:dd7a9f78202624e3f1b2a2d8ce3f7a4e80b8b4ee3ba34e462b6495f704039b03",
+    "outputs/sae_checkpoint_selection/all_metrics.json": "sha256:f5108b151eeac638b6bb4e3d25b982a95bd63a38908d717deb42746ee166c718",
+    "outputs/sae_checkpoint_selection/knn_metrics.csv": "sha256:ce280f69b3dfada8050f7868d6434fc12887ec6ced4203cbcc697947256c43be",
+    "outputs/sae_checkpoint_selection/group_metrics.csv": "sha256:655a27ab7e17d22f32275efec7af3f90b8489459ed0da18343b5009088bdc1ea",
+    "outputs/sae_checkpoint_selection/summary.csv": "sha256:0fd4e1be367b4a8bf3f668716b52f4f6ed434d5deba876359bcda6ac4a86042d",
+    "outputs/sae_checkpoint_selection/seed_metrics.csv": "sha256:60d222335555af1927464ad6faa22918ea2116a4c87ebe842226a41d2d6b487d",
+    "outputs/sae_checkpoint_selection/contrasts.csv": "sha256:acafb8611c19821392d2f720b99900f9917e56c62357ed5ec0f584462dd77698",
+    "outputs/sae_checkpoint_selection/paired_metrics.csv": "sha256:052a9e200bf126acd6c0164377a2a414849ba4f5ebdf63c2eeecf5a587bd51c3",
+    "outputs/sae_checkpoint_selection/knn_group_metrics.csv": "sha256:bed3a4db45af255beea1d66d74bb394a1c43bac0c979f0983bbff56efd1ee324",
+    "outputs/sae_checkpoint_selection/knn_summary.csv": "sha256:3ee7efb51f068954ec032b8db61973f54e890b49c72fc75e17a0355cd28efc1c",
+    "outputs/sae_checkpoint_selection/selected_checkpoints.csv": "sha256:4912dd3817b09d23612cdf333801ffd3b090d60ac658189192494ed5573bd2fb",
+    "outputs/sae_checkpoint_selection/VALID_curves.csv": "sha256:9a0e5aec94e8e75319b12c3e0ec6addf9fbfe5630aae6bc9680b73a43e8d5756",
+    "outputs/sae_checkpoint_selection/SUMMARY.json": "sha256:a65f76c1403f00ee5853ae02ae7c0edf268a50a9954a2cde12d76eed8d9dce67",
+    "outputs/sae_checkpoint_selection/EVIDENCE_CLAIMS.json": "sha256:e4842a03e33ef9b19347a7d887686e53e8911bfc5083bc799cb998fcbf7631cf",
+    "outputs/sae_checkpoint_selection/EVIDENCE_PRECHECK.json": "sha256:48320da2008cb6c8072a2aa4c535dde1643d2d94155cc5121e28075c32c16593",
+    "outputs/sae_checkpoint_selection/verification.json": "sha256:1968d3f1158817c404e93ac77f256d7af7acc5585c03a68966c8caf9985e8b47",
+    "outputs/sae_checkpoint_selection/REPORT.html": "sha256:0382105c87940a59eacc0895526fffc92c7060672bfff61ba595d5914c80d7a8",
+    "outputs/sae_checkpoint_selection/REPRODUCIBILITY.txt": "sha256:d17153c0865a9c7e39e1af77b4cad4db06a150d5862a2feeb7918a5b8b614ac4",
+    "work/sae_checkpoint_selection/run.py": "sha256:d86d99714b8c1fbe1f6659bd46bbd5a925886a04d74a5987b4cc660b2ae93aed",
+    "work/sae_checkpoint_selection/verify.py": "sha256:d80554a00c41b12d970e42b31288fe97583cf0be3f3a4c89810009937a95aaaf",
+    "work/sae_checkpoint_selection/report.py": "sha256:3ee48f9101dc173e3707b1b498323b254727711de0c16a8a21faedfa73ab8907",
+    "work/sae_checkpoint_selection/execute.py": "sha256:f760c9e540e25d48cbdbbb46733c1b104c10eb4b9fc612cd06bd674a3cf3528d",
+    "work/sae_masked_ac/pipeline.py": "sha256:905c4fd889f745674a0420e7dc6f52e8d27eda3715de4ee82ded938f8dade74c",
+    "work/sae_masked_ac/prepare.py": "sha256:68a8944bebbcab1ddbc3ec03a97ce9dd971601b713550ada9d019a764ad7ba2e",
+    "work/sae_expression_probe/run.py": "sha256:c3a9a25ff98721739008dd4a681f07d555746fd924596f9ecec7fb6c0867a394",
+    "work/sae_refine/run.py": "sha256:19d1757066309cf96590befdc479eb431f81b98dba1bde2a8ed8852e57109831",
+    ".aris/traces/experiment-audit/2026-10-20_checkpoint_selection/003-independent-raw-check.json": "sha256:82dad751590fad4f79b06b973d1620f8d42992595e881ae4c69411a0c95f4091",
+    ".aris/traces/experiment-audit/2026-10-20_checkpoint_selection/004-independent-final-check.json": "sha256:43ecccde16721739dc715ac44228eec48580219eb7367898502150a740dd2503"
+  }
+}

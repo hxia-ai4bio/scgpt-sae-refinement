@@ -1,0 +1,73 @@
+method,variant,cell_type,f1,delta_pp
+continue_mse,fixed_half,B cells,0.9914856902099901,0.11311400947080497
+continue_mse,fixed_half,CD14+ Monocytes,0.9710221225677597,0.017682370641014522
+continue_mse,fixed_half,CD4 T cells,0.9614635296144777,0.059077728794187934
+continue_mse,fixed_half,CD8 T cells,0.6337855726152756,0.4121533197125604
+continue_mse,fixed_half,Dendritic cells,0.8829424365598099,1.4121170679720407
+continue_mse,fixed_half,FCGR3A+ Monocytes,0.8910595830545135,0.2589515758457228
+continue_mse,fixed_half,Megakaryocytes,0.3968253968253968,-0.15873015873015817
+continue_mse,fixed_half,NK cells,0.9141472253913544,0.12710950883479954
+continue_mse,reconstruction,B cells,0.99057071631033,0.021616619504793988
+continue_mse,reconstruction,CD14+ Monocytes,0.9711139980243185,0.026869916296901053
+continue_mse,reconstruction,CD4 T cells,0.9599790163681806,-0.08937359583551796
+continue_mse,reconstruction,CD8 T cells,0.6132414028204097,-1.6422636597740237
+continue_mse,reconstruction,Dendritic cells,0.886267019808752,1.7445753928662544
+continue_mse,reconstruction,FCGR3A+ Monocytes,0.8919869345433845,0.3516867247328248
+continue_mse,reconstruction,Megakaryocytes,0.3996031746031747,0.11904761904762973
+continue_mse,reconstruction,NK cells,0.9038552447489109,-0.9020885554095526
+existing_raw20,fixed_half,B cells,0.9908129318820746,0.04583817667925816
+existing_raw20,fixed_half,CD14+ Monocytes,0.971532271844943,0.06869729835934368
+existing_raw20,fixed_half,CD4 T cells,0.9616411081528206,0.07683558262847612
+existing_raw20,fixed_half,CD8 T cells,0.626297875122508,-0.336616429564196
+existing_raw20,fixed_half,Dendritic cells,0.8770692195272892,0.8247953647199768
+existing_raw20,fixed_half,FCGR3A+ Monocytes,0.8964050569952087,0.7934989699152406
+existing_raw20,fixed_half,Megakaryocytes,0.3817460317460317,-1.6666666666666663
+existing_raw20,fixed_half,NK cells,0.9150688910902197,0.21927607872133104
+existing_raw20,reconstruction,B cells,0.9907301752464478,0.03756251311657355
+existing_raw20,reconstruction,CD14+ Monocytes,0.9690851657655974,-0.176013309575207
+existing_raw20,reconstruction,CD4 T cells,0.9564972770169256,-0.4375475309610244
+existing_raw20,reconstruction,CD8 T cells,0.6110632008469602,-1.860083857118977
+existing_raw20,reconstruction,Dendritic cells,0.8860130280113729,1.7191762131283483
+existing_raw20,reconstruction,FCGR3A+ Monocytes,0.8859594315598452,-0.251063573621102
+existing_raw20,reconstruction,Megakaryocytes,0.37994227994227997,-1.8470418470418415
+existing_raw20,reconstruction,NK cells,0.9019449929146482,-1.0931137388358159
+original_h,original,B cells,0.9903545501152821,0.0
+original_h,original,CD14+ Monocytes,0.9708452988613495,0.0
+original_h,original,CD4 T cells,0.9608727523265358,0.0
+original_h,original,CD8 T cells,0.62966403941815,0.0
+original_h,original,Dendritic cells,0.8688212658800895,0.0
+original_h,original,FCGR3A+ Monocytes,0.8884700672960563,0.0
+original_h,original,Megakaryocytes,0.3984126984126984,0.0
+original_h,original,NK cells,0.9128761303030064,0.0
+relation_strong,fixed_half,B cells,0.9907513819623288,0.039683184704675245
+relation_strong,fixed_half,CD14+ Monocytes,0.9722016622855753,0.13563634242257372
+relation_strong,fixed_half,CD4 T cells,0.9616401101690442,0.07673578425083649
+relation_strong,fixed_half,CD8 T cells,0.6259629731679615,-0.37010662501885117
+relation_strong,fixed_half,Dendritic cells,0.8810434606333581,1.222219475326869
+relation_strong,fixed_half,FCGR3A+ Monocytes,0.9004412105691766,1.1971143273120322
+relation_strong,fixed_half,Megakaryocytes,0.4121064487401121,1.3693750327413712
+relation_strong,fixed_half,NK cells,0.9129523270602852,0.007619675727876807
+relation_strong,reconstruction,B cells,0.9904036344513379,0.004908433605588236
+relation_strong,reconstruction,CD14+ Monocytes,0.9713758548174941,0.053055595614459605
+relation_strong,reconstruction,CD4 T cells,0.9606573950562808,-0.021535727025501217
+relation_strong,reconstruction,CD8 T cells,0.6142075186558941,-1.5456520762255899
+relation_strong,reconstruction,Dendritic cells,0.8913843322030429,2.2563066322953462
+relation_strong,reconstruction,FCGR3A+ Monocytes,0.8900488930281729,0.1578825732116651
+relation_strong,reconstruction,Megakaryocytes,0.45300409467076136,5.459139625806298
+relation_strong,reconstruction,NK cells,0.9069355272209286,-0.5940603082077778
+relation_weak,fixed_half,B cells,0.991381042201366,0.10264920860839633
+relation_weak,fixed_half,CD14+ Monocytes,0.9684090013433253,-0.24362975180242108
+relation_weak,fixed_half,CD4 T cells,0.9604011201323086,-0.04716321942271895
+relation_weak,fixed_half,CD8 T cells,0.6254718874738325,-0.4192151944317435
+relation_weak,fixed_half,Dendritic cells,0.8708307882163959,0.20095223363064685
+relation_weak,fixed_half,FCGR3A+ Monocytes,0.8862919396764809,-0.21781276195753652
+relation_weak,fixed_half,Megakaryocytes,0.38095238095238093,-1.7460317460317454
+relation_weak,fixed_half,NK cells,0.9093962225134494,-0.34799077895569797
+relation_weak,reconstruction,B cells,0.9909470079412633,0.059245782598127406
+relation_weak,reconstruction,CD14+ Monocytes,0.9699091846405423,-0.09361142208071938
+relation_weak,reconstruction,CD4 T cells,0.9578640077042442,-0.3008744622291615
+relation_weak,reconstruction,CD8 T cells,0.5930591752113111,-3.660486420683884
+relation_weak,reconstruction,Dendritic cells,0.8862209506596836,1.7399684779594193
+relation_weak,reconstruction,FCGR3A+ Monocytes,0.8888386906674031,0.0368623371346799
+relation_weak,reconstruction,Megakaryocytes,0.4194003527336861,2.0987654320987703
+relation_weak,reconstruction,NK cells,0.9002015973800562,-1.2674532922950177

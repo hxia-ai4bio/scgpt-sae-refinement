@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "binding": {
+    "protocol_sha": "a2851c69717ab7ff27272bdfcc2d132f03aae696196c52d1ea28f57b7984fd30",
+    "sources_sha": "42c3e8867c950ffe4c3c88f30b411989552ab6e55c0c77ef6dd3d2d51ede7e48"
+  },
+  "selection_lock_sha": "24bfc8b64dc4b7e0b559b17b4b03889f9a5aa9b789b853ff256920788df41542",
+  "no_test_selection": true
+}

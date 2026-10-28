@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "backend": "blocked scipy BLAS squared distances + partial selection; cdist stable-sort replay at near ties",
+  "same_k": 15,
+  "source_sha": "a17990292c25a9be649923332ba1b19d0116297d8fb446661f7ca90057103760",
+  "reference_checks": [
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/gate/result.json",
+      "role": "valid",
+      "queries": 460,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/gate/result.json",
+      "role": "test",
+      "queries": 1723,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/gate/result.json",
+      "role": "pbmc",
+      "queries": 4638,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/identity/result.json",
+      "role": "valid",
+      "queries": 460,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/identity/result.json",
+      "role": "test",
+      "queries": 1723,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/identity/result.json",
+      "role": "pbmc",
+      "queries": 4638,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/lowrank/result.json",
+      "role": "valid",
+      "queries": 460,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/lowrank/result.json",
+      "role": "test",
+      "queries": 1723,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/lowrank/result.json",
+      "role": "pbmc",
+      "queries": 4638,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/mlp/result.json",
+      "role": "valid",
+      "queries": 460,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/mlp/result.json",
+      "role": "test",
+      "queries": 1723,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/mlp/result.json",
+      "role": "pbmc",
+      "queries": 4638,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/rotated_gate/result.json",
+      "role": "valid",
+      "queries": 460,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/rotated_gate/result.json",
+      "role": "test",
+      "queries": 1723,
+      "prediction_differences": 0
+    },
+    {
+      "result": "/Users/apple/Documents/Codex/2026-10-18/wo/outputs/sae_residual/fold_0/seed_42/rotated_gate/result.json",
+      "role": "pbmc",
+      "queries": 4638,
+      "prediction_differences": 0
+    }
+  ],
+  "tie_test": "PASS",
+  "seconds": 15.927280187606812,
+  "scope": "performance-only implementation; mathematical distance and neighbor rule unchanged; no test-based parameter selection"
+}

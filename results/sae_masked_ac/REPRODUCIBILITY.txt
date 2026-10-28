@@ -1,0 +1,9 @@
+工作目录 /Users/apple/Documents/Codex/2026-10-18/wo
+Python /opt/anaconda3/envs/scgpt/bin/python
+遮蔽提取：python work/sae_masked_ac/prepare.py extract（AppleGPU系统环境，依赖冻结原始数据/模型）
+正式训练/选型/锁定/评估：python work/sae_masked_ac/execute.py（CPU系统加速环境）
+指标/来源复算：python work/sae_masked_ac/verify.py
+汇总与报告：python work/sae_masked_ac/report.py
+新模型只在TRAIN拟合；固定1000步；VALID只选Ridge正则化；SELECTION_LOCK后统一TEST。
+每个SAE数据集独立，复用各fold/seed历史warmup初始化；A_dense初始化不同。
+全部输入路径、哈希和参数见PROTOCOL、SUPPLEMENT_BINDINGS、数据清单、work/sae_masked_ac/sources.json；不修改旧封存实验。

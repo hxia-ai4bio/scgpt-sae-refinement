@@ -1,0 +1,9 @@
+{
+  "raw_checkpoint_reproduction_max_errors": {
+    "mean": 0.0,
+    "encoder.weight": 0.0,
+    "encoder.bias": 0.0,
+    "decoder.weight": 0.0
+  },
+  "status": "PASS"
+}
