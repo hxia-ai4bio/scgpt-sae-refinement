@@ -11,7 +11,8 @@
 
 These checks do not rerun neural training, establish biological causality, or
 prove that independent users can reproduce every paper number from raw data.
-The delivered paper is the existing v7 PDF; the manuscript is unchanged in this release.
+The delivered paper is v8: Code Availability was added after the conclusion.
+The experimental results are unchanged.
 
 ## 2. Portable continuation (from an existing SAE)
 

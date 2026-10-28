@@ -1,4 +1,4 @@
-论文 v7 — Interpreting and Refining scGPT Cell Embeddings with Structure-Preserving Sparse Autoencoders
+论文 v8 — Interpreting and Refining scGPT Cell Embeddings with Structure-Preserving Sparse Autoencoders
 Authors: Xia Haoxiang, Chang Runjia, Xiao Jiahao
 
 Overleaf：New Project → Upload Project → 上传 ZIP；主文档选择 main.tex。
@@ -12,6 +12,7 @@ Overleaf：New Project → Upload Project → 上传 ZIP；主文档选择 main.
 4 Experiments
 5 Discussion
 6 Conclusion and Future Work
+Code Availability（不编号）
 References（自动生成，不编号）
 
 main.tex：正文、作者、页眉页脚设置。
@@ -26,4 +27,6 @@ Table 1 的 best-observed 选择说明保留。
 正式期刊论文、会议论文、技术报告和预印本在参考文献中按实际来源标记。
 
 GitHub: https://github.com/hxia-ai4bio/scgpt-sae-refinement
-仓库目前仅初始化 README 和 .gitignore；尚未发布训练或分析代码。
+仓库已公开发布项目代码、结果汇总、绘图脚本和运行说明。原始数据和模型权重需另行配置。
+
+v8 在 Conclusion and Future Work 之后、References 之前增加英文 Code Availability，链接至公开 GitHub 仓库。

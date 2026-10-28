@@ -5836,8 +5836,8 @@
     {
       "path": "paper/latex/README.txt",
       "source": "outputs/sae_paper_draft/README.txt",
-      "sha256": "f9d27581c96dda9fb576748000028edf4d79d14e01c2a280b00edbdeae39bbac",
-      "bytes": 1649
+      "sha256": "3942808fe817f020e1d12ac1c469feccd0143eea025fda207224bf2d36ac5222",
+      "bytes": 1850
     },
     {
       "path": "paper/latex/images/figure1_model_overview.png",
@@ -5878,8 +5878,8 @@
     {
       "path": "paper/latex/main.tex",
       "source": "outputs/sae_paper_draft/main.tex",
-      "sha256": "0d7816d85faebba88d6d18a79594635b722228c59123ffa9464a333ba1441bae",
-      "bytes": 25938
+      "sha256": "1346d75417a82a29d1d0f72390fac41bc2b110ed8e05d13ecf37c7e1a02e9353",
+      "bytes": 26280
     },
     {
       "path": "paper/latex/neurips_2026.sty",
@@ -5901,15 +5901,15 @@
     },
     {
       "path": "paper/report.pdf",
-      "source": "outputs/sae_paper_draft_v7.pdf",
-      "sha256": "866ae0e569384aa0f8eec816ca83d757c2708423f9696020d60af14cd4ed7ede",
-      "bytes": 3808329
+      "source": "outputs/sae_paper_draft_v8.pdf",
+      "sha256": "cd5aa3d05624ffe1222d0dd494690e43cf3a8c2df94074e80d9a86f2e12bf0de",
+      "bytes": 3808666
     },
     {
       "path": "paper/overleaf.zip",
-      "source": "outputs/sae_paper_draft_v7.zip",
-      "sha256": "be980bff435e6d118901a19a988952f92837ea71b0f69dd4fa2a4ea59385495b",
-      "bytes": 3722059
+      "source": "outputs/sae_paper_draft_v8.zip",
+      "sha256": "e1bf484529e3389924cc7ce7c113f664ef5f93639c1798a1ee2c5406f67bd5c1",
+      "bytes": 3722300
     }
   ]
 }

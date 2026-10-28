@@ -13,13 +13,13 @@
     },
     {
       "path": "RELEASE_VALIDATION.json",
-      "bytes": 1718,
-      "sha256": "4ec9118535556ecd8f32da5889d3ea3c8171245671b67080b632433962766144"
+      "bytes": 2090,
+      "sha256": "6de71fa413eca953c86463abc2f01c265839c260a1fdc849b261f158720c2a1c"
     },
     {
       "path": "SOURCE_MANIFEST.json",
       "bytes": 246069,
-      "sha256": "6b7a63440b9d6f766e87096807927a2d5844712f9219809b6692441afa259e6e"
+      "sha256": "14254848669a9a6209bc2f07f5a21c64c9a0219268fb66660847d5034f51de91"
     },
     {
       "path": "archive/historical_project/experiments/kang_error_atlas_20261012/config.json",
@@ -783,8 +783,8 @@
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 5492,
-      "sha256": "f41bc8bf438e07c08cdcd4e4da6a1f3e67ed199d3a18dc560566832230a99764"
+      "bytes": 5520,
+      "sha256": "644f2ced1eb1c5e925d664e6ce0ba0cb738475d0ac2f61134112c54d6c1c4101"
     },
     {
       "path": "docs/reference_environment.json",
@@ -1593,8 +1593,8 @@
     },
     {
       "path": "paper/latex/README.txt",
-      "bytes": 1649,
-      "sha256": "f9d27581c96dda9fb576748000028edf4d79d14e01c2a280b00edbdeae39bbac"
+      "bytes": 1850,
+      "sha256": "3942808fe817f020e1d12ac1c469feccd0143eea025fda207224bf2d36ac5222"
     },
     {
       "path": "paper/latex/images/figure1_model_overview.png",
@@ -1628,8 +1628,8 @@
     },
     {
       "path": "paper/latex/main.tex",
-      "bytes": 25938,
-      "sha256": "0d7816d85faebba88d6d18a79594635b722228c59123ffa9464a333ba1441bae"
+      "bytes": 26280,
+      "sha256": "1346d75417a82a29d1d0f72390fac41bc2b110ed8e05d13ecf37c7e1a02e9353"
     },
     {
       "path": "paper/latex/neurips_2026.sty",
@@ -1648,13 +1648,13 @@
     },
     {
       "path": "paper/overleaf.zip",
-      "bytes": 3722059,
-      "sha256": "be980bff435e6d118901a19a988952f92837ea71b0f69dd4fa2a4ea59385495b"
+      "bytes": 3722300,
+      "sha256": "e1bf484529e3389924cc7ce7c113f664ef5f93639c1798a1ee2c5406f67bd5c1"
     },
     {
       "path": "paper/report.pdf",
-      "bytes": 3808329,
-      "sha256": "866ae0e569384aa0f8eec816ca83d757c2708423f9696020d60af14cd4ed7ede"
+      "bytes": 3808666,
+      "sha256": "cd5aa3d05624ffe1222d0dd494690e43cf3a8c2df94074e80d9a86f2e12bf0de"
     },
     {
       "path": "pyproject.toml",
