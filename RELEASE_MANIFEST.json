@@ -8,13 +8,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4463,
-      "sha256": "31ec8d443c04b8c7b0bf0b1df964ee0eba84ef19f3d5cef08b52806f3f4fdf73"
+      "bytes": 6770,
+      "sha256": "7bd5598feee19e02670447c63a3bd3879a783c60777bf2a87a6569ae6d338e3f"
     },
     {
       "path": "RELEASE_VALIDATION.json",
-      "bytes": 1435,
-      "sha256": "488b232b015db4ca7696e9e574a2bfb917b8afdb278775cf667f90ff6b84b0a0"
+      "bytes": 1718,
+      "sha256": "4ec9118535556ecd8f32da5889d3ea3c8171245671b67080b632433962766144"
     },
     {
       "path": "SOURCE_MANIFEST.json",

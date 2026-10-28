@@ -9,10 +9,56 @@ Frozen scGPT → 512-dimensional cell embedding → 2048-dimensional Top-K SAE
 features, gene-input substitution attribution, and representation refinement
 with MSE plus cell–cell similarity KL.
 
+## Method overview
+
+![Figure 1. Sparse reconstruction for cell embedding refinement](paper/latex/images/figure1_model_overview.png)
+
+**Figure 1. Overview of structure-preserving sparse reconstruction.** A frozen
+scGPT encoder produces cell embeddings, which a Top-K SAE decomposes into sparse
+features and reconstructs. The objective combines point-wise reconstruction MSE
+with KL alignment of original and reconstructed cell–cell similarity distributions.
+The reconstructed representations are evaluated for downstream utility.
+
+## Classification performance
+
+**Table 1. Cell-type classification performance (Macro-F1, %).** Bold values
+indicate the highest score in each dataset column. Improvements are expressed
+in percentage points (pp).
+
+| Representation | Kang ctrl | Kang stim | PBMC |
+|:--|--:|--:|--:|
+| Original embedding | 82.75 | 84.52 | 82.68 |
+| SAE: MSE | 83.01 | 84.19 | 81.79 |
+| SAE: MSE + KL (λ = 0.3) | **84.18** | 83.62 | 81.61 |
+| SAE: MSE + KL (best λ) | **84.18** | **85.26** | **83.34** |
+| Δ vs. original (best λ) | +1.42 pp | +0.73 pp | +0.67 pp |
+
+*Selection note:* SAE scores report the best observed seed for each configuration;
+“best λ” additionally selects the regularization weight. These exploratory
+TEST-selected summaries are not multi-seed averages. The
+[selection registry](figures/data/selection_registry.csv) and
+[source table](figures/data/classification_table.csv) retain the full provenance.
+
+## Sensitivity to the KL regularization weight
+
+![Sensitivity of classification Macro-F1 to the KL regularization weight across Kang ctrl, Kang stim and PBMC](figures/images/lambda_sensitivity.png)
+
+**Sensitivity to λ.** Blue curves show SAE reconstruction performance; dashed
+gray lines indicate the original-embedding baseline. Each point follows the
+best-observed-seed reporting rule used in Table 1. The tested weights are
+λ ∈ {0, 0.01, 0.03, 0.1, 0.3, 1, 3}, where λ = 0 is MSE-only reconstruction.
+The highest observed scores occur at λ = 0.3 for Kang ctrl and λ = 0.03 for Kang
+stim and PBMC. The non-monotonic curves show that the effect of relational
+regularization depends on the dataset and its weight.
+
+[Vector PDF](figures/images/lambda_sensitivity.pdf) ·
+[Vector SVG](figures/images/lambda_sensitivity.svg) ·
+[Source data](figures/data/lambda_best_seed_curve.csv)
+
 ## Start here
 
 - [Paper PDF](paper/report.pdf) · [Overleaf ZIP](paper/overleaf.zip) · [LaTeX source](paper/latex/main.tex)
-- [中文项目交接：数据、方法、每张图、结果边界](handoff/PROJECT_HANDOFF.md)
+- [Detailed project handoff (Chinese)](handoff/PROJECT_HANDOFF.md)
 - [How to run and what is reproducible](docs/REPRODUCIBILITY.md)
 - [Code / experiment map](docs/CODE_MAP.md) · [Data and external assets](docs/DATA.md)
 - [Release checks](RELEASE_VALIDATION.json)

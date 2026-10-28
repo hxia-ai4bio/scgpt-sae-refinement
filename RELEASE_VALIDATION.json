@@ -21,5 +21,15 @@
     "Initial four-thread smoke hit an environment OpenMP shared-memory error; one-thread rerun passed",
     "sklearn reference test emitted local NumPy matmul warnings; finite scores still agreed within 1e-10"
   ],
-  "manuscript": "Existing v7 PDF and Overleaf archive copied byte-for-byte; paper unchanged"
+  "manuscript": "Existing v7 PDF and Overleaf archive copied byte-for-byte; paper unchanged",
+  "readme_update": {
+    "status": "PASS",
+    "language": "English",
+    "embedded_figures": [
+      "Figure 1 model overview",
+      "lambda sensitivity"
+    ],
+    "table": "Table 1 values checked against included CSV; selection note retained",
+    "local_links_checked": 15
+  }
 }
